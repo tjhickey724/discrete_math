@@ -11,7 +11,7 @@ joined together with logical operators (and, or, not, and others)
 
 The operators are usually written with special symbols (where P and Q are propositional sentences)
 * $\neg P$. This is the negation of P and is true precisely when P is false.
-* * $P \wedge Q$. This is the conjuntion of P and Q and is true both P and Q are true
+* $P \wedge Q$. This is the conjuntion of P and Q and is true both P and Q are true
 * $P \vee Q$. This is the disjunction of P and Q and is true if P or Q or both are true
 * $P \rightarrow Q$. This is the implication, P implies Q, and it is true when P is false or Q is true.
 
