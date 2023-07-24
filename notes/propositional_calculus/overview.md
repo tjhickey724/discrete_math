@@ -7,7 +7,8 @@ These are connected to form sentences using the logical connectors: and, or, not
 
 ## Propositional Sentences
 Sentences in the Propositional calculus are formed by primitives called propositions (typically named P, Q, R, ...)
-joined together with logical operators (and, or, not, and others)
+joined together with logical operators (and, or, not, and others) to form sentences, which likewise are either true or false
+(depending on the values of the primitive propositions).
 
 The operators are usually written with special symbols (where P and Q are propositional sentences)
 * $\neg P$. This is the negation of P and is true precisely when P is false.
