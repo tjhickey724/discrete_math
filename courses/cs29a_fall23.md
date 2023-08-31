@@ -6,8 +6,7 @@ This file contains links to course notes and homework for sections 1 and 2 of CS
 # Lesson Notes
 We will provide notes on each lesson below.
 
-## Lesson 1 Thu 8/31/2023
-Intro and overview.
+## Lesson 1 Thu 8/31/2023  _Intro and overview_
 * We begin with
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
