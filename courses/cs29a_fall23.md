@@ -10,7 +10,7 @@ We begin with an introduction to the Propositional Calculus
 
 
 
-
+---
 
 # Homework
 Most of our readings will come from two online books:
