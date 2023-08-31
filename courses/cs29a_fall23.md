@@ -10,8 +10,15 @@ We begin with an introduction to the Propositional Calculus
 
 
 # Homework
+Most of our readings will come from two online books:
+* Discrete Math: An Open Intorduction by Oscar Levin, abbreviated DM-AOI
+  available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
+* Mathematics for Computer Science (from MIT) abbereviated as MTCS
+  available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
+  or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
+
 ### Week 1
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
-* MfCS Ch3 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/readings/MIT6_042JS15_textbook.pdf
+* MfCS Ch3.1-3.5
