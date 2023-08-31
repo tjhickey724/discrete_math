@@ -1,4 +1,20 @@
 # Truth tables
+Here are some problems to get practice constructing truth tables
+---
+
+Write the truth table for 
+```
+    A and B or C
+```
+You should have a column for each of the two operators.
+So it will have 5 columns total
+```
+A B C  (A and B) or C
+? ? ?      ?      ?
+```
+
+---
+
 Write the Truth Table for
 ```
 (A implies not (B and A))
@@ -12,14 +28,3 @@ F T
 F F
 ```
 =
-
-Write the truth table for 
-```
-    A and B or C
-```
-You should have a column for each of the two operators.
-So it will have 5 columns total
-```
-A B C  (A and B) or C
-? ? ?      ?      ?
-```
