@@ -10,6 +10,9 @@ We will provide notes on each lesson below.
 Intro and overview.
 We begin with an introduction to the Propositional Calculus
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
+We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF
+We also show how to create Truth Tables from Boolean formulas, i.e. sentences in the Propositional Calculus
+and we get some practice in converting between English and the Propoaitional Calculus
 
 
 
