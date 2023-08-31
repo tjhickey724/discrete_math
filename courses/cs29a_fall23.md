@@ -10,6 +10,7 @@ We will provide notes on each lesson below.
 * We begin with
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
+* We ask everyhone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN 5074577
 * We introduce Boolean Algebra and the Propositional Calculus
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
 * We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF
