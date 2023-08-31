@@ -1,5 +1,5 @@
 # CS29a Fall23 Brandeis University
-This file contains links to course notes for sections 1 and 2 of CS29a in Fall 2023
+This file contains links to course notes and homework for sections 1 and 2 of CS29a in Fall 2023
 
 ---
 
