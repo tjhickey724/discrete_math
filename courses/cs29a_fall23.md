@@ -8,7 +8,8 @@ We will provide notes on each lesson below.
 
 ## Lesson 1 Thu 8/31/2023
 Intro and overview.
-* We begin with an introduction to the Propositional Calculus
+* We begin with an overview of the course and a discussion of why Math might be useful in CS, and what kinds of math would be most useful
+* Next we introduce Boolean Algebra and the Propositional Calculus
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
 * We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF
 * We also show how to create Truth Tables from Boolean formulas, i.e. sentences in the Propositional Calculus
