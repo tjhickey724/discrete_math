@@ -11,9 +11,9 @@ We will provide notes on each lesson below.
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
 * We ask everyhone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN 5074577
-* We introduce Boolean Algebra and the Propositional Calculus
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
+* We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF
+    https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
   - We also show how to create Truth Tables from Boolean formulas, i.e. sentences in the Propositional Calculus
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md
   - We get some practice in converting between English and the Propoaitional Calculus
