@@ -32,7 +32,7 @@ Most of our readings will come from two online books:
   available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
   or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
 
-### Week 1 - due Monday 9/4/2023 before class
+### Week 1 - due Wednesday 9/6/2023 before class
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
