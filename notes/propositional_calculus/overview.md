@@ -11,13 +11,18 @@ joined together with logical operators (and, or, not, and others) to form senten
 (depending on the values of the primitive propositions).
 
 The operators are usually written with special symbols (where P and Q are propositional sentences)
-* $\neg P$ ...  not(P) |  This is the negation of P and is true precisely when P is false.
-* $P \wedge Q$ ... P AND Q | This is the conjuntion of P and Q and is true both P and Q are true
-* $P \vee Q$ ... P OR Q |This is the disjunction of P and Q and is true if P or Q or both are true
-* $P \rightarrow Q$  ... P IMPLIES Q | P ONLYIF Q | This is the implication, if P then Q, and it is true when P is false or Q is true.
-* $P \leftarrow Q$  ... P IF Q | This is the implication, Q implies P, if Q then P, and it is true when Q is false or P is true.
-* $P \iff Q$ ... P IFF Q | This is true when P and Q have the same truth value, i.e. P is true IF AND ONLY IF Q is true.
-* $P \oplus Q$ ... P XOR Q | This is true if P or Q but not both are true, it is called the exclusive OR
+
+
+| Math | Text | Meaning |
+| --- | ----  | --- |
+| $\neg P$ |  not(P) |  This is the negation of P and is true precisely when P is false.|
+| $P \wedge Q$ |  P AND Q | This is the conjuntion of P and Q and is true both P and Q are true|
+| $P \vee Q$ | P OR Q |This is the disjunction of P and Q and is true if P or Q or both are true|
+| $P \rightarrow Q$  | P IMPLIES Q <br>  P ONLYIF Q | This is the implication, if P then Q, and it is true when P is false or Q is true.|
+| $P \leftarrow Q$  | P IF Q | This is the implication, Q implies P, if Q then P, and it is true when Q is false or P is true.|
+| $P \iff Q$ | P IFF Q | This is true when P and Q have the same truth value, i.e. P is true IF AND ONLY IF Q is true.|
+| $P \oplus Q$ |  P XOR Q | This is true if P or Q but not both are true, it is called the exclusive OR|
+
 
 This language is also called Boolean Algebra and the sentences are formulas in Boolean algebra. 
 Many of the familiar properties of high school algebra also hold true in Boolean Algebra.
