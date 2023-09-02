@@ -21,6 +21,12 @@ for a particular assignment of truth values to the variables.
 You can either draw the "tree" above the formula, or below the formula.
 In the image we put in the truth values of the subexpressions with a dotted line to the operator.
 
+In either case, the first step is to write down the truth values for each proposition.
+
+Next you write down the truth values for each subexpression as you work your way toward the root of the tree.
+
+The value at the root of the tree is the value of the expression for that assigment of truth values.
+
 ![Evaluation using a Parse Tree](boolean_evaluation.png)
 
 Parse Trees for Expressions are an important concept in Computer Science, and we'll return to them
