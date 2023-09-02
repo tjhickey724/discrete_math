@@ -86,18 +86,3 @@ e.g.
 | F   | F   | F   | T   | T   | T   | F   | T   | T   |
 
 
-## Definitions of terms related to Propositional Calculus
-An assignment of truth values to a set of variables is called an __interpretation__
-
-A formula which is true for all interpretations is called a __tautology__
-
-The formula  $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrightarrow (P\vee Q \rightarrow R)$ is a tautology.
-
-A formula is __satisfiable__ if there is at least one interpretation which makes it true.
-
-The formula  $\neg (P \wedge Q)$ is satisfiable, but is not a tautology.
-
-The formaula $P \wedge \neg P$ is not satisfiable.
-
-How long does it take to test if a formula with N variables is a tautology using a truth table?
-
