@@ -30,7 +30,11 @@ means
 
 A. Both functions throw an error
 
+answer: $E1 \wedge E2$   <br>  ```E1 AND E2```
+
 B. If the load is high then at least one of the functions throws an error
+
+answer: $H \rightarrow (E1 \vee E2)$   <br> ```H IMPLIES ( E1 OR E2)```
 
 C. The program craahes if two conditions hold: (1) the load is high and (2) one (or both) of the functions throws an error.
 
@@ -43,3 +47,14 @@ F. If the load is low, then the program crashes only if both functions throw an 
 G. The program crashes if and only if function 1 throws an error when the load is high and function 2 throws an error when the load is low
 
 H. If the program crashes then exactly one of the two functions throws an error
+
+## Convert the following statements to English
+
+I.  Translate to English: $E1 \wedge H \rightarrow E2 \wedge C$
+
+J. Translate to English: $\neg C \rightarrow \neg (E1 \vee E2)$
+
+K. Translate to English: $C \leftarrow E1 \vee (E2 \wedge H))$
+
+
+
