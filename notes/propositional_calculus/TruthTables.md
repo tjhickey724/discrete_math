@@ -90,6 +90,7 @@ e.g.
 An assignment of truth values to a set of variables is called an _interpretation_
 
 A formula which is true for all interpretations is called a _tautology_
+The formula  $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrightarrow (P\vee Q \rightarrow R)$ is a tautology.
 
 A formula is _satisfiable_ if there is at least one interpretation which makes it true.
 
