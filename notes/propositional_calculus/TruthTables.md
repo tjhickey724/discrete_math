@@ -84,3 +84,12 @@ e.g.
 | F   | T   | F   | T   | F   | F   | T   | F   | T   |
 | F   | F   | T   | T   | T   | T   | F   | T   | T   |
 | F   | F   | F   | T   | T   | T   | F   | T   | T   |
+
+An assignment of truth values to a set of variables is called an _interpretation_
+
+A formula which is true for all interpretations is called a _tautology_
+
+A formula is _satisfiable_ if there is at least one interpretation which makes it true.
+
+How long does it take to test if a formula with N variables is a tautology using a truth table?
+
