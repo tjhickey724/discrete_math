@@ -23,6 +23,8 @@ We will provide notes on each lesson below.
 ## Lesson 2 Wed 9/6/2023 __Propositional Calculus and Boolean Algebra__
 * We begin with a review of the syntax of formulas in the propositional calculus
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
+* Next we get more practice converting propositional calculus to English and vice versa.
+  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md
 * Next we show how to find the value of a propositional formula for particular values of its variables
   To do this we need to create a parse tree for the formula, and then use that tree to evaluate the formula
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md
