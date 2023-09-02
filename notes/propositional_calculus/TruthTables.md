@@ -62,6 +62,8 @@ To create the truth table for an expression you need to create a table
 with a column for each variable and a column for each subexpression (i.e. operator)
 e.g.
 
+## Truth table for $\neg (P \wedge Q)$
+
 | $P$ | $Q$ |  $P \wedge Q$ | $\neg (P \wedge Q)$  |
 | --- | --- | --- | --- |
 | T | T | T | F |
@@ -69,3 +71,16 @@ e.g.
 | F | T | F | T |
 | F | F | F | T |
 
+
+## Truth table for $(P \rightarrow R) \wedge(Q\rightarrow R)) \rightarrow (P\vee Q \rightarrow R)$
+
+| $P$ | $Q$ | $R$ |  $P \wedge R$ | $Q \wedge R)$  | $(P \wedge R) \wedge (Q \wedge R)$ | $(P \vee Q)$ | $P \vee Q \rightarrow R$ |      $(P \wedge R) \wedge (Q \wedge R)  \rightarrow (P \vee Q \rightarrow R)$ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T   | T   | T   | T   | T   | T   | T   | T   | T   |
+| T   | T   | F   | F   | F   | F   | T   | F   | T   |
+| T   | F   | T   | T   | F   | F   | T   | T   | T   |
+| T   | F   | F   | F   | F   | F   | T   | F   | T   |
+| F   | T   | T   | F   | T   | F   | T   | T   | T   |
+| F   | T   | F   | F   | F   | F   | T   | F   | T   |
+| F   | F   | T   | F   | F   | F   | F   | T   | T   |
+| F   | F   | F   | F   | F   | F   | F   | T   | T   |
