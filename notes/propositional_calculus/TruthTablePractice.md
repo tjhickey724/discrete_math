@@ -26,15 +26,15 @@ F F F      F      F
 Here is a more verbose way to write the table
 
 ```
-A B C  (A and B) (A and B) or C
-T T T      T               T
-T T F      T               T
-T F T      F               T
-T F F      F               F
-F T T      F               T
-F T F      F               F
-F F T      F               T
-F F F      F               F
+A B C  (A and B)    ((A and B) or C)
+T T T      T                   T
+T T F      T                   T
+T F T      F                   T
+T F F      F                   F
+F T T      F                   T
+F T F      F                   F
+F F T      F                   T
+F F F      F                   F
 ```
 
 ---
@@ -43,12 +43,25 @@ Write the Truth Table for
 ```
 (A implies not (B and A))
 ```
-You should have a column of four truth values under each  operator. So it will have the structure with four rows and five columns
+You should have a column of four truth values under each  operator. So it will have the structure with four rows and five columns.
+First complete the __and__ column, then the __not__ column, and finally the __implies__ column, which gives the truth value for the
+formula on that interpretation of variables.
 ```
 A B (A implies not (B and A)
-T T       ?     ?      ?     
+          ?     ?      ?
+T T
 T F
 F T
 F F
 ```
-=
+
+or do the more verbose approach
+```
+A B   (B and A)    not(B and A)    (A implies not (B and A)
+          ?         ?                    ?
+T T
+T F
+F T
+F F
+```
+
