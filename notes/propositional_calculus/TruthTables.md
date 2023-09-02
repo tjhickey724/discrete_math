@@ -94,5 +94,9 @@ The formula  $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrightarrow (P\vee Q
 
 A formula is _satisfiable_ if there is at least one interpretation which makes it true.
 
+The formula  $\neg (P \wedge Q)$ is satisfiable, but is not a tautology.
+
+The formaula $P \wedge \neg P$ is not satisfiable.
+
 How long does it take to test if a formula with N variables is a tautology using a truth table?
 
