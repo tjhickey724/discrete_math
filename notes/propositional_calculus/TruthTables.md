@@ -85,6 +85,8 @@ e.g.
 | F   | F   | T   | T   | T   | T   | F   | T   | T   |
 | F   | F   | F   | T   | T   | T   | F   | T   | T   |
 
+
+## Definitions of terms related to Propositional Calculus
 An assignment of truth values to a set of variables is called an _interpretation_
 
 A formula which is true for all interpretations is called a _tautology_
