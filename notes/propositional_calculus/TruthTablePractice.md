@@ -1,4 +1,5 @@
-# Truth tables
+# Truth table practice
+
 Here are some problems to get practice constructing truth tables
 ---
 
