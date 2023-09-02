@@ -11,6 +11,8 @@ Below is an example of a parse tree for the formula
 
 ![Parse Tree](boolean_parse_tree.png)
 
+Observe that you don't need paretheses in a parse tree as it is completely clear which subexpressions correspond to which operators.
+
 ## Evaluating a formula with a parse tree
 
 Below is an example showing how to use a parse tree to find the value of a boolean expression
