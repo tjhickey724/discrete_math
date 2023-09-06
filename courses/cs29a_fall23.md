@@ -33,10 +33,10 @@ We will provide notes on each lesson below.
 
 ## Lesson 3 Thu 9/7/2023 - Truth Tables and Inference
 * We show how to create a Truth Table for a formula, this shows its value for all possible interpretations of its variables.
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTables.md
+  [create truth table](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTables.md
   and we see a few more examples of truth tables
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md
-* We also show how to use a Parse Tree to evalaute a Boolean formula on an interpretation
+* We also show how to use a Parse Tree to evaluate a Boolean formula on an interpretation
    https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md
 * We show how to estimate how long it would take to prove a formula is a tautology with the Truth Method
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md
