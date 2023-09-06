@@ -42,12 +42,12 @@ The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
 
 ## Readings
 Most of our readings will come from the follwoing online books:
-* Discrete Math: An Open Intorduction by _Oscar Levin_, abbreviated DM-AOI
+* DM-AOI: Discrete Math: An Open Intorduction by _Oscar Levin_
   available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
-* Mathematics for Computer Science (from MIT) abbereviated as MTCS by _Lehman, Leighton, and Meyer_
+* MTCS: Mathematics for Computer Science (from MIT) by _Lehman, Leighton, and Meyer_
   available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
   or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
-* Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
+* PDM: Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
   https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf
 
 ### Week 1 - due Wednesday 9/6/2023 before class
@@ -58,6 +58,8 @@ Read the following sections of two online books on Discrete Math
 and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
 
 ### Week 2 - due Monday 9/11/2023 before class
+Read Chapter 2.1 in PDM
+
 Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
 * Translation to Propositional Logic
 * Evaluation of Propositional Formulas
