@@ -12,22 +12,16 @@ We will provide notes on each lesson below.
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
 * We ask everyhone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN 5074577
 * We introduce Boolean Algebra and the Propositional Calculus  
-  - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF
-    https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
-  - We also show how to create Truth Tables from Boolean formulas, i.e. sentences in the Propositional Calculus
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md
-  - We get some practice in converting between English and the Propoaitional Calculus
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md
+  - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
+    [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
+  - We get some practice in [converting between English and the Propoaitional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 
 
 ## Lesson 2 Wed 9/6/2023 __Propositional Calculus and Boolean Algebra__
-* We begin with a review of the syntax of formulas in the propositional calculus
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md
-* Next we get more practice converting propositional calculus to English and vice versa.
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md
+* We begin with a review of the [syntax of formulas in the propositional calculus]( https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
+* Next we get [more practice converting propositional calculus to English and vice versa](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 * Next we show how to find the value of a propositional formula for particular values of its variables
-  To do this we need to create a parse tree for the formula, and then use that tree to evaluate the formula
-  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md
+  To do this we need to [create a parse tree for a formula, and then use that tree to evaluate the formula](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 
 
 
