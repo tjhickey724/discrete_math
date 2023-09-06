@@ -54,11 +54,13 @@ Most of our readings will come from the follwoing online books:
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
-* MfCS Ch3.1-3.5
+* MTCS Ch3.1-3.5
 and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
 
 ### Week 2 - due Monday 9/11/2023 before class
-Read Chapter 2.1 in PDM
+Read 
+* Chapter 2 in PDM
+* Chapter 3.6-3.7 in MTCS
 
 Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
 * Translation to Propositional Logic
