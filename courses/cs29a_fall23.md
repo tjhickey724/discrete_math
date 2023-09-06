@@ -39,6 +39,7 @@ We will provide notes on each lesson below.
 * We also show how to use a Parse Tree to evalaute a Boolean formula on an interpretation
    https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md
 * We show how to estimate how long it would take to prove a formula is a tautology with the Truth Method
+  https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md
 * We review the inference rules for Propositional Logic from Chapter 3.4 of MfCS
   https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/
 * and we show that every formula can be reduced to
