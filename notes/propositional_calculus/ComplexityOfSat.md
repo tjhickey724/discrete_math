@@ -24,7 +24,9 @@ M = 1 billion rows per second
 |100|1.2676e+30|1.267e+21|1.467e+16|40196936841331.4|40196936841.3|
 
 
-As you can see already at N=50 it would take 13 days
+As you can see already 
+
+at N=50 it would take 13 days
 
 at N=60 37 years
 
