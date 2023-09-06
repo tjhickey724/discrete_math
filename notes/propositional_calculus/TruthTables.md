@@ -35,8 +35,8 @@ Here are the Truth Tables for the standard operators
 | $P$ | $Q$ | $P\rightarrow Q$ |
 | --- | --- | --- |
 | T | T | T |
-| T | F | T |
-| F | T | F |
+| T | F | F |
+| F | T | T |
 | F | F | T |
 
 ## equivalence: P iff Q
