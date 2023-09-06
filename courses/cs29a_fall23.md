@@ -28,12 +28,19 @@ We will provide notes on each lesson below.
 * Next we show how to find the value of a propositional formula for particular values of its variables
   To do this we need to create a parse tree for the formula, and then use that tree to evaluate the formula
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md
-* Next we show how to create a Truth Table for a formula, this shows its value for all possible interpretations of its variables.
+
+
+
+## Lesson 3 Thu 9/7/2023 - Truth Tables and Inference
+* We show how to create a Truth Table for a formula, this shows its value for all possible interpretations of its variables.
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTables.md
   and we see a few more examples of truth tables
   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md
-
-
+* We also show how to use a Parse Tree to evalaute a Boolean formula on an interpretation
+   https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md
+* We review the inference rules for Propositional Logic
+* and we show that every formula can be reduced to
+  [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
 ---
 
 # Homework
@@ -49,6 +56,8 @@ Most of our readings will come from the follwoing online books:
   or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
 * PDM: Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
   https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf
+* MFLP: A Modern Formal Logic Primer by _Paul Teller_:
+  https://tellerprimer.ucdavis.edu/
 
 ### Week 1 - due Wednesday 9/6/2023 before class
 Read the following sections of two online books on Discrete Math
