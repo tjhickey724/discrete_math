@@ -36,7 +36,11 @@ We will provide notes on each lesson below.
 
 ---
 
-# Reading Homework
+# Homework
+Homework will consist of readings (sometimes with reflections) and Mastery Learning App (MLA) problems.
+The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
+
+## Readings
 Most of our readings will come from the follwoing online books:
 * Discrete Math: An Open Intorduction by _Oscar Levin_, abbreviated DM-AOI
   available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
