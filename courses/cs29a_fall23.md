@@ -37,12 +37,14 @@ We will provide notes on each lesson below.
 ---
 
 # Homework
-Most of our readings will come from two online books:
-* Discrete Math: An Open Intorduction by Oscar Levin, abbreviated DM-AOI
+Most of our readings will come from the follwoing online books:
+* Discrete Math: An Open Intorduction by _Oscar Levin_, abbreviated DM-AOI
   available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
-* Mathematics for Computer Science (from MIT) abbereviated as MTCS
+* Mathematics for Computer Science (from MIT) abbereviated as MTCS by _Lehman, Leighton, and Meyer_
   available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
   or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
+* Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
+  https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf
 
 ### Week 1 - due Wednesday 9/6/2023 before class
 Read the following sections of two online books on Discrete Math
