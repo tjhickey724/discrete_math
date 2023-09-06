@@ -42,6 +42,8 @@ A more complex tautology is $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrigh
 
 A formula is __satisfiable__ if there is at least one interpretation which makes it true.
 
+If $\neg E$ is not satisfiable, then E is a tautology.
+
 The formula  $\neg (P \wedge Q)$ is satisfiable, but is not a tautology.
 
 The formaula $P \wedge \neg P$ is not satisfiable.
