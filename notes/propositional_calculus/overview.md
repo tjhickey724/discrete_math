@@ -36,7 +36,7 @@ e.g. P=F Q=T R=F
 
 A formula which is true for all interpretations is called a __tautology__
 
-The formula  $P \vee \not P$ is a tautology.
+The formula  $P \vee \neg P$ is a tautology.
 
 A more complex tautology is $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrightarrow (P\vee Q \rightarrow R)$.
 
