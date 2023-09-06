@@ -43,7 +43,7 @@ One way around this is to look for other ways to check if a formula is satisiabl
 * logical inference rules
 * the truth tree method
 
-In many cases that can be used to find solutions to larger problems much faster than the Truth Table method, but in the worst case
+In many cases these new methods can be used to find solutions to larger problems much faster than the Truth Table method, but in the worst case
 they are still exponential.  It is an open problem (and a very important one) to see if there is an algorithm to test for satisfiability
 that is substantialy faster than the exponential Truth Table method.  This is known as the P vs NP problem and you can learn more about it
 if you take a course in the "Theory of Computation"
