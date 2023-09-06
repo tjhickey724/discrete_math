@@ -34,4 +34,20 @@ at N= 70 37 millenia
 
 and at N=100 it would take 40 trillion years and the table would have $10^{30}$ rows,
 
-so the Truth Table method is just not practical for any but the smallest problems.
+This is a perfect example of what we call exponential growth, and any algorithm which has exponential growth
+quickly becomes unusable!
+
+So the Truth Table method is just not practical for testing satisfiability for any but the smallest Propositional Logic formulas.
+
+One way around this is to look for other ways to check if a formula is satisiable or is a tautology. We will look at two approaches:
+* logical inference rules
+* the truth tree method
+
+In many cases that can be used to find solutions to larger problems much faster than the Truth Table method, but in the worst case
+they are still exponential.  It is an open problem (and a very important one) to see if there is an algorithm to test for satisfiability
+that is substantialy faster than the exponential Truth Table method.  This is known as the P vs NP problem and you can learn more about it
+if you take a course in the "Theory of Computation"
+
+
+
+
