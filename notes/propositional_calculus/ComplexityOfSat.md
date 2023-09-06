@@ -10,7 +10,7 @@ Let's see what it looks like where we let
 
 M = 1 billion rows per second
 
-| N | rows = $2^N$ |seconds = $2^N/M$ | days | years | millenia |
+| N | rows = $2^N$ |seconds = $2^N/M$ | days=seconds/(24*3600) | years=days/365.25 | millenia=years/1000 |
 | --- | ---  | --- | --- | --- | --- | 
 |10|1024.0|0.000001024|-|-|-|
 |20|1048576.0|0.001048576|-|-|-|
