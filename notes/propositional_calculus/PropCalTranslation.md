@@ -56,5 +56,33 @@ J. Translate to English: $\neg C \rightarrow \neg (E1 \vee E2)$
 
 K. Translate to English: $C \leftarrow E1 \vee (E2 \wedge H))$
 
+___
 
+# Translate to Logic
 
+Suppose we have the following Propositions;
+S = the shift key is pressed
+X = the X key is pressed
+E = the form is in edit mode
+A = an alert box pops up
+
+Translate the following statements to Propositional Logic using only the propositions S, X, E, A and the following logical connectives: 
+  not, and, xor, or, implies, iff. 
+Use parentheses if you need them. Remember that the precedence of the operators is as listed above (not binds tightest) and the operators are right associative 
+so A => B => C means  A => (B => C)
+
+A. the shift key and the X key are both pressed
+
+B. if X is pressed and it is not in edit mode then an alert pops up
+
+C. the alert box pops up only if the shift key is pressed
+
+D. if the form is not in edit mode and the X key is pressed, then an alert pops up
+
+E. the alert box pops up when an X is typed if and only if the form is not in edit mode
+
+F. Either the shift key is pressed or the x key is pressed, but not both
+
+G. the form is in edit mode only if the shift key and the X key are pressed
+
+H. if the alert box pops up when the X key is pressed, then the form is not in edit mode
