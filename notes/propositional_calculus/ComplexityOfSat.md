@@ -32,7 +32,7 @@ at N=60 it would take 37 years
 
 at N= 70 it would take 37 millenia
 
-at N=100 it would take 40 trillion years and the table would have $10^{30}$ rows,
+at N=100 it would take 40 trillion millenia and the table would have $10^{30}$ rows,
 
 This is a perfect example of what we call exponential growth, and any algorithm which has exponential growth
 quickly becomes unusable!
