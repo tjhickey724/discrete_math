@@ -36,7 +36,7 @@ We will provide notes on each lesson below.
 
 ---
 
-# Homework
+# Reading Homework
 Most of our readings will come from the follwoing online books:
 * Discrete Math: An Open Intorduction by _Oscar Levin_, abbreviated DM-AOI
   available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
