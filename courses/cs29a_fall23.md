@@ -64,6 +64,7 @@ and try some of the problems at the end of the sections. We will go over some of
 Read 
 * Chapter 2 in PDM
 * Chapter 3.6-3.7 in MfCS
+* [Chapter 8](https://tellerprimer.ucdavis.edu/pdf/1ch8.pdf/view) of [MFLP](https://tellerprimer.ucdavis.edu/)
 
 Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
 * Translation to Propositional Logic
