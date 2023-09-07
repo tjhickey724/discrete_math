@@ -48,17 +48,9 @@ $(P \rightarrow \neg Q \wedge R $
 | F   | F   | T   | T   | 
 | F   | F   | F   | T   | 
 
-Note: for those who know Python, you can write a program to generate this truth table as follows:
-``` python
-def f(p,q,r):
-    return (1-p)|((1-q)&r)
-for p in [1,0]:
-    for q in [1,0]:
-        for r in [1,0]:
-            print(p,q,r,f(p,q,r))
-```
 
-Anyway, this formula has four rows for which it is true, and each of those rows can be expressed as a conjunction of propositions or their negations, so 
+
+This formula has four rows for which it is true, and each of those rows can be expressed as a conjunction of propositions or their negations, so 
 
 $P \rightarrow \neg Q \wedge R$  is equivalent to
 
