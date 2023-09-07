@@ -29,12 +29,60 @@ to be correct by calculating their truth tables.
 | Identity rules | $A \vee A \equiv A$ |
 | Identity rules | $A \wedge \neg A \equiv False$ |
 | Identity rules | $A \vee \neg A \equiv True$|
+| Identity rules | $A\wedge B \ vee A \equiv A$ |
+| Identity rules | $(A \vee B) \wedge A \equiv A$ |
 
 Using these rules you can convert any boolean formula into a normal form called _Disjunctive Normal Form_ ( ***DNF*** )
 which is a disjunction (ORs) of conjunctions (ANDs) or propositions or negated propositions.  We can easily
-write downn the DNF of a formula by looking at its truth table, e.g.
+write downn the DNF of a formula by looking at its truth table, e.g. lets look at the truth table for
+$(P \rightarrow \neg Q \wedge R $
 
+| $P$ | $Q$ | $R$ |   $P \rightarrow \neg Q \wedge R $ |   
+| --- | --- | --- | --- |
+| T   | T   | T   | F   |
+| T   | T   | F   | F   |
+| T   | F   | T   | T   | 
+| T   | F   | F   | F   | 
+| F   | T   | T   | T   | 
+| F   | T   | F   | T   | 
+| F   | F   | T   | T   | 
+| F   | F   | F   | T   | 
 
+Note: for those who know Python, you can write a program to generate this truth table as follows:
+``` python
+def f(p,q,r):
+    return (1-p)|((1-q)&r)
+for p in [1,0]:
+    for q in [1,0]:
+        for r in [1,0]:
+            print(p,q,r,f(p,q,r))
+```
 
+Anyway, this formula has four rows for which it is true, and each of those rows can be expressed as a conjunction of propositions or their negations, so 
 
+$P \rightarrow \neg Q \wedge R$  is equivalent to
 
+$(P \wedge \neg Q \wedge R) \vee (\neg P \wedge Q \wedge R) \vee (\neg P \wedge Q \wedge \neg R)  \vee (\neg P \wedge \neg Q \wedge R) \vee (\neg P \wedge \neg Q \wedge \neg R)$
+
+A simpler DNF for the formula would be obtained by noticing that the formula is true when P is false or
+when (P,Q,R) = (T,F,T)
+so it is equivalent to the following simpler DNF:
+
+$(P \wedge \neg Q \wedge R) \vee \neg P$
+
+We can convert the formula $P \rightarrow \neg Q \wedge R$  to DNF in one step using the Boolean Algebra rules without
+having to construct the truth table though by using the definition of implication:
+
+$P \rightarrow \neg Q \wedge R \equiv$
+
+$\neg P \vee \neg Q \wedge R$ 
+
+Let's convert $P \oplus (Q \rightarrow R)$ into DNF
+
+$P \oplus (Q \rightarrow R) \equiv$ 
+
+$(P \vee (\neg Q \vee R)) \wedge \neg (P \wedge (\neg Q \vee R)) \equiv$ 
+
+$(P \vee (\neg Q \vee R)) \wedge (\neg P \vee \neg (\neg Q \vee R)) \equiv$ 
+
+$(P \vee (\neg Q \vee R)) \wedge (\neg P \vee ( Q \wedge \neg R)) \equiv$ 
