@@ -1,7 +1,7 @@
 # Inference Rules for Propositional Calculus
 
 We say that two formulas $F_1$ and $F_2$ are equivalent, writted $F_1\equiv F_2$ if they
-hae the same values on all interpretations.
+hae the same values on all interpretations, i.e. they have the same truth tables.
 
 We can think of the Propositional Calculus as a kind of Algebra (called Boolean Algebra)
 and we can apply operations on these formula that are very similar to the standard operations
