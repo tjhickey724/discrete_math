@@ -77,12 +77,3 @@ $P \rightarrow \neg Q \wedge R \equiv$
 
 $\neg P \vee \neg Q \wedge R$ 
 
-Let's convert $P \oplus (Q \rightarrow R)$ into DNF
-
-$P \oplus (Q \rightarrow R) \equiv$ 
-
-$(P \vee (\neg Q \vee R)) \wedge \neg (P \wedge (\neg Q \vee R)) \equiv$ 
-
-$(P \vee (\neg Q \vee R)) \wedge (\neg P \vee \neg (\neg Q \vee R)) \equiv$ 
-
-$(P \vee (\neg Q \vee R)) \wedge (\neg P \vee ( Q \wedge \neg R)) \equiv$ 
