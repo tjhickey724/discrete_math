@@ -11,6 +11,30 @@ to be correct by calculating their truth tables.
 | Rule Name | Rule |
 | --- | --- |
 | Double Negation | $\neg \neg A \equiv A$ |
-| DeMorgan's Law | $\neg (A \vee B) \equiv \neg A \wedge \neg B$ |
-| DeMorgan's Law | $\neg (A \wedge B) \equiv \neg A \vee \neg B$ |
-| Distributive Law | $A \vee (B \wedge C) \equiv (A\vee B) \wedge (A\vee C)$|
+| DeMorgan's Law for AND| $\neg (A \vee B) \equiv \neg A \wedge \neg B$ |
+| DeMorgan's Law for OR| $\neg (A \wedge B) \equiv \neg A \vee \neg B$ |
+| Distributive Law of OR over AND| $A \vee (B \wedge C) \equiv (A\vee B) \wedge (A\vee C)$|
+| Distributive Law of AND over OR | $A \wedge (B \vee C) \equiv (A\wedge B) \vee (A\wedge C)$|
+| Commutativity of OR | $A \vee B \equiv B \vee A$|
+| Commutativity of AND | $A \wedge B \equiv B \wedge A$|
+| Associativity of OR | $A \vee (B \vee C) \equiv (A \vee B) \vee C$|
+| Associativity or AND| $A \wedge (B \wedge C) \equiv (A \wedge B) \wedge C$|
+| Implication definition| $A \rightarrow B \equiv \neg A \vee B$|
+| XOR definition| $A\oplus B \equiv (A \vee B) \wedge \neg (A \wedge B)$|
+| Identity rules | $True \vee A \equiv True$ |
+| Identity rules | $False \vee A \equiv A$ |
+| Identity rules | $True \wedge A \equiv A$ |
+| Identity rules | $False \wedge A \equiv False$ |
+| Identity rules | $A \wedge A \equiv A$ |
+| Identity rules | $A \vee A \equiv A$ |
+| Identity rules | $A \wedge \neg A \equiv False$ |
+| Identity rules | $A \vee \neg A \equiv True$|
+
+Using these rules you can convert any boolean formula into a normal form called _Disjunctive Normal Form_ ( ***DNF*** )
+which is a disjunction (ORs) of conjunctions (ANDs) or propositions or negated propositions.  We can easily
+write downn the DNF of a formula by looking at its truth table, e.g.
+
+
+
+
+
