@@ -72,6 +72,44 @@ e.g.
 | F | F | F | T |
 
 
+## Truth table for $P \rightarrow \neg Q \wedge R$
+
+| $P$ | $Q$ | $R$ |  $\neg Q \wedge R$ | $P \rightarrow \neg Q \vee R$  |
+| --- | --- | --- | --- | --- | 
+| T   | T   | T   | F   | F   | 
+| T   | T   | F   | F   | F   | 
+| T   | F   | T   | T   | T   | 
+| T   | F   | F   | F   | F   |
+| F   | T   | T   | F   | T   | 
+| F   | T   | F   | F   | T   |
+| F   | F   | T   | T   | T   | 
+| F   | F   | F   | F   | T   | 
+
+
+Note: for those who know Python, you can write a program to generate the truth table for this formula as follows:
+``` python
+def f(p,q,r):
+    return (1-p)|((1-q)&r)
+for p in [1,0]:
+    for q in [1,0]:
+        for r in [1,0]:
+            print(p,q,r,f(p,q,r))
+```
+where we represent True as 1 and False as 0, and then 
+
+$\neg P $= ```1-P```
+
+$P \vee Q$ =``` P | Q``` 
+
+$P \wedge Q$ = ``` P & Q```
+
+$P \rightarrow Q \equiv (\neg P \vee Q)$ = ```(1-P)|R```
+
+$P \rightarrow \neg Q \wedge R$ = ```(1-P)|((1-Q)&R)```
+
+
+
+
 ## Truth table for $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrightarrow (P\vee Q \rightarrow R)$
 
 | $P$ | $Q$ | $R$ |  $P \rightarrow R$ | $Q \rightarrow R$  | $(P \rightarrow R) \wedge (Q \rightarrow R)$ | $(P \vee Q)$ | $P \vee Q \rightarrow R$ |      $(P \rightarrow R) \wedge (Q \rightarrow R)  \leftrightarrow (P \vee Q \rightarrow R)$
@@ -84,5 +122,3 @@ e.g.
 | F   | T   | F   | T   | F   | F   | T   | F   | T   |
 | F   | F   | T   | T   | T   | T   | F   | T   | T   |
 | F   | F   | F   | T   | T   | T   | F   | T   | T   |
-
-
