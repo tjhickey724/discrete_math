@@ -25,16 +25,19 @@ We will provide notes on each lesson below.
 
 
 
-## Lesson 3 Thu 9/7/2023 - Truth Tables and Inference
+## Lesson 3 Thu 9/7/2023 - Truth Tables
 * We show how to [create a truth table](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTables.md)
   for a formula, this shows its value for all possible interpretations of its variables.
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We also show how to [use a Parse Tree to evaluate a Boolean formula on an interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 * We show how to [estimate how long it would take to prove a formula is a tautology with the Truth Method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md)
+
+## Lesson 4 Mon 9/11/2023 - Inference
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 * and we show that every formula can be reduced to
   [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
+  
 ---
 
 # Homework
