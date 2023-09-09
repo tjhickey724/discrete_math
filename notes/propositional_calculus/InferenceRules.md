@@ -5,8 +5,19 @@ hae the same values on all interpretations, i.e. they have the same truth tables
 
 We can think of the Propositional Calculus as a kind of Algebra (called Boolean Algebra)
 and we can apply operations on these formula that are very similar to the standard operations
-in arithmetic. This page has some of the most common operation and they can easily be verified
+in arithmetic. This page has some of the most common operations and they can easily be verified
 to be correct by calculating their truth tables.
+
+The rules below allow one to convert a formula into a logically equivalent formula.
+They have the form
+
+$F_1 \equiv F_2$  which means that  $F_1 \leftrightarrow F_2$ is a tautology (also known as a valid formula)
+
+Later we will look at pure inference rules which have the form
+
+$F_1 \rightarrow F_2$
+
+where $F_2$ is not equivalent to $F_1$ but is true whenever $F_1$ is true...
 
 | Rule Name | Rule |
 | --- | --- |
