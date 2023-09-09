@@ -37,6 +37,7 @@ We will provide notes on each lesson below.
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 * and we show that every formula can be reduced to
   [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
+* We practice simplifying negated formulas using DeMorgan's rules
   
 ---
 
