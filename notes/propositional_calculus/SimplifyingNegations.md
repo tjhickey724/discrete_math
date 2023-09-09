@@ -32,7 +32,7 @@ Now let's simplify $\neg (P \rightarrow (Q \rightarrow P))$
 
 First we replace the implications $A\rightarrow B$ with disjunctions $\neg A \vee B$:
 
-$\neg (P \rightarrow (Q \rightarrow P)) \equiv \neg (\neg P \vee (\neg Q \vee P))$
+$\neg (P \rightarrow (Q \rightarrow P)) \equiv \neg (P \rightarrow (\neg Q \vee P)) \equiv \neg (\neg P \vee (\neg Q \vee P))$
 
 Using DeMorgan we get
 
@@ -51,6 +51,7 @@ simplifes to False, and we have shown that
 
 $\neg (P \rightarrow (Q \rightarrow P)) \equiv False$
 
+In other words $$\neg (P \rightarrow (Q \rightarrow P)) $ is unsatisfiable, 
 and by negating both sides we see also that
 
 $P \rightarrow (Q \rightarrow P) \equiv True$
