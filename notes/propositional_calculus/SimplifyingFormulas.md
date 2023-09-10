@@ -7,7 +7,7 @@ To do this, we use the Demorgan rules to push negation down to the propositionia
 but first we use the following substitution rules which preserve logical equivalence to remove all operators
 except disjunction and conjunction:
 
-$E \implies F \equiv (\neg E \vee F)$
+$E \rightarrow F \equiv (\neg E \vee F)$
 
 $E \oplus F \equiv E\wedge \neg F \vee \neg E\wedge F$
 
