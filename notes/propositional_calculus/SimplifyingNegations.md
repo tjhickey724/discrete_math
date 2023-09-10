@@ -51,7 +51,7 @@ simplifes to False, and we have shown that
 
 $\neg (P \rightarrow (Q \rightarrow P)) \equiv False$
 
-In other words $$\neg (P \rightarrow (Q \rightarrow P)) $ is unsatisfiable, 
+In other words $\neg (P \rightarrow (Q \rightarrow P)) $ is unsatisfiable, 
 and by negating both sides we see also that
 
 $P \rightarrow (Q \rightarrow P) \equiv True$
