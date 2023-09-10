@@ -28,7 +28,7 @@ $P \rightarrow (\neg Q \vee  R\wedge \neg P \vee \neg R\wedge P) \equiv$
 
 $\neg P \vee (\neg Q \vee  R\wedge \neg P \vee \neg R\wedge P) \equiv$
 
-$(\neg P )\vee (\neg Q) \vee  (R\wedge \neg P) \vee (\neg R\wedge P)$
+$(\neg P )\vee (\neg Q) \vee  (R\wedge \neg P) \vee (\neg R\wedge P)$ .... parentheses added for clarity...
 
 and this is a disjunction of conjuctions of propositional symbols or their negations,
 i.e. it is in Disjunctive Normal Form (DNF).
