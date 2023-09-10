@@ -30,6 +30,12 @@ $\neg P \vee (\neg Q \vee  R\wedge \neg P \vee \neg R\wedge P) \equiv$
 
 $\neg P \vee \neg Q \vee  R\wedge \neg P \vee \neg R\wedge P$
 
+So this is true in four cases:
+1. P is False
+2. Q is false
+3. R is true and P is false
+4. R is false and P is true
+
 ## Example 2
 Let's try another which will use DeMorgan
 
