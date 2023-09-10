@@ -35,7 +35,7 @@ We will provide notes on each lesson below.
 ## Lesson 4 Mon 9/11/2023 - Inference
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
-* and we show that every formula can be reduced to
+and we show that every formula can be reduced to
   [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
 * We practice [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md) using DeMorgan's rules
   
