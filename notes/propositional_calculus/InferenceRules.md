@@ -40,7 +40,7 @@ where $F_2$ is not equivalent to $F_1$ but is true whenever $F_1$ is true...
 | Identity rules | $A \vee A \equiv A$ |
 | Identity rules | $A \wedge \neg A \equiv False$ |
 | Identity rules | $A \vee \neg A \equiv True$|
-| Identity rules | $A\wedge B \ vee A \equiv A$ |
+| Identity rules | $A\wedge B \vee A \equiv A$ |
 | Identity rules | $(A \vee B) \wedge A \equiv A$ |
 
 Using these rules you can convert any boolean formula into a normal form called _Disjunctive Normal Form_ ( ***DNF*** )
