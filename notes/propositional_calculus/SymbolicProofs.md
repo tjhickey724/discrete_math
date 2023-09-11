@@ -45,10 +45,10 @@ This is the rule for dividing a problem into cases.  If you can prove that P or 
 and that if P is true then R is true,   and if Q is true then R is true.  Then you can conclude that R is true.
 
 The Truth Table method will work to prove the validity of any argument, or to find a counter example, but
-it could involve evaluating the formulas for $2^n$ interpretations if the argument contains $n$ propositional symbols.
+it could involve evaluating the formulas for $2^n$ interpretations if the argument contains $n$ propositional symbols,
+and that makes it completely impractical even when a computer is creating the Truth Tables for n bigger than 50.
 
-We will present another method, called Truth Trees, which can always prove an argument is valid or find a counterexample 
-and sometimes is much faster that the Truth Table method.
+In a later lesson, we will present another method, called Truth Trees, which can always prove an argument is valid or find a counterexample and sometimes is much faster that the Truth Table method.
 
 # Example 2
 Another way to prove validity is to apply "inference rules" to the premises to find other statements that are true, and
@@ -62,7 +62,7 @@ P
 -----------
 R
 ```
-to prove this argument is valid, we can apply modus ponens to infer that Q is true from P implies Q and P.
+to prove this argument is valid, we can apply modus ponens to infer that Q is true from (P implies Q) and P.
 
 ```
 1.  P implies Q
