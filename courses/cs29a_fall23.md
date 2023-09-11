@@ -5,6 +5,8 @@ This file contains links to course notes and homework for sections 1 and 2 of CS
 
 # Lesson Notes
 We will provide notes on each lesson below.
+---
+# Week 0
 
 ## Lesson 1 Thu 8/31/2023  _Intro and overview_
 * We begin with
@@ -15,7 +17,8 @@ We will provide notes on each lesson below.
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
   - We get some practice in [converting between English and the Propoaitional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
-
+---
+# Week 1
 
 ## Lesson 2 Wed 9/6/2023 __Propositional Calculus and Boolean Algebra__
 * We begin with a review of the [syntax of formulas in the propositional calculus]( https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
@@ -31,6 +34,9 @@ We will provide notes on each lesson below.
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We also show how to [use a Parse Tree to evaluate a Boolean formula on an interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 * We show how to [estimate how long it would take to prove a formula is a tautology with the Truth Method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md)
+---
+
+# Week 2
 
 ## Lesson 4 Mon 9/11/2023 - Inference
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
@@ -40,6 +46,11 @@ and we show that every formula can be reduced to
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
   
+
+## Lesson 5 Wed 9/13/2023 - The Truth Tree Method for Propositional Logic
+* We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
+* We give example of using the Truth Tree method to prove Theorems and to find counter-examples
+* We describe the steps of the Truth Tree method and explain why they work
 ---
 
 # Homework
