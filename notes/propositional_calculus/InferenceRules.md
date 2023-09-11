@@ -31,7 +31,7 @@ where $F_2$ is not equivalent to $F_1$ but is true whenever $F_1$ is true...
 | Associativity of OR | $A \vee (B \vee C) \equiv (A \vee B) \vee C$|
 | Associativity or AND| $A \wedge (B \wedge C) \equiv (A \wedge B) \wedge C$|
 | Implication definition| $A \rightarrow B \equiv \neg A \vee B$|
-| XOR definition| $A\oplus B \equiv (A \vee B) \wedge \neg (A \wedge B)$|
+| XOR definition| $A\oplus B \equiv (A \vee B) \wedge \neg (A \wedge B)$  or  $A\wedge \neg B \vee \neg A \wedge B$|
 | Identity rules | $True \vee A \equiv True$ |
 | Identity rules | $False \vee A \equiv A$ |
 | Identity rules | $True \wedge A \equiv A$ |
