@@ -76,7 +76,7 @@ Here is what we get if we apply the Truth Tree Method to this argument
 ![TruthTreeExample2](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TreeMethodExample2.jpg)
 
 Note that first we simplify the negation of the conclusion then we apply the rules for implication, on each branch. None of the
-branches are closed and they all have the same interpretation $\neg A, \neg B, C$ which satisfies the premises but not the conclusion,
+branches are closed and they all have the same interpretation $\neg A, \neg B, C$ (that is A=B=False, C=True) which satisfies the premises but not the conclusion,
 so the argument in not valid!
 
 
