@@ -22,6 +22,25 @@ C
 We also use the $\models$ operand to express this property:
 $E_1,\ldots,E_n \models C$ and we say that $C$ is a logical consequence of $E_1,\ldots,E_n$.
 
+## An Example of using the Truth Tables to prove a logical inference
+Below we have an example of using the Truth Tree Method to prove that
+
+$A\rightarrow C, B\rightarrow C, A\vee B \models C$
+
+Here is how we prove this is true using Truth Tables.  
+We create the truth tables for each of $A\rightarrow C, B\rightarrow C, A\vee B$
+and then show that for each of the interpretations where all three are true, we also see that $C$ is true.
+![TruthTableExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTableInference.jpg)
+
+
+
+
+
+
+## Truth Tree Operations
+Next we will look at another approach to proving that a conclusion is a logical consequence of a set of premises.
+This approach can be faster that the truth table method in some cases. The idea is to generate a tree where
+each "open" branch corresponds to a set of interpretations which make the premises and the negation of the conclusion true. If there are no open branches, then there are no interpretations which make all of the premises true and the negation of the conclusion true, i.e. the conclusion false.  Hence every interpretation which makes the premises true, must also make the conclusion true, and hence the argument is valid!
 
 The Truth Tree method is a graphical approach to searching for counterexamples, that is interpretations which make E1,...,En true
 but which make C false.  If no such counterexamples can be found, the C must be true whenever E1,...,En are true.
@@ -35,23 +54,6 @@ En
 -C
 ```
 We then apply the following rules which simplify the formulas in the tree.
-
-## An Example of using the Truth Tables to prove a logical inference
-Below we have an example of using the Truth Tree Method to prove that
-
-$A\rightarrow C, B\rightarrow C, A\vee B \models C$
-
-Here is how we prove this is true using Truth Tables.  
-We create the truth tables for each of $A\rightarrow C, B\rightarrow C, A\vee B$
-and then show that for each of the interpretations where all three are true, we also see that $C$ is true.
-![TruthTableExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTableInference.jpg)
-
-
-## Truth Tree Operations
-Next we will look at another approach to proving that a conclusion is a logical consequence of a set of premises.
-This approach can be faster that the truth table method in some cases. The idea is to generate a tree where
-each "open" branch corresponds to a set of interpretations which make the premises and the negation of the conclusion true. If there are no open branches, then there are no interpretations which make all of the premises true and the negation of the conclusion true, i.e. the conclusion false.  Hence every interpretation which makes the premises true, must also make the conclusion true, and hence the argument is valid!
-
 
 The rules are shown in the following image:
 ![Truth Tree Operations](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeOperations.jpg)
