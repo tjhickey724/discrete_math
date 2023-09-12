@@ -49,4 +49,13 @@ $A\rightarrow C, B\rightarrow C, A\vee B \models C$
 
 Let's walk through the steps of creating this tree and interpreting its results.
 
+The first step is to write down the premises and the negation of the conclusion.
+Next we apply the Truth Tree Method rules by choosing an unchecked formula, and the expanding the tree using that formula.
+If any branch contains both a proposition $P$ and it negation $\neg P$, the we mark that branch as "dead" using an asterisk $\Asterisk$
+
+Note that when we use one of Truth Tree Method operations, we have to apply it on every open branch in the tree, after which we can
+mark it with a check mark indicating it has been handled.
+
+
+
 
