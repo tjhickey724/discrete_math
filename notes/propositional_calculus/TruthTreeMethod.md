@@ -36,6 +36,17 @@ En
 ```
 We then apply the following rules which simplify the formulas in the tree.
 
+## An Example of using the Truth Tables to prove a logical inference
+Below we have an example of using the Truth Tree Method to prove that
+
+$A\rightarrow C, B\rightarrow C, A\vee B \models C$
+
+Here is how we prove this is true using Truth Tables.  
+We create the truth tables for each of $A\rightarrow C, B\rightarrow C, A\vee B$
+and then show that for each of the interpretations where all three are true, we also see that $C$ is true.
+![TruthTableExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTableInference.jpg)
+
+
 ## Truth Tree Operations
 The rules are shown in the following image:
 ![Truth Tree Operations](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeOperations.jpg)
@@ -48,15 +59,7 @@ Each of the two branches correspond to different cases...
 
 Since the formulas get simpler when we check them off, we see that this process will eventually end and the only unchecked formulas on the branches will be propositions (e.g. $A$, $B$) or their negations $\neg A$, $\neg B$).  Branches that contain a contradiction (i.e. both $A$ and $\neg A$) are closed. Open branches, correspond to counterexamples, which make all of the premises True and the conclusion False, and so demonstrate that the argument is not valid.
 
-## An Example of using the Truth Tables to prove a logical inference
-Below we have an example of using the Truth Tree Method to prove that
 
-$A\rightarrow C, B\rightarrow C, A\vee B \models C$
-
-Here is how we prove this is true using Truth Tables.  
-We create the truth tables for each of $A\rightarrow C, B\rightarrow C, A\vee B$
-and then show that for each of the interpretation where all three are true, we also see that $C$ is true.
-![TruthTableExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTableInference.jpg)
 
 ## Example of using the Truth Tree Method to prove that logical inference
 
