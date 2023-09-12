@@ -62,6 +62,9 @@ For the cases where there is branching, this corresponds to looking at the diffe
 
 Each of the two branches correspond to different cases...
 
+The argument for the other operators is similar. For example $E \rightarrow F$ is true precisely when
+$\neg E$ is true or $F$ is true, and this gives us two cases to explore.
+
 Since the formulas get simpler when we check them off, we see that this process will eventually end and the only unchecked formulas on the branches will be propositions (e.g. $A$, $B$) or their negations $\neg A$, $\neg B$).  Branches that contain a contradiction (i.e. both $A$ and $\neg A$) are closed. Open branches, correspond to counterexamples, which make all of the premises True and the conclusion False, and so demonstrate that the argument is not valid.
 
 
