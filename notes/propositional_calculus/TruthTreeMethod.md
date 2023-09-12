@@ -47,3 +47,6 @@ $A\rightarrow C, B\rightarrow C, A\vee B \models C$
 
 ![TruthTreeExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TreeMethodExample1.jpg)
 
+Let's walk through the steps of creating this tree and interpreting its results.
+
+
