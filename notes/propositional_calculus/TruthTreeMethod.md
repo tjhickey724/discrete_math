@@ -40,7 +40,7 @@ We then apply the following rules which simplify the formulas in the tree.
 The rules are shown in the following image:
 ![Truth Tree Operations](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeOperations.jpg)
 
-## An Example of using the Tree Method
+## An Example of using the Truth Tree Method to prove a logical inference
 Below we have an example of using the Truth Tree Method to prove that
 
 $A\rightarrow C, B\rightarrow C, A\vee B \models C$
@@ -51,10 +51,26 @@ Let's walk through the steps of creating this tree and interpreting its results.
 
 The first step is to write down the premises and the negation of the conclusion.
 Next we apply the Truth Tree Method rules by choosing an unchecked formula, and the expanding the tree using that formula.
-If any branch contains both a proposition $P$ and it negation $\neg P$, the we mark that branch as "dead" using an asterisk $\Asterisk$
+If any branch contains both a proposition $P$ and it negation $\neg P$, the we mark that branch as "closed" using an asterisk.
+Since all branches are closed, there are no counterexamples to this argument.
 
 Note that when we use one of Truth Tree Method operations, we have to apply it on every open branch in the tree, after which we can
 mark it with a check mark indicating it has been handled.
+
+## An example of using the Truth Tree Method to find a counterexample to an argument
+Next lets use the Truth Tree Method to investigate the argument of whether
+
+$A\rightarrow C, B\rightarrow C \models C\rightarrow A \vee B$
+
+Here is what we get if we apply the Truth Tree Method to this argument
+(note we negate the conclusion and simplify it to move the negations inward before continuing).
+
+![TruthTreeExample2](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TreeMethodExample2.jpg)
+
+Note that first we simplify the negation of the conclusion then we apply the rules for implication, on each branch. None of the
+branches are closed and they all have the same interpretation $\neg A, \neg B, C$ which satisfies the premises but not the conclusion,
+so the argument in not valid!
+
 
 
 
