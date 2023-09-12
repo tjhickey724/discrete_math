@@ -40,4 +40,10 @@ We then apply the following rules which simplify the formulas in the tree.
 The rules are shown in the following image:
 ![Truth Tree Operations](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeOperations.jpg)
 
+## An Example of using the Tree Method
+Below we have an example of using the Truth Tree Method to prove that
+
+$A\rightarrow C, B\rightarrow C, A\vee B \models C$
+
+![TruthTreeExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TreeMethodExample1.jpg)
 
