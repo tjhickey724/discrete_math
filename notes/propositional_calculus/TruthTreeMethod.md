@@ -48,6 +48,11 @@ and then show that for each of the interpretations where all three are true, we 
 
 
 ## Truth Tree Operations
+Next we will look at another approach to proving that a conclusion is a logical consequence of a set of premises.
+This approach can be faster that the truth table method in some cases. The idea is to generate a tree where
+each "open" branch corresponds to a set of interpretations which make the premises and the negation of the conclusion true. If there are no open branches, then there are no interpretations which make all of the premises true and the negation of the conclusion true, i.e. the conclusion false.  Hence every interpretation which makes the premises true, must also make the conclusion true, and hence the argument is valid!
+
+
 The rules are shown in the following image:
 ![Truth Tree Operations](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeOperations.jpg)
 
