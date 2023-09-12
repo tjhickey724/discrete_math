@@ -20,7 +20,7 @@ En
 C
 ```
 We also use the $\models$ operand to express this property:
-$E_1,\ldots,E_n \models C$ and we say that $E_1,\ldots,E_n$ models $C$.
+$E_1,\ldots,E_n \models C$ and we say that $C$ is a logical consequence of $E_1,\ldots,E_n$.
 
 
 The Truth Tree method is a graphical approach to searching for counterexamples, that is interpretations which make E1,...,En true
