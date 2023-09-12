@@ -24,7 +24,7 @@ $E_1,\ldots,E_n \models C$ and we say that $C$ is a logical consequence of $E_1,
 
 
 The Truth Tree method is a graphical approach to searching for counterexamples, that is interpretations which make E1,...,En true
-but which make C false.  If not such counterexamples can be found, the C must be true whenever E1,...,En are true.
+but which make C false.  If no such counterexamples can be found, the C must be true whenever E1,...,En are true.
 
 The first step is to write down the formulas E1,...,En, and the negation of the conclusion C
 ```
