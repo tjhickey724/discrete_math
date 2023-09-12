@@ -48,8 +48,7 @@ and we show that every formula can be reduced to
 
 ## Lesson 5 Wed 9/13/2023 - The Truth Tree Method for Propositional Logic
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
-* We give example of using the Truth Tree method to prove Theorems and to find counter-examples
-* We describe the steps of the Truth Tree method and explain why they work
+* We give example of using the [Truth Tree method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeMethod.md) to prove Theorems and to find counter-examples and we describe the steps of the Truth Tree method and explain why they work
 ---
 
 # Homework
