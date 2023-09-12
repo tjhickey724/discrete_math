@@ -40,6 +40,14 @@ We then apply the following rules which simplify the formulas in the tree.
 The rules are shown in the following image:
 ![Truth Tree Operations](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeOperations.jpg)
 
+For the cases where there is branching, this corresponds to looking at the different cases, e.g. if $E \vee F$ is true, then we can look at two cases:
+1) the case where $E$ is true
+2) the case where $F$ is true
+
+Each of the two branches correspond to different cases...
+
+Since the formulas get simpler when we check them off, we see that this process will eventually end and the only unchecked formulas on the branches will be propositions (e.g. $A$, $B$) or their negations $\neg A$, $\neg B$).  Branches that contain a contradiction (i.e. both $A$ and $\neg A$) are closed. Open branches, correspond to counterexamples, which make all of the premises True and the conclusion False, and so demonstrate that the argument is not valid.
+
 ## An Example of using the Truth Tree Method to prove a logical inference
 Below we have an example of using the Truth Tree Method to prove that
 
