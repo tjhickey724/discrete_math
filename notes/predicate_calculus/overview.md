@@ -6,10 +6,10 @@ We expand the language of Propositional calculus to include
 
 * predicates, which are boolean functions of one or more variables, P(x), Q(x,y,z). u=v, u<v
 * boolean operators connecting formulas: P and Q, P xor Q, P or Q, not P, P implies Q, P iff Q, 
-* quantifiers
+* quantifiers,where F is a predicate formula
   * $\exists x . F$
   * $\forall x . F$
-  where F is a predicate formula
+  
 * functions and constants, e.g.
   e.g. square(x),  x*y, 0, 1, etc.
 
