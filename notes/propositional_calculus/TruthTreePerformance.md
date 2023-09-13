@@ -31,4 +31,7 @@ Likewise, the more general problem with $n$ premises and $n$ propositional symbo
 Note however, that if we instead chose to use the OR-rule on the implications $A{2n}\rightarrow A_{2n+1}$ we would
 get a tree with an exponential number of branches, so the order really does matter ...
 
+![TruthTree Exponential Growth](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/exponentialTruthTreeGrowthExample.jpg)
+
+
 
