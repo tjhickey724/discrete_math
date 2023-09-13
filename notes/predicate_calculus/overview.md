@@ -34,11 +34,11 @@ $\exists k . n = d*k$
 ### B.  p is prime
 (i.e. the only positive divisors of p are 1 and itself)
 
-$\neg \exists a \exists b  (1 \lt a) \wedge (a\lt p) \wedge (p = a*b)$
+$\neg \exists a \exists b  ((1 \lt a) \wedge (a\lt p) \wedge (p = a*b))$
 
 or, if d is a positive divisor of p then d=1 or d=p
 
-$\forall d . \exists a . p=ad \rightarrow d=1 \vee d=p$
+$\forall d (\exists a . p=ad) \rightarrow (d=1) \vee (d=p)$
 
 
 
