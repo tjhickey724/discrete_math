@@ -44,3 +44,36 @@ More formally we can use the TruthTree method to verify this:
 ![TranslateAndInfer1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/translateAndInfer!.jpg)
 
 
+## Example 2
+Let's try this one, with the same propositional symbols as above.
+
+```
+Premise1: If the load is high then at least one of the functions throws an error
+Premise2: The program keeps running (i.e. doesn't crash) only if both functions work correctly (i.e. neither function throws an error)
+.............
+Conclusion: If the load is low, then the program crashes only if both functions throw an error
+```
+
+Translating into logic we get
+
+We can now translate this English argument into formal logic:
+
+Premise1: $H \rightarrow E1\vee E2$
+
+Premise2: $\neg C \rightarrow \neg E1 \wedge \neg E2$
+
+.....................
+
+Conclusion:  $neg H \rightarrow E1 \wedge E2$
+
+We can now use the Truth Tree Method and we see this has a counter example:
+
+![TranslateAndInfer2](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/translateAndInfer2.jpg)
+
+The counter example is $C \wedge \neg H \wedge \neg E1$, which translates back into English as:
+
+```
+Counter example:
+When the program crashes and the load is not high and function 1 does not throw an error,
+the premises are both true, but the conclusion is false.
+```
