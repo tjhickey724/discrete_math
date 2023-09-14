@@ -95,4 +95,4 @@ Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all o
 Read 
 * [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
 
-Connect to the [MLA HW site](https://mastery.cs.brandeis.edu) with PIN 731541 and do all of the problems due 9/18
+Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/18
