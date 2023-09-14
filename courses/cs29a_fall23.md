@@ -52,7 +52,7 @@ and we show that every formula can be reduced to
 
 ## Lesson 6 Thu 9/14/2023 - More Truth Tree Method Practice
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
-* We work through examples combining translation to English with Truth Trees
+* We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
 
 
 ---
