@@ -40,4 +40,7 @@ Premise2a: $E1 \vee E2 \rightarrow C$
 and since $H \rightarrow E1\vee E2$ and $E1\vee E2 \rightarrow C$, we can conclude that $H \rightarrow C$, by
 the transitivity of implication, that is $(A\rightarrow B) \wedge (B\rightarrow C) \rightarrow (A \rightarrow C)$.
 
-More formally we can use the TruthTree method to verify this
+More formally we can use the TruthTree method to verify this:
+![TranslateAndInfer1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/translateAndInfer!.jpg)
+
+
