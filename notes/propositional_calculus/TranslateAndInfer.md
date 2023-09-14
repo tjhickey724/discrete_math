@@ -64,7 +64,7 @@ Premise2: $\neg C \rightarrow \neg E1 \wedge \neg E2$
 
 .....................
 
-Conclusion:  $neg H \rightarrow E1 \wedge E2$
+Conclusion:  $\neg H \rightarrow E1 \wedge E2$
 
 We can now use the Truth Tree Method and we see this has a counter example:
 
