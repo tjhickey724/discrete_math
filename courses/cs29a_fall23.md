@@ -82,7 +82,7 @@ and try some of the problems at the end of the sections. We will go over some of
 
 ### Week 2 - due Monday 9/11/2023 before class
 Read 
-* Chapter 3.6: Predicate Formulas in MfCS
+* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
 
 Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
 * Translation to Propositional Logic
