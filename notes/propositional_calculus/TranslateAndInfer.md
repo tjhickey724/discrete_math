@@ -9,10 +9,10 @@ Let's see if the following is a valid argument about a program which contains tw
 among other things, and which runs on a system which could have a high load or a low load.
 
 ```
-P1: If the load is high then at least one of the functions throws an error
-P2: The program keeps running (i.e. doesn't crash) only if both functions work correctly (i.e. neither function throws an error)
+Premise1: If the load is high then at least one of the functions throws an error
+Premise2: The program keeps running (i.e. doesn't crash) only if both functions work correctly (i.e. neither function throws an error)
 .............
-C: If the load is high then the program crashes.
+Conclusion: If the load is high then the program crashes.
 ```
 The first step is to identify the primitive propositions. We have already seen this problem in the homework,
 so we can use those propositions:
@@ -24,11 +24,20 @@ E2: function 2 throws an error
 ```
 We can now translate this English argument into formal logic:
 
-P1: $H \rightarrow E1\vee E2$
+Premise1: $H \rightarrow E1\vee E2$
 
-P2: $\neg C \rightarrow \neg E1 \wedge \neg E2$
+Premise2: $\neg C \rightarrow \neg E1 \wedge \neg E2$
 
 .....................
 
-C:  $H \rightarrow C$
+Conclusion:  $H \rightarrow C$
 
+An easy way to see this is true is to replace Premise2 with its contrapositive version which is logically equivalent.
+That is $(A \rightarrow B) \equiv (\neg B \rightarrow \neg A$ which you can easily verify by simplification or using truth tables or truth trees, so we get
+
+Premise2a: $E1 \vee E2 \rightarrow C$
+
+and since $H \rightarrow E1\vee E2$ and $E1\vee E2 \rightarrow C$, we can conclude that $H \rightarrow C$, by
+the transitivity of implication, that is $(A\rightarrow B) \wedge (B\rightarrow C) \rightarrow (A \rightarrow C)$.
+
+More formally we can use the TruthTree method to verify this
