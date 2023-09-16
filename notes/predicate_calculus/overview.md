@@ -27,8 +27,9 @@ A first order language $L$ consists of
 * a set of predicate symbols (P,Q,R,=,< >=, ...),
 * a set of function and constant symbols, (f,g,h, a,b,c, 0,1,2, $\pi$, $e$, $\infty$, ...)
 * a set of variables symbols (u,v,w,x,y,z...)
+
 For the propositional calculus, the language consisted just of proposition symbols and
-logical connectives $\wedge, \vee, \neg, \rightarrow, \leftrightarrow, \xor$
+logical connectives $\wedge, \vee, \neg, \rightarrow, \leftrightarrow, \oplus$
 The predicate calculus add predicate symbols, function symbols, constant symbols, variables, and constants!
 
 ## Models of a first order language
