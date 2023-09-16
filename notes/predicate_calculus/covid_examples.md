@@ -2,7 +2,8 @@
 Next let's look at how the Predicate Calculus can be used to reason about 
 domains which are not purely mathematical, for example, a medical example.
 
-Consider the domain $D$ of some group of people, and the following predicates
+Consider the domain $D$ of some group of people (perhaps Brandeis students)
+and the following predicates
 on that domain:
 * P(x) == x has covid
 * F(x) == x has a fever
