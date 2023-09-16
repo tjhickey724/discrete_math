@@ -29,7 +29,7 @@ Let's translate the following formulas to predicate calculus
 4. Everyone that has covid has a close contact with covid.
 5. If someone has a roommate with covide and they don't have covide then they are vaccinated.
 6. If everyone is vaccinated then noone has covid.
-7. If someone has covid then all of their close contacts who are not vaccinated has covid.
+7. If someone has covid then all of their close contacts who are not vaccinated have covid.
 
 Let's have you think up some statements to convert to this first order language...
 
