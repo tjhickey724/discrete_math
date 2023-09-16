@@ -55,6 +55,11 @@ and we show that every formula can be reduced to
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
 
 
+# Week 3
+
+## Lesson 7 Mon 9/11/2023 - The Predicate Calculus
+* We give an introduction to the Predicate Calculus as the language of Mathematics
+
 ---
 
 # Homework
