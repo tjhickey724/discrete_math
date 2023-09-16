@@ -59,6 +59,7 @@ and we show that every formula can be reduced to
 
 ## Lesson 7 Mon 9/11/2023 - The Predicate Calculus
 * We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
+* We look at some examples of predicate calculus formulas in [epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 
 ---
 
