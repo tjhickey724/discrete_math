@@ -36,7 +36,7 @@ Let's have you think up some statements to convert to this first order language.
 How would you translate the following formulas in plain English (where a and b are constants, i.e. refer to
 individuals like "Andy" and "Bohan"
 1. $\forall x . F(x) \wedge V(x) \rightarrow I(x)$
-2. $P(a) \wedge R(a,b) \wedge \neg V(b) \wedge F(b)$
+2. $S(a) \wedge R(a,b) \wedge \neg V(b) \wedge F(b)$
 3. $\forall x \exists y . C(x,y)$
 4. $\exists y \forall x . C(x,y)$
 5. $\forall x \forall y . C(x,y) \rightarrow C(y,x)$
