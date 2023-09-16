@@ -19,6 +19,7 @@ Let's translate the following formulas to predicate calculus
    $\forall x F(x) \rightarrow P(x) \vee I(x)$
    
 3. Whenever people are roommates,  they are also close contacts.
+
    $\forall x \forall y . R(x,y) \rightarrow C(x,y)$
    
 5. Some people are close contacts but aren't roommates.
