@@ -5,18 +5,15 @@ We will introduce the predicate calculus and we practice converting English stat
 We expand the language of Propositional calculus to include 
 
 * predicates, which are boolean functions of one or more variables, P(x), Q(x,y,z). u=v, u<v
-* boolean operators connecting formulas: P and Q, P xor Q, P or Q, not P, P implies Q, P iff Q, 
+* boolean operators connecting formulas: P and Q, P xor Q, P or Q, not P, P implies Q, P iff Q,
+* variables, usually written as letters from the end of the alphabet, u,v,w,x,y,z ...
 * quantifiers,where F is a predicate formula
   * $\exists x . F$
   * $\forall x . F$
-  
 * functions and constants, e.g.
   e.g. square(x),  x*y, 0, 1, etc.
 
-In most math texts you will see forall written as an upside down A ($\forall$) and exists as a backwards E ($\exists$),
-we will use that notation, but we will sometimes write them outs using ```forall x``` for $\forall x$ and ```exists x``` for $\exists x$
-
-
+  
 The Predicate Calculus is the language of Mathematics. In theory, anything that can be expressed in Mathematics can be expressed in this formalized language. A key skill is to be able to translate a statement in English into the Predicate Calculus. It will usually remove most of the ambiguity in the original English statement.  
 
 For the Propositional Calculus, the propositions could be thought of as boolean variables which are either true or false, and a propositional formula was a boolean expression as we see in Python, Java, and all other modern imperative programming languages.
@@ -24,6 +21,29 @@ For the Propositional Calculus, the propositions could be thought of as boolean 
 For the Predicate Calculus, the predicates are boolean functions over some domain D which we will usually specify ahead of time (e.g. the domain of integers, or real numbers, or strings of characters, or functions on the real numbers, etc.).  Some predicates we write in "infix" mode such as the comparison functions (=, <, >=, etc.). The Predicate calculus also allows functions from the domain D to itself, and constants (which are elements of the domain). This is a very expressive language and most people believe that any mathematical concept can be expressed in the Predicate Calculus.
 
 Our goal is to help you begin to develop the skill of translating English statements to the Predicate Calculus and to assess your mastery using a quiz. If we have time, we'll also start to talk about formal methods for proving theorems in the propositional and predicate calculus, but we'll probably have to wait until next week for that.
+
+## First Order Languages
+A first order language $L$ consists of 
+* a set of predicate symbols (P,Q,R,=,< >=, ...),
+* a set of function and constant symbols, (f,g,h, a,b,c, 0,1,2, $\pi$, $e$, $\infty$, ...)
+* a set of variables symbols (u,v,w,x,y,z...)
+For the propositional calculus, the language consisted just of proposition symbols and
+logical connectives $\wedge, \vee, \neg, \rightarrow, \leftrightarrow, \xor$
+The predicate calculus add predicate symbols, function symbols, constant symbols, variables, and constants!
+
+## Models of a first order language
+A model of a first order language gives all of the symbols a particular meaning
+which can be used to express properties of some specific domain $D$ which is the
+situation we are interested in...
+
+Thus a model consists of
+* a domain $D$ (e.g. the real numbers, or the positive integers, or the set of digits 0,...,9, etc.)
+together with an interpretation for the predicate, function, and constant symbols on that domain, i.e.
+* each predicate symbol corresponds to some boolean function on the domain $D$
+* each constant symbol corresponds to an element of the domain
+* each function symbols corresponds to a function on the domain
+
+
 
 ## Translation Examples
 Here are some examples over the domain of integers.
