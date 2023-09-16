@@ -1,12 +1,35 @@
 # CS29a Fall23 Brandeis University
 This file contains links to course notes and homework for sections 1 and 2 of CS29a in Fall 2023
 
+# Homework
+Homework will consist of readings (sometimes with reflections) and Mastery Learning App (MLA) problems.
+The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
+
+## Readings
+Most of our readings will come from the follwoing online books:
+* DM-AOI: Discrete Math: An Open Intorduction by _Oscar Levin_
+  available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
+* MfCS: Mathematics for Computer Science (from MIT) by _Lehman, Leighton, and Meyer_
+  available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
+  or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
+* PDM: Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
+  https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf
+* MFLP: A Modern Formal Logic Primer by _Paul Teller_:
+  https://tellerprimer.ucdavis.edu/
+
 ---
 
 # Lesson Notes
 We will provide notes on each lesson below.
 ---
 # Week 0
+
+### Homework - due Wednesday 9/6/2023 before class
+Read the following sections of two online books on Discrete Math
+* DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
+* DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
+* MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
 
 ## Lesson 1 Thu 8/31/2023  _Intro and overview_
 * We begin with
@@ -19,6 +42,17 @@ We will provide notes on each lesson below.
   - We get some practice in [converting between English and the Propoaitional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 ---
 # Week 1
+
+### Homework - due Monday 9/11/2023 before class
+Read 
+* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
+* Chapter 2 of PDM
+* Chapter 8 of MFLP
+  
+Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
+* Translation to Propositional Logic
+* Evaluation of Propositional Formulas
+* Truth Tables
 
 ## Lesson 2 Wed 9/6/2023 __Propositional Calculus and Boolean Algebra__
 * We begin with a review of the [syntax of formulas in the propositional calculus]( https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
@@ -37,6 +71,12 @@ We will provide notes on each lesson below.
 ---
 
 # Week 2
+
+### Homework - due Monday 9/18/2023 before class
+Read 
+* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
+
+Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/18
 
 ## Lesson 4 Mon 9/11/2023 - Inference
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
@@ -63,42 +103,10 @@ and we show that every formula can be reduced to
 
 ---
 
-# Homework
-Homework will consist of readings (sometimes with reflections) and Mastery Learning App (MLA) problems.
-The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
 
-## Readings
-Most of our readings will come from the follwoing online books:
-* DM-AOI: Discrete Math: An Open Intorduction by _Oscar Levin_
-  available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
-* MfCS: Mathematics for Computer Science (from MIT) by _Lehman, Leighton, and Meyer_
-  available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
-  or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
-* PDM: Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
-  https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf
-* MFLP: A Modern Formal Logic Primer by _Paul Teller_:
-  https://tellerprimer.ucdavis.edu/
 
-### Week 1 - due Wednesday 9/6/2023 before class
-Read the following sections of two online books on Discrete Math
-* DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
-* DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
-* MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
-and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
 
-### Week 2 - due Monday 9/11/2023 before class
-Read 
-* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
-* Chapter 2 of PDM
-* Chapter 8 of MFLP
-  
-Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
-* Translation to Propositional Logic
-* Evaluation of Propositional Formulas
-* Truth Tables
 
-### Week 3 - due Monday 9/18/2023 before class
-Read 
-* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
 
-Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/18
+
+
