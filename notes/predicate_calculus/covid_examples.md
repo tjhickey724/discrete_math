@@ -9,7 +9,7 @@ on that domain:
 * F(x) == x has a fever
 * C(x,y) == x is a close contact of y
 * R(x,y) == x and y are roommates
-* V(x) == x had the covide vaccine
+* V(x) == x had the covid vaccine
 * I(x) == x has influenza
 
 Let's translate the following formulas to predicate calculus
