@@ -30,7 +30,8 @@ Read the following sections of two online books on Discrete Math
 * MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
 
-## Lesson 1 Thu 8/31/2023  _Intro and overview_
+## Lesson 1 Thu 8/31/2023  <br> _Intro and overview_
+
 * We begin with
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
@@ -55,7 +56,7 @@ Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all o
 * Evaluation of Propositional Formulas
 * Truth Tables
 
-## Lesson 2 Wed 9/6/2023 __Propositional Calculus and Boolean Algebra__
+## Lesson 2 Wed 9/6/2023 <br> _Propositional Calculus and Boolean Algebra_
 * We begin with a review of the [syntax of formulas in the propositional calculus]( https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
 * Next we get [more practice converting propositional calculus to English and vice versa](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 * Next we show how to find the value of a propositional formula for particular values of its variables
@@ -63,7 +64,7 @@ Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all o
 
 
 
-## Lesson 3 Thu 9/7/2023 - Truth Tables
+## Lesson 3 Thu 9/7/2023 <br>  _Truth Tables_
 * We show how to [create a truth table](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTables.md)
   for a formula, this shows its value for all possible interpretations of its variables.
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
@@ -80,7 +81,7 @@ Read
 
 Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/18
 
-## Lesson 4 Mon 9/11/2023 - Inference
+## Lesson 4 Mon 9/11/2023 <br> _Inference_
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and we show that every formula can be reduced to
@@ -88,11 +89,11 @@ and we show that every formula can be reduced to
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
   
 
-## Lesson 5 Wed 9/13/2023 - The Truth Tree Method for Propositional Logic
+## Lesson 5 Wed 9/13/2023 <br> _The Truth Tree Method for Propositional Logic_
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 * We give example of using the [Truth Tree method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeMethod.md) to prove Theorems and to find counter-examples and we describe the steps of the Truth Tree method and explain why they work
 
-## Lesson 6 Thu 9/14/2023 - More Truth Tree Method Practice
+## Lesson 6 Thu 9/14/2023 <br> _More Truth Tree Method Practice_
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
 
@@ -106,9 +107,9 @@ Read
 
 Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/25
 
-## Lesson 7 Mon 9/18/2023 - The Predicate Calculus
+## Lesson 7 Mon 9/18/2023 <br> _The Predicate Calculus_
 * We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
-* We look at some examples of predicate calculus formulas in [epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
+* We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 
 ---
 
