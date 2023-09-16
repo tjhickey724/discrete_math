@@ -58,7 +58,7 @@ and we show that every formula can be reduced to
 # Week 3
 
 ## Lesson 7 Mon 9/11/2023 - The Predicate Calculus
-* We give an introduction to the Predicate Calculus as the language of Mathematics
+* We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
 
 ---
 
