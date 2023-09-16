@@ -34,7 +34,9 @@ The predicate calculus add predicate symbols, function symbols, constant symbols
 ## Models of a first order language
 A model of a first order language gives all of the symbols a particular meaning
 which can be used to express properties of some specific domain $D$ which is the
-situation we are interested in...
+situation we are interested in... The Models of Predicate Calculus are like the "interpretations"
+of the Propositional Calculus, they give a particular meaning the formulas which can then be
+evaluated to be either true or false.
 
 Thus a model consists of
 * a domain $D$ (e.g. the real numbers, or the positive integers, or the set of digits 0,...,9, etc.)
@@ -64,14 +66,10 @@ $\forall d (\exists a . p=ad) \rightarrow (d=1) \vee (d=p)$
 
 and here are some for the domain of real numbers
 
-### C. The quadratic formula over the domain R of real numbers
+### C. The quadratic formula over the domain C of complex numbers
 
-$\forall a,b,c,x . 
-  a*x^2 + b*x + c = 0 \rightarrow 
-       (  x = (-b + sqrt(b^2-4*a*c))/(2*a)
-         \vee 
-          x = (-b - sqrt(b^2-4*a*c))/(2*a)
-       )$
+$\forall a \forall b \forall c \exists d . (d^2=(b^2 -4ac)) \wedge \forall x ( ax^2 + bx + c = 0 \rightarrow x = \frac{-b + d}{2a} \vee  x = \frac{-b - d}{2a}$
+
 
 where the implies could be replaced with an iff
 
