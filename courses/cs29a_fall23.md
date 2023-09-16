@@ -19,7 +19,7 @@ Most of our readings will come from the follwoing online books:
 ---
 
 # Lesson Notes
-We will provide notes on each lesson below.
+
 ---
 # Week 0
 
