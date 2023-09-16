@@ -1,11 +1,10 @@
 # CS29a Fall23 Brandeis University
 This file contains links to course notes and homework for sections 1 and 2 of CS29a in Fall 2023
 
-# Homework
 Homework will consist of readings (sometimes with reflections) and Mastery Learning App (MLA) problems.
 The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
 
-## Readings
+## Textbooks 
 Most of our readings will come from the follwoing online books:
 * DM-AOI: Discrete Math: An Open Intorduction by _Oscar Levin_
   available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
