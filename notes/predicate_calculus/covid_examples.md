@@ -16,7 +16,7 @@ Let's translate the following formulas to predicate calculus
 
 1. Everyone that has a fever either has covid or influenza or both.
    $\forall x F(x) \rightarrow P(x) \vee I(x)$
-2. If two people are roommates, then they are close contacts.
+2. Whenever people are roommates,  they are also close contacts.
 3. Some people are close contacts but aren't roommates.
 4. Everyone that has covide has a close contact with covid.
 5. If someone has a roommate with covide and they don't have covide then they are vaccinated.
