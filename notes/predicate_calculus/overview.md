@@ -47,7 +47,7 @@ together with an interpretation for the predicate, function, and constant symbol
 
 
 
-## Translation Examples
+## Translating Mathematics statements in to the Predicate Calculus
 Here are some examples over the domain of integers.
 
 ### A.  d is a divisor of n  
@@ -74,10 +74,10 @@ $\forall a \forall b \forall c \exists d . (d^2=(b^2 -4ac)) \wedge \forall x ( a
 where the implies could be replaced with an iff
 
 ### D. every two real numbers has a number between them
-$\forall x \forall y \left ( (x\lt y) \rightarrow \exists z  (x\lt z \wedge z\lt y) \right )$
+$\forall x \forall y  ( (x \lt y) \rightarrow \exists z  (x \lt z \wedge z \lt y)  )$
 
 
-## Translation problems
+## More Translation Practice
 Now let's have you do some translation of Mathematics statements into the predicate Calculus
 
 ### E. for any two real numbers they are either equal or one is bigger than the other
