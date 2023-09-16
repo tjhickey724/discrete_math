@@ -15,11 +15,18 @@ on that domain:
 Let's translate the following formulas to predicate calculus
 
 1. Everyone that has a fever either has covid or influenza or both.
+   
    $\forall x F(x) \rightarrow P(x) \vee I(x)$
-2. Whenever people are roommates,  they are also close contacts.
-3. Some people are close contacts but aren't roommates.
-4. Everyone that has covide has a close contact with covid.
-5. If someone has a roommate with covide and they don't have covide then they are vaccinated.
-6. If everyone is vaccinated then noone has covid.
-7. If someone has covid then all of their close contacts who are not vaccinated has covid.
+   
+3. Whenever people are roommates,  they are also close contacts.
+   $\forall x \forall y . R(x,y) \rightarrow C(x,y)$
+   
+5. Some people are close contacts but aren't roommates.
+
+   $\exists a \exists b . C(a,b) \wedge \neg R(a,b)$
+   
+7. Everyone that has covide has a close contact with covid.
+8. If someone has a roommate with covide and they don't have covide then they are vaccinated.
+9. If everyone is vaccinated then noone has covid.
+10. If someone has covid then all of their close contacts who are not vaccinated has covid.
    
