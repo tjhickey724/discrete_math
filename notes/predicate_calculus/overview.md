@@ -74,26 +74,28 @@ $\forall a \forall b \forall c \exists d . (d^2=(b^2 -4ac)) \wedge \forall x ( a
 where the implies could be replaced with an iff
 
 ### D. every two real numbers has a number between them
-$\forall x. \forall y.  (x<y) \rightarrow \exists z. x<z and z<y$
+$\forall x \forall y \left ( (x\lt y) \rightarrow \exists z  (x\lt z \wedge z\lt y) \right )$
 
-Now let's let you do some translation:
+
+## Translation problems
+Now let's have you do some translation of Mathematics statements into the predicate Calculus
 
 ### E. for any two real numbers they are either equal or one is bigger than the other
 
-### F. there is a real number which is bigger than all other real numbers
+### F. there is a real number which is bigger than all other real numbers  (this is a statement but it isn't true!)
 
-### G.  x^2 is less than x if and only if x is less than 1
+### G.  x^2 is less than x if and only if x is less than 1 (this is true for the domain of positive real numbers)
 
 ### H. for any two positive numbers a,b   a*b is less than or equal to (a+b)/2 squared
 
 ## More examples
-Now lets use the domain of functions, where 
-* $A(f)$ means f is always increasing
-* $B(f,g)$  means f is always bigger than or equal to g
-* $C(f,g,h)$ means f(x)+g(x) = h(x) for all x, i.e. f+g=h
-* $E(f,g)$ means f and g are the same function
+Now lets use the domain of functions from the real numbers to the real numbers, where 
+* $A(f)$ means f is always increasing, i.e. $\forall x \forall y (x\lt y) \rightarrow f(x)\lt f(y)$
+* $B(f,g)$  means f(x) is always bigger than or equal to g(x) (i.e $\forall x f(x)\lt g(x)$
+* $C(f,g,h)$ means $\forall x f(x)+g(x) = h(x)$, i.e. f+g=h
+* $E(f,g)$ means f and g are the same function (i.e. $\forall x f(x)=g(x)$
 
-Try to convert these to predicate calculus
+Try to convert these to predicate calculus using only the predicate symbols A,B,C,E, the quantifiers, and logical connectives.
 * every function f is always increasing or there is a bigger function which is always increasing
 * if f is always increasing the so is 2f (i.e. f+f)
 * if f and g are always increasing then so is f+g
