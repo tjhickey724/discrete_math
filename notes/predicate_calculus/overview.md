@@ -100,7 +100,7 @@ Now let's have you do some translation of Mathematics statements into the predic
 ## More examples
 Now lets use the domain of functions from the real numbers to the real numbers, where 
 * $A(f)$ means f is always increasing, i.e. $\forall x \forall y (x\lt y) \rightarrow f(x)\lt f(y)$
-* $B(f,g)$  means f(x) is always bigger than or equal to g(x) (i.e $\forall x f(x)\lt g(x)$
+* $B(f,g)$  means f(x) is always bigger than or equal to g(x) (i.e $\forall x f(x)\lt g(x)$)
 * $C(f,g,h)$ means $\forall x f(x)+g(x) = h(x)$, i.e. f+g=h
 * $E(f,g)$ means f and g are the same function (i.e. $\forall x f(x)=g(x)$
 
