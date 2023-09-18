@@ -27,24 +27,32 @@ A first order language $L$ consists of
 * a set of predicate symbols (P,Q,R,=,< >=, ...),
 * a set of function and constant symbols, (f,g,h, a,b,c, 0,1,2, $\pi$, $e$, $\infty$, ...)
 * a set of variables symbols (u,v,w,x,y,z...)
+* a set of logical connectives: $\wedge, \vee, \neg, \rightarrow, \leftrightarrow, \oplus$
 
 For the propositional calculus, the language consisted just of proposition symbols and
 logical connectives $\wedge, \vee, \neg, \rightarrow, \leftrightarrow, \oplus$
-The predicate calculus add predicate symbols, function symbols, constant symbols, variables, and constants!
+The predicate calculus adds predicate symbols, function symbols, constant symbols, variables, and constants!
 
-## Models of a first order language
-A model of a first order language gives all of the symbols a particular meaning
+## Interpretations and Models in a first order language
+An interpretation of a first order language gives all of the symbols a particular meaning
 which can be used to express properties of some specific domain $D$ which is the
 situation we are interested in... The Models of Predicate Calculus are like the "interpretations"
 of the Propositional Calculus, they give a particular meaning the formulas which can then be
 evaluated to be either true or false.
 
-Thus a model consists of
+Thus an interpretation consists of
 * a domain $D$ (e.g. the real numbers, or the positive integers, or the set of digits 0,...,9, etc.)
 together with an interpretation for the predicate, function, and constant symbols on that domain, i.e.
 * each predicate symbol corresponds to some boolean function on the domain $D$
 * each constant symbol corresponds to an element of the domain
 * each function symbols corresponds to a function on the domain
+
+An interpretation is a **model for a set of formulas** in the predicate calculus if it makes all of the formulas true.
+
+The set of formulas which are true for a particular model is called the **Theory of that model**.
+
+For example, we can talk about all of the formulas which are true for integer arithmetic as the Theory of Integer Arithmetic.
+
 
 
 
