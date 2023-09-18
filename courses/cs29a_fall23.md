@@ -101,7 +101,7 @@ and we show that every formula can be reduced to
 
 # Week 3: 9/18-9/22
 
-### Homework - due Monday 9/25/2023 before class
+### Homework - due Tuesday (Brandeis Monday) 9/26/2023 before class
 Read 
 * [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
 * [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
