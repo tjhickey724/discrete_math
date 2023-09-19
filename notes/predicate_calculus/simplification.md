@@ -94,7 +94,7 @@ The idea is to think about the formula
 
 $\forall x \exists z P(x,z)$
 
-what this means is the for each $x$ in the domain $D$ we can find a $z$ in the domain $D$ such that $P(x,z)$ is true.
+what this means is that for each $x$ in the domain $D$ we can find a $z$ in the domain $D$ such that $P(x,z)$ is true.
 That means we can define a function $f$ on $D$ by letting $f(x)=z$, so we have
 
 $\forall x \exists z P(x,z) \equiv \forall x P(x,f(x))$
@@ -102,7 +102,7 @@ $\forall x \exists z P(x,z) \equiv \forall x P(x,f(x))$
 and if there are multiple universal quantifers above the existential quantifer, then we include each of those universally
 quantified variables in the function, e.g.
 
-$\forall x \forall y \forall z \exists z P(x,z) \equiv \forall x P(x,g(x,y,z))$
+$\forall x \forall y \forall z \exists w P(x,y,z,w) \equiv \forall x \forall y \forall z P(x,y,z,g(x,y,z))$
 
 We need a new function name for each quantifier we remove..
 
