@@ -40,14 +40,14 @@ $\equiv$ $\exists x \neg F(x)$
 Another important simplification is to make sure that each quantifier has its own unique variable so there is no
 confusion. Consider the formula
 
-$\forall x \forall y \; P(x,y) \rightarrow \exists x Q(x,y)$
+$\forall x \forall y  P(x,y) \rightarrow \exists x Q(x,y)$
 
 The $x$ that appears in $Q(x,y)$ is bound by the existential quantifier and so it isn't the same $x$ as in $P(x,y)$.
 
 To remove this confusion, it is better just to pick a new variable for the existential quantifier and replace all of its bound
 instances with that new variable. This gives us the following:
 
-$\forall x \forall y \; P(x,y) \rightarrow \exists z Q(z,y)$
+$\forall x \forall y  P(x,y) \rightarrow \exists z Q(z,y)$
 
 which is much easier to understand.
 
