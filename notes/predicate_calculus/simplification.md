@@ -76,6 +76,20 @@ $\neg \exists x F(x) \equiv \forall x \neg F(x)$
 ### Step 3: Skolemization
 The last step is to introduce new function symbols for each existential quantifier.
 
+If there are no universal quantifier "in front" of the existential quantifier, then we our formula looks like:
+
+$\exists x P(x)$
+
+and if this is true, then it means there is some element $x$ in the domain which makes $P(x)$ true. So we can
+pick such an element and assign it to a constant symbol, say $a$, and replace this formula with
+
+$P(a)$
+
+If we have an interpretation which makes the original formula $\exists x P(x)$ true, then we can extend that interpretation to give a value
+for $a$ which makes $P(a)$ true.
+
+It gets a little trickier if the existential quantifier has one or more universal quantifiers "above" it.
+
 The idea is to think about the formula
 
 $\forall x \exists z P(x,z)$
