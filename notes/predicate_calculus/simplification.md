@@ -126,5 +126,7 @@ $\forall x ((\exists y  \neg P(x,y)) \vee \exists z Q(x,z) )) $, then we introdu
 
 $\forall x (\neg P(x,f(x)) \vee Q(x,g(x)))$ and we are done!
 
+Notice how the $\forall y$ became a $\exists y$ after we removed the implication and applied DeMorgan's rules
+
 
 
