@@ -66,9 +66,9 @@ Next we use the DeMorgan rules to move the negations all the way in so they only
 
 $\neg (A \wedge B) \equiv \neg A \vee \neg B)$
 
-$\neg \forall x F(x) \equiv \exists x \neg F(x)$
-
 $\neg (A \vee B) \equiv (\neg A \wedge \neg B)$
+
+$\neg \forall x F(x) \equiv \exists x \neg F(x)$
 
 $\neg \exists x F(x) \equiv \forall x \neg F(x)$
 
