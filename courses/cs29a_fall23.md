@@ -112,6 +112,13 @@ Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731
 * We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 
+## Lesson 8 Wed 9/20/2023 <br> _Simplification of First Order Formulas_
+* We give an overview of the simplification rules in First Order Logic
+* We introduce the notion of inference and valid arguments in the Predicate Calculus
+
+## Lesson 9 Thu 9/21/2023 <br> _Inference in First Order Logic_
+* We show how the Truth Tree method can be used in First Order Logic
+
 ---
 
 
