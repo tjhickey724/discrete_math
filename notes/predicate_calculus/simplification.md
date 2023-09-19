@@ -90,7 +90,11 @@ quantified variables in the function, e.g.
 
 $\forall x \forall y \forall z \exists z P(x,z) \equiv \forall x P(x,g(x,y,z))$
 
-We need a new function name for each quantifier we remove...
+We need a new function name for each quantifier we remove..
+
+If we are given an interpretation for the formula in a first order language, 
+this shows us how extend that intepretation to a new language containing the new function symbols. 
+So the original formula had an interpretation that makes it true if and only if the new skolemized formula does.
 
 ### Step 4: move the quantifers to the front
 Since all of the quantifed variables are unique, and we only have universal quantifiers, we can now move them all to the front.
