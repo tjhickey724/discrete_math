@@ -51,7 +51,7 @@ $\forall x \forall y \; P(x,y) \rightarrow \exists z Q(z,y)$
 
 which is much easier to understand.
 
-## Step 1 of Simplification: replace operators by $\vee$ and $\wedge$
+### Step 1 of Simplification: replace operators by $\vee$ and $\wedge$
 The first step is to rename any quantified variables which appear in 2 or more quantifiers. Then we use the usual rules
 to replace all operators with $\vee$ or $\wedge$
 
@@ -61,7 +61,7 @@ $A \oplus B \equiv A\wedge \neg B \vee \neg A \wedge B$
 
 $A \leftrightarrow B \equiv A\wedge B \vee \neg A \wedge \neg B$
 
-## Step 2 move negation inwards
+### Step 2 move negation inwards
 Next we use the DeMorgan rules to move the negations all the way in so they only appear in front of predicates
 
 $\neg (A \wedge B) \equiv \neg A \vee \neg B)$
@@ -73,7 +73,7 @@ $\neg \forall x F(x) \equiv \exists x \neg F(x)$
 $\neg \exists x F(x) \equiv \forall x \neg F(x)$
 
 
-# Step 3: Skolemization
+### Step 3: Skolemization
 The last step is to introduce new function symbols for each existential quantifier.
 
 The idea is to think about the formula
@@ -84,5 +84,30 @@ what this means is the for each $x$ in the domain $D$ we can find a $z$ in the d
 That means we can define a function $f$ on $D$ by letting $f(x)=z$, so we have
 
 $\forall x \exists z P(x,z) \equiv \forall x P(x,f(x))$
+
+and if there are multiple universal quantifers above the existential quantifer, then we include each of those universally
+quantified variables in the function, e.g.
+
+$\forall x \forall y \forall z \exists z P(x,z) \equiv \forall x P(x,g(x,y,z))$
+
+We need a new function name for each quantifier we remove...
+
+### Step 4: move the quantifers to the front
+Since all of the quantifed variables are unique, and we only have universal quantifiers, we can now move them all to the front.
+This is called "prenex" form.
+
+# Examples
+Let's try this out!
+
+## Example 1: Simplify the following
+
+$\forall x \forall y ( P(x,y) \rightarrow \exists x Q(x,y) ) $, first we rename the $\exists x$ variable
+
+$\forall x \forall y ( P(x,y) \rightarrow \exists z Q(z,y) ) $, then we replace the implication with a $\vee$
+
+$\forall x \forall y ( \neg P(x,y) \vee \exists z Q(z,y))$, then we introduce a skolem function f(x) for z
+
+$\forall x \forall y ( \neg P(x,y) \vee Q(f(x),y))$, and we are done since the quantifiers are already at the front
+
 
 
