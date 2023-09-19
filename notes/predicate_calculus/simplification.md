@@ -81,7 +81,7 @@ If there are no universal quantifier "in front" of the existential quantifier, t
 $\exists x P(x)$
 
 and if this is true, then it means there is some element $x$ in the domain which makes $P(x)$ true. So we can
-pick such an element and assign it to a constant symbol, say $a$, and replace this formula with
+pick such an element and assign it to a new constant symbol, say $a$, and replace this formula with
 
 $P(a)$
 
