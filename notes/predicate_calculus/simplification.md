@@ -110,4 +110,17 @@ $\forall x \forall y ( \neg P(x,y) \vee \exists z Q(z,y))$, then we introduce a 
 $\forall x \forall y ( \neg P(x,y) \vee Q(f(x),y))$, and we are done since the quantifiers are already at the front
 
 
+## Example 2: Simplify the following:
+
+$\forall x (\forall y  P(x,y)) \rightarrow \exists y Q(x,y) ) $, first we rename the $\exists y$
+
+$\forall x (\forall y  P(x,y)) \rightarrow \exists z Q(x,z) ) $, then we replace the implication
+
+$\forall x \neg (\forall y  P(x,y)) \vee \exists z Q(x,z) ) $, then we apply DeMorgan's rule
+
+$\forall x (\exists y  \neg P(x,y)) \vee \exists z Q(x,z) ) $, then we introduce the Skolem functions to remove the $\exists$
+
+$\forall x \neg P(x,f(x)) \vee Q(x,g(x))  $ and we are done!
+
+
 
