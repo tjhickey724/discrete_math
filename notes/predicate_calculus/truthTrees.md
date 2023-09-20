@@ -87,7 +87,12 @@ Here is what the tree looks like when you start it.
 
 ![FOL Tree method 2](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreeMethod2.jpg)
 
+# Example 3
+So let's focus on showing that arguments are valid, and not look for counterexamples for now.
 
+Show the following is a valid argument:
+
+TO BE CONTINUED....
 
 
 
