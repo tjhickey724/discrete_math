@@ -36,6 +36,6 @@ Draw the parse trees for the following formulas
 1. $\exists y \forall x P(x,y) \rightarrow \forall x \exists y P(x,y)$
 2. $\exists x P(x) \rightarrow \forall y \exists z P(y) \wedge Q(y,z)$
 3. $\exists x P(x) \rightarrow \forall y \exists z Q(y,z) \wedge P(y)$
-4. $\forall x \forall y x<y \rightarrow \exists z x<z \wedge z<y$
+4. $\forall x \forall y x\lt y \rightarrow \exists z x\lt z \wedge z\lt y$
 
    
