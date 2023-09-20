@@ -17,9 +17,17 @@ as small as possible.
 
 ![FOL parse tree #1](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLparseTree1.jpg)
 
+## Example 2
 If we want a larger scope, we can indicate that with parentheses, for example, let's draw the parse tree for the following
 similar formula:
 
 $\forall x \exists y ( P(x,y) \rightarrow \exists z P(z,x))$
+
+Notice that the $\exists y$ now quantifies the whole implication
+
+![FOL parse tree #2](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLparseTree2.jpg)
+
+One could ask whether these two formulas are "logically equivalent" but we'll have to wait until we define what that
+means for the Predicate Calculus.
 
 
