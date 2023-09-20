@@ -76,6 +76,19 @@ Here is the Tree Method drawn out for this problem.
 
 ![FOL Tree Method 1](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreeMethod1.jpg)
 
+# Example 2
+If we try to test the validity of the converse argument
+
+
+We get a Truth Tree with a single infinite branch and not contradictions... so if we blindly applied the instantiation rules
+we would never stop and never find a counter example...
+
+Here is what the tree looks like when you start it.
+
+![FOL Tree method 2](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreeMethod2.jpg)
+
+
+
 
 
 
