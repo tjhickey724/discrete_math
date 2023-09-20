@@ -19,8 +19,8 @@ This leaves us with a set of formulas with the following properties
 In making this simplification we may have added some constants $C$ and some function symbols $F$, so we let
 $U$ be the collection of all terms that can be created using the constant symbols and function symbols, e.g.
 if 
-* $C = \{a,b\}$ and
-* $F=\{f(x,y), g(z)\}$,
+* $C = \\{a,b\\}$ and
+* $F = \\{f(x,y), g(z)\\}$,
 
 then $U$ contains terms like the following:
 
