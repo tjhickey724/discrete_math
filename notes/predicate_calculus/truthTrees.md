@@ -33,4 +33,44 @@ We can then extend the tree method by adding one new rule:
 **Instantiation**: _Any formula with quantifiers can be used to create a formula with no quantifiers 
 by replacing each quantified variable by a ground term._
 
+The problem is that there are infinitely many such instantiations, so any counter example will have an infinitely long branch
+and so it is much harder to create counter examples with this approach.
+
+
+## Example 1
+Lets use the Tree Method to show the following is a valid argument
+
+p1: $\exists x \forall y P(x,y)$
+
+............................
+
+c: $\forall y \exists x P(x,y)$
+
+The first step is to simplify the premis and the negation of the conclusion, to get
+
+p1: $\forall y P(a,y)$, we introduce the Skolem constant $a$ to replace the $\exists x$
+
+not c: $\neg \forall y \exists x P(x,y)$
+
+$\equiv \exists y \forall x \neg P(x,y)$
+
+$\equiv \forall x \neg P(x,b)$, where we introduce the Skolem constant $b$ to replace the $\exists y$
+
+So we now have two universally quantified formulas:
+
+1. $\forall y P(a,y)$
+2. $\forall x \neg P(x,b)$
+
+For the first one, we can create a new formula by letting $y=b$ and fot the second let $x=a$, then we get two new formulas
+
+3. $P(a,b)$, replacing $y=b$ in #1
+4. $\neg P(a,b)$, replacing $x=a$ in $2$
+
+and this says we must have $P(a,b)=True$ and $P(a,b)=False$ which is a contradiction, so we can close this branch,
+and since this is the only branch the argument is valid.
+
+This means that for any domain D and any predicate $P$ on that domain, if  $\exists x \forall y P(x,y)$ is true
+then $\forall y \exists x P(x,y)$ must also be true!
+
+
 
