@@ -111,9 +111,10 @@ $\equiv \forall x \neg F \wedge T \equiv \forall x T \equiv T$
 Try the following yourself. Are they true or false, and explain why...
 
 1. $P(a,b) \rightarrow P(g(a),f(b)$
-2. $\exists x P(a,x) and P(x,a)$
+2. $\exists x P(a,x) \wedge P(x,a)$
 3. $\forall x \exists y  P(x,y)$
 4. $\exists x \forall y  P(x,y)$
+5. $\forall x \forall y P(x,y)\vee P(y,x) \rightarrow P(x,y) \xor P(y,x)$
 
 
 
