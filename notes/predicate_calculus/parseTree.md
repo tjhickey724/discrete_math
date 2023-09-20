@@ -12,7 +12,14 @@ Let's draw the parse tree for
 
 $\forall x \exists y P(x,y) \rightarrow \exists z P(z,x)$
 
+Notice that the $\exists y$ only quantifies $P(x,y)$. In general, the convention is to make the scope of a quantifier
+as small as possible.
+
 ![FOL parse tree #1](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLparseTree1.jpg)
 
+If we want a larger scope, we can indicate that with parentheses, for example, let's draw the parse tree for the following
+similar formula:
+
+$\forall x \exists y ( P(x,y) \rightarrow \exists z P(z,x))$
 
 
