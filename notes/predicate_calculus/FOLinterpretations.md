@@ -31,7 +31,7 @@ $(4+7 \lt 0) \wedge (7\le 0 \rightarrow (4\gt 0)$
 
 Then we evaluate the predicates
 
-$11\lt 0 = F$, $7 \le 0 = T$, $4 \gt 0$ = T
+$11\lt 0 = F$, $7 \le 0 = F$, $4 \gt 0$ = T
 
 and finally evaluate the result boolean formula:
 
