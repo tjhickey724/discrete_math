@@ -116,9 +116,10 @@ Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731
 * We give an overview of [the simplification rules in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/simplification.md)
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
 * We show [how to evaluate a First Order Formula given an Interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLinterpretations.md).
-* We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
+
 
 ## Lesson 9 Thu 9/21/2023 <br> _Inference in First Order Logic_
+* We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 * We show how the Truth Tree method can be used in First Order Logic
 
 ---
