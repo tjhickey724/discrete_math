@@ -31,13 +31,13 @@ $(4+7 \lt 0) \wedge (7\le 0 \rightarrow (4\gt 0)$
 
 Then we evaluate the predicates
 
-$11\lt 0 = T$, $7 \le 0 = F$, $4 \gt 0$ = T
+$11\lt 0 = F$, $7 \le 0 = T$, $4 \gt 0$ = T
 
 and finally evaluate the result boolean formula:
 
-$T \wedge (F \rightarrow T)$
-$\equiv T \wedge T$
-$\equiv T$
+$F \wedge (F \rightarrow T)$
+$\equiv F \wedge T$
+$\equiv F$
 
 ## Example 2.
 Lets try a different example. Let $D$ be the domain consisting of the digits $\{1,2,3,4\}$
