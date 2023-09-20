@@ -123,9 +123,9 @@ $\forall x \forall y ( P(x,y) \rightarrow \exists x Q(x,y) ) $, first we rename 
 
 $\forall x \forall y ( P(x,y) \rightarrow \exists z Q(z,y) ) $, then we replace the implication with a $\vee$
 
-$\forall x \forall y ( \neg P(x,y) \vee \exists z Q(z,y))$, then we introduce a skolem function f(x) for z
+$\forall x \forall y ( \neg P(x,y) \vee \exists z Q(z,y))$, then we introduce a skolem function f(x,y) for z
 
-$\forall x \forall y ( \neg P(x,y) \vee Q(f(x),y))$, and we are done since the quantifiers are already at the front
+$\forall x \forall y ( \neg P(x,y) \vee Q(f(x,y),y))$, and we are done since the quantifiers are already at the front
 
 
 ## Example 2: Simplify the following: $\forall x( (\forall y  P(x,y)) \rightarrow \exists y Q(x,y) )) $
