@@ -8,7 +8,11 @@ for the universal and existential quantifiers. These nodes have one child, which
 is being quantified.
 
 ## Example 1
-Draw the parse tree for 
+Let's draw the parse tree for 
 
-$\forall x \exists y P(x,y) \rightarrow \exists z P(y,z)$
+$\forall x \exists y P(x,y) \rightarrow \exists z P(z,x)$
+
+![FOL parse tree #1](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLparseTree1.jpg)
+
+
 
