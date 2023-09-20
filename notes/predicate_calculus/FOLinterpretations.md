@@ -82,7 +82,7 @@ Let $I$ be the usual interpretation for integer arithmetic, and extend it so tha
 * $I(g)$ is also the increment function
 * $I(a)=10$ and $I(b)=20$
 * $I(P)$ is the "less than" predicate, that is  $P(x,y) \equiv (x\lt y)$
-What is the truth value of the following formulas:
+What are the truth values of the following formulas:
 
 1. $\neg P(g(a),a) \wedge P(a,f(a))$
 2. $\forall x \neg P(g(x),x) \wedge P(x,f(x))$
