@@ -30,4 +30,12 @@ Notice that the $\exists y$ now quantifies the whole implication
 One could ask whether these two formulas are "logically equivalent" but we'll have to wait until we define what that
 means for the Predicate Calculus.
 
+## Try some yourself
+Draw the parse trees for the following formulas
 
+1. $\exists y \forall x P(x,y) \rightarrow \forall x \exists y P(x,y)$
+2. $\exists x P(x) \rightarrow \forall y \exists z P(y) \wedge Q(y,z)$
+3. $\exists x P(x) \rightarrow \forall y \exists z Q(y,z) \wedge P(y)$
+4. $\forall x \forall y x<y \rightarrow \exists z x<z \wedge z<y$
+
+   
