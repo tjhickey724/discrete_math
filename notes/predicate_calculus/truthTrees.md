@@ -72,5 +72,11 @@ and since this is the only branch the argument is valid.
 This means that for any domain D and any predicate $P$ on that domain, if  $\exists x \forall y P(x,y)$ is true
 then $\forall y \exists x P(x,y)$ must also be true!
 
+Here is the Tree Method drawn out for this problem.
+
+![FOL Tree Method 1](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreeMethod1.jpg)
+
+
+
 
 
