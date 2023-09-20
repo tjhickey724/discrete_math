@@ -80,8 +80,8 @@ Try the others!
 Let $I$ be the usual interpretation for integer arithmetic, and extend it so that
 * $I(f)$ is the increment function $s(x)=x+1$ and
 * $I(g)$ is also the increment function
-* $I(a)=10$ and
-* $I(P)$ is the "less than" predicate, that is  $P(x,y) \equiv (x<y)$
+* $I(a)=10$ and $I(b)=20$
+* $I(P)$ is the "less than" predicate, that is  $P(x,y) \equiv (x\lt y)$
 What is the truth value of the following formulas:
 
 1. $\neg P(g(a),a) \wedge P(a,f(a))$
@@ -104,11 +104,16 @@ $\forall x \neg P(g(x),x) \wedge P(x,f(x))$
 
 $\equiv \forall x \neg P(x+1,x) \wedge P(x,x+1)$
 
-$\equiv \forall x \neg (x+1\lt x) \wedge (x\lt x+1)$
-
-and since we know that $ x\lt x+1$ for all x, 
+$\equiv \forall x \neg (x+1\lt x) \wedge (x\lt x+1)$, and since we know that $x\lt x+1$ for all x, 
 
 $\equiv \forall x \neg F \wedge T \equiv \forall x T \equiv T$
+
+Try the following yourself. Are they true or false, and explain why...
+
+1. $P(a,b) \rightarrow P(g(a),f(b)$
+2. $\exists x P(a,x) and P(x,a)$
+3. $\forall x \exists y  P(x,y)$
+4. $\exists x \forall y  P(x,y)$
 
 
 
