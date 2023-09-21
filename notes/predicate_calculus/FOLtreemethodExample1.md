@@ -1,5 +1,9 @@
 # Example of using the Tree Method in Predicate Calculus
 
+We'll give an example here of solving a "word problem" by converting it to
+a formal argument in First Order Logic and then using formal methods to
+determine if the argument is valid or not. 
+
 Let's try to formally determine if the following argument is valid or not
 by translating it into the predicate calculus and then using the Tree method.
 
@@ -14,6 +18,11 @@ Consider the following argument
 You might first try to determine, informally, if this is a valid argument.
 Suppose the domain is all students at the University and all of the premises are true,
 does it follow that no students have tested positive? Why or why not?
+
+Just because you find one interpretation that makes all of the premises true
+and makes the conclusion true, doesn't show it is a valid argument. You need to
+show that for any interpretation (with any non-empty domain), if the premises
+are true then the conclusion will also be true!
 
 ---
 
