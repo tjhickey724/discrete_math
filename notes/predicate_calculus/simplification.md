@@ -134,7 +134,7 @@ Simplify: $\forall x( (\forall y  P(x,y)) \rightarrow \exists y Q(x,y) )) $
 
 $\forall x( (\forall y  P(x,y)) \rightarrow \exists y Q(x,y) )) $, first we rename the $\exists y$
 
-$\forall x ((\forall y  P(x,y)) \rightarrow \exists z Q(x,z) ) )$, then we replace the implication
+$\forall x ((\forall y  P(x,y)) \rightarrow \exists z Q(x,z) ) )$, then we replace the implication with a disjunction
 
 $\forall x( \neg (\forall y  P(x,y)) \vee \exists z Q(x,z) )) $, then we apply DeMorgan's rule
 
