@@ -25,8 +25,8 @@ Conclusion: No one has tested positive.
 * P1: $\forall x \forall y (C(x,y) \rightarrow C(y,x)))$
 * P2: $\forall x \forall y P(x)\wedge C(x,y) \rightarrow Q(y)$
 * P3: $\forall x \exists y C(x,y)\wedge S(y)$
-* P4: $\neg \exists x S(x) \wedge Q(x)$
-* Conclusion: $\neg exists x P(x)$
+* P4: $\forall x S(x) \rightarrow \neg Q(x)$
+* Conclusion: $\neg \exists x P(x)$
 
 ## Step 3: negate the conclusion and simplify the formulas
 
