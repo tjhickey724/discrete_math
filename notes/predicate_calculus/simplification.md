@@ -51,7 +51,7 @@ $\forall x \forall y  P(x,y) \rightarrow \exists z Q(z,y)$
 
 which is much easier to understand.
 
-### Step 1 of Simplification: replace operators by $\vee$ and $\wedge$
+### Step 1 of Simplification: replace operators by disjunctions and conjunctions
 The first step is to rename any quantified variables which appear in 2 or more quantifiers. Then we use the usual rules
 to replace all operators with $\vee$ or $\wedge$
 
