@@ -11,11 +11,14 @@ Most of our readings will come from the follwoing online books:
 * MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
    <br> also available as a 
   [website](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/)
-## Additional Reading
-* PDM: [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf) by _Chung-Chih Li and Kishan Mehrotra_
-* MFLP: [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/) by _Paul Teller_:
   
-* TLN: [The Logic Notes](https://users.cecs.anu.edu.au/~jks/LogicNotes/index.html) by John Slaney
+## Additional Texts
+* PDM: [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
+  by _Chung-Chih Li and Kishan Mehrotra_
+* MFLP: [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
+  by _Paul Teller_ 
+* TLN: [The Logic Notes](https://users.cecs.anu.edu.au/~jks/LogicNotes/index.html)
+  by _John Slaney_
 
 ---
 
