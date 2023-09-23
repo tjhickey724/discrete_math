@@ -124,12 +124,18 @@ Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731
 
 ## Lesson 9 Thu 9/21/2023 <br> _Inference in First Order Logic_
 * We give an overview of [the simplification rules in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/simplification.md)
-* We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
-* We show [how the Truth Tree method can be used in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truthTrees.md)
 * We give [an example of translating an argument to the predicate calculus and using the tree method to test its validity](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
 
 ---
 
+# Week 4: 9/25-9/29
+
+### Homework
+To be announced
+
+## Lesson 10 Tue 9/26/2023 <br> _Truth Trees for Predicate Calculus_
+* We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
+* We show [how the Truth Tree method can be used in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truthTrees.md)
 
 
 
