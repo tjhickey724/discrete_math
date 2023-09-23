@@ -7,7 +7,7 @@ The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
 ## Textbooks 
 Most of our readings will come from the follwoing online books:
 * DM-AOI: [Discrete Math: An Open Intorduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html) by _Oscar Levin_
-* MfCS: Mathematics for Computer Science (from MIT) by _Lehman, Leighton, and Meyer_
+* MfCS: Mathematics for Computer Scienceby _Lehman, Leighton, and Meyer_
   [pdf](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) or
   [website](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/)
 ## Additional Reading
