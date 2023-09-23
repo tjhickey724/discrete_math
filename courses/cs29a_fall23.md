@@ -6,15 +6,15 @@ The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
 
 ## Textbooks 
 Most of our readings will come from the follwoing online books:
-* DM-AOI: Discrete Math: An Open Intorduction by _Oscar Levin_
-  available at https://discrete.openmathbooks.org/dmoi3/dmoi.html
+* DM-AOI: [Discrete Math: An Open Intorduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html) by _Oscar Levin_
 * MfCS: Mathematics for Computer Science (from MIT) by _Lehman, Leighton, and Meyer_
-  available at as a pdf at https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
-  or in an online form as https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/
-* PDM: Problems in Discrete Math by _Chung-Chih Li and Kishan Mehrotra_
-  https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf
-* MFLP: A Modern Formal Logic Primer by _Paul Teller_:
-  https://tellerprimer.ucdavis.edu/
+  [pdf](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) or
+  [website](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/)
+## Additional Reading
+* PDM: [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf) by _Chung-Chih Li and Kishan Mehrotra_
+* MFLP: [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/) by _Paul Teller_:
+  
+* TLN: [The Logic Notes](https://users.cecs.anu.edu.au/~jks/LogicNotes/index.html) by John Slaney
 
 ---
 
