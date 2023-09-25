@@ -92,6 +92,17 @@ So let's focus on showing that arguments are valid, and not look for counterexam
 
 Let's look now at [the example of the soccer players who aren't quarantined](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md)
 
+The simplified rules are all universally quantified disjunctions and we needed to introduce 
+* a Skolem constant $a$ for the person who tests positive, and
+* a Skolem function $f$ where $f(x)$ is the close contact of $x$ who plays soccer
+
+We can then replace the universally quantified variables with any expressions formed from the
+Skolem constants and functions. In this case, with $a, f(a), f(f(a)), \ldots$.
+
+The trick is to find just the instantiations you need to close every branch!
+
+The tree below shows one way of doing this....
+
 ![Truth Tree Soccer](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truth_tree_soccer.jpg)
 
 
