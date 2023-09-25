@@ -56,6 +56,12 @@ Let's apply the simplification rules to the premises and the negation of the con
 to get a set of universally quantified formulas containing only $\wedge$ and $\vee$
 and predicates or their negations.
 
+* P1: $\forall x \forall y (\neg C(x,y) \vee C(y,x)))$
+* P2: $\forall x \forall y \neg P(x)\vee \neggC(x,y) \vee Q(y)$
+* P3: $\forall x C(x,f(x))\wedge S(f(x)))$, where $f(x)$ is a soccer player who is a close contact of x
+* P4: $\forall x \neg S(x) \vee \neg Q(x)$
+* Negation of Conclusion: $\exists x P(x) \equiv  P(a)$, where $a$ is the person who tested positive
+
 Lets say, explicitly, what the skolem functions are for the interpretation 
 where the domain is students at the University.
 
