@@ -126,7 +126,7 @@ Here is another proof in plain English.
 * by P3 every person 'a' has a close contact 'f(a)' who is a soccer player
 * by P4, that soccer player 'f(a)' is not in quarantine
 * by the contrapositive of P2, no close contact of 'f(a)' can test positive, so 'a' is not positive
-* so every person does not test positive, i.e. there is noone who tests positive.
+* so every person does not test positive, i.e. there is no one who tests positive.
 
   
 
