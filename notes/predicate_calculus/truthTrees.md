@@ -90,7 +90,7 @@ Here is what the tree looks like when you start it.
 # Example 3
 So let's focus on showing that arguments are valid, and not look for counterexamples for now.
 
-Let's look now at the example of the soccer players who aren't quarantined!
+Let's look now at [the example of the soccer players who aren't quarantined](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md)
 
 ![Truth Tree Soccer](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truth_tree_soccer.jpg)
 
