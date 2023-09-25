@@ -105,6 +105,16 @@ The tree below shows one way of doing this....
 
 ![Truth Tree Soccer](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truth_tree_soccer.jpg)
 
+We can translate this into a natural language proof as follows:
+
+* If someone, say 'a', tests positive, then
+* we know by P2, that 'a' has a close associate 'f(a)' that is a soccer player
+* and by P1 since 'a' tested positive and 'a' is a close associate of 'f(a)', 'f(a)' must be quarantined.
+* But by P4, no soccer player is quarantined, so 'f(a)' is not quarantined.
+* This contradiction shows that there can not be any one who tests positive.
+
+
+
 
 
 
