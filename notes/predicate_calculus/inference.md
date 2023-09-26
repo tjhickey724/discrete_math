@@ -35,7 +35,9 @@ Lets consider some simple arguments and see if we can show they are valid or fin
 
 ### Example 1.
 $\exists x \forall y P(x,y)$
+
 ...................
+
 $\forall y \exists x P(x,y)$
 
 
