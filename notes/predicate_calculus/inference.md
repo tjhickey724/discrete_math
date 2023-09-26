@@ -39,5 +39,7 @@ $\exists x \forall y P(x,y)$
 $\forall y \exists x P(x,y)$
 
 
+[More Examples](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
+
 
 
