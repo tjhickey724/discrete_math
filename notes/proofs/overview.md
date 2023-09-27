@@ -34,10 +34,11 @@ otherwise it is odd, that is $x=2d+1$ for some d, that is
 Let's prove that if $n$ is even then $n^2$ is even.
 
 **Proof:** 
-_if n is even then n=2k for some integer k, 
+<br>
+if n is even then n=2k for some integer k, 
 <br>
 so $n^2=(2k)^2 = 4k^2 = 2(2k^2)$, <br> so it $n$ a multiple of 2,
-<br> hence it is even. Q.E.D._
+<br> hence it is even. Q.E.D.
 
 The Q.E.D. stands for _Quod Erat Demonstrandum_ which is Latin for "what was to be shown"
 and is often found at the end of a proof signalling that the proof is over.
