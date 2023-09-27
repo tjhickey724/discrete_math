@@ -140,7 +140,7 @@ To be announced
 ## Lesson 11 Wed 9/27/2023 <br> _More Truth Trees for Predicate Calculus_
 * We get more practice using the Truth Tree method to show arguments are valid
   * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
-  * and looking at the Peano Axiomatization of Arithmetic.
+  * and looking at [the Peano Axiomatization of Arithmetic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/peanoAxioms.md).
 
 
 
