@@ -137,6 +137,12 @@ To be announced
 * We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 * We show [how the Truth Tree method can be used in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truthTrees.md)
 
+## Lesson 11 Wed 9/27/2023 <br> _More Truth Trees for Predicate Calculus_
+* We get more practice using the Truth Tree method to show arguments are valid
+  * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
+  * and looking at the Peano Axiomatization of Arithmetic.
+
+
 
 
 
