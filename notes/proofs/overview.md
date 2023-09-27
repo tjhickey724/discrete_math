@@ -26,9 +26,9 @@ Let's look at some examples, and have you try to create your own proofs...
 ## Direct Proofs
 Lets consider the domain of integers (0,1,2,..., -1,-2,...).
 A number is even if it is a multiple of 2, that is
-* forall x (even(x) \leftrightarrow \exists d (x = 2*d)$
+* $forall x (even(x) \leftrightarrow \exists d (x = 2d)$
 
-otherwise it is odd.
+otherwise it is odd, that is $x=2d+1$ for some d
 
 Let's prove that if $n$ is even then $n^2$ is even.
 
