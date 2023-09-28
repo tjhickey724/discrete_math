@@ -100,6 +100,14 @@ If we can find statements $A$ and $B$ such that at least one of them is true, an
 
 Let's use this to prove that $n^2 + n$ is always even, by looking at the two cases $n$ is even and $n$ is odd.
 
+Proof:
+* case 1: assume $n$ is even, then $n=2k$ so $n^2+n = (2k)^2 + 2k = 4k^2+2k = 2(2k^2+k)$ is a multiple of 2, hence even.
+* case 2: assume $n$ is odd, then $n=2k+1$ so $n^2 +n = 4k^2 + 4k + 1 + 2k +1 = 4k^2 + 6k + 2 = 2(2k^2+3k+1)$ is a multiple of 2, hence even.
+
+Since $n$ must either be even or odd, and in both cases $n^2+n$ is even, we see that $n^2+n$ is even for all $n$.
+
+Note: we could prove this directly by noting that $n^2+n = n(n+1)$ and since either $n$ or $n+1$ must be even, so must their product!
+
 ## Proof by contradiction
 This is the method we've been using in our formal proofs. To prove that $A \rightarrow B$, assume $A$ is true but $B$ is false and show this generates a contradication and hence can't be true.  Thus whenever $A$ is true, $B$ can't be false, so $B$ must also be true.
 
@@ -113,6 +121,32 @@ So $n=2k$ for some integer $k$, so $n^2 = (2k)^2 = 2(2k^2)$ is a multiple of 2 a
 This contradicts our premise that $n^2$ is odd, so $n$ can not be even, so it must be odd.
 <br>
 **QED**
+
+## Interesting Application.
+Let's use these techniques to prove something more interesting, that the square root of 2 is irrational, that is, can't be expressed as a fraction $a/b$ where $a$ and $b$ are integers.
+
+We will prove this by contradiction. Assume $\sqrt{2} = a/b$ for integers $a$ and $b$.
+
+We know that we can remove any common factors of $a$ and $b$ to put the fraction in lowest terms (why??)
+
+so we can assume that they are not both even (why?)
+
+so $\sqrt{2}=a/b$ iff $2 = (a/b)^2$ iff $2=a^2/b^2$ iff $2b^2 = a^2$. So $a^2 is even, and hence by our results above $a$ must be even.
+
+Hence $a=2k$ for some integer $k$.
+
+Thus $2b^2=a^2$ iff $2b^2=(2k)^2$ iff $2b^2 = 4k^2$ iff $b^2=2k^2$ by factoring 2 out of both sides.
+
+So $b^2$ is even, hence by our results above $b$ must be even.
+
+But we chose $a$, $b$ so that $a/b$ was in lowest terms and hence they can't both be divisible by $2$.
+
+This contradiction shows that $\sqrt{2}$ can not be a rational number, hence it is irrational.
+
+**QED**
+
+
+
 
 
 
