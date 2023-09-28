@@ -104,7 +104,7 @@ Let's try to use one of these methods to prove
 This is a very common approach. Suppose we want to prove that some statement $C$ is true.
 If we can find statements $A$ and $B$ such that at least one of them is true, and we can show that each implies $C$
 (i.e. we show $C$ is true in each of these two cases), then we know $C$ must always be true.
-* $(A\vee B) \wedge (A\leftarrow C) \wedge (B\leftarrow C) \rightarrow C$
+* $(A\vee B) \wedge (A\rightarrow C) \wedge (B\rightarrow C) \rightarrow C$
 
 Let's use this to prove that $n^2 + n$ is always even, by looking at the two cases $n$ is even and $n$ is odd.
 
