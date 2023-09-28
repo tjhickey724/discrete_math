@@ -13,7 +13,7 @@ will focus on "informal" proofs.
 
 We will learn how to use the following proof techniques:
 * **direct proof** - show that the conclusion follows from the premises by direct application of the premises
-* * **contrapositive proof** - to show that $A\rightarrow B$, prove the equivalent $\neg B \rightarrow \neg A$
+* **contrapositive proof** - to show that $A\rightarrow B$, prove the equivalent $\neg B \rightarrow \neg A$
     <br> $A\rightarrow B \equiv  \neg A \vee B \equiv \neg\neg B \vee \neg A \equiv \neg B \rightarrow \neg A$
 * **proof by contradiction** - assuming that the conclusion is false and using  the premises to generate a contradiction, which shows the conclusion can not be false
     <br> $(P\wedge \neg C)\rightarrow {\rm false} \equiv \neg (P \wedge \neg C) \equiv \neg P \vee C \equiv P \rightarrow C$
