@@ -37,13 +37,17 @@ Let's prove that if $n$ is even then $n^2$ is even.
 <br>
 if n is even then n=2k for some integer k, 
 <br>
-so $n^2=(2k)^2 = 4k^2 = 2(2k^2)$, <br> so it $n$ a multiple of 2,
+so $n^2=(2k)^2 = 4k^2 = 2(2k^2)$, 
+<br> so it $n^2$ a multiple of 2,
 <br> hence it is even. Q.E.D.
 
 The Q.E.D. stands for _Quod Erat Demonstrandum_ which is Latin for "what was to be shown"
 and is often found at the end of a proof signalling that the proof is over.
 
-Let's have you give a direct proof that if $x$ is odd, then so is $x^2$.
+Let's have you give a direct proof of the following:
+* if $x$ is odd, then so is $x^2$.
+* if $x$ and $y$ are even, then so is $x+y$
+* $x*y$ is even if $x$ or $y$ is
 
 
 
