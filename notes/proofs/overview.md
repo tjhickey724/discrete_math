@@ -6,6 +6,12 @@ Computer Scientists as there are many cases where we want to clearly explain why
 our algorithms and programs are correct and efficient, and the best way to do that is with a
 well-designed proof.
 
+## Nomenclature
+We often label the results that we prove as one of the following three kinds of statements:
+* **Theorem** - this is a major result which is interesting in its own right
+* **Proposition** - this is a true fact which is somewhat interesting, but mainly because it is used to prove a theorem
+* **Lemma** - this is a true result, which is only interesting because it is used to prove other more interesting things.
+
 There are usually many different ways we prove that an argument is valid.
 We have seen that there are formal methods for proving validity, but these quickly
 become too messy and complex when trying to prove interesting propositions, so we
@@ -38,6 +44,8 @@ otherwise it is odd, that is $x=2d+1$ for some d, that is
 * $\forall x ({\rm odd}(x) \leftrightarrow \exists d (x = 2d+1))$
 
 Let's prove that if $n$ is even then $n^2$ is even.
+
+**Lemma 1:** if $n$ is even, then $n^2$ must be even.
 
 **Proof:** 
 <br>
@@ -125,6 +133,9 @@ This contradicts our premise that $n^2$ is odd, so $n$ can not be even, so it mu
 ## Interesting Application.
 Let's use these techniques to prove something more interesting, that the square root of 2 is irrational, that is, can't be expressed as a fraction $a/b$ where $a$ and $b$ are integers.
 
+**Theorem 1 ** $\sqrt{2} is an irrational number.
+
+**Proof**
 We will prove this by contradiction. Assume $\sqrt{2} = a/b$ for integers $a$ and $b$.
 
 We know that we can remove any common factors of $a$ and $b$ to put the fraction in lowest terms (why??)
