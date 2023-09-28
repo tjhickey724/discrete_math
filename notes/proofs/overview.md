@@ -13,8 +13,12 @@ will focus on "informal" proofs.
 
 We will learn how to use the following proof techniques:
 * **direct proof** - show that the conclusion follows from the premises by direct application of the premises
+* * **contrapositive proof** - to show that $A\rightarrow B$, prove the equivalent $\neg B \rightarrow \neg A$
+    <br> $A\rightarrow B \equiv  \neg A \vee B \equiv \neg\neg B \vee \neg A \equiv \neg B \rightarrow \neg A$
 * **proof by contradiction** - assuming that the conclusion is false and using  the premises to generate a contradiction, which shows the conclusion can not be false
+    <br> $(P\wedge \neg C)\rightarrow {\rm false} \equiv \neg (P \wedge \neg C) \equiv \neg P \vee C \equiv P \rightarrow C$
 * **proof by cases** - showing that $a1\rightarrow c$ and  $a2\rightarrow c$ and $\ldots$ and $an\rightarrow c$ and  and at least one of a1, a2,...., an must be true, so $c$ must be true.
+   <br> $(A\vee B) \wedge (A\rightarrow C) \wedge (B \rightarrow C)  \rightarrow C$
 * **proof by induction** - showing that some statement P(n) is true for every $n\ge 0$ by showing it is true for $n=0$ and
   showing that $\forall n (P(n) \rightarrow P(n+1))$, hence $P(0)$ is true and so is $P(1)$ and $P(2)$ and $P(3)$ etc....
 
