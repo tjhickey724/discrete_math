@@ -42,10 +42,9 @@ A concluding sentence (or pargraph) stating that the proof is complete and expla
 
 ## Examples of proofs
 Let's now look at some proofs and see how they are structured.
-[Chapter 1.1-1.6 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/)
+* [Chapter 1.1-1.6 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/)
 has several good examples of proofs, as does
-
-[Chapter 1.7-1.9 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+* [Chapter 1.7-1.9 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
 
 We'll look at some of these and then have you practice writing some proofs using the exercises at the end of Chapter 1.
 
