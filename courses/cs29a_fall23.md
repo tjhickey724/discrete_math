@@ -146,7 +146,13 @@ To be announced
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 
 
+# Week 5: 10/2-10/6
 
+### Homework
+
+## Lesson 13 Mon 10/2/2023 <br> _Practice with Proof Techniques_
+* We complete the overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
+* We review the features of a "good" proof as explained in MfCS
 
 
 
