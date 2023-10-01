@@ -40,3 +40,22 @@ with formulas and equations intermixed as needed.
 A concluding sentence (or pargraph) stating that the proof is complete and explaining why, if needed.
 ```
 
+## Examples of proofs
+Let's now look at some proofs and see how they are structured.
+[Chapter 1.1-1.6 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/)
+has several good examples of proofs, as does
+
+[Chapter 1.7-1.9 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+
+We'll look at some of these and then have you practice writing some proofs using the exercises at the end of Chapter 1.
+
+* Theorem 1.5.1 on page 12, an example of a direct proof
+  * now you use the same approach to prove that $n^3-3n^2+2n$ is divisible by 3 for all integers $n$
+* Theorem 1.5.2 on page 13, a proof by contradiction
+  * now you prove that the $n$th room of any irrational number $r$ is irrational, for all $n>0$
+* Theorem 1.6.1 on page 14, a proof by chain of iff's
+* Theorem 1.7 on clubs and groups, a proof by cases...
+* Theorem 1.8.1, a proof by contradiction
+  * now you prove that the nth root of any integer m is either an integer or is irrational, for all n>0 and m>0
+  * similarly we can prove that a root of any monic polynomial with integer coefficients, is either an integer or is irrational
+ 
