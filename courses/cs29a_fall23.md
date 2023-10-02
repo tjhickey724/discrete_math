@@ -152,7 +152,7 @@ To be announced
 
 ## Lesson 13 Mon 10/2/2023 <br> _Practice with Proof Techniques_
 * We complete the overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
-* We review the features of a "good" proof as explained in MfCS
+* We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 
 
 
