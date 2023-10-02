@@ -6,9 +6,34 @@ variables typically are single letters in the latin font (a,b,c,...,x,y,z)
 but sometime other character sets are used. Most common are 
 [greek letters]([https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols)https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols):
 
-* alpha $\alpha$ $A$
-* beta $\beta$ $B$
-* gamma $\gamma$ $\Gamma$
-* delta $\delta$ $\Delta$
-* epsilon $\epsilon$ $E$
-* 
+| name | lowercase | upper case |
+|--- | --- | --- |
+|alpha| $\alpha$| $A$|
+| beta |$\beta$ |$B$|
+| gamma |$\gamma$| $\Gamma$|
+| delta |$\delta$ |$\Delta$|
+| epsilon |$\epsilon$ |$E$|
+| ... | ... | ...|
+
+And sometimes letters from other alphabets such as Hebrew $\aleph$
+
+## Subscripts
+We often add subscripts to a variable so we can refer to a sequence of values, e.g.
+* $a_1,a_2,\ldots,a_n$
+
+and we refer to one of these variables using an index variable for the subscript
+* $a_i$
+
+If we need a table of values, we can use two subscripts
+
+| ...| column1 | column2 |column3 |
+|---|---|---|---|
+|row 1 | $a_{1,1}$ | $a_{1,2}$ | $a_{1,3}$ |
+|row 2 | $a_{2,1}$ | $a_{2,2}$ | $a_{2,3}$ |
+
+and we refer to one of these variables with index variables (typically $i,j,k,...$
+
+In general we can have as many subscripts on a variable as we need
+* $b_{i,,k}$, $c_{r,s,t,u,v}$
+
+but it gets confusing to have too many subscripts
