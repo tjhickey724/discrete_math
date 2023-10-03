@@ -57,3 +57,20 @@ In general we can have as many subscripts on a variable as we need
 * $b_{i,,k}$, $c_{r,s,t,u,v}$
 
 but it gets confusing to have too many subscripts
+
+## Summation and Product formulas
+It is very common to write expressions that represent summations. We do this using the capital greek letter Sigma which allows us to write a sum of several terms in a compressed fashion. For example
+
+$\sum_\limits{i=0}^3 a_i  = a_0 + a_1 + a_2 + a_3$
+
+which we could also write as
+
+$\sum_\limits{0\le i \le 3} a_i  = a_0 + a_1 + a_2 + a_3$
+
+The constraint beneath the sigma specifies the values that should be used in the summation.
+
+Likewise, we use the capital greek letter Pi to indicate products. For example,
+
+$\prod\limits_{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
+
+
