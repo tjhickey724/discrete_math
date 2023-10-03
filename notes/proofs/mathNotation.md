@@ -15,6 +15,26 @@ but sometime other character sets are used. Most common are
 | gamma |$\gamma$| $\Gamma$|
 | delta |$\delta$ |$\Delta$|
 | epsilon |$\epsilon$ |$E$|
+| zeta | $\zeta$ | Z|
+|eta | $\eta$ | H |
+|theta | $\theta$| $\Theta $|
+| iota |$\iota$ | I |
+| kappa | $\kappa$ | K|
+|lambda | $\lambda$ | $\Lambda$ |
+| mu | $\mu$ | M |
+| nu | $\nu$ | N |
+| xi | $\xi$ | $\Xi$ |
+| omicron | o | O|
+| pi | $\pi$ | $\Pi$|
+| rho | $\rho$ | $\Rho$ |
+|sigma | $\sigma$ | $\Sigma$ |
+| tau | $\tau$ | T|
+|upsilon | $\upsilon$ | $\Upsilon$ |
+| phi | $\phi$ | $\Phi$ |
+| chi | $\chi$ | X |
+| psi | $\psi$ | $\Psi$ |
+| omega | $\omega$ | $\Omega$|
+
 | ... | ... | ...|
 
 And sometimes letters from other alphabets such as Hebrew $\aleph$
