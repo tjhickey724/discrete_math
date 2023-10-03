@@ -35,9 +35,7 @@ but sometime other character sets are used. Most common are
 | psi | $\psi$ | $\Psi$ |
 | omega | $\omega$ | $\Omega$|
 
-| ... | ... | ...|
-
-And sometimes letters from other alphabets such as Hebrew $\aleph$
+And sometimes letters from other alphabets such as Hebrew aleph $\aleph$
 
 ## Subscripts
 We often add subscripts to a variable so we can refer to a sequence of values, e.g.
