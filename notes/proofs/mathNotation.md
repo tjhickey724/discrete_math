@@ -26,7 +26,7 @@ but sometime other character sets are used. Most common are
 | xi | $\xi$ | $\Xi$ |
 | omicron | o | O|
 | pi | $\pi$ | $\Pi$|
-| rho | $\rho$ | $\Rho$ |
+| rho | $\rho$ | P |
 |sigma | $\sigma$ | $\Sigma$ |
 | tau | $\tau$ | T|
 |upsilon | $\upsilon$ | $\Upsilon$ |
