@@ -69,8 +69,16 @@ $\sum_\limits{0\le i \le 3} a_i  = a_0 + a_1 + a_2 + a_3$
 
 The constraint beneath the sigma specifies the values that should be used in the summation.
 
+A typical example is to express a general polynomial of degree k as a sum:
+
+$p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_nx^n$
+
 Likewise, we use the capital greek letter Pi to indicate products. For example,
 
 $\prod\limits_{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
+
+$n! = \prod_limits_{i=1}^{n} i $
+
+
 
 
