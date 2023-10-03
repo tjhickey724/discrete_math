@@ -105,4 +105,8 @@ what are the values for $a_{5,1}$, $a_{5,2}$, $a_{5,3}$, $a_{5,4}$, $a_{5,5}$
 **Exercise 6:**
 with $a_{n,i}$ as above what is  $\prod_\limits{i=1}^3 a_{n,i}$
 
+**Exercise 7:**
+Write the polynomial $x^n + 2*x^{n-1} + 3*x^{n-2} + \ldots + nx + (n+1)$
+using the summation notation.
+
 
