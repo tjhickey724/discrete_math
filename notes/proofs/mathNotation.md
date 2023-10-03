@@ -103,8 +103,6 @@ Suppose $a_{n,i} = (n-i)/i$
 what are the values for $a_{5,1}$, $a_{5,2}$, $a_{5,3}$, $a_{5,4}$, $a_{5,5}$ 
 
 **Exercise 6:**
-with $a_{n,i}$ as above what is
-
-$\prod_\limits{i=1}^3 a_{n,i}$
+with $a_{n,i}$ as above what is  $\prod_\limits{i=1}^3 a_{n,i}$
 
 
