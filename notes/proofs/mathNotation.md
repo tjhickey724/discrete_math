@@ -79,6 +79,32 @@ $\prod\limits_{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
 
 $n! = \prod_limits_{i=1}^{n} i $
 
+Let's get some practice working with this notation...
 
+**Exercise 1**
+What are the values of $a_i$ and $k$ that make the following formula true:
+
+$\sum_\limits{i=0}^k a_i x^i = x^3 +2x^2 -x + 3$
+
+**Exercise 2**
+if $p(x) = a_0+a_1x + a_2x^2$ and
+$q(x) = b_0+b_1x + b_2x^2$,
+what is $p(x)*q(x)$
+
+**Exercise 3:**
+with $p$ and $q$ as in Exercise 2, what is $p(x)*q(x)$
+
+**Exercise 4:**
+Suppose $r(x) = \sum_\limits{i=0}^k c_i x^i$,
+what are the values of c and k if $r(x)=p(x)*q(x)$
+
+**Exercise 5:**
+Suppose $a_{n,i} = (n-i)/i$
+what are the values for $a_{5,1}$, $a_{5,2}$, $a_{5,3}$, $a_{5,4}$, $a_{5,5}$ 
+
+**Exercise 6:**
+with $a_{n,i}$ as above what is
+
+$\prod_\limits{i=1}^3 a_{n,i}$
 
 
