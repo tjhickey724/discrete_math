@@ -60,50 +60,70 @@ Let's get some practice working with mathematical notation...
 Suppose $a_0=2$, $a_1=-3$, $a_2=0$, and $a_3=10$ and $k=3$, 
 write down the polynomial given by
 
-$p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_kx^k$
+$p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + \ldots + a_kx^k$
 
-**Exercise b1**
+**Exercise 1b**
 What are the values of $a_i$ and $k$ that make the following formula true:
 
 $\sum_\limits{i=0}^k a_i x^i = x^3 +2x^2 -x + 3$
 
 **Exercise 2a**
-What is the result of multiplying the following two polynomials:
+What is the result of adding the following two polynomials:
 
 $p(x)= x^2-x+1$ and $q(x) = 3x^2 +2x +2$
 
 **Exercise 2b**
+What is the result of multiplying the following two polynomials:
+
+$p(x)= x^2-x+1$ and $q(x) = 3x^2 +2x +2$
+
+**Exercise 2c**
+With $p(x)$ and $q(x)$ defined as above,
+Let $r(x)=p(x)+q(x)$ where
+
+$r(x) = \sum_\limits{i=0}^2 c_i x^i$
+
+What are the coefficients c0, c1, c2?
+
+**Exercise 2d**
 With $p(x)$ and $q(x)$ defined as above,
 Let $r(x)=p(x)*q(x)$ where
 
-$r(x) = \sum_\limits{i=0}4k c_i x^i$
+$r(x) = \sum_\limits{i=0}^4 d_i x^i$
 
-What are the coefficients c0, c1, c2, c3, c4?
+What are the coefficients d0, d1, d2, d3, d4?
 
+**Exercise 3a**
+if $p(x) = a_0+a_1x + a_2x^2$ and
+$q(x) = b_0+b_1x + b_2x^2$,
+what is $p(x)+q(x)$
 
-
-**Exercise 2c**
+**Exercise 3b**
 if $p(x) = a_0+a_1x + a_2x^2$ and
 $q(x) = b_0+b_1x + b_2x^2$,
 what is $p(x)*q(x)$
 
-**Exercise 3:**
-with $p$ and $q$ as in Exercise 2, what is $p(x)*q(x)$
-
-**Exercise 4:**
+**Exercise 4a:**
 Suppose $r(x) = \sum_\limits{i=0}^k c_i x^i$,
-what are the values of c and k if $r(x)=p(x)*q(x)$
+what are the values of c and k if $r(x)=p(x)+q(x)$
+with $p$ and $q$ as in Exercise 3a.
+
+**Exercise 4b:**
+Suppose $r(x) = \sum_\limits{i=0}^k d_i x^i$,
+what are the values of d and k if $r(x)=p(x)*q(x)$
+with $p$ and $q$ as in Exercise 3a.
 
 **Exercise 5:**
-Suppose $a_{n,i} = (n-i)/i$
-what are the values for $a_{5,1}$, $a_{5,2}$, $a_{5,3}$, $a_{5,4}$, $a_{5,5}$ 
+Suppose $a_{n,i} = (n+1-i)/i$
+what are the values for  $a_{5,1}$, $a_{5,2}$, $a_{5,3}$, $a_{5,4}$, $a_{5,5}$ 
 
 **Exercise 6:**
 with $a_{n,i}$ as above what is  $\prod_\limits{i=1}^3 a_{n,i}$
 
 **Exercise 7:**
-Write the polynomial $x^n + 2x^{n-1} + 3x^{n-2} + \ldots + nx + (n+1)$
-using the summation notation.
+Write the polynomial $p(x) = 1 + 2x + 3x^2 + 4x^3 + \ldots (n+1)x^n$
+using the summation notation. What is the coefficient of $x^k$ as a function of k.
+
 
 ## Using summation notation in proofs
 
