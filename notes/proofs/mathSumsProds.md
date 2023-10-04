@@ -17,20 +17,41 @@ $p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_
 
 Likewise, we use the capital greek letter Pi to indicate products. For example,
 
-$\prod_\limits_{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
+$\prod_\limits{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
 
-$n! = \prod_\limits_{i=1}^{n} i $
+$n! = \prod_\limits{i=1}^{n} i$
 
 We can use this notation to express the Unique Factorization Theorem for integers
 
+---
+
 **Theorem** Every positive integer $n$ can e factored uniquely into primes
 
-$n = \prod_\limits_{i=0}^k p_i^{a_i}$
+$n = \prod_\limits{i=0}^k p_i^{a_i}$
 
-where the $p_i$ are primes $p_1\lt p_2\lt \ldots\lt p)k$ and the $a_i$ are positive integers.
-We will prove this later in the course.
+where the $p_i$ are primes $p_1\lt p_2\lt \ldots\lt p_k$ and the $a_i$ are positive integers.
 
-Let's get some practice working with this notation...
+---
+
+We will prove this later in the course. Using this Theorem we can prove another interesting result.
+These kinds of results are called "Corollarys to a Theorem" if they can be proved relatively easily from
+the Theorem. Think of it as a relatively easy consequence of the Theorem.
+
+---
+
+**Corollary** If a prime $p$ divides $n^k$, for positive integers $n$ and $k$, then $p$ divides $n$.
+
+**Proof:** Let $n$ have the prime factorization shown in the Theorem, then $n^k$ has the same factorization
+except the each $a_i$ is multiplied by $k$
+
+$n^k =  \prod_\limits{i=0}^k p_i^{a_i}$
+
+So if a prime $p$ divides $n^k$, then it must be one of the $p_i$, and hence it must also divide $n$.
+
+**QED**
+---
+
+Let's get some practice working with mathematical notation...
 
 **Exercise 1**
 What are the values of $a_i$ and $k$ that make the following formula true:
