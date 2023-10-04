@@ -56,12 +56,33 @@ $1!=1$, $2!=2$, $3!=6$, $4!=24$
 
 Let's get some practice working with mathematical notation...
 
-**Exercise 1**
+**Exercise 1a**
+Suppose $a_0=2$, $a_1=-3$, $a_2=0$, and $a_3=10$ and $k=3$, 
+write down the polynomial given by
+
+$p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_kx^k$
+
+**Exercise b1**
 What are the values of $a_i$ and $k$ that make the following formula true:
 
 $\sum_\limits{i=0}^k a_i x^i = x^3 +2x^2 -x + 3$
 
-**Exercise 2**
+**Exercise 2a**
+What is the result of multiplying the following two polynomials:
+
+$p(x)= x^2-x+1$ and $q(x) = 3x^2 +2x +2$
+
+**Exercise 2b**
+With $p(x)$ and $q(x)$ defined as above,
+Let $r(x)=p(x)*q(x)$ where
+
+$r(x) = \sum_\limits{i=0}4k c_i x^i$
+
+What are the coefficients c0, c1, c2, c3, c4?
+
+
+
+**Exercise 2c**
 if $p(x) = a_0+a_1x + a_2x^2$ and
 $q(x) = b_0+b_1x + b_2x^2$,
 what is $p(x)*q(x)$
