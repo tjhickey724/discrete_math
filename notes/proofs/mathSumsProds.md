@@ -35,7 +35,7 @@ where the $p_i$ are primes $p_1\lt p_2\lt \ldots\lt p_k$ and the $a_i$ are posit
 
 We will prove this later in the course. Using this Theorem we can prove another interesting result.
 These kinds of results are called "Corollarys to a Theorem" if they can be proved relatively easily from
-the Theorem. Think of it as a relatively easy consequence of the Theorem.
+the Theorem. Think of a Corollary as a relatively easy consequence of the Theorem.
 
 ---
 
