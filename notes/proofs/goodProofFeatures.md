@@ -54,6 +54,7 @@ We'll look at some of these and then have you practice writing some proofs using
   * now you prove that the $n$th room of any irrational number $r$ is irrational, for all $n>0$
 * Theorem 1.6.1 on page 14, a proof by chain of iff's
 * Theorem 1.7 on clubs and groups, a proof by cases...
+  [Here](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/groupsAndStrangers.jpg) is a link to a figure showing six people with their connections (either they know each other (red) or not (black))
 * Theorem 1.8.1, a proof by contradiction
   * now you prove that the nth root of any integer m is either an integer or is irrational, for all n>0 and m>0
   * similarly we can prove that a root of any monic polynomial with integer coefficients, is either an integer or is irrational
