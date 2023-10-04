@@ -158,5 +158,6 @@ To be announced
 ## Lesson 14 Wed 10/4 <br> _Mathematical Notation_
 * We first complete our overview of proof techniques by giving an interesting proof by cases
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
+* And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 
 
