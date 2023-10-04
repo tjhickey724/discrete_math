@@ -75,9 +75,18 @@ $p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_
 
 Likewise, we use the capital greek letter Pi to indicate products. For example,
 
-$\prod\limits_{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
+$\prod_\limits_{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
 
-$n! = \prod_limits_{i=1}^{n} i $
+$n! = \prod_\limits_{i=1}^{n} i $
+
+We can use this notation to express the Unique Factorization Theorem for integers
+
+**Theorem** Every positive integer $n$ can e factored uniquely into primes
+
+$n = \prod_\limits_{i=0}^k p_i^{a_i}$
+
+where the $p_i$ are primes $p_1\lt p_2\lt \ldots\lt p)k$ and the $a_i$ are positive integers.
+We will prove this later in the course.
 
 Let's get some practice working with this notation...
 
