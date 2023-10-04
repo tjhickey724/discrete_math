@@ -39,14 +39,21 @@ the Theorem. Think of it as a relatively easy consequence of the Theorem.
 
 ---
 
-**Corollary** If a prime $p$ divides $n^k$, for positive integers $n$ and $k$, then $p$ divides $n$.
+**Corollary** Let $p$ be a prime, and the $n$ and $k$ be positive integers, then $p$ divides $n^k$, if and only if $p$ divides $n$.
 
-**Proof:** Let $n$ have the prime factorization shown in the Theorem, then $n^k$ has the same factorization
-except the each $a_i$ is multiplied by $k$
+**Proof:** 
+This is a biconditional so we will first prove that $p$ divides $n^k$ implies $p$ divides $n$.  Then we will prove the
+converse, that is if $p$ divides $n$, then $p$ divides $n^k$.
+
+Let first assume $p$ divides $n^k$. 
+Let $n$ have the prime factorization shown in the Theorem above, then $n^k$ has the same factorization
+except the each $a_i$ is multiplied by $k$ because multiplication is commutative.
 
 $n^k =  \prod_\limits{i=0}^k p_i^{a_i}$
 
 So if a prime $p$ divides $n^k$, then it must be one of the $p_i$, and hence it must also divide $n$.
+
+Conversely, if $p$ divides $n$ then $n=pd$ for some integer $d$, so $n^k = p^kd^k = p(p^{k-1}d^k)$ so $p$ divides $n_k$.
 **QED**
 
 ---
