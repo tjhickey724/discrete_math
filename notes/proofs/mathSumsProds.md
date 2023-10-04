@@ -24,7 +24,7 @@ The constraint beneath the sigma specifies the values that should be used in the
 
 A typical example is to express a general polynomial of degree k as a sum:
 
-$p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_nx^n$
+$p(x) = \sum_\limits{i=0}n a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_nx^n$
 
 ## Product formulas
 
