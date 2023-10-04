@@ -49,10 +49,10 @@ If we need a table of values, we can use two subscripts
 |row 1 | $a_{1,1}$ | $a_{1,2}$ | $a_{1,3}$ |
 |row 2 | $a_{2,1}$ | $a_{2,2}$ | $a_{2,3}$ |
 
-and we refer to one of these variables with index variables (typically $i,j,k,...$
+and we refer to one of these variables with index variables e.g. $a_{i,j}$
 
 In general we can have as many subscripts on a variable as we need
-* $b_{i,,k}$, $c_{r,s,t,u,v}$
+* $b_{i,k}$, $c_{r,s,t,u,v}$
 
 but it gets confusing to have too many subscripts
 
