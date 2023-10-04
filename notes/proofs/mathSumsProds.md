@@ -1,6 +1,6 @@
 # Notation for Summations and Products
 
-## Summation and Product formulas
+## Summation formulas
 It is very common to write expressions that represent summations. We do this using the capital greek letter Sigma which allows us to write a sum of several terms in a compressed fashion. For example, we can express the sum of four numbers four numbers $a_0$, $a_1$, $a_2$, and $a_3$.
 as 
 
@@ -10,7 +10,7 @@ but if we wanted the sum of $k$ numbers for some integer $k$ we would write
 
 $a_0 + a_1 + a_2 + \ldots + a_k$
 
-a more succinct way of writing this is the use the summation notation below
+a more succinct way of writing this is to use the summation notation as shown below
 
 $\sum_\limits{i=0}^k a_i  = a_0 + a_1 + a_2 + \ldots + a_k$
 
@@ -20,15 +20,25 @@ $\sum_\limits{0\le i \le k} a_i  = a_0 + a_1 + a_2  + \ldots + a_k$
 
 The constraint beneath the sigma specifies the values that should be used in the summation.
 
+### Polynomials
+
 A typical example is to express a general polynomial of degree k as a sum:
 
 $p(x) = \sum_\limits{i=0}^k a_i x^i = a_0 + a_1x + a_2x^2 + a_3x^3 + \ldots + a_nx^n$
+
+## Product formulas
 
 Likewise, we use the capital greek letter Pi to indicate products. For example,
 
 $\prod_\limits{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
 
-is the product of four numbers $a_0$, $a_1$, $a_2$, and $a_3$.
+is the product of four numbers $a_0$, $a_1$, $a_2$, and $a_3$ and
+
+$\prod_\limits{i=0}^k a_i  = a_0 * a_1 * a_2 * \ldots * a_k$
+
+is the product of $k$ numbers.
+
+### Factorial
 
 Likewise we can define the factorial $n!$ for an integer $n$ using the following notation.
 
@@ -42,7 +52,7 @@ but this is slightly confusing because it looks like $n$ has to be at least equa
 but in fact this notation is used to suggest the way the $a_i$ are related to $i$ and so it should be read to imply that 
 $1!=1$, $2!=2$, $3!=6$, $4!=24$
 
-
+## Practice Problems
 
 Let's get some practice working with mathematical notation...
 
