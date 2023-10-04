@@ -157,6 +157,30 @@ This contradiction shows that $\sqrt{2}$ can not be a rational number, hence it 
 **QED**
 
 
+---
+
+## Proofs by the Well-Ordering Principle
+
+Another very powerful proof technique relies on the following statement, called the Well Ordering Principle.
+
+_Every non-empty set of positive integers has a smallest element_
+
+Why is this true? Since the set is non-empty, it contains at least one number $n$.
+But if $n$ is not the smallest element in the set, then there is an $n_1$ smaller than $n$.
+Likewise, since the set has no smallest element it has an $n_2$ smaller than $n_1$. 
+Continuing in this way we can construct a sequence of positive integers
+
+$n \gt n_1 \gt n_2 \gt \ldots$
+
+but since these are all positive integers, this sequence of numbers can have length no more than $n$,
+hence it has to be a finite sequence with last element $n_k$ which would be the smallest element in the set.
+
+### How to use the Well-Ordering Principle.
+The standard usage is when proving something by contradiction. We assume the conclusion isn't true
+and in such a case, we form a set of counterexamples from the positive integers.  Since such a set has
+a smallest element, we use that smallest element to derive a contradition, usually by showing that we could
+construct an even smaller counter example.
+
 
 
 
