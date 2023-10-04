@@ -16,7 +16,7 @@ then $p$ divides $n^s$  if and only if $p$ divides $n$.
 **proof**
 We will prove this by contradiction.
 Let's assume that $x = \log_2(3)$ is a rational number.
-Then x = $r/s$ where r and s are integers.
+Then x = $r/s$ where r and s are positive integers.
 We don't need to assume that $r/s$ is in lowest terms.
 
 What does $\log_2(3)=x$ mean?
