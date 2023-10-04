@@ -1,8 +1,6 @@
 # Mathematical Notation
 We present below some of the standard mathematical notation that you will often see in proofs.
 
-_UNDER CONSTRUCTION_
-
 ## Variables
 variables typically are single letters in the latin font (a,b,c,...,x,y,z)
 but sometime other character sets are used. Most common are 
