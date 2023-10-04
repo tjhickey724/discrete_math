@@ -56,6 +56,19 @@ In general we can have as many subscripts on a variable as we need
 
 but it gets confusing to have too many subscripts
 
+## Sequences
+We can use this subscript notation to define an infinite sequence 
+$a_1,a_2,a_3,\ldots$ of numbers. For example,
 
+* the sequence $1,3,5,7,9,11,\ldots$ of odd numbers is defined by $a_i=2i+1$
+* the sequence $1,4,9,16,25,36,\ldots$ of square numbers is defined by $a_i=i^2$
+* the fibonacci sequence $1,1,2,3,5,8,13,21,\ldots$ is defined by $a_1=a_2=1$ and for each $i>2$ we get the next number in the sequence by adding the previous 2. In our notation we write that as:
 
+  $a_i = a_{i-1} + a_{i-2}$  for all $i>2$
+
+## Problems
+* what is the formula for $a_i$ defining the sequence of even numbers $2,4,6,8,10,\ldots$
+* what is the formula for $a_i$ defining the powers of two sequence $1,2,4,8,16,32,\ldots$
+
+  
 
