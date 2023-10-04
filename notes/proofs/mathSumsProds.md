@@ -47,8 +47,8 @@ except the each $a_i$ is multiplied by $k$
 $n^k =  \prod_\limits{i=0}^k p_i^{a_i}$
 
 So if a prime $p$ divides $n^k$, then it must be one of the $p_i$, and hence it must also divide $n$.
-
 **QED**
+
 ---
 
 Let's get some practice working with mathematical notation...
