@@ -149,6 +149,9 @@ To be announced
 # Week 5: 10/2-10/6
 
 ### Homework
+* Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+* Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
+* Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
 
 ## Lesson 13 Mon 10/2/2023 <br> _Practice with Proof Techniques_
 * We complete the overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
@@ -161,4 +164,5 @@ To be announced
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 
 ## Lesson 15 Thu 10/5 <br> _Well Ordering Principle and more notation_
-* We begin by looking at the Well Ordering principle for proofs by contradiction
+* We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
+* Then we continue giving examples of proofs, some using this new notation.
