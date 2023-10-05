@@ -37,11 +37,11 @@ Here is a typical application. We will show that every number can be factored in
 
 
 **Definition:** a positive number $n$ has a non-trivial factorization if it can be written as $n=a*b$
-with $1<a<n$ and $1<b<n$.  
+with $1\lt a \lt n$ and $1\lt b\lt n$.  
 
-The cases where $n=1*n=n*1$ are trivial factorizations which are not interesting to us.
+The cases where $n=1 * n$ and $n=n * 1$ are trivial factorizations which are not interesting to us.
 
-**Definition:** a positive integer $n$ is prime if it can not be non-trivially factored.
+**Definition:** a positive integer $n$ is prime if it can not be factored (non-trivially).
 
 ---
 
