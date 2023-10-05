@@ -1,4 +1,5 @@
-# The Well Ordering Principle
+# The Well Ordering Principle 
+# and The Fundamental Theorem of Arithmetic
 
 A very powerful variation of the proof bu contradiction relies on the following statement, called the Well Ordering Principle.
 
@@ -77,7 +78,7 @@ the fundamental theorem of arithmetic.
 
 ---
 
-**Theorem** For every positive integer $n$ there is a set of prime numbers $p_1\lt p_2 \lt \ldots p_k$
+**Theorem** [The Fundamental Theorem of Arithmetic] For every positive integer $n$ there is a set of prime numbers $p_1\lt p_2 \lt \ldots p_k$
 and positive integers $a_1, a_2, \ldots, a_k$ such that n can be represented a a product of powers of primes
 
 $n = p_1^{a_1} p_2^{a_2} \ldots p_k^{a_k}$
@@ -112,7 +113,7 @@ and so $n^s$ has the factorization which raises each of the factors of $n$ to th
 
 $n = p_1^{sa_1} p_2^{sa_2} \ldots p_k^{sa_k}$
 
-so $p_i$ divides $n$ (in fact $p_i^{sa_i$ divides $n$.
+so $p_i$ divides $n$ (in fact $p_i^{sa_i}$ divides $n$.
 
 **QED**
 
