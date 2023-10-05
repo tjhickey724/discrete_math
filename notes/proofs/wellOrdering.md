@@ -72,6 +72,81 @@ Since both cases result in contradictions, there can't be any counterexamples, s
 
 ---
 
+We actually know that every positive integer has a unique factorization into primes. This is called
+the fundamental theorem of arithmetic.
 
+---
+
+**Theorem** For every positive integer $n$ there is a set of prime numbers $p_1\lt p_2 \lt \ldots p_k$
+and positive integers $a_1, a_2, \ldots, a_k$ such that n can be represented a a product of powers of primes
+
+$n = p_1^{a_1} p_2^{a_2} \ldots p_k^{a_k}$
+
+and this representation is unique, that is there is no other set of primes and powers which can be used to
+factorize $n$.
+
+---
+
+We won't prove this now, but we will show how it can be used.
+
+---
+
+**Theorem** for every prime $p$ and all positive integer $n$ and $s$, 
+$p$ divides $n^s$ if an only if $p$ divides $n$.
+
+**Proof:**
+We will prove by this by proving the "if" part first and then the converse,
+and we will prove each of these parts by direct proof.
+
+if $p$ divides $n$ then it is easy to see that $p$ divides $n^s$, as $n=pd$ for some d
+so $n^s = p^s*d^s$ which is a multiple of $p$.
+
+Suppose now that $p$ divides $n^s$ and let's show that $p$ dividesd $n$.
+We know $n$ can be factored into primes in a unique way so
+
+$n = p_1^{a_1} p_2^{a_2} \ldots p_k^{a_k}$
+
+where $p$ is one of the primes, say $p=p_i$
+
+and so $n^s$ has the factorization which raises each of the factors of $n$ to the power $s$
+
+$n = p_1^{sa_1} p_2^{sa_2} \ldots p_k^{sa_k}$
+
+so $p_i$ divides $n$ (in fact $p_i^{sa_i$ divides $n$.
+
+**QED**
+
+---
+
+Here is another Theorem using the Fundamental Theorem of Arithmetic.
+
+---
+
+**Theorem** $\log_2(3)$ is irrational.
+
+**Proof:** 
+We will prove this by contradiction. Suppose it is not irrational.
+Then there exists positive integers $r,S$  such that $\log_2(3)=r/s$
+
+Remember that $\log_a(b)=e$ means $b = a^e$. So we know that
+
+$3 = 2^{r/s} $
+
+Raising each side to the $s$th power, we see that
+
+$3^s = (2^{r/s})^s$
+
+but $(a^b)^c = a^{bc}$ so 
+
+$3^s = (2^{r/s})^s = 2^{(r/s)*s} = 2^r$
+
+But the number $n=3^s$ would then have two different prime factorizations, as $3^s$ and as $2^s$,
+and we know by the Fundamental Theorem of Arithmetic, that each positive integer has one and only
+one factorization into primes.
+
+This contradiction shows that $\log_2(3)$ can not be rational, and hence is an irrational number.
+**QED**
+
+---
 
 
