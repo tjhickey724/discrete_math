@@ -39,7 +39,7 @@ Here is a typical application. We will show that every number can be factored in
 **Definition:** a positive number $n$ has a non-trivial factorization if it can be written as $n=a*b$
 with $1\lt a \lt n$ and $1\lt b\lt n$.  
 
-The cases where $n=1 * n$ and $n=n * 1$ are trivial factorizations which are not interesting to us.
+The cases where $n = 1 * n$ and $n = n * 1$ are trivial factorizations which are not interesting to us.
 
 **Definition:** a positive integer $n$ is prime if it can not be factored (non-trivially).
 
@@ -58,11 +58,11 @@ as a product of one prime (itself!)  which is a contradiction.
 
 Case 2: if it can be non-trivially factored, then $n=a*b$ with $a$ and $b$ positive integers less than $n$.
 Since $n$ is the smallest integer without a factorization into primes, both a and b can be factored into primes.
-So there exists primes $p_1,\ldots,p_r$ and $q_1,\ldots,q_r$ such that
+So there exists primes $p_1,\ldots,p_r$ and $q_1,\ldots,q_s$ such that
 
-$a = p_1 * \ldots * p_r$ and $b = q_1 * \ldots * q_r$
+$a = p_1 * \ldots * p_r$ and $b = q_1 * \ldots * q_s$
 
-so $n = a*b = p_1 * \ldots * p_r * q_1 * \ldots * q_r$
+so $n = a*b = p_1 * \ldots * p_r * q_1 * \ldots * q_s$
 
 which is a factorization into primes. This is a contradiction to the claim that $n$ is a counter example.
 
