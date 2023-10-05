@@ -160,4 +160,5 @@ To be announced
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 
-
+## Lesson 15 Thu 10/5 <br> _Well Ordering Principle and more notation_
+* We begin by looking at the Well Ordering principle for proofs by contradiction
