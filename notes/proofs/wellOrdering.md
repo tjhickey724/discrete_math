@@ -127,13 +127,13 @@ Here is another Theorem using the Fundamental Theorem of Arithmetic.
 
 **Proof:** 
 We will prove this by contradiction. Suppose it is not irrational.
-Then there exists positive integers $r,S$  such that $\log_2(3)=r/s$
+Then there exists positive integers $r,s$  such that $\log_2(3)=r/s$
 
 Remember that $\log_a(b)=e$ means $b = a^e$. So we know that
 
 $3 = 2^{r/s} $
 
-Raising each side to the $s$th power, we see that
+Raising each side to the power $s$ we see that
 
 $3^s = (2^{r/s})^s$
 
