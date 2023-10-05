@@ -58,7 +58,7 @@ as a product of one prime (itself!)  which is a contradiction.
 
 Case 2: if it can be non-trivially factored, then $n=a*b$ with $a$ and $b$ positive integers less than $n$.
 Since $n$ is the smallest integer without a factorization into primes, both a and b can be factored into primes.
-So there exists primes $p_1,\ldots,p_r$ and $q_1,\ldots,q_s$ such that
+So there exist primes $p_1,\ldots,p_r$ and $q_1,\ldots,q_s$ such that
 
 $a = p_1 * \ldots * p_r$ and $b = q_1 * \ldots * q_s$
 
