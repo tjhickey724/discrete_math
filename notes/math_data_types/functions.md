@@ -48,7 +48,7 @@ Also say if it is surjective or injective or both.
 
 ## Functions on subsets of a domain
 We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to subsets of $B$ by
-* $f(S) \ \\{f(x)| x \in S\\}$
+* $f(S) \ = \ \\{f(x)| x \in S\\}$
 
 We say that $f(S)$ is the image of $S$ under $f$, and if the domain of $f$ is $A$, then
 we say that $f(A)$ is the range of $f$.
