@@ -46,7 +46,7 @@ The fundamental operations on sets $A$ and $B$ are
 * powerset -  
   ${\cal P}(A) = 2^{A}$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
 
-## Exercises
+## Exercise 1
 Let 
 * $A=\\{1,2,3,4,5,6\\}$,
 * $B=\\{5,6,7,8,9,0\\}$
@@ -62,4 +62,9 @@ What is
 * $C \cap (A\cup B)$
 * $C \cup (A \cap B)$
 
-  
+## Exercise 2
+Describe the following sets in English and write the first few of their elements
+1. $\\{x\in \mathbb{Z}| \exists y\in \mathbb{Z} (x=y^2)\\}$
+2. $\\{x \in \mathbb(R)| \sqrt{x}\in \mathbb{Q}\\}$
+3. 
+4. 
