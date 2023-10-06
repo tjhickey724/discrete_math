@@ -32,7 +32,27 @@ We can use a superscript '+' or '-' to indicate the positive or negative element
 * $\mathbb{Z}^+$ = positive integers
 * $\mathbb{R}^-$ = negative real numbers
 
-## Set Comprehensions
+### Set Comprehensions
 Another way to express a set is to specify the set as a the elements of another set satisfying some relation, e.g.
 
 * odds = $\\{ x\in \mathbb{Z} : \exists a\in \mathbb{Z} . (x = 2a+1)\\}$
+
+## Relations on sets
+* $A\subseteq B \equiv \forall x.  (x\in A) \rightarrow (x\in B)$
+* $A\subset B \equiv A\ne B \wedge \forall x.  (x\in A) \rightarrow (x\in B)$
+
+## Set Operations
+The fundamental operations on sets $A$ and $B$ are
+* union -  
+  $A\cup B = \\{x | (x\in A) \vee (x\in B) \\}$
+* intersection -  
+  $A\cap B = \\{x | (x\in A) \wedge (x\in B) \\}$
+* difference -  
+  $A-B = \\{x | (x\in A) \wedge \neg (x\in B) \\}$
+* complement -  
+  $\bar{A} = \\{x\in \cal{U} | \neg(x\in A) \\}$  
+  where $\cal{U}$ is some universal domain that contains $A$ and $B$.
+* powerset -  
+  ${\cal P}(A) = 2^{A}$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
+
+
