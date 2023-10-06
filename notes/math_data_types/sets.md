@@ -45,3 +45,21 @@ The fundamental operations on sets $A$ and $B$ are
   and is usually clear by context.
 * powerset -  
   ${\cal P}(A) = 2^{A}$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
+
+## Exercises
+Let 
+* $A=\\{1,2,3,4,5,6\\}$,
+* $B=\\{5,6,7,8,9,0\\}$
+* $C=\\{1,3,5,7,9\\}$,
+* ${\cal U}=\\{0,1,2,3,4,5,6,7,8,9\\}$
+
+What is
+* $A\cup B$
+* $A\cap B$
+* $\bar{C}$
+* $A\cap C$
+* $A\cap B$
+* $C \cap (A\cup B)$
+* $C \cup (A \cap B)$
+
+  
