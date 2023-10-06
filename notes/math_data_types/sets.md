@@ -11,9 +11,9 @@ $x\in A$
 to express the predicate that the element $x$ is in the set $A$.
 
 Some common sets of numbers have their own symbols
-* $\emptyset$ = the empty set = $\{\}$
-* $\mathbb{N}$ = the natural numbers = $\{0,1,2,\ldots \}$
-* $\mathbb{Z}$ = the integers = $\{ \ldots, -2,-1,0,1,2,\ldots \}$
+* $\emptyset$ = the empty set = $\\{\\}$
+* $\mathbb{N}$ = the natural numbers = $\\{0,1,2,\ldots \\}$
+* $\mathbb{Z}$ = the integers = $\\{ \ldots, -2,-1,0,1,2,\ldots \\}$
 * $\mathbb{Q}$ = the rational numbers
 * $\mathbb{R}$ = the real numbers
 * $\mathbb{C}$ = the complex numbers
@@ -68,5 +68,6 @@ Describe the following sets in English and list a few of their elements, if they
 2. B = $\\{x \in \mathbb{Z} | \sqrt{x}\in \mathbb{Q}\\}$
 3. C = $\\{x in \mathbb{R} | x^2 \lt 9 \\}$
 4. D = $\\{x in \mathbb{N} | 10 - x \in \mathbb{N} \\}$
-
+5. Is $A \subseteq B$?
+6. What is $\bar{C} \ cap D$?
    
