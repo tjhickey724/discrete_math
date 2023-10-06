@@ -6,6 +6,7 @@ $f: A \rightarrow  B$
 
 The element $b$ of $B$ that a function $f$ associates to an element $a$ of $A$ is denoted $f(a)$.
 
+## Basic Definitions
 A function is a **total function** if it assigns a value to every element of its domain, otherwise it is a **partial function**.
 
 Functions can be defined in many ways. For example,
@@ -24,6 +25,7 @@ p &\text{if }p\gt 0 \\
 \right.
 $$
 
+## Functions on subsets of a domain
 We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to subsets of $B$ by
 * $f(S) \ \\{f(x)| x \in S\\}$
 
