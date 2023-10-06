@@ -25,7 +25,7 @@ if $B=\\{T,F\\}$ then the elements of $A\times B$ are
 ## Exercise 1
 1. Describe in English the set $A = \mathbb{N}\times \\{0,1\\}$ and list a few members of this set
 2. Let $B=\\{0,1\\}$, list the elements of the set $C$ defined by $C=B\\times{\cal P}(B)$
-3. List the elements of the set $D = \\{(a,s)\in B\times{\cal P}(B) | a \in s\\}$
+3. List the elements of the set $D = \\{(a,s)\in C | a \in s\\}$
 
    
 
