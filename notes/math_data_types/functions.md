@@ -43,7 +43,7 @@ For each function say if it is a total function or a partial function.
 Also say if it is surjective or injective or both.
 * $f(x)=x^2$  
 * $g(x)=x^3$
-* $h(x) = \sqrt(x)$
+* $h(x) = \sqrt{x}$
 
 
 ## Functions on subsets of a domain
