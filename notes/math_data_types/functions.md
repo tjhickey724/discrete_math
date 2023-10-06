@@ -33,7 +33,7 @@ A function is **injective** if no two elements of $A$ get mapped to the same ele
 * $\forall a_1 \forall a_2 (f(a_1)=f(a_2)) \rightarrow (a_1=a_2)$
 
 A function is **surjective** if for every $b$ in $B$ there is an $a$ in $A$ with $f(a)=b$.
-* $\forall b\in B \exists a\in A (f(a)=b$
+* $\forall b\in B\ \exists a\in A \ \ (f(a)=b)$
 
 A function is **bijective** if it is both injective and surjective.
 
@@ -44,6 +44,7 @@ Also say if it is surjective or injective or both.
 * $f(x)=x^2$  
 * $g(x)=x^3$
 * $h(x) = \sqrt(x)$
+
 
 ## Functions on subsets of a domain
 We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to subsets of $B$ by
@@ -58,6 +59,7 @@ and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
 * $f(E)=O$ and $f(O)=E$
 
 ## Exercise 2
-Describe the 
+* what is the range of the function $f(x)=2x+1$ defined on the integers $\mathbb{Z}$
+* what is the range of $f$ on $\mathbb(R)$
 
 
