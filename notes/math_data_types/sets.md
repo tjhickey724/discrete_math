@@ -69,5 +69,6 @@ Describe the following sets in English and list a few of their elements, if they
 3. C = $\\{x \in \mathbb{R} | x^2 \lt 9 \\}$
 4. D = $\\{x \in \mathbb{N} | 10 - x \in \mathbb{N} \\}$
 5. Is $A \subseteq B$?
-6. What is $\bar{C} \ cap D$?
+6. What would it mean if $A=B$? (Is it true?)
+7. What is $\bar{C} \cap D$?
    
