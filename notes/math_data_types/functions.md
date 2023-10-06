@@ -33,6 +33,7 @@ A function is **injective** if no two elements of $A$ get mapped to the same ele
 * $\forall a_1 \forall a_2 (f(a_1)=f(a_2)) \rightarrow (a_1=a_2)$
 
 A function is **surjective** if for every $b$ in $B$ there is an $a$ in $A$ with $f(a)=b$.
+* $\forall b\in B \exists a\in A (f(a)=b$
 
 A function is **bijective** if it is both injective and surjective.
 
