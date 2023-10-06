@@ -23,3 +23,14 @@ p &\text{if }p\gt 0 \\
 \end{array} 
 \right.
 $$
+
+We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to subsets of $B$ by
+* $f(S) \ \\{f(x)| x \in S\\}$
+
+For example, if $f$ and $g$ are functions on $\mathbb{Z}$ defined by $f(x)=x+1$ and $g(x)=2x$,
+and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
+* $g(\mathbb{Z}) = E$
+* $f(E)=O$ and $f(O)=E$
+
+
+
