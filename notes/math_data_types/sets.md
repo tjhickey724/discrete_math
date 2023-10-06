@@ -22,7 +22,7 @@ We can use a superscript '+' or '-' to indicate the positive or negative element
 * $\mathbb{Z}^+$ = positive integers
 * $\mathbb{R}^-$ = negative real numbers
 
-### Set Comprehensions
+# Set Comprehensions
 Another way to express a set is to specify the set as a the elements of another set satisfying some relation, e.g.
 
 * odds = $\\{ x\in \mathbb{Z} : \exists a\in \mathbb{Z} . (x = 2a+1)\\}$
@@ -65,6 +65,6 @@ What is
 ## Exercise 2
 Describe the following sets in English and write the first few of their elements
 1. $\\{x\in \mathbb{Z}| \exists y\in \mathbb{Z} (x=y^2)\\}$
-2. $\\{x \in \mathbb(R)| \sqrt{x}\in \mathbb{Q}\\}$
+2. $\\{x \in \mathbb{Z}| \sqrt{x}\in \mathbb{Q}\\}$
 3. 
 4. 
