@@ -66,8 +66,8 @@ What is
 Describe the following sets in English and list a few of their elements, if they aren't empty
 1. A = $\\{x\in \mathbb{Z} | \exists y\in \mathbb{Z} (x=y^2)\\}$
 2. B = $\\{x \in \mathbb{Z} | \sqrt{x}\in \mathbb{Q}\\}$
-3. C = $\\{x in \mathbb{R} | x^2 \lt 9 \\}$
-4. D = $\\{x in \mathbb{N} | 10 - x \in \mathbb{N} \\}$
+3. C = $\\{x \in \mathbb{R} | x^2 \lt 9 \\}$
+4. D = $\\{x \in \mathbb{N} | 10 - x \in \mathbb{N} \\}$
 5. Is $A \subseteq B$?
 6. What is $\bar{C} \ cap D$?
    
