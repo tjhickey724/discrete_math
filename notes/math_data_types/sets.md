@@ -44,7 +44,8 @@ The fundamental operations on sets $A$ and $B$ are
   where $\cal{U}$ is some universal domain that contains $A$ and $B$.
   and is usually clear by context.
 * powerset -  
-  ${\cal P}(A) = 2^{A}$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
+  ${\cal P}(A)$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
+  We sometimes write the powerset as $2^{A}$ since if $A$ has $n$ elements then ${\cal P}(A)$ has $2^n$ elements.
 
 ## Exercise 1
 Let 
