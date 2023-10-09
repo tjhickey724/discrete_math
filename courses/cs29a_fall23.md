@@ -166,3 +166,9 @@ To be announced
 ## Lesson 15 Thu 10/5 <br> _Well Ordering Principle and more notation_
 * We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
 * Then we continue giving [more examples of proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/moreProofs.md), some using this new notation.
+
+# Week 6: 10/8-12
+
+## Lesson 16 Mon 10/8 <br> _Sets and Sequences_
+* We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
+* 
