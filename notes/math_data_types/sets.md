@@ -24,8 +24,12 @@ We can use a superscript '+' or '-' to indicate the positive or negative element
 
 # Set Comprehensions
 Another way to express a set is to specify the set as a the elements of another set satisfying some relation, e.g.
+the ":" or "|" can be read "such that" or "for"
 
 * odds = $\\{ x\in \mathbb{Z} : \exists a\in \mathbb{Z} . (x = 2a+1)\\}$
+  the set of all integers x such that x = 2a+1 for some integer a
+* odds = $\\{ 2x+1 | x \in \mathbb{Z} \\}$
+  the set of numbers of the form 2x+1 for all integers x
 
 ## Relations on sets
 * $A\subseteq B \equiv \forall x.  (x\in A) \rightarrow (x\in B)$
