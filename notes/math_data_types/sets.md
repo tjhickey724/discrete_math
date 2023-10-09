@@ -46,7 +46,8 @@ The fundamental operations on sets $A$ and $B$ are
 * complement -  
   $\bar{A} = \\{x\in \cal{U} | \neg(x\in A) \\}$  
   where $\cal{U}$ is some universal domain that contains $A$ and $B$.
-  and is usually clear by context.
+  and is usually clear by context. We also write it using the superscript "c" -
+  $A^c = \bar{A}$
 * powerset -  
   ${\cal P}(A)$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
   We sometimes write the powerset as $2^{A}$ since if $A$ has $n$ elements then ${\cal P}(A)$ has $2^n$ elements.
