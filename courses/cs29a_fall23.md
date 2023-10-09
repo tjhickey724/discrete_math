@@ -169,6 +169,9 @@ To be announced
 
 # Week 6: 10/8-12
 
+### Homework
+* Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+
 ## Lesson 16 Mon 10/8 <br> _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
 * 
