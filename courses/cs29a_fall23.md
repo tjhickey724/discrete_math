@@ -174,4 +174,4 @@ To be announced
 
 ## Lesson 16 Mon 10/8 <br> _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
-* 
+  
