@@ -32,6 +32,8 @@ if $B=\\{T,F\\}$ then the elements of $A\times B$ are
 We will use the following notation to represent the size of a set $S$, i.e. the number of elements it contains:
 * $\vert S \vert$
 
+---
+
 **Theorem.** Let $A$ and $B$ be any finite sets, then
 * $\vert A\times B\vert = \vert A \vert * \vert B \vert$
 
@@ -51,6 +53,7 @@ entries in row "a" and column "b", be $(a,b)$.
 This table will contain all elements of $A\times B$
 and since a table with $n$ rows and $m$ columns has $n * m$ entries. Q.E.D
 
+--- 
 **Corollary.** Let $A_1,A_2,\ldots,A_n$ be finite sets, then
 * $\vert A_1\times\ldots\times A_n\vert = \prod_\limits{i=1}^n\vert A_i \vert$
 
@@ -77,6 +80,28 @@ So by the Theorem
 but this shows that that the Corollary holds for $n$ 
 which contradicts our assumption that $n$ was the smallest number for which it holds. 
 Hence the Corollary must hold for all $n$. QED.
+
+---
+
+**Theorem.** Let $A$ be a finite set and let ${\cal P}(A)$ be the power set of $A$, i.e. the set of all subsets of $A$, then
+* $\vert {\cal P}(A) = 2^{\vert A \vert }$
+
+**Proof:** We will show that there is a one-to-one correspondence $b \rightleftarrow S_b$
+between binary numbers of size $n$ and subsets of $A$, where $n$ is the size of $A$. 
+Let $a_1,\ldots,a_n$ be the elements of $A$ and let $b$ be a binary number of length $n$,
+then $b$ is a sequence of $n$ bits $(b_1,b_2,\ldots,b_n)$ where each $b_i \in B=\\{0,1\\}$.
+Let $S_b$ be the set 
+* $S_b = \\{a_i | 1\le i\le n \wedge b_i=1\\}$.
+Likewise if $S$ is an subset of $A$ we can define
+* $b_S = (b_1,b_2,\ldots,b_n)$ where $b_i=1 \leftrightarrow a_i\in S$
+
+This show that each binary number $b$ can be associated to a unique subset $S_b$
+and each subset $S$ is $S_b$ for some binary number $b$. So the number of subsets of $A$
+is equal to the number of binary numbers of length $n$ which is $2^n$. QED.
+
+---
+
+* 
 
 
 
