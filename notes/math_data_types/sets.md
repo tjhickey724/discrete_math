@@ -23,7 +23,8 @@ We can use a superscript '+' or '-' to indicate the positive or negative element
 * $\mathbb{R}^-$ = negative real numbers
 
 # Set Comprehensions
-Another way to express a set is to specify the set as a the elements of another set satisfying some relation, e.g.
+Another way to express a set is to specify the set as a the elements x of another set S satisfying some relation P(x). Here is the notation
+$\\{x \in S | P(x) \\}$ or $\\{x \in S : P(x) \\}$
 the ":" or "|" can be read "such that" or "for"
 
 * odds = $\\{ x\in \mathbb{Z} : \exists a\in \mathbb{Z} . (x = 2a+1)\\}$
