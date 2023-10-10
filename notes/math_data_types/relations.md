@@ -9,9 +9,18 @@ We can think of a relation $R$ as defining a multi-valued partial function $f_R$
 by 
 $f_R(x) = \\{y\in B |\ xRy \\}$
 
-A good example is the squareroot relation $x S y \equiv x = y^2$ this corresponds to
-the square root function $y = \sqrt{x}$ which is only defined for $x\ge 0$ and if $x\gt 0$
-it has two values the positive square root and the negative square root!
+A good example is the squareroot relation 
+
+$x S y \equiv x = y^2$ 
+
+this corresponds to
+the square root function 
+
+$y = \sqrt{x}$ 
+
+which is only defined for $x\ge 0$ and if $x\gt 0$
+
+It has two values the positive square root and the negative square root!
 * $f_S(1) = \\{-1,1\\}$
 * $f_S(-1) = \\{\\}$
 * $f_S(0) = \\{0\\}$
