@@ -17,6 +17,7 @@ Some common sets of numbers have their own symbols
 * $\mathbb{Q}$ = the rational numbers
 * $\mathbb{R}$ = the real numbers
 * $\mathbb{C}$ = the complex numbers
+* $\mathbb{F}_n = {0,1,\ldots,n-1}$ the natural numbers less than $n$
 
 We can use a superscript '+' or '-' to indicate the positive or negative elements in the set
 * $\mathbb{Z}^+$ = positive integers
