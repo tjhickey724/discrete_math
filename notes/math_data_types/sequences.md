@@ -122,12 +122,9 @@ Calculate the sizes of the following sets, and write down a few of their element
 1. ${\cal F}_2^3$
 2. ${\cal F}_3 \times {\cal F}_5$
 3. ${\cal P}({\cal F}_3)$
-4. $({\cal F}_n)^3$
-5. $({\cal F}_5)^m$
-6. $({\cal F}_n)^m$
-7. ${\cal F}_3\times {\cal P}({\cal F}_2)$
-8. ${\cal P}({\cal F}_3)^2$
-9. ${\cal P}({\cal P}({\cal F}_2))$
+4. ${\cal F}_3\times {\cal P}({\cal F}_2)$
+5. ${\cal P}({\cal F}_3)^2$
+6. ${\cal P}({\cal P}({\cal F}_2))$
 
 
 
