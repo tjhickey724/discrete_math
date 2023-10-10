@@ -16,7 +16,7 @@ this corresponds to the square root function
 * $y = \sqrt{x}$ 
 
 which is only defined for $x\ge 0$.
-If $x=0$ it has one value $\{{0\\}$
+If $x=0$ it has one value $\\{{0\\}$
 and if $x\gt 0$ it has two values the positive square root and the negative square root!
 * $f_S(1) = \\{-1,1\\}$
 * $f_S(-1) = \\{\\}$
