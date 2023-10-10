@@ -38,7 +38,17 @@ We will use the following notation to represent the size of a set $S$, i.e. the 
 **Proof:** To see that  $\vert A\times B\vert = \vert A \vert * \vert B \vert$, we can
 create a table of size $\vert A \vert * \vert B \vert$ whose elements are precisely the
 elements of $A\times B$. Let the rows be indexed by $A$ and the columns by $B$, and the
-entries in row "a" and column "b", be $(a,b)$. This table will contain all elements of $A\times B$
+entries in row "a" and column "b", be $(a,b)$. 
+
+|| b1 | b2 | ... | bs |
+|--- | ---  | --- | --- | --- |
+| a1 | (a1,b1) | (a1,b2) | ... | (a1,bs) |
+| a2 | (a2,b1) | (a2,b2) | ... | (a2,bs) |
+| ... | ... | ... |  ...| ... |
+| ar | (ar,b1) | (ar,b2) |  ... | (ar,bs) |
+
+
+This table will contain all elements of $A\times B$
 and since a table with $n$ rows and $m$ columns has $n * m$ entries. Q.E.D
 
 **Corollary.** Let $A_1,A_2,\ldots,A_n$ be finite sets, then
