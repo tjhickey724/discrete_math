@@ -86,7 +86,7 @@ Hence the Corollary must hold for all $n$. QED.
 **Theorem.** Let $A$ be a finite set and let ${\cal P}(A)$ be the power set of $A$, i.e. the set of all subsets of $A$, then
 * $\vert {\cal P}(A)\vert = 2^{\vert A \vert }$
 
-**Proof:** We will show that there is a one-to-one correspondence $b \rightleftarrow S_b$
+**Proof:** We will show that there is a one-to-one correspondence $b \leftrightarrow S_b$
 between binary numbers of size $n$ and subsets of $A$, where $n$ is the size of $A$. 
 Let $a_1,\ldots,a_n$ be the elements of $A$ and let $b$ be a binary number of length $n$,
 then $b$ is a sequence of $n$ bits $(b_1,b_2,\ldots,b_n)$ where each $b_i \in B=\\{0,1\\}$.
@@ -116,7 +116,20 @@ QED.
 
 ---
 
-* 
+Exercise 1
+Recall that ${\cal F}_n = \\{0,1,\ldots,n-1\\}$
+Calculate the sizes of the following sets, and write down a few of their elements.
+1. ${\cal F}_2^3$
+2. ${\cal F}_3 \times {\cal F}_5$
+3. ${\cal P}({\cal F}_3)$
+4. ${\cal F}_n^3$
+5. ${\cal F}_5^m$
+6. ${\cal F}_n^m$
+7. ${\cal F}_3\times {\cal P}({\cal F}_2)$
+8. ${\cal P}({\cal F}_3)^2$
+9. ${\cal P}({\cal P}({\cal F}_2))$
+
+
 
 
 
