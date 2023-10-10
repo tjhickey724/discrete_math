@@ -10,7 +10,7 @@ by
 * $f_R(x) = \\{y\in B |\ xRy \\}$
 
 A good example is the squareroot relation 
-* $x S y \equiv x = y^2$ 
+* $x S y \equiv (x = y^2)$ 
 
 this corresponds to the square root function 
 * $y = \sqrt{x}$ 
