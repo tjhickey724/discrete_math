@@ -84,7 +84,7 @@ Hence the Corollary must hold for all $n$. QED.
 ---
 
 **Theorem.** Let $A$ be a finite set and let ${\cal P}(A)$ be the power set of $A$, i.e. the set of all subsets of $A$, then
-* $\vert {\cal P}(A) = 2^{\vert A \vert }$
+* $\vert {\cal P}(A)\vert = 2^{\vert A \vert }$
 
 **Proof:** We will show that there is a one-to-one correspondence $b \rightleftarrow S_b$
 between binary numbers of size $n$ and subsets of $A$, where $n$ is the size of $A$. 
@@ -95,9 +95,24 @@ Let $S_b$ be the set
 Likewise if $S$ is an subset of $A$ we can define
 * $b_S = (b_1,b_2,\ldots,b_n)$ where $b_i=1 \leftrightarrow a_i\in S$
 
+For example let $A=\\{1,2,3\\}$, then here is the correspondence
+
+|b | Sb |
+| --- | --- |
+| 000 | {} |
+| 001 | {a3} |
+| 010 | {a2} |
+| 011 | {a2,a3} |
+| 100 | {a1} |
+| 101 | {a1,a3} |
+| 110 | {a1,a2} |
+| 111 | {a1,a2,a3} |
+
+
 This show that each binary number $b$ can be associated to a unique subset $S_b$
 and each subset $S$ is $S_b$ for some binary number $b$. So the number of subsets of $A$
-is equal to the number of binary numbers of length $n$ which is $2^n$. QED.
+is equal to the number of binary numbers of length $n$ which is $2^n$.  
+QED.
 
 ---
 
