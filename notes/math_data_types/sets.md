@@ -56,6 +56,10 @@ The fundamental operations on sets $A$ and $B$ are
   ${\cal P}(A)$ = the set of all subsets of A including the empty set $\emptyset$ and the set $A$ itself.
   We sometimes write the powerset as $2^{A}$ since if $A$ has $n$ elements then ${\cal P}(A)$ has $2^n$ elements.
 
+We can represent a union or interection of a collection of sets $S_1,\ldots,S_n$ as follows:
+* $\bigcup_\limits{i=1}^n S_i = S_1 \cup \ldots \cup S_n$
+* $\bigcap_\limits{i=1}^n S_i = S_1 \cap \ldots \cap S_n$
+
 ## Exercise 1
 Let 
 * $A=\\{1,2,3,4,5,6\\}$,
