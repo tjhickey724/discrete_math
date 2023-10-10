@@ -28,7 +28,50 @@ if $B=\\{T,F\\}$ then the elements of $A\times B$ are
     where ${\cal P}(B) = 2^B$ is the powerset of B.
 3. List the elements of the set $D = \\{(a,s)\in C | a \in s\\}$
 
-   
+## Sizes of product sets
+We will use the following notation to represent the size of a set $S$, i.e. the number of elements it contains:
+* $\vert S \vert$
+
+**Theorem.** Let $A$ and $B$ be any finite sets, then
+* $\vert A\times B\vert = \vert A \vert * \vert B \vert$
+
+**Proof:** To see that  $\vert A\times B\vert = \vert A \vert * \vert B \vert$, we can
+create a table of size $\vert A \vert * \vert B \vert$ whose elements are precisely the
+elements of $A\times B$. Let the rows be indexed by $A$ and the columns by $B$, and the
+entries in row "a" and column "b", be $(a,b)$. This table will contain all elements of $A\times B$
+and since a table with $n$ rows and $m$ columns has $n * m$ entries. Q.E.D
+
+**Corollary.** Let $A_1,A_2,\ldots,A_n$ be finite sets, then
+* $\vert A_1\times\ldots\times A_n\vert = \prod_\limits{i=1}^n\vert A_i \vert$
+
+**Proof:** 
+We will prove this by contradiction using the Well-Ordering principle.
+Suppose it is not true and let $n$ be the smallest integer for which it is not true.
+Observe that it is clearly true for $n=2$ as it says 
+
+$\vert A_1\times A_2\vert = \vert A_1\vert * \vert A_2\vert$
+
+and it is trivially true for $n=1$ as it says $\vert A_1 \vert = \vert A_1 \vert$
+So we can assume that $n\gt 2$.
+
+Let S = $\prod_\limits{i=1}^{n-1} A_i$, the 
+$\prod_\limits{i=1}^n\vert A_i \vert = S \times A_n$.
+
+Also, since $(n-1) \lt n$, we know by our assumption that the Corollary holds, so
+* $\vert S \vert = \vert A_1\times\ldots\times A_{n-1}\vert = \prod_\limits{i=1}^{n-1}\vert A_i \vert$
+
+So by the Theorem
+* $\vert A_1\times\ldots\times A_n\vert = \vert S \times A_n \vert
+   = \prod_\limits{i=1}^{n-1}\vert A_i \vert  * \vert A_n \vert = \prod_\limits{i=1}^n\vert A_i \vert$
+
+but this shows that that the Corollary holds for $n$ 
+which contradicts our assumption that $n$ was the smallest number for which it holds. 
+Hence the Corollary must hold for all $n$. QED.
+
+
+
+
+
 
 
 
