@@ -95,7 +95,7 @@ Let $S_b$ be the set
 Likewise if $S$ is an subset of $A$ we can define
 * $b_S = (b_1,b_2,\ldots,b_n)$ where $b_i=1 \leftrightarrow a_i\in S$
 
-For example let $A=\\{1,2,3\\}$, then here is the correspondence
+For example let $A=\\{a_1,a_2,a_3\\}$, then here is the correspondence
 
 |b | Sb |
 | --- | --- |
