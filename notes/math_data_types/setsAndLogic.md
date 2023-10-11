@@ -48,7 +48,9 @@ $(A\cap B)^c = \\{x\in U | \neg (x \in A \wedge x \in B) \\}$
 
 $= \\{x\in U | \neg (x \in A) \vee \neg( x \in B) \\}$
 
-$= A^c \ cup B^c$
+$= \\{x\in U | \ \neg (x \in A)\\} \cup \\{ x\in U | \  \vee \neg( x \in B) \\}$
+
+$= A^c \cup B^c$
 
 The other cases are similar. **QED***
 
