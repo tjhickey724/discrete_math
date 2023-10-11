@@ -2,12 +2,14 @@
 We show here that Set Theory is closely related to  the Predicate Calculus
 and we derive several of the transformations on set theory formulas.
 
-## Correspondence
+## Correspondences of Logic and Set Operations
 Let $U$ be a set and consider subsets $A,B,\ldots$ of $U$.
-For any subset $A$ we can define a predicate $P_A: U \rightarrow \mathbb{B}$
-where $\mathbb{B} = \\{{\rm True},{\rm False} \\}$ is the set of Boolean values.
 
-$\forall x P_A(x) = {\rm True}  \ \leftrightarrow \  (x \in A)$
+Let $\mathbb{B} = \\{{\rm True},{\rm False} \\}$ be the set of Boolean values.
+
+For any subset $A$ we can define a predicate $P_A: U \rightarrow \mathbb{B}$ by
+
+$\forall x \ \ P_A(x) = {\rm True}  \ \leftrightarrow \  (x \in A)$
 
 ---
 
