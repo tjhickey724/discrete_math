@@ -1,5 +1,7 @@
 # Binary Relations
 
+Next we look at a binary relations, which are a generalization of the notion of function and which have many applications in Computer Science.
+
 A binary relation $R$ consists of
 * a set $A$, called the domain of $R$ and
 * a set $B$ called the codomain of $R$, and
