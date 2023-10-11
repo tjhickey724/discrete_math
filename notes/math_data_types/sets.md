@@ -25,7 +25,7 @@ We can use a superscript '+' or '-' to indicate the positive or negative element
 * $\mathbb{Z}^+$ = positive integers
 * $\mathbb{R}^-$ = negative real numbers
 
-# Set Comprehensions
+## Set Comprehensions
 Another way to express a set is to specify the set as a the elements x of another set S satisfying some relation P(x). Here is the notation
 
 $\\{x \in S | P(x) \\}$ or $\\{x \in S : P(x) \\}$
@@ -49,8 +49,10 @@ $(a,b] = \\{x : a\lt x\le b]$
 $(a,b) = \\{x : a\lt x\lt b]$
 
 The bracket or parenthesis indicates that the endpoint is  or is not in the set.
+Note we can write $\mathbb{F}_n$ as $[0,n)$ or $[0,n-1]$
 
 ## Relations on sets
+We define the "subseteq" and "subset" relations on sets as follows:
 * $A\subseteq B \equiv \forall x.  (x\in A) \rightarrow (x\in B)$
 * $A\subset B \equiv A\ne B \wedge \forall x.  (x\in A) \rightarrow (x\in B)$
 
