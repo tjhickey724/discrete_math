@@ -1,4 +1,4 @@
-# Set Theory and Logic
+# Sets and Logic
 We show here that Set Theory is closely related to  the Predicate Calculus
 and we derive several of the transformations on set theory formulas.
 
