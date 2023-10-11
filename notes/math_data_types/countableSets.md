@@ -10,10 +10,12 @@ because $f$ is surjective.  Some elements of $s$ might appear multiple times unl
 You can try to prove that if there is a surjective $f$ then we can always find a bijective function from $\mathbb{N}$ to $S$.
 
 Let's look at some examples:
-* the even numbers  (let $f(x) = 2x$)
-* the odd numbers (let $f(x) = 2x+1$)
-* the prime numbers (let $f(n)$ be the nth prime number)
+* the positive even numbers are countable (let $f(x) = 2x+2$)
+* the positive odd numbers are countable (let $f(x) = 2x+1$)
+* the positive prime numbers are countable (let $f(n)$ be the nth prime number)
 
+What about other sets like the integers, pairs of integers, the rationals, the reals, the powerset of the integers.
+We'll answer those questions next, and the first two are countable, the last two are not!
 
 Proposition. If S and T are countable sets, then so is $S\cup T$.
 Proof: let $f$ and $g$ be the counting functions for S and T respectively.
@@ -23,10 +25,15 @@ Define h as follows:
 
 Then h is surjective onto $S$ and $T$. QED.
 
-Lemma. $\mathbb{N}^2$ is a countable set.
-
+Corollary. The integers $\mathbb{Z}$ are countable.
+Proof: It is easy to show that the negative integers, $\mathbb{Z}^-$ are countable,
+and $\mathbb{Z} = \mathbb{N} \cup \mathbb{Z}^-$ is the union of two countable sets
+and so is countable. QED.
 
 Proposition. If S and T are countable sets, then so is $S\times T$.
+Proof: First we prove it for $\mathbb{N}^2$ and then for any countable sets.
+... under construction ...
+
 
 
 But what about the rational numbers?
