@@ -7,7 +7,7 @@ Let $U$ be a set and consider subsets $A,B,\ldots$ of $U$.
 For any subset $A$ we can define a predicate $P_A: U \rightarrow \mathbb{B}$
 where $\mathbb{B} = \\{{\rm True},{\rm False} \\}$ is the set of Boolean values.
 
-$\forall x P_A(x) = {\rm True}  \ \rightleftarrow \  (x \in A)$
+$\forall x P_A(x) = {\rm True}  \ \leftrightarrow \  (x \in A)$
 
 ---
 
@@ -40,7 +40,7 @@ The proof for $\vee$ and $\neg$ is similar. **QED**
 * $A \cup (B \cap C) \ = \ (A \cup B) \cap (A \cup C)$
 * $A \cap (B \cup C) \ = \ (A \cap B) \cup (A \cap C)$
 
-** Proof:** These follow from the similar rules in logic, e.g.
+**Proof:** These follow from the similar rules in logic, e.g.
 
 $(A\cap B)^c = \\{x\in U | \neg (x in A \wedge x in B) \\}$
 
