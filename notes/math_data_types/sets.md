@@ -2,7 +2,8 @@
 A set is a collection of distinct elements.
 
 Sets can be described using a list of items separated by commas inside curly braces, e.g.
-* $\\{ a, b, c\\}$
+
+$\\{ a, b, c\\}$
 
 We use the notation
 
@@ -17,7 +18,8 @@ Some common sets of numbers have their own symbols
 * $\mathbb{Q}$ = the rational numbers
 * $\mathbb{R}$ = the real numbers
 * $\mathbb{C}$ = the complex numbers
-* ${\cal F}_n = {0,1,\ldots,n-1}$ the natural numbers less than $n$
+* $\mathbb{F}_n = {0,1,\ldots,n-1}$ the natural numbers less than $n$
+  We will also write this as ${\cal F}_n$
 
 We can use a superscript '+' or '-' to indicate the positive or negative elements in the set
 * $\mathbb{Z}^+$ = positive integers
@@ -34,6 +36,19 @@ the ":" or "|" can be read "such that" or "for"
   the set of all integers x such that x = 2a+1 for some integer a
 * odds = $\\{ 2x+1 | x \in \mathbb{Z} \\}$
   the set of numbers of the form 2x+1 for all integers x
+
+## Intervals
+We use the following notation to represent intervals in the integers, rationals, or reals:
+
+$[a,b] = \\{x : a\le x\le b]$
+
+$[a,b) = \\{x : a\le x\lt b]$
+
+$(a,b] = \\{x : a\lt x\le b]$
+
+$(a,b) = \\{x : a\lt x\lt b]$
+
+The bracket or parenthesis indicates that the endpoint is  or is not in the set.
 
 ## Relations on sets
 * $A\subseteq B \equiv \forall x.  (x\in A) \rightarrow (x\in B)$
