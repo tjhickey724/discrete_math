@@ -44,9 +44,9 @@ The proof for $\vee$ and $\neg$ is similar. **QED**
 
 **Proof:** These follow from the similar rules in logic, e.g.
 
-$(A\cap B)^c = \\{x\in U | \neg (x in A \wedge x in B) \\}$
+$(A\cap B)^c = \\{x\in U | \neg (x \in A \wedge x \in B) \\}$
 
-$= \\{x\in U | \neg (x in A) \vee \neg( x in B) \\}$
+$= \\{x\in U | \neg (x \in A) \vee \neg( x \in B) \\}$
 
 $= A^c \ cup B^c$
 
