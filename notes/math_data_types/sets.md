@@ -56,7 +56,7 @@ Note we can write $\mathbb{F}_n$ as $[0,n)$ or $[0,n-1]$. For example,
 ## Relations on sets
 We define the "subseteq" and "subset" relations on sets as follows:
 * $A\subseteq B \equiv \forall x.  (x\in A) \rightarrow (x\in B)$
-* $A\subset B \equiv A\ne B \wedge \forall x.  (x\in A) \rightarrow (x\in B)$
+* $A\subset B \equiv A\ne B \wedge A\subseteq B$
 
 ## Set Operations
 The fundamental operations on sets $A$ and $B$ are
