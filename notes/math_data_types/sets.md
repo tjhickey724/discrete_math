@@ -49,7 +49,9 @@ $(a,b] = \\{x : a\lt x\le b]$
 $(a,b) = \\{x : a\lt x\lt b]$
 
 The bracket or parenthesis indicates that the endpoint is  or is not in the set.
-Note we can write $\mathbb{F}_n$ as $[0,n)$ or $[0,n-1]$
+Note we can write $\mathbb{F}_n$ as $[0,n)$ or $[0,n-1]$. For example, 
+* $[2,5] = \\{2,3,4,5\\}$
+* $[0,7) = \\{0,1,2,3,4,5,6\\}$
 
 ## Relations on sets
 We define the "subseteq" and "subset" relations on sets as follows:
