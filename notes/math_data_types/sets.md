@@ -2,7 +2,7 @@
 A set is a collection of distinct elements.
 
 Sets can be described using a list of items separated by commas inside curly braces, e.g.
-* $\{ a, b, c\}$
+* $\\{ a, b, c\\}$
 
 We use the notation
 
