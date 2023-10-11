@@ -25,7 +25,7 @@ $A\cap B = \\{ x\in U:\  x\in A \wedge x\in B\\}$
 
 That is, $P_{A\cap B}(x)$ is true 
 
-if and only if $x \in $A\cap B$ which is 
+if and only if $x \in A\cap B$ which is 
 
 if and only if $x \in A$ and $x \in B$ which is
 
