@@ -44,11 +44,18 @@ Also say if it is surjective or injective or both.
 * $f(x)=x^2$  
 * $g(x)=x^3$
 * $h(x) = \sqrt{x}$
+* Prove that if $g\circ f$ is surjective, then $g$ must be surjective.
+* Prove that if $g\circ f$ is injective, then $f$ must be injective.
 
 
 ## Functions on subsets of a domain
 We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to subsets of $B$ by
-* $f(S) \ = \ \\{f(x)| x \in S\\}$
+* $f_*(S) \ = \ \\{f(x)| x \in S\\}$
+
+So $f_*:2^{A} \rightarrow 2^B$
+
+Since it is usually clear by context whether we are referring to $f$ or $f_*$, we usually drop the
+subscript and just write $f(S)$ for a subset $S$ of $A$ instead of $f_*(S)$.
 
 We say that $f(S)$ is the **image** of $S$ under $f$, and if the domain of $f$ is $A$, then
 we say that $f(A)$ is the **range** of $f$.
@@ -58,9 +65,22 @@ and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
 * $g(\mathbb{Z}) = E$
 * $f(E)=O$ and $f(O)=E$
 
+## Inverse images
+Let $f:A\rightarrow B$ be a function, and $S\subseteq B$ a subset of $B$, then we define the
+inverse image of $S$ under $f$ to be
+
+$f^{-1}(S) = \\{a \in A : \  f(a) \in S$
+
+Note that $f$ is a function from the powerset of $B$ to the powerset of $A$.
+
+$f:2^{B}\rightarrow 2^{A}$
+
+
 ## Exercise 2
 * what is the range of the function $f(x)=2x+1$ defined on the integers $\mathbb{Z}$
 * what is the range of $f$ on $\mathbb(R)$
+* what is the image of the interval $[2,4]$ under $f$?
+* what is the inverse image of the interval $[2,4]$ under $f$?
 
 ## Composition of functions
 If $g:A\rightarrow B$ and $f:B \rightarrow C$ are functions, then their composition $f\circ g:A\rightarrow C$
@@ -85,6 +105,7 @@ Let $h(x) = (x^2+1, 2x)$ be a function from $\mathbb{R}$ to $\mathbb{R}^2$. Calc
 * $g\circ h$
 * $h\circ f$
 * $g \circ h \circ f$
+* Prove that $(f\circ g)^{-1} = (g^{-1})\circ (f^{-1})$
 
 ## Product of functions
 Let $f:A\rightarrow C$ and $g:B\rightarrow D$ be functions, then $f\times g:A\times B \rightarrow C\times D$ is the function defined by
