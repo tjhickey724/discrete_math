@@ -50,8 +50,8 @@ Also say if it is surjective or injective or both.
 We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to subsets of $B$ by
 * $f(S) \ = \ \\{f(x)| x \in S\\}$
 
-We say that $f(S)$ is the image of $S$ under $f$, and if the domain of $f$ is $A$, then
-we say that $f(A)$ is the range of $f$.
+We say that $f(S)$ is the **image** of $S$ under $f$, and if the domain of $f$ is $A$, then
+we say that $f(A)$ is the **range** of $f$.
 
 For example, if $f$ and $g$ are functions on $\mathbb{Z}$ defined by $f(x)=x+1$ and $g(x)=2x$,
 and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
@@ -61,5 +61,7 @@ and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
 ## Exercise 2
 * what is the range of the function $f(x)=2x+1$ defined on the integers $\mathbb{Z}$
 * what is the range of $f$ on $\mathbb(R)$
+
+
 
 
