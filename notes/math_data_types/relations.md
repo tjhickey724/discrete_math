@@ -49,3 +49,20 @@ Suppose that A and B are finite sets. Then R can be visualized as arrows from
 elements of A on the left to elements of B on the right. We can use this analogy
 even with infinite sets $A$ and $B$ though it may be impossible to draw the diagram
 for complex relations. 
+
+## Injectivity and  Surjectivity of Relations
+We can define the notions of injective, surjective, bijective, partial, and total for relations analogously to the way we defined them for functions.
+
+* $R$ is injective if $\forall x \forall y \forall z \ \  xRz \wedge yRz \rightarrow x=y$
+* $R$ is surjective if $\forall y \exists x \ \  xRy $
+* $R$ is total if $\forall x\exists y \  \  xRy$
+* $R$ is bijective if it is injective and surjective
+* $R$ is functional if $forall z \forall x\forall y xRy \wedge xRz \rightarrow y=z$
+
+**Example 5**
+Let $p$ be a prime and let $R$ be the relation on the integers defined by $xRy \leftrightarrow \exists d\  x-y=pd$
+We say that $xRy$ means $x$ and $y$ are congruent mod $p$ and write it
+
+$x = y (mod p)$
+
+This will be an important concept in cryptography.
