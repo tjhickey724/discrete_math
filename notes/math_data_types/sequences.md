@@ -116,7 +116,7 @@ QED.
 
 ---
 
-Exercise 1
+**Exercise 1**
 Recall that ${\cal F}_n = \\{0,1,\ldots,n-1\\}$
 Calculate the sizes of the following sets, and write down a few of their elements.
 1. ${\cal F}_2^3$
