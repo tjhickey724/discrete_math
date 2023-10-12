@@ -174,4 +174,6 @@ To be announced
 
 ## Lesson 16 Wed 10/11 <br> _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
-  
+
+## Lesson 17 Thu 10/12/<br> _Functions and Relations_
+* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Functions and Relations
