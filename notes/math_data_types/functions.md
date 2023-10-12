@@ -62,6 +62,41 @@ and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
 * what is the range of the function $f(x)=2x+1$ defined on the integers $\mathbb{Z}$
 * what is the range of $f$ on $\mathbb(R)$
 
+## Composition of functions
+If $g:A\rightarrow B$ and $f:B \rightarrow C$ are functions, then their composition $f\circ g:A\rightarrow C$
+is defined by first applying $g$ and then $f$:
+
+$(f\circ g)(a) = f(g(a))$
+
+That is it takes $a\in A$ and gets a $b=g(a)\in B$ and then applies $f$ to $b$ to get $c=f(b) =f(g(a))$.
+
+$a \rightarrow g(a) \rightarrow f(g(a))$
+
+For example, let
+* $f(x) = x^2+2$
+* $g(a,b) = a+b$
+
+Then $g:\mathbb{R}^2 \rightarrow \mathbb{R}$ and $f:\mathbb{R} \rightarrow \mathbb{R}$ and the composition is 
+
+$f(g(a,b)) = f(a+b) = (a+b)^2+2 = a^2 + 2ab + b^2 + 2$
+
+### Exercise 3
+Let $h(x) = (x^2+1, 2x)$ be a function from $\mathbb{R}$ to $\mathbb{R}^2$. Calculate the following functions:
+* $g\circ h$
+* $h\circ f$
+* $g \circ h \circ f$
+
+## Product of functions
+Let $f:A\rightarrow C$ and $g:B\rightarrow D$ be functions, then $f\times g:A\times B \rightarrow C\times D$ is the function defined by
+
+$(f\times g)(a,b) = (f(a), g(b))$
+
+### Exercise 4
+Let $j(x) = 2*x$ and $k(x)=x^2+1$, 
+* what is the functions $j\times k$?
+* What is $g\circ(j\times k)$?
+
+
 
 
 
