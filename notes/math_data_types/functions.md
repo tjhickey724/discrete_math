@@ -37,15 +37,13 @@ A function is **surjective** if for every $b$ in $B$ there is an $a$ in $A$ with
 
 A function is **bijective** if it is both injective and surjective.
 
-## Exercise 1
+### Exercise 1
 Consider the following functions on the real numbers. 
 For each function say if it is a total function or a partial function.
 Also say if it is surjective or injective or both.
 * $f(x)=x^2$  
 * $g(x)=x^3$
 * $h(x) = \sqrt{x}$
-* Prove that if $g\circ f$ is surjective, then $g$ must be surjective.
-* Prove that if $g\circ f$ is injective, then $f$ must be injective.
 
 
 ## Functions on subsets of a domain
@@ -76,7 +74,7 @@ Note that $f$ is a function from the powerset of $B$ to the powerset of $A$.
 $f:2^{B}\rightarrow 2^{A}$
 
 
-## Exercise 2
+### Exercise 2
 * what is the range of the function $f(x)=2x+1$ defined on the integers $\mathbb{Z}$
 * what is the range of $f$ on $\mathbb(R)$
 * what is the image of the interval $[2,4]$ under $f$?
@@ -105,7 +103,6 @@ Let $h(x) = (x^2+1, 2x)$ be a function from $\mathbb{R}$ to $\mathbb{R}^2$. Calc
 * $g\circ h$
 * $h\circ f$
 * $g \circ h \circ f$
-* Prove that $(f\circ g)^{-1} = (g^{-1})\circ (f^{-1})$
 
 ## Product of functions
 Let $f:A\rightarrow C$ and $g:B\rightarrow D$ be functions, then $f\times g:A\times B \rightarrow C\times D$ is the function defined by
@@ -117,7 +114,12 @@ Let $j(x) = 2*x$ and $k(x)=x^2+1$,
 * what is the functions $j\times k$?
 * What is $g\circ(j\times k)$?
 
-
+### Exercise 5
+Let $g:A\rightarrow B$ and $f:B\rightarrow C$ be functions
+* Prove that if $g\circ f$ is surjective, then $g$ must be surjective.
+* Prove that if $g\circ f$ is injective, then $f$ must be injective.
+* Prove that $(f\circ g)^{-1} = (g^{-1})\circ (f^{-1})$
+* Prove that $f(f^{-1}(S)) = S$ for every $S\subset C$ 
 
 
 
