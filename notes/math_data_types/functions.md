@@ -52,8 +52,8 @@ We also can use $f:A\rightarrow B$ to define a function on subsets of $A$ to sub
 
 So $f_*:2^{A} \rightarrow 2^B$
 
-Since it is usually clear by context whether we are referring to $f$ or $f_*$, we usually drop the
-subscript and just write $f(S)$ for a subset $S$ of $A$ instead of $f_*(S)$.
+Since it is usually clear by context whether we are referring to $f$ or $f_* $, 
+we usually drop the subscript and just write $f(S)$ for a subset $S$ of $A$ instead of $f_*(S)$.
 
 We say that $f(S)$ is the **image** of $S$ under $f$, and if the domain of $f$ is $A$, then
 we say that $f(A)$ is the **range** of $f$.
