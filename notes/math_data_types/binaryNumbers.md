@@ -41,7 +41,55 @@ For example
 * 1 is odd so the last bit is 1
 * so the binary representation of 99 is 1100011
 
-## Binary Representation of real numbers
+## Counting base 2
+The sequence of base 2 numbers corresponding to the natural numbers 0,1,2,3..... has an easy to understand pattern,
+and can be used to count to 1023 on your two fingers, where up = 0 and down = 1!
+
+Here are the binary representations of the first 16 natural numbers. Notice how this is similar to the way we
+write the rows of a truth table!
+
+We call the four bit sequences **nibbles** and eight bit sequences are called **bytes**
+```
+0000  0
+0001  1
+0010  2
+0011  3
+0100  4
+0101  5
+0110  6
+0111  7
+1000  8
+1001  9
+1010  10   A
+1011  11   B
+1100  12   C
+1101  13   D
+1110  14   E
+1111  15   F
+```
+
+The last six nibbles are sometimes represented by the latters A,B,C,D,E,F
+and this allows us to write binary numbers in **hexadecimal**, i.e. in base 16
+where we group the bits in groups of four, and then replace them with their hexadecimal symbol,
+e.g.
+
+* CAFEBABE = 11001010111111101011101010111110
+
+and this is the first four bytes of the code for a java program compiled to bytes.
+
+## Unicode
+Binary numbers are also used to represent characters.
+
+ASCII code uses 8 bits (1 byte) for each character in the Latin alphabet
+
+[UNICODE](https://home.unicode.org/) uses 16 bits (2 bytes) to represent characters in all alphabets including math and music
+
+So when you write a text file on the computer, it is typically stored using either ASCII or Unicode
+
+## Audio and Video
+Binary encoding is also used for audio files and video files, but we won't get into that now.
+
+# Binary Representation of real numbers
 Just as decimal numbers can be used to represent real numbers by using the tenths, hundredths, thousandths, etc. places.
 we can do the same with binary numbers have the places to the right of the decimal point be negative powers of 2, so
 
