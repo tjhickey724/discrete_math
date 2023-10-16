@@ -81,9 +81,12 @@ and this is the first four bytes of the code for a java program compiled to byte
 ## Unicode
 Binary numbers are also used to represent characters.
 
-ASCII code uses 8 bits (1 byte) for each character in the Latin alphabet
+[UNICODE](https://home.unicode.org/) uses 16 bits (2 bytes) to represent characters in all alphabets including math, music, and emojis.
+For example, here are the [unicode charts](https://www.unicode.org/charts/)
 
-[UNICODE](https://home.unicode.org/) uses 16 bits (2 bytes) to represent characters in all alphabets including math and music
+[ASCII code](https://www.unicode.org/charts/PDF/U0000.pdf) uses 8 bits (1 byte) for each character in the Latin alphabet
+
+
 
 So when you write a text file on the computer, it is typically stored using either ASCII or Unicode
 
