@@ -1,7 +1,7 @@
 # Countable Sets
 We say that a set $S$ is countable if there is a surjective function $f$ from $\mathbb{N}$ to $S$.
 
-**UNDER CONSTRUCTION**
+# **UNDER CONSTRUCTION**
 
 If a set is countable, then the sequence
 
@@ -19,6 +19,7 @@ Let's look at some examples:
 What about other sets like the integers, pairs of integers, the rationals, the reals, the powerset of the integers.
 We'll answer those questions next, and the first two are countable, the last two are not!
 
+
 Proposition. If S and T are countable sets, then so is $S\cup T$.
 Proof: let $f$ and $g$ be the counting functions for S and T respectively.
 Define h as follows:
@@ -31,6 +32,15 @@ Corollary. The integers $\mathbb{Z}$ are countable.
 Proof: It is easy to show that the negative integers, $\mathbb{Z}^-$ are countable,
 and $\mathbb{Z} = \mathbb{N} \cup \mathbb{Z}^-$ is the union of two countable sets
 and so is countable. QED.
+
+Proposition: If $S_0,S_1,\ldots$ is a countable sequence of countable sets, then their union
+* $S = \bigcup_\limits_{i=0}^\infty S_i$
+
+is a countable set.
+
+** Proof: **
+We use a diagonalization argument... QED
+
 
 Proposition. If S and T are countable sets, then so is $S\times T$.
 Proof: First we prove it for $\mathbb{N}^2$ and then for any countable sets.
