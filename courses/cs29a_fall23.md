@@ -177,3 +177,9 @@ To be announced
 
 ## Lesson 17 Thu 10/12/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Sets and Sequences
+
+# Week 7: 10/16-20 
+
+## Lesson 18 Mon 10/16 <br> _Functions, and Counting_
+* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md)
+* Then we look into counting and [countability](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
