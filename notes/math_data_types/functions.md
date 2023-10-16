@@ -1,12 +1,13 @@
 # Functions
-A function $f$ is an associations of elements in one set $A$ called the domain of f to elements in another set $B$ called the codomain of f
+A function $f$ is an associations of elements in one set $A$ called the **domain** of f 
+to elements in another set $B$ called the **codomain** of f
 and is written:
 
 $f: A \rightarrow  B$
 
 The element $b$ of $B$ that a function $f$ associates to an element $a$ of $A$ is denoted $f(a)$.
 
-## Basic Definitions
+## Ways to define functions
 
 Functions can be defined in many ways. For example,
 1. By listing its values on domain elements, e.g. $f({\rm T})=1, f({\rm F})=0$
@@ -29,13 +30,19 @@ A function is a **total function** if it assigns a value to every element of its
 For example the function $f:\mathbb{R} \rightarrow \mathbb{R}$ is defined by $f(x)=\sqrt{x}$, then $f$ is not defined for negative
 numbers $x$ and so is a partial function, but $g(x) = x^2$ is a total function.
 
-A function is **injective** if no two elements of $A$ get mapped to the same element of $B$, that is
+## Surjection, Injections, and Bijections
+A function is **injective** or **one-one** if no two elements of $A$ get mapped to the same element of $B$, that is
 * $\forall a_1 \forall a_2 (f(a_1)=f(a_2)) \rightarrow (a_1=a_2)$
+We write injections with a hooked arrow:
+* $f: A \hookrightarrow B$
 
-A function is **surjective** if for every $b$ in $B$ there is an $a$ in $A$ with $f(a)=b$.
+A function is **surjective** or **onto** if for every $b$ in $B$ there is an $a$ in $A$ with $f(a)=b$.
 * $\forall b\in B\ \exists a\in A \ \ (f(a)=b)$
+We write surjections with a twohead arrow:
+* $f: A \twoheadrightarrow B$
 
-A function is **bijective** if it is both injective and surjective.
+A function is **bijective** or **one-one and onto** if it is both injective and surjective. 
+We also say such a function is a **one-to-one correspondence**  
 
 ### Exercise 1
 Consider the following functions on the real numbers. 
