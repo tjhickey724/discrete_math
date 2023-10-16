@@ -68,6 +68,7 @@ We call the four bit sequences **nibbles** and eight bit sequences are called **
 1111  15   F
 ```
 
+## Hexadecimal numbers
 The last six nibbles are sometimes represented by the latters A,B,C,D,E,F
 and this allows us to write binary numbers in **hexadecimal**, i.e. in base 16
 where we group the bits in groups of four, and then replace them with their hexadecimal symbol,
