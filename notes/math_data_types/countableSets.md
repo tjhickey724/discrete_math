@@ -54,7 +54,7 @@ where
 * $G(2)=(0,1)$
 * $G(3)=(2,0)$
 * $G(4)=(1,1)$
-* $\ldots#
+* $\ldots$
 
 **QED**
   
@@ -72,7 +72,7 @@ elements of $S_i$, then we can define
 so $g:\mathbb{N}^2 \twoheadrightarrow S$
 
 and so $g\circ f$ maps $\mathbb{N}$ to $S$ is surjective.
-**QED$$
+**QED**
 
 
 But what about the rational numbers?
