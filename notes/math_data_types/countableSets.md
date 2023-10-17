@@ -127,14 +127,13 @@ Both cases lead to a contradiction, so there can be no such surjective function 
 **Proof:** By the Theorem there is no surjection from $\mathbb{N}$ to its powerset ${\cal P}(\mathbb{N})$
 so ${\cal P}(\mathbb{N})$ is not countable, by definition. **QED**
 
-**Theorem** The set of real numbers in the interval $I=[0,1]$ is not a countable set.
+**Theorem** The set of infinite decimal numbersis not a countable set.
 
-**Proof:** We will prove this by contradiction.  Suppose it is not true. Then there is a surjection
-$f:\mathbb{N}\twoheadrightarrow I$ which maps each natural number $n$ to a real number in the interval
-$[0,1]$. Let
+**Proof:** We will prove this by contradiction.   Suppose it is not true. Then there is a surjection
+$f:\mathbb{N}\twoheadrightarrow I$ which maps each natural number $n$ to an infinite decimal number 
 * $f(n) = 0.b_{n1} b_{n2} b_{n3}\ldots$
- 
-be the binary representation of that real number $n$.  We can now construct a new real number $t$ defined
+
+We can now construct a new infinite decimal number $t$ defined
 by 
 $t=0.t_1 t_2 t_3\ldots$
 
@@ -144,5 +143,18 @@ then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bi
 ![diagonalization](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/diagonalization.jpg)
 
 **QED**
+
+**Corollary.** The set of real numbers is not countable.
+
+**Proof** The proof of this is a little subtle because the real numbers do not precisely correspond to the infinite decimals, even when we restrict to numbers in the range [0,1]. We give a proof sketch here.
+
+Indeed $0.999\overline{999}=1.000\overline{000}$ in base 10, and
+
+and $0.111\overline{111}=1.000\overline{000}$ in base 2
+
+and in general all numbers of the form $n/2^k$ have two such representations as infinite decimals in base 2.
+(Maybe we should call them bitimals instead of decimals??)
+But these exceptions are a countable set (why?), and if we remove a countable set from an uncountable set,
+the result is still uncountable (why?), so the real numbers are an uncountable set. **QED**
 
 
