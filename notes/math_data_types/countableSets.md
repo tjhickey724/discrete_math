@@ -122,7 +122,7 @@ Both cases lead to a contradiction, so there can be no such surjective function 
 
 ---
 
-**Corollary. **The power set of $\mathbb{N}$ is not countable!
+**Corollary.** The power set of $\mathbb{N}$ is not countable!
 
 **Proof:** By the Theorem there is no surjection from $\mathbb{N}$ to its powerset ${\cal P}(\mathbb{N})$
 so ${\cal P}(\mathbb{N})$ is not countable, by definition. **QED**
@@ -132,7 +132,7 @@ so ${\cal P}(\mathbb{N})$ is not countable, by definition. **QED**
 **Proof:** We will prove this by contradiction.  Suppose it is not true. Then there is a surjection
 $f:\mathbb{N}\twoheadrightarrow I$ which maps each natural number $n$ to a real number in the interval
 $[0,1]$. Let
-* $ 0.b_{n1} b_{n2} b_{n3}\ldots$
+* $0.b_{n1} b_{n2} b_{n3}\ldots$
  
 be the binary representation of that real number.  We can now construct a new real number $t$ defined
 by 
