@@ -64,7 +64,7 @@ $S = \bigcup_\limits{i=0}^\infty S_{i}$
 
 is a countable set.
 
-**Proof **
+**Proof**
 We know we have a bijective map $G:\mathbb{N}\twoheadrightarrow\mathbb{N}^2$,
 and if we let $f_i:\mathbb{N}\twoheadrightarrow S_i$ be a surjective map counting the 
 elements of $S_i$, then we can define
@@ -81,7 +81,7 @@ But what about the rational numbers?
 **Theorem**. The rational numbers $\mathbb{Q}$ form a countable set.
 
 **Proof.**
-Define $h(i,j) = i/j$ if $j\ne 0$ and $h(i,0) = 0$, then $h$ is a surjective map
+Define $h(i,j) = i/j$ if $j\ne 0$ and $h(i,j) = 0$ if $j=0$, then $h$ is a surjective map
 from $\mathbb{N}^2$ onto the rationals $\mathbb{Q}$.
 So if we let $G:\mathbb{N}\rightarrow \mathbb{N}^2$ be the surjectifve map defined above,
 then $h\circ G$ is a surjective map from $\mathbb{N}$ onto $\mathbb{Q}$.
