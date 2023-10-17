@@ -132,14 +132,14 @@ so ${\cal P}(\mathbb{N})$ is not countable, by definition. **QED**
 **Proof:** We will prove this by contradiction.  Suppose it is not true. Then there is a surjection
 $f:\mathbb{N}\twoheadrightarrow I$ which maps each natural number $n$ to a real number in the interval
 $[0,1]$. Let
-* $0.b_{n1} b_{n2} b_{n3}\ldots$
+* $f(n) = 0.b_{n1} b_{n2} b_{n3}\ldots$
  
-be the binary representation of that real number.  We can now construct a new real number $t$ defined
+be the binary representation of that real number $n$.  We can now construct a new real number $t$ defined
 by 
 $t=0.t_1 t_2 t_3\ldots$
 
-where $t_i = 1 - b_{ii}$ so $t_i$ differs from $f(i)$ in the $i$th place, but if $f$ was surjective
-then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bit from $f(m)$ at the $m$th place. Here is an image which shows how to construct $t$.
+where $t_i = 1 - b_{ii}$ so $t_i$ differs from $f(i)$ in the $i$ th place, but if $f$ was surjective
+then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bit from $f(m)$ at the $m$ th place. Here is an image which shows how to construct $t$.
 
 ![diagonalization](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/diagonalization.jpg)
 
