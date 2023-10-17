@@ -1,8 +1,6 @@
 # Countable Sets
 We say that a set $S$ is countable if there is a surjective function $f$ from $\mathbb{N}$ to $S$.
 
-# **UNDER CONSTRUCTION**
-
 If a set is countable, then the sequence
 
 $(f(0), f(1), f(2), \ldots )$
@@ -16,30 +14,45 @@ Let's look at some examples:
 * the positive odd numbers are countable (let $f(x) = 2x+1$)
 * the positive prime numbers are countable (let $f(n)$ be the nth prime number)
 
-What about other sets like the integers, pairs of integers, the rationals, the reals, the powerset of the integers.
-We'll answer those questions next, and the first two are countable, the last two are not!
+What about other sets like the integers, pairs of integers, the rationals, the reals, the powerset of the integers, functions from integers to integers, etc.
+We'll answer those questions next, and the first two are countable, the last three are not!
 
 
-Proposition. If S and T are countable sets, then so is $S\cup T$.
-Proof: let $f$ and $g$ be the counting functions for S and T respectively.
+**Proposition.** If S and T are countable sets, then so is $S\cup T$.
+
+**Proof:** let $f$ and $g$ be the counting functions for S and T respectively.
 Define h as follows:
 * h(2n) = f(n)
 * h(2n+1) = g(n)
 
-Then h is surjective onto $S$ and $T$. QED.
+Then h is surjective onto $S\cup T$.
+**QED**
 
-Corollary. The integers $\mathbb{Z}$ are countable.
-Proof: It is easy to show that the negative integers, $\mathbb{Z}^-$ are countable,
+**Corollary.** The integers $\mathbb{Z}$ are countable.
+
+**Proof:** It is easy to show that the negative integers, $\mathbb{Z}^-$ are countable,
 and $\mathbb{Z} = \mathbb{N} \cup \mathbb{Z}^-$ is the union of two countable sets
-and so is countable. QED.
+and so is countable. **QED.**
 
-Proposition: If $S_0,S_1,\ldots$ is a countable sequence of countable sets, then their union
+**Proposition:** $\mathbb{N}^2$ is a countable set.
+
+**Proof:** To prove this we will define a bijection from $\mathbb{N}^2$ to $\mathbb{N}$
+We can visualize $\mathbb{N}^2$ as a rectangular grid 
+and we can number the pairs (i,j) starting at (0,0) and the numbering each diagonal from top to bottom
+as shown in the following image:
+![N2isCountable](N2isCountable.jpg)
+This shows that the function $f:\mathbb{N}^2\rightarrow\mathbb{N}$ defined by
+* $f((i,j) = n(n+1)/2+i$  where $n=i+j)$ is a bijection and hence we have a surjective
+map from $\mathbb{N}$ to $\mathbb{N}^2$.
+**QED**
+  
+**Proposition:** If $S_0,S_1,\ldots$ is a countable sequence of countable sets, then their union
 * $S = \bigcup_\limits_{i=0}^\infty S_i$
 
 is a countable set.
 
-** Proof: **
-We use a diagonalization argument... QED
+**Proof **
+We use a diagonalization argument... 
 
 
 Proposition. If S and T are countable sets, then so is $S\times T$.
