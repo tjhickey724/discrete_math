@@ -108,5 +108,20 @@ Irrational numbers correspond to non-repeating binary numbers, e.g.
 * $\sqrt{2} = 1.01101010000010011110...$
 * $\pi = 11.00100 10000 11111 10110 10101 00010 00100 00101 10100 01100 00100 01101 00110 00100 11000 11001 10001 01000 10111 00000$
 
+## Bit strings and reals
+Let ${\cal B}^\omega$ be the set of infinite bit strings $(b_1,b_2,\ldots )$ where each $b_i \in\\{0,1\\}$,
+and let $[0,1] = \\{x\in\mathbb{R}: 0\le x \le 1\\}$,
+then there is a surjection
+
+$f:B \twoheadrightarrow [0,1]\subseteq\mathbb{R}$
+
+which sends
+
+$(b_1,b_2,b_3, \ldots) \ \mapsto\  b_1/2  + b_2/4 + b_3/8 + ... + b_k/2^k + \ldots$
+
+It is not 1-1 because for example
+$0.1 = f((1,0,0,0,0,0,\ldots) = f((0,1,1,1,1,1,\ldots) = 0.0111\overline{1}$
+
+just as 0.1 and $0.0999999\overline{9}\ldots$ represent the same real number 0.1
 
 
