@@ -59,7 +59,8 @@ where
 **QED**
   
 **Proposition:** If $S_0,S_1,\ldots$ is a countable sequence of countable sets, then their union
-* $S = \bigcup_\limits_{i=0}^\infty S_i$
+
+$S = \bigcup_\limits{i=0}^\infty S_{i}$
 
 is a countable set.
 
@@ -70,7 +71,7 @@ elements of $S_i$, then we can define
 * $g(i,j) = f_i(j)$
 so $g:\mathbb{N}^2 \twoheadrightarrow S$
 
-and so $g\circ f$ maps $\mathbb{N|$ to $S$ is surjective.
+and so $g\circ f$ maps $\mathbb{N}$ to $S$ is surjective.
 **QED$$
 
 
