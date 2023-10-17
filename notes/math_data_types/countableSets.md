@@ -71,7 +71,7 @@ elements of $S_i$, then we can define
 * $h(i,j) = f_i(j)$
 so $h:\mathbb{N}^2 \twoheadrightarrow S$
 
-and so $h\circ G$ maps $\mathbb{N}$  to $mathbb{N}^2$ to $S$ is surjective, so $S$ is countable.
+and so $h\circ G$ maps $\mathbb{N}$  to $\mathbb{N}^2$ to $S$ is surjective, so $S$ is countable.
 **QED**
 
 
