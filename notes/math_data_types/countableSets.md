@@ -65,13 +65,13 @@ $S = \bigcup_\limits{i=0}^\infty S_{i}$
 is a countable set.
 
 **Proof **
-We know we have a bijective map $f:\mathbb{N}\twoheadrightarrow\mathbb{N}^2$,
+We know we have a bijective map $G:\mathbb{N}\twoheadrightarrow\mathbb{N}^2$,
 and if we let $f_i:\mathbb{N}\twoheadrightarrow S_i$ be a surjective map counting the 
 elements of $S_i$, then we can define
-* $g(i,j) = f_i(j)$
-so $g:\mathbb{N}^2 \twoheadrightarrow S$
+* $h(i,j) = f_i(j)$
+so $h:\mathbb{N}^2 \twoheadrightarrow S$
 
-and so $g\circ f$ maps $\mathbb{N}$ to $S$ is surjective.
+and so $h\circ G$ maps $\mathbb{N}$  to $mathbb{N}^2$ to $S$ is surjective, so $S$ is countable.
 **QED**
 
 
