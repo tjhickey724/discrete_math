@@ -86,12 +86,13 @@ For example, here are the [unicode charts](https://www.unicode.org/charts/)
 
 [ASCII code](https://www.unicode.org/charts/PDF/U0000.pdf) uses 8 bits (1 byte) for each character in the Latin alphabet
 
+## Novels
+Since a text file is nothing more than a sequence of characters, we can see that a novel in any language can be viewed as a sequence of unicode characters, each of which is 16 bits long, so the entire novel is a very long bit string and which can be viewed as a very large integer! With this interpretation the set of every possible novel that could ever be written in any current language, can be viewed as a subset of the integers!
 
-
-So when you write a text file on the computer, it is typically stored using either ASCII or Unicode
+When you write a text file on the computer, it is typically stored using either ASCII or Unicode as a sequence of characters.
 
 ## Audio and Video
-Binary encoding is also used for audio files and video files, but we won't get into that now.
+Binary encoding is also used for audio files and video files, but we won't get into that now. The point here is that every movie file (mp4 or mpeg or avi ...) is just a long sequence of bytes and so can be viewed as a very large integer! The same for audio files.
 
 # Binary Representation of real numbers
 Just as decimal numbers can be used to represent real numbers by using the tenths, hundredths, thousandths, etc. places.
