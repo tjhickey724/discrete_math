@@ -77,6 +77,10 @@ $\vert A \cup B \vert = \vert A \vert + \vert B \vert - \vert A \cap B \vert$
 To see why, observe that every element of $A \cap B$ will be counted twice, once in $\vert A\vert$ and once in $\vert B \vert$
 so subtracting $\vert A \cap B \vert$ removes that double counting.
 
+Similarly if $A,B,C$ are sets 
+
+$\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert +\vert C\vert - \vert A \cap B \vert - \vert A \cap C \vert - \vert B \cap C \vert+\vert A \cap B \cap C\vert$
+
 ### Applications
 How many integers in the range [0,100] are divisible by 3 or by 5?
 
@@ -95,8 +99,3 @@ but $A_3\cap A_5$ is the numbers divisible by 3 and 5, i.e. by 15, so
 * $\vert A_3\cap A_5\vert = \vert A_{15}\vert = 100//15 = 6$
 * $\vert A \vert = 33 + 20 - 6 = 53-6 = 47$
 
-
-
-So $\vert A \vert = 
-
-and notice that $A_{15} = A_3 \cap A_5$
