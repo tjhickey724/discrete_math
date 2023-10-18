@@ -46,8 +46,7 @@ as shown in the following image:
 This shows that the function $f:\mathbb{N}^2\rightarrow\mathbb{N}$ defined by
 * $f((i,j) = n(n+1)/2+i$  where $n=i+j)$
 
-is a bijection and hence we have a surjective (actually bijective) map from $\mathbb{N}$ to $\mathbb{N}^2$.
-Since it is a bijection, there is an inverse map $G$ which maps $\mathbb{N}$ onto $\mathbb{N}^2$
+is a bijection.  Since it is a bijection, there is an inverse map $G$ which maps $\mathbb{N}$ onto $\mathbb{N}^2$
 where 
 * $G(0)=(0,0)$
 * $G(1)=(1,0)$
@@ -56,6 +55,7 @@ where
 * $G(4)=(1,1)$
 * $\ldots$
 
+and this shows that $\mathbb{N}^2$ is countable.
 **QED**
   
 **Proposition:** If $S_0,S_1,\ldots$ is a countable sequence of countable sets, then their union
