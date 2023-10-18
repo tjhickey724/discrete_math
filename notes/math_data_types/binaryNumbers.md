@@ -78,6 +78,9 @@ e.g.
 
 and this is the first four bytes of the code for a java program compiled to bytes.
 
+[Here](https://flippybitandtheattackofthehexadecimalsfrombase16.com/) is a link to a game testing your ability to
+convert hex to binary and shoot down aliens! Thanks to an anonymous student in class for the link!
+
 ## Unicode
 Binary numbers are also used to represent characters.
 
