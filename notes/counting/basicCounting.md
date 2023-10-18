@@ -4,6 +4,8 @@ Here we introduce the simplest (and yet still powerful) counting techniques.
 Recall that if $A$ is a finite set then we use the notation $\vert A \vert$ to denote the size
 of the set.
 
+
+
 ---
 
 # The multiplication principle:
@@ -125,33 +127,29 @@ is 100-74 = 26.
 
 ---
 
-# The Generalized Multiplication Principle
-Suppose we can construct the elements in a set by making a sequence of choices $c_1,c_2,\ldots,c_n$ and
-for choice $c_i$ we have $r_i$ options.  Then the total number of elements we can construct, i.e. the size of the set of all such elements is $\prod_limit{i=1}^n r_i = r_1 * r_2 * \ldots * r_n$
+# Counting Subsets
+Another useful rule is that the number of subsets $S$ of a set $A$ of size $n$ is $2^n$.
+We can see this is true by associating each subset $S$ of $A= \\{a_1,a_2,a_3,\ldots,a_n\\}$ with a binary
+sequence $(b_1,b_2,\ldots,b_n)$ of length $n$ where 
 
-### Applications
-How many ways are there of rearranging the numbers $1,2,3,\ldots,n$? These are called the permutations of $n$.  To apply our general principle, we can create such a sequence by 
-* picking the first number (out of n), then
-* picking the second number (out of the n-1 remaining elements), then
-* picking the 3rd number (out of the n-2) remaining elements
+$b_i = 1 if a_i \in S and b_i = 0 if a_i\not\in S$
 
-and repeating until we have only one number, the nth, to pick and there is no choice.
+Since there are $2^n$ binary sequences of length $n$ there must then be $2^n$ subsets $S$ of $A$.
 
-Thus the total number of ways we could generate such a permuation is
+---
 
-$n * (n-1) * (n-2) * \ldots * 3 * 2 * 1$
+# The Bijection principle
 
-and we call this n factorial and denote it as $n!$
+If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
 
-So for n=3 there are 3*2*1 such permuations:
-```
-1 2 3
-1 3 2
-2 1 3
-2 3 1
-3 1 2
-3 2 1
-```
-and for n=4 there are 24 permutations.
+### Applications.
+Let $A$ be a set with $n$ elements, and let $B=\\{0,1\\}$. 
+How many functions are there from $A$ to $B$?
+
+Notice that if $f$ is any function from $A$ to $B$ we can get a subset $S_f$ of $A$ consisting
+of all $a$ for which $f(a)=1$.  Likewise, if we have a subset $S$ of $A$ we can define a function
+$f_S:A\rightarrow B$ by setting it to be 1 on elements of $S$ and 0 on other values. This shows that
+the function $S\mapsto f_S$ is a bjection, and hence by the bijection principle since
+the functions from $A$ to $B$ are in 1-1 correspondence with the subsets of $A$, there are $2^n$ such functions.
 
 
