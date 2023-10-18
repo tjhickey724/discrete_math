@@ -36,7 +36,9 @@ $\vert D\times L^3\times D^2\vert = \vert D \vert^3 * \vert L \vert^3 = 1000*26^
 
 
 
-## The size of a disjoint unions of sets is the sum of their sizes
+## The Addition Principle
+_The size of a disjoint unions of sets is the sum of their sizes_
+
 Suppose $A$ and $B$ are sets, then
 * $\vert A \cup B \vert = \vert A \vert\ \cup\  \vert B \vert$
 
@@ -45,4 +47,20 @@ and if $A_i$ are disjoint sets, then
 
 This follows directly from what it means for two sets to be disjoint.
 
+### Applications
+**Passwords**
+Suppose that on a particular system a valid password must have 6,7,or 8 symbols
+and the first must be a letter while the rest can be letters or digits. What is the size
+of the set $V$ of all valid passwords?
+
+If we let $L$ be the set of 26 letters and $D$ the set of 10 digits, and $S$ the set of 36 letters or digits.
+Then we can use the product rule to calculate the number of passwords of length 6 (V6), length 7 (V7) and length 8 (V8).
+Since these are disjoint sets, we add their sizes to get the size of $V$.
+
+* $\vert V6 \vert = \vert L \vert * \vert S \vert^5 = 26*36^5$
+* $\vert V7 \vert = \vert L \vert * \vert S \vert^6= 26*36^6$
+* $\vert V8 \vert = \vert L \vert * \vert S \vert^7= 26*36^7$
+* $\vert V \vert = \vert V6\vert + \vert V7\vert + \vert V8\vert = 26 * 36^5 +26 * 36^6 +26 * 36^7$
+
+So the total number of valid passwords is $26 * 36^5 +26 * 36^6 +26 * 36^7$.
 
