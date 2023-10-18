@@ -28,7 +28,7 @@ If we let $B=\\{0,1\\}$ be the set of two bits, then $B^n$ is the set of binary 
 and by the multiplication principle, $\vert B^n\vert \  = \ \vert B\vert^n \  = \ 2^n$. So there are $2^n$
 binary sequences of length $n$
 
-** License Plates**
+**License Plates**
 Current Massachusetts license plates (as of 2023) have the form D LLL DD
 where D is a digit and L is a letter. How many different license plates can there be?
 
@@ -84,7 +84,12 @@ Similarly if $A,B,C$ are sets
 $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert +\vert C\vert - \vert A \cap B \vert - \vert A \cap C \vert - \vert B \cap C \vert+\vert A \cap B \cap C\vert$
 
 ### Applications
-How many integers in the range [0,100] are divisible by 3 or by 5?
+
+**FizzBuzz**
+How many integers in the range [1,100] are divisible by 3 or by 5? This is the basis of the FizzBuzz
+challenge where you count from 1 to 100 but say fizz for numbers divisible by 3 and buzz for numbers divisible by 5, e.g. 
+
+1 2 fizz 4 buzz fizz 7 8 fuzz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz ...
 
 Let $A_n$ be the set of numbers in [1,100] which are divible by $n$.
 We want to know the size of $A = A_3\cup A_5$
@@ -143,6 +148,7 @@ Since there are $2^n$ binary sequences of length $n$ there must then be $2^n$ su
 If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
 
 ### Applications.
+**Binary Functions**
 Let $A$ be a set with $n$ elements, and let $B=\\{0,1\\}$. 
 How many functions are there from $A$ to $B$?
 
