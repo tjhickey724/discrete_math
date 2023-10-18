@@ -137,7 +137,7 @@ Both cases lead to a contradiction, so there can be no such surjective function 
 **Proof:** By the Theorem there is no surjection from $\mathbb{N}$ to its powerset ${\cal P}(\mathbb{N})$
 so ${\cal P}(\mathbb{N})$ is not countable, by definition. **QED**
 
-**Theorem** The set of infinite decimal numbersis not a countable set.
+**Theorem** The set of infinite decimal numbers is not a countable set.
 
 **Proof:** We will prove this by contradiction.   Suppose it is not true. Then there is a surjection
 $f:\mathbb{N}\twoheadrightarrow I$ which maps each natural number $n$ to an infinite decimal number 
