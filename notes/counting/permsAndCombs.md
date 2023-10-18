@@ -2,7 +2,7 @@
 
 # The Generalized Multiplication Principle
 Suppose we can construct the elements in a set by making a sequence of choices $c_1,c_2,\ldots,c_n$ and
-for choice $c_i$ we have $r_i$ options.  Then the total number of elements we can construct, i.e. the size of the set of all such elements is $\prod_limit{i=1}^n r_i = r_1 * r_2 * \ldots * r_n$
+for choice $c_i$ we have $r_i$ options.  Then the total number of elements we can construct, i.e. the size of the set of all such elements is $\prod_\limit{i=1}^n r_i = r_1 * r_2 * \ldots * r_n$
 
 ### Applications
 How many ways are there of rearranging the numbers $1,2,3,\ldots,n$? These are called the permutations of $n$.  To apply our general principle, we can create such a sequence by 
