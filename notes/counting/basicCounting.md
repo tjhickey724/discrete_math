@@ -87,7 +87,7 @@ $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert +\vert C\vert - \ve
 
 **FizzBuzz**
 How many integers in the range [1,100] are divisible by 3 or by 5? This is the basis of the FizzBuzz
-challenge where you count from 1 to 100 but say fizz for numbers divisible by 3 and buzz for numbers divisible by 5, e.g. 
+challenge where you count from 1 to 100 but say fizz for numbers divisible by 3 and buzz for numbers divisible by 5, e.g. you can play this with a group of friends taking turns (but its not so fun for ine person if the number of friends is 3 or 5)
 
 1 2 fizz 4 buzz fizz 7 8 fuzz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz ...
 
@@ -148,7 +148,7 @@ Since there are $2^n$ binary sequences of length $n$ there must then be $2^n$ su
 If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
 
 ### Applications.
-**Binary Functions**
+**Binary Functions and Subsets of the Domain**
 Let $A$ be a set with $n$ elements, and let $B=\\{0,1\\}$. 
 How many functions are there from $A$ to $B$?
 
