@@ -4,7 +4,9 @@ Here we introduce the simplest (and yet still powerful) counting techniques.
 Recall that if $A$ is a finite set then we use the notation $\vert A \vert$ to denote the size
 of the set.
 
-## The multiplication principle:
+---
+
+# The multiplication principle:
 _The size of a product of sets, is the product of their sizes_
 
 Suppose $A$ and $B$ are sets, then
@@ -34,9 +36,10 @@ is an element of $D\times L^3\times D^2$ and the size of this set is
 $\vert D\times L^3\times D^2\vert = \vert D \vert^3 * \vert L \vert^3 = 1000*26^3 = 17,576,000
 
 
+---
 
 
-## The Addition Principle
+# The Addition Principle
 _The size of a disjoint unions of sets is the sum of their sizes_
 
 Suppose $A$ and $B$ are sets, then
@@ -64,3 +67,36 @@ Since these are disjoint sets, we add their sizes to get the size of $V$.
 
 So the total number of valid passwords is $26 * 36^5 +26 * 36^6 +26 * 36^7$.
 
+---
+
+# Principle of Inclusion and Exclusion
+Let $A$ and $B$ be two sets which are not necessarily disjoint, then
+
+$\vert A \cup B \vert = \vert A \vert + \vert B \vert - \vert A \cap B \vert$
+
+To see why, observe that every element of $A \cap B$ will be counted twice, once in $\vert A\vert$ and once in $\vert B \vert$
+so subtracting $\vert A \cap B \vert$ removes that double counting.
+
+### Applications
+How many integers in the range [0,100] are divisible by 3 or by 5?
+
+Let $A_n$ be the set of numbers in [1,100] which are divible by $n$.
+We want to know the size of $A = A_3\cup A_5$
+
+Observe that $\vert A_n\vert = 100//n$  where $a//b$ means divide a by b and throw away the remainder.
+(Why?)
+
+So $\vert A = \vert A_3\vert + \vert A_5\vert - \vert A_3\cap A_5\vert$
+
+but $A_3\cap A_5$ is the numbers divisible by 3 and 5, i.e. by 15, so 
+
+* $\vert A_3\vert =100//3 = 33$
+* $\vert A_5\vert =100//5 = 20$
+* $\vert A_3\cap A_5\vert = \vert A_{15}\vert = 100//15 = 6$
+* $\vert A \vert = 33 + 20 - 6 = 53-6 = 47$
+
+
+
+So $\vert A \vert = 
+
+and notice that $A_{15} = A_3 \cap A_5$
