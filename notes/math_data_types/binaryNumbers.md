@@ -8,7 +8,7 @@ we use only two bits 0,1  and instead of having the place values increase as pow
 as powers of 2.
 
 For example
-* $1011 = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0 = 8+2+1 = 10$
+* $1011 = 1 * 2^3 + 0 * 2^2 + 1 * 2^1 + 1 * 2^0 = 8+2+1 = 11$
 * $10001000 = 1 * 2^7 + 1 * 2^3 = 128+8 = 136$
 
 Converting from binary to decimal is easy, just add up the powers of two corresponding to each 1 in the number
