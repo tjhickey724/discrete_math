@@ -99,3 +99,23 @@ but $A_3\cap A_5$ is the numbers divisible by 3 and 5, i.e. by 15, so
 * $\vert A_3\cap A_5\vert = \vert A_{15}\vert = 100//15 = 6$
 * $\vert A \vert = 33 + 20 - 6 = 53-6 = 47$
 
+Now, find the number of integers in [1,100] which are not divisible by 2, 3, or 5.
+To do this, we first find the number which are divisible by 2,3, or 5 and then subtract that from 100.
+Using the inclusion exclusion principle, let $A= A_2$, $B=A_3$ and $C=A_5$ then
+
+* $\vert A_2 \vert = 50$
+* $\vert A_3\vert =33$
+* $\vert A_5 \vert = 20$
+* $\vert A_2\cap A_3 \vert = \vert A_6\vert = 16$
+* $\vert A_2\cap A_5 \vert = \vert A_10\vert = 10$
+* $\vert A_3\cap A_5 \vert = \vert A_15\vert = 6$
+* $\vert A_2\cap A_3 \cap A_5 \vert = \vert A_30\vert = 3$
+
+so
+
+$\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert +\vert C\vert - \vert A \cap B \vert - \vert A \cap C \vert - \vert B \cap C \vert+\vert A \cap B \cap C\vert$
+
+$ = 50 +33 +20 - (16+10+6) + 3 = 103 - 32 + 3= 71+3=74$
+
+So the complement has size $26$ which is the number of integers in the interval [1,100] which are not divisible by 2,3, or 5.
+
