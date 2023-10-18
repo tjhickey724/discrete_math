@@ -158,3 +158,5 @@ But these exceptions are a countable set (why?), and if we remove a countable se
 the result is still uncountable (why?), so the real numbers are an uncountable set. **QED**
 
 
+## Unknowable numbers....
+One interesting observation here is that almost all real numbers are "unknowable" in the sense that they can not be precisely described in English (or any other language).  To see this, just observe that the set of all novels, in any language, can be viewed as set of integers in the UNICODE encoding and hence it is a  countable set,  but the set of real numbers is uncountable, so there are at most a countable number of real numbers that could be precisely described (pi and e and sqrt(2) are numbers that can be described precisely!)    
