@@ -34,6 +34,16 @@ Then h is surjective onto $S\cup T$.
 and $\mathbb{Z} = \mathbb{N} \cup \mathbb{Z}^-$ is the union of two countable sets
 and so is countable. **QED.**
 
+**Proposition.** If S is a countable sets, then so is any non-empty subset $T$.
+
+**Proof:** let $f$  be the counting functions for S and let $a$ be any element in T.
+Define h as follows:
+* h(n) = f(n) if f(n) is in S
+* h(n) = a otherwise
+
+Then h is surjective onto $T$.
+**QED**
+
 **Proposition:** $\mathbb{N}^2$ is a countable set.
 
 **Proof:** To prove this we will define a bijection from $\mathbb{N}^2$ to $\mathbb{N}$
