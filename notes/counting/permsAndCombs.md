@@ -73,7 +73,8 @@ We denote this as $C(n,k)$ or $\binom{n}{k}$ where
 
 $C(n,k) = \binom{n}{k} = \frac{n!}{(n-k)! k!}$
 
-and we call it "n choose k"
+and we call it "n choose k" as it is the number of ways we can choose k elements out of n,
+so "from n choose k"
 
 ### Applications
 How many ways are there of forming two teams, team A and team B, from a group of 4 players?
