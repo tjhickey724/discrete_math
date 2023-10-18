@@ -6,7 +6,7 @@ and it is used when estimating probabilities (e.g. the probability some particul
 
 In this course we will cover several different counting techniques which can be classified by how the sets
 are constructed
-* counting disjoint unions, products, powersets, and ranges of a function
+* [basic counting](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/basicCounting.md) i.e. counting disjoint unions, products, powersets, ...
 * counting subsets and permutations
 
 We'll also look at applications of counting such as the Pigeonhole principle.
