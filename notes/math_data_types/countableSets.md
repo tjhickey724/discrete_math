@@ -103,8 +103,8 @@ then $h\circ G$ is a surjective map from $\mathbb{N}$ onto $\mathbb{Q}$.
 
 Here is a really good "tool" to use to prove that a set is countable.
 
-**Theorem** Let $S_0, S_1, \ldots $ be an infinite sequence of finite sets, then 
-$S=\bigcup_limits{i=0}^\infty S_i$ is countable.
+**Theorem** Let $S_0, S_1,\ldots$ be an infinite sequence of finite sets, then 
+$S=\bigcup_\limits{i=0}^\infty S_i$ is countable.
 
 **Proof:** We just have to show how to construct a list that contains every element of $S$.
 This is easy!  First list all of the elements in $S_0$, then all the elements in $S_1$, etc.
