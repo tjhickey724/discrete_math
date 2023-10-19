@@ -48,7 +48,7 @@ Suppose $A$ and $B$ are disjoint sets, then
 * $\vert A \cup B \vert = \vert A \vert\ +\  \vert B \vert$
 
 and if $A_i$ are disjoint sets, then
-* $\vert \bigcup_\limits{i=1}^n A_i\vert \ = \ \bigcup_\limits{i=1}^n \vert A_i\vert$
+* $\vert \bigcup_\limits{i=1}^n A_i\vert \ = \ \sum_\limits{i=1}^n \vert A_i\vert$
 
 This follows directly from what it means for two sets to be disjoint.
 
