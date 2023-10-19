@@ -99,7 +99,9 @@ then $h\circ G$ is a surjective map from $\mathbb{N}$ onto $\mathbb{Q}$.
 
 ---
 
-Here is a really good tool to use to prove that a set is countable.
+## Best Approach to proving a set is countable
+
+Here is a really good "tool" to use to prove that a set is countable.
 
 **Theorem** Let $S_0, S_1, \ldots $ be an infinite sequence of finite sets, then 
 $S=\bigcup_limits{i=0}^\infty S_i$ is countable.
@@ -111,8 +113,11 @@ this list. **QED**
 
 ---
 
-We can use this to show the rationals are countable by letting $S_i$ be the set of all rational numbers 
-$r/s$ where $-i \le r,s \le i$.  Each of these is finite (with size at most $(2i+1)^2$ and every rational
+**Corollary** The set of rational numbers $\mathbb{Q}$ is a countable set.
+
+**Proof:**
+We can use the previous theorem to show the rationals are countable by letting $S_i$ be the set of all rational numbers 
+$r/s$ where $-i \le r,s \le i$.  Each of these sets $S_i$ is finite (with size at most $(2i+1)^2$) and every rational
 number $r/s$ is in at least one $S_i$, as we can take $i=max(abs(r),abs(s))$ where $abs(r)$ is the absolute value of $r$.
 
 
