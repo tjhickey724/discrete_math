@@ -44,7 +44,7 @@ $s_0,t_0,s_1,t_1,s_2,t_2,\ldots$
 and $\mathbb{Z} = \mathbb{N} \cup \mathbb{Z}^-$ is the union of two countable sets
 and so is countable. **QED.**
 
-**Proposition.** If S is a countable sets, then so is any non-empty subset $T$.
+**Proposition.** If S is a countable set, then so is any non-empty subset $T$.
 
 **Proof:** let $f$  be the counting functions for S and let $a$ be any element in T.
 Define h as follows:
@@ -76,6 +76,9 @@ where
 * $\ldots$
 
 and this shows that $\mathbb{N}^2$ is countable.
+
+We could also show that it is a union of finite sets $S_n$ where $S_n$ is the set of all pairs $(a,b)$
+where $a+b=n$. Each $S_n$ is finite and every pair $(a,b)$ is in $S_n$ for some $n$ ($n=a+b$).
 **QED**
   
 **Proposition:** If $S_0,S_1,\ldots$ is a countable sequence of countable sets, then their union
