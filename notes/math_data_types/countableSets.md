@@ -9,10 +9,13 @@ can be thought of as counting the elements of $S$ and each element $s$ of $S$ wi
 because $f$ is surjective.  Some elements of $s$ might appear multiple times unless the function is also injective.
 You can try to prove that if there is a surjective $f$ then we can always find a bijective function from $\mathbb{N}$ to $S$.
 
+Conversely, if we can create a sequence $(s_0, s_1, s_2, \ldots)$ which contains each element of $S$ at least once, then
+$S$ is countable and the function $f(i)=s_i$ is a surjective function from $\mathbb{N}$ onto $S$.
+
 Let's look at some examples:
-* the positive even numbers are countable (let $f(x) = 2x+2$)
-* the positive odd numbers are countable (let $f(x) = 2x+1$)
-* the positive prime numbers are countable (let $f(n)$ be the nth prime number)
+* the set E of positive even numbers are countable (let $f(x) = 2x+2$) E = 2,4,6,...
+* the set O positive odd numbers are countable (let $f(x) = 2x+1$) O = 1,3,5,...
+* the set P positive prime numbers are countable (let $f(n)$ be the nth prime number) P=2,3,5,7,11,13,...
 
 What about other sets like the integers, pairs of integers, the rationals, the reals, the powerset of the integers, functions from integers to integers, etc.
 We'll answer those questions next, and the first two are countable, the last three are not!
@@ -26,6 +29,13 @@ Define h as follows:
 * h(2n+1) = g(n)
 
 Then h is surjective onto $S\cup T$.
+
+We can also prove it by creating a sequence containing all elements of $S\cup T$.
+If $s_0, s_1, s_2, \ldots$ and $t_0, t_1, t_2,\ldots$ are sequences containing all element of $S$ and $T$, respectively,
+then we can interleave them to get a sequence with all elements of $S\cup T$:
+
+$s_0,t_0,s_1,t_1,s_2,t_2,\ldots$
+
 **QED**
 
 **Corollary.** The integers $\mathbb{Z}$ are countable.
