@@ -32,7 +32,7 @@ binary sequences of length $n$
 Current Massachusetts license plates (as of 2023) have the form D LLL DD
 where D is a digit and L is a letter. How many different license plates can there be?
 
-If we let $L$ is tbe set of 26 letters and $D$ be the set of 10 digits, then each license plate
+If we let $L$ be set of 26 letters and $D$ be the set of 10 digits, then each license plate
 is an element of $D\times L^3\times D^2$ and the size of this set is
 
 $\vert D\times L^3\times D^2\vert = \vert D \vert^3 * \vert L \vert^3 = 1000*26^3 = 17,576,000
