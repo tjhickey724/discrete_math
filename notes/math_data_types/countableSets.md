@@ -122,7 +122,7 @@ $r/s$ where $-i \le r,s \le i$.
 Each of these sets $S_i$ is finite (why?) and every rational
 number $r/s$ is in at least one $S_i$ (why?). 
 
-So $\mathbb(Q)$ is a countablel union of finite sets and hence is countable.
+So $\mathbb{Q}$ is a countable union of finite sets and hence is countable.
 **QED**
 
 # Uncountable Sets
