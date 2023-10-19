@@ -44,7 +44,7 @@ $\vert D\times L^3\times D^2\vert = \vert D \vert^3 * \vert L \vert^3 = 1000*26^
 # The Addition Principle
 _The size of a disjoint unions of sets is the sum of their sizes_
 
-Suppose $A$ and $B$ are sets, then
+Suppose $A$ and $B$ are disjoint sets, then
 * $\vert A \cup B \vert = \vert A \vert\ \cup\  \vert B \vert$
 
 and if $A_i$ are disjoint sets, then
