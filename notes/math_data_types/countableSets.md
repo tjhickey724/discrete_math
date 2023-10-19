@@ -99,6 +99,25 @@ then $h\circ G$ is a surjective map from $\mathbb{N}$ onto $\mathbb{Q}$.
 
 ---
 
+Here is a really good tool to use to prove that a set is countable.
+
+**Theorem** Let $S_0, S_1, \ldots $ be an infinite sequence of finite sets, then 
+$S=\bigcup_limits{i=0}^\infty S_i$ is countable.
+
+**Proof:** We just have to show how to construct a list that contains every element of $S$.
+This is easy!  First list all of the elements in $S_0$, then all the elements in $S_1$, etc.
+Since $S$ is the union of the $S_i$, any $s\in S$ will be in one of the $S_i$ and hence will be in
+this list. **QED**
+
+---
+
+We can use this to show the rationals are countable by letting $S_i$ be the set of all rational numbers 
+$r/s$ where $-i \le r,s \le i$.  Each of these is finite (with size at most $(2i+1)^2$ and every rational
+number $r/s$ is in at least one $S_i$, as we can take $i=max(abs(r),abs(s))$ where $abs(r)$ is the absolute value of $r$.
+
+
+# Uncountable Sets
+
 So we have seen that several big infinite sets are countable, but not all sets are countable.
 We'll now look at two uncountable sets. First lets show that there are no surjections from a set to its powerset.
 
