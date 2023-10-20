@@ -129,24 +129,6 @@ So the number of integers in the range [1,100] which are divisible by 2,3, or 5 
 So the number of integers in the interval [1,100] which are not divisible by 2,3, or 5,
 is 100-74 = 26.
 
-
----
-
-# The Bijection principle
-
-If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
-
-### Applications.
-**Binary Functions and Subsets of the Domain**
-Let $A$ be a set with $n$ elements, and let $B=\\{0,1\\}$. 
-How many functions are there from $A$ to $B$?
-
-Notice that if $f$ is any function from $A$ to $B$ we can get a subset $S_f$ of $A$ consisting
-of all $a$ for which $f(a)=1$.  Likewise, if we have a subset $S$ of $A$ we can define a function
-$f_S:A\rightarrow B$ by setting it to be 1 on elements of $S$ and 0 on other values. This shows that
-the function $S\mapsto f_S$ is a bjection, and hence by the bijection principle since
-the functions from $A$ to $B$ are in 1-1 correspondence with the subsets of $A$, there are $2^n$ such functions.
-
 ---
 
 # Counting Subsets
@@ -166,5 +148,42 @@ $$
 Since there are $2^n$ binary sequences of length $n$ there must then be $2^n$ subsets $S$ of $A$.
 
 We are using the bijection principle here with $f$ mapping length n bit strings one-one and onto the subsets of an n element set.
+
+
+
+
+
+---
+
+# The Bijection principle
+
+If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
+
+### Applications.
+**Counting Functions **
+** Theorem.** Let $T_{A,B}$ be the set of total functions from $A$ to $B$,
+then 
+* \vert T_{A,B} = \vert B \vert ^{\vert A\vert}$
+
+**Proof:** 
+Let $A=\\{a_1,\ldots,a_r\\}$ be a set with $r$ elements, 
+and let $B=\\{b_1,\ldots,b_s\\}$ be a set with $s$ elements.
+We will define a bijection 
+* $\phi: T_{A,B} \rightarrow B^{\vert A\vert}$
+
+and this will prove our Theorem since the size of $B^r$ is $\vert B\vert^r$.
+
+The bijection takes a length $r$ sequence $s=(s_1,\ldots,s_r)$ of elements $s_i$ of B,
+and associates it to a function $f_s:A\rightarrow B$ by
+* $f_s(a_i) = s_i$
+
+This is clearly a 1-1 total function. To see that it is onto, we need to show that if
+$g:A\rightarrow B$ is any total function, then there is a sequence $s$ with $g=f_s$.
+This is easy to do, let $s = (g(a_1),\ldots,g(a_r))$ and by definition of $f_s$ we have
+* $f_s(a_i) = s_i = g(a_i)$
+
+**QED**
+
+---
 
 
