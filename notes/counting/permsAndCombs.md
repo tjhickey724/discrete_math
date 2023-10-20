@@ -175,5 +175,12 @@ $$
 x_1^{k_1}\ldots x_r^{k_r}
 $$
 
+### Applications
+Find the number of ways we can form 3 teams A,B,C of two each out of 6 people.
+
+To do this we use the multinomial 
+* $\binom{6}{2,2,2} = \binom 62 * \binom 42 * \binom 22 = 15*6 = 90$
+
+
 
 
