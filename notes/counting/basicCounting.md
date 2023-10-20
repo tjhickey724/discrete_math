@@ -8,7 +8,7 @@ of the set.
 
 ---
 
-# The multiplication principle:
+# The Multiplication Principle:
 _The size of a product of sets, is the product of their sizes_
 
 Suppose $A$ and $B$ are sets, then
