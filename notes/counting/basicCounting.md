@@ -35,7 +35,7 @@ where D is a digit and L is a letter. How many different license plates can ther
 If we let $L$ be set of 26 letters and $D$ be the set of 10 digits, then each license plate
 is an element of $D\times L^3\times D^2$ and the size of this set is
 
-$\vert D\times L^3\times D^2\vert = \vert D \vert^3 * \vert L \vert^3 = 1000*26^3 = 17,576,000
+$\vert D\times L^3\times D^2\vert = \vert D \vert^3 * \vert L \vert^3 = 1000*26^3 = 17,576,000$
 
 
 ---
@@ -132,17 +132,6 @@ is 100-74 = 26.
 
 ---
 
-# Counting Subsets
-Another useful rule is that the number of subsets $S$ of a set $A$ of size $n$ is $2^n$.
-We can see this is true by associating each subset $S$ of $A= \\{a_1,a_2,a_3,\ldots,a_n\\}$ with a binary
-sequence $(b_1,b_2,\ldots,b_n)$ of length $n$ where 
-
-$b_i = 1 if a_i \in S and b_i = 0 if a_i\not\in S$
-
-Since there are $2^n$ binary sequences of length $n$ there must then be $2^n$ subsets $S$ of $A$.
-
----
-
 # The Bijection principle
 
 If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
@@ -157,5 +146,25 @@ of all $a$ for which $f(a)=1$.  Likewise, if we have a subset $S$ of $A$ we can 
 $f_S:A\rightarrow B$ by setting it to be 1 on elements of $S$ and 0 on other values. This shows that
 the function $S\mapsto f_S$ is a bjection, and hence by the bijection principle since
 the functions from $A$ to $B$ are in 1-1 correspondence with the subsets of $A$, there are $2^n$ such functions.
+
+---
+
+# Counting Subsets
+Another useful rule is that the number of subsets $S$ of a set $A$ of size $n$ is $2^n$.
+We can see this is true by associating each subset $S$ of $A= \\{a_1,a_2,a_3,\ldots,a_n\\}$ with a binary sequence $(b_1,b_2,\ldots,b_n)$ of length $n$ where 
+
+$$
+b_i=
+\left\\{
+\begin{array}{ll}
+1 &\text{if }g_i\in S \\ 
+0 &\text{if }g_i\not\in S
+\end{array} 
+\right.
+$$
+
+Since there are $2^n$ binary sequences of length $n$ there must then be $2^n$ subsets $S$ of $A$.
+
+We are using the bijection principle here with $f$ mapping length n bit strings one-one and onto the subsets of an n element set.
 
 
