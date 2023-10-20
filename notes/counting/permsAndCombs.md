@@ -135,6 +135,7 @@ Here are some examples of its use:
 *  $(x+y)^3 = x^3 +3x^2y +3xy^2 + y^3$
 *  $(x+y)^4 = x^4 +4x^4y +6x^2y^2 + 4xy^3 + y^4$
 
+## Multinomial Theorem
 We can think of the n choose k operation as counting the number of subsets of size k in a set of size n, but we can also think of it as the number of ways partitioning a set of size n into two subsets, one of size k and one of size n-k.
 
 The multinomial symbol allows us to count the number of ways of partitioning a set of size n into sequences of sets of size k1, k2, ..., kr. It is defined as follows:
@@ -164,4 +165,15 @@ whose usion is {1,2,...,10}.
 We can see how this works with the generalized multiplication rule. First choose the subset A which is 10 choose 2. Then there are 8 left, so choose the next subset of 2, which is 8 choose 2, then the third subset is all that is left, that is 6 choose 6.
 
 So we can get the same result as the multinomial formula but by using the generalize multiplication rule and the binomial formula.
+
+We also have the Multinomial theorem which says these values are the coefficients of $(x_1+\ldots+x_r)^n$
+
+$$
+(x_1+\ldots+x_r)^n = 
+\sum_\limits{\frac{k_1+\ldots+k_r = n}{k_1\ge 0, \ldots, k_r\ge 0}} 
+\dbinom{n}{k1,k2,\ldots,kr}
+x_1^{k_1}\ldots x_r^{k_r}
+$$
+
+
 
