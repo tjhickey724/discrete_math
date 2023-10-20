@@ -13,7 +13,7 @@ There are 9 possibilities
 11 12 13 21 22 23 31 32 33
 ```
 
-Suppose now we want sequence with no repeated elements!
+Suppose now we want sequences with no repeated elements!
 There are 
 * $n$ choices for the position 1,
 * $n-1$ for position 2
@@ -36,7 +36,7 @@ and we will have 3 medals: gold, silver, bronze. How many possible outcomes
 are there?
 
 We are looking for the number of sequences of length 3 from a set of 10 elements,
-so the answer is 10*9*8=720 as there are 10 choices for the gold medal, then 9 remaining choice
+so the answer is 10 * 9 * 8 = 720 as there are 10 choices for the gold medal, then 9 remaining choice
 for the silver, and finally 8 for the bronze.
 
 # Combinations
@@ -48,6 +48,15 @@ $C(n,k) = \binom{n}{k} = \frac{n!}{(n-k)! k!}$
 
 and we call it "n choose k" as it is the number of ways we can choose k elements out of n,
 so "from n choose k"
+
+A fast way to calculate $n$ choose $k$ is to use the following rule.
+* start with $n$ and divide by 1
+* multiply by $n-1$ and divide by 2
+* multiply by $n-3* and divide by 3
+* $\ldots$
+* multiply by $n-(k-1)$ and divide by $k$
+
+For example. $\binom{6}{3} = 6/1\ * 5/2\ * 4/3 = 30/2\ * 4/3 = 15 * 4/3 = 60/3 = 20$
 
 ### Applications
 How many ways are there of forming two teams, team A and team B, from a group of 4 players?
