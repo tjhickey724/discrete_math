@@ -135,6 +135,19 @@ Here are some examples of its use:
 *  $(x+y)^3  = x^3 +3x^2y +3xy^2 + y^3 = \binom 33 x^3y^0 + \binom 32 x^2y^1 + \binom 31 x^1y^2 + \binom30 x^0y^3 $
 *  $(x+y)^4 =  x^4 +4x^4y +6x^2y^2 + 4xy^3 + y^4 = \binom 44 x^4y^0 + \binom 43 x^3y^1 + \binom 42 x^2y^2 + \binom 41 x^1y^3 + \binom 4 0 x^0y^4 $
 
+The coefficients also can be arranged in rows to form Pascal's Triangle
+```
+1
+1   1
+1   2   1
+1   3   3   1
+1   4   6   4   1
+1   5  10  10   5  1
+1   6  15  20  15  6  1
+....
+```
+where the ith element in each row is taken by adding the ith and (i-1)st elements in the previous row.
+
 ## Multinomial Theorem
 We can think of the n choose k operation as counting the number of subsets of size k in a set of size n, but we can also think of it as the number of ways partitioning a set of size n into two subsets, one of size k and one of size n-k.
 
