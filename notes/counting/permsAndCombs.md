@@ -117,18 +117,51 @@ We can apply the generalized multiplication principle as follows:
 * next we have $10^3$ choices for the three digits and $26^3$ choices for the three letters
 * so the number of license plates is $20 * 10^3 * 26^3$
 
-# Binomial Multinomials
+# Binomials and Multinomials
 The n choose k function arises in many places beside in counting. One of the best known is in the binomial formula:
+
+**Theorem** [The Binomial Theorem]
 
 $$
 (x + y)^n = \sum_\limits{k=0}^n \dbinom{n}{k} x^ky^{n-k}
 $$
 
-For example
+We will prove this later when we learn about induction.
+
+Here are some examples of its use:
 * $(x+y)^0 = 1$
 * $(x+y)^1 = x+y$
 *  $(x+y)^2 = x^2 +2xy +y^2$
 *  $(x+y)^3 = x^3 +3x^2y +3xy^2 + y^3$
 *  $(x+y)^4 = x^4 +4x^4y +6x^2y^2 + 4xy^3 + y^4$
 
+We can think of the n choose k operation as counting the number of subsets of size k in a set of size n, but we can also think of it as the number of ways partitioning a set of size n into two subsets, one of size k and one of size n-k.
+
+The multinomial symbol allows us to count the number of ways of partitioning a set of size n into sequences of sets of size k1, k2, ..., kr. It is defined as follows:
+
+$$
+\dbinom{k_1+k+2+\ldots+k_r}{k_1,k_2,\ldots,k_r} = \frac{n!}{k_1! k_2! \ldots k_r!}
+$$
+
+and it can be computed more effectively as
+
+$$
+\dbinom{n}{k_1} * \dbinom{n-k_1}{k_2} * ... * \dbinom{n-(k_1+\ldots+k_{r-1}}{k_r}
+$$
+
+e.g.
+
+$$
+\dbinom{10}{2,2,6}=
+\dbinom{10}{2} * \dbinom{8}{2} * \dbinom{6}{6} ＝
+  \frac{10 * 9}{1 * 2} * \frac{8 * 7 }{1 * 2} * \frac{6}{6} 
+  = 45 * 28 * 1 = 1260
+$$
+
+which is the number of ways of choosing sets (A,B,C) of sizes 2,2,6 from {1,...,10}
+whose usion is {1,2,...,10}.
+
+We can see how this works with the generalized multiplication rule. First choose the subset A which is 10 choose 2. Then there are 8 left, so choose the next subset of 2, which is 8 choose 2, then the third subset is all that is left, that is 6 choose 6.
+
+So we can get the same result as the multinomial formula but by using the generalize multiplication rule and the binomial formula.
 
