@@ -129,11 +129,11 @@ $$
 We will prove this later when we learn about induction.
 
 Here are some examples of its use:
-* $(x+y)^0 = 1$
-* $(x+y)^1 = x+y$
-*  $(x+y)^2 = x^2 +2xy +y^2$
-*  $(x+y)^3 = x^3 +3x^2y +3xy^2 + y^3$
-*  $(x+y)^4 = x^4 +4x^4y +6x^2y^2 + 4xy^3 + y^4$
+* $(x+y)^0 = 1 = \binom 00 x^0y^0$
+* $(x+y)^1 = x+y = \binom 11 x^1y^0 + \binom 10 x^0y^1 $
+*  $(x+y)^2 = x^2 +2xy +y^2  = \binom 22 x^2y^0 + \binom 21 x^1y^1 + \binom 20 x^0y^2 $
+*  $(x+y)^3  = x^3 +3x^2y +3xy^2 + y^3 = \binom 33 x^3y^0 + \binom 32 x^2y^1 + \binom 31 x^1y^2 + \binom30 x^0y^3 $
+*  $(x+y)^4 =  x^4 +4x^4y +6x^2y^2 + 4xy^3 + y^4 = \binom 44 x^4y^0 + \binom 43 x^3y^1 + \binom 42 x^2y^2 + \binom 41 x^1y^3 + \binom 4 0 x^0y^4 $
 
 ## Multinomial Theorem
 We can think of the n choose k operation as counting the number of subsets of size k in a set of size n, but we can also think of it as the number of ways partitioning a set of size n into two subsets, one of size k and one of size n-k.
