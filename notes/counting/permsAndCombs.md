@@ -117,3 +117,18 @@ We can apply the generalized multiplication principle as follows:
 * next we have $10^3$ choices for the three digits and $26^3$ choices for the three letters
 * so the number of license plates is $20 * 10^3 * 26^3$
 
+# Binomial Multinomials
+The n choose k function arises in many places beside in counting. One of the best known is in the binomial formula:
+
+$$
+(x + y)^n = \sum_\limits{k=0}^n \dbinom{n}{k} x^ky^{n-k}
+$$
+
+For example
+* $(x+y)^0 = 1$
+* $(x+y)^1 = x+y$
+*  $(x+y)^2 = x^2 +2xy +y^2$
+*  $(x+y)^3 = x^3 +3x^2y +3xy^2 + y^3$
+*  $(x+y)^4 = x^4 +4x^4y +6x^2y^2 + 4xy^3 + y^4$
+
+
