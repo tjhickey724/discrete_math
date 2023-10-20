@@ -160,10 +160,11 @@ We are using the bijection principle here with $f$ mapping length n bit strings 
 If $f:A\rightarrow B$ is a bijection, where $A$ and $B$ are finite sets, then $A$ and $B$ have the same size, that is $\vert A\vert = \vert B \vert$.
 
 ### Applications.
-**Counting Functions **
-** Theorem.** Let $T_{A,B}$ be the set of total functions from $A$ to $B$,
+We'll show how to use the Bijection Principle to count the number of functions between two sets.
+
+**Theorem.** Let $T_{A,B}$ be the set of total functions from $A$ to $B$,
 then 
-* \vert T_{A,B} = \vert B \vert ^{\vert A\vert}$
+* $\vert T_{A,B} = \vert B \vert ^{\vert A\vert}$
 
 **Proof:** 
 Let $A=\\{a_1,\ldots,a_r\\}$ be a set with $r$ elements, 
