@@ -164,7 +164,7 @@ We'll show how to use the Bijection Principle to count the number of functions b
 
 **Theorem.** Let $T_{A,B}$ be the set of total functions from $A$ to $B$,
 then 
-* $\vert T_{A,B} = \vert B \vert ^{\vert A\vert}$
+* $\vert T_{A,B}\vert = \vert B \vert ^{\vert A\vert}$
 
 **Proof:** 
 Let $A=\\{a_1,\ldots,a_r\\}$ be a set with $r$ elements, 
