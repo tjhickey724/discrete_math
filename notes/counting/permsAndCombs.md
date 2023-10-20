@@ -56,7 +56,13 @@ A fast way to calculate $n$ choose $k$ is to use the following rule.
 * $\ldots$
 * multiply by $n-(k-1)$ and divide by $k$
 
-For example. $\binom{6}{3} = 6/1\ * 5/2\ * 4/3 = 30/2\ * 4/3 = 15 * 4/3 = 60/3 = 20$
+For example. 
+
+$$\dbinom{6}{3} = \frac 61 * \frac 52 * \frac 43 = 30/2\ * \frac 43 = 15 * \frac 43 = 60/3 = 20$$
+
+which is much easier to compute that $6!/3!$.  This works because
+
+$$\dbinom{n}{k} = \dbinom{n}{k-1} * \frac{n-(k-1)}{k}$$
 
 ### Applications
 How many ways are there of forming two teams, team A and team B, from a group of 4 players?
@@ -86,11 +92,11 @@ and repeating until we have only one number, the nth, to pick and there is no ch
 
 Thus the total number of ways we could generate such a permuation is
 
-$n * (n-1) * (n-2) * \ldots * 3 * 2 * 1$
+$$n * (n-1) * (n-2) * \ldots * 3 * 2 * 1$$
 
 and we call this n factorial and denote it as $n!$
 
-So for n=3 there are 3*2*1 such permuations:
+So for n=3 there are 3 * 2 * 1 such permuations:
 ```
 1 2 3
 1 3 2
