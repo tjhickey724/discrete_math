@@ -198,7 +198,7 @@ To be announced
 
 # Week 8: 10/23-27
 
-** Lesson 21: Mon 10/23 <br> _Combinations and Permutations_
+## Lesson 21: Mon 10/23 <br> _Combinations and Permutations_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
   
