@@ -126,7 +126,20 @@ $$
 (x + y)^n = \sum_\limits{k=0}^n \dbinom{n}{k} x^ky^{n-k}
 $$
 
-We will prove this later when we learn about induction.
+**Proof:** Observe that $(x+y)^n$ is a sum of monomials constructed by 
+selecting either x or y from each of the n factors (x+y) ... For example.
+let's look at the case of $n=3$
+
+```
+(x+y)^3 =
+(x+y)(x+y)*(x+y) =
+xxx + xxy + xyx + xyy +
+yxx + yxy + yyx + yyy
+= x^3 + 3x^2y + 3xy^2 + y^3
+```
+The number of terms corresponding to $x^k y^{n-k}$ is precisely the number of ways
+of choosing $k$ of the multiplicands to pick the "x" and then picking y for the other $n-k$ factors
+
 
 Here are some examples of its use:
 * $(x+y)^0 = 1 = \binom 00 x^0y^0$
@@ -147,7 +160,20 @@ The coefficients also can be arranged in rows to form Pascal's Triangle
 1   6  15  20  15  6  1
 ....
 ```
-where the ith element in each row is taken by adding the ith and (i-1)st elements in the previous row.
+where the ith element in each row is taken by adding the ith and (i-1)st elements in the previous row. This corresponds to the rule below, where $n$ is the row of Pascal's triangle, and $k$ is the column. 
+
+$$
+\dbinom nk = \dbinom{n-1}{k-1} + \dbinom {n-1}k
+$$
+
+We can prove this by observing that 
+there are two ways to choose $k$ elements out of $\\{1,\ldots,n\\}$
+* choose $k$ elements from the first $n-1$
+* choose $k-1$ elements from the first $n-1$ and then add $n$
+
+The first is $\binom {n-1}k$ and the second is $\binom {n-1}{k-1}$ and their sum
+is therefore $\binom nk$
+
 
 ## Multinomial Theorem
 We can think of the n choose k operation as counting the number of subsets of size k in a set of size n, but we can also think of it as the number of ways partitioning a set of size n into two subsets, one of size k and one of size n-k.
