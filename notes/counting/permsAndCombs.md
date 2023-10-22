@@ -52,7 +52,7 @@ so "from n choose k"
 A fast way to calculate $n$ choose $k$ is to use the following rule.
 * start with $n$ and divide by 1
 * multiply by $n-1$ and divide by 2
-* multiply by $n-3* and divide by 3
+* multiply by $n-3$ and divide by 3
 * $\ldots$
 * multiply by $n-(k-1)$ and divide by $k$
 
