@@ -162,18 +162,20 @@ The coefficients also can be arranged in rows to form Pascal's Triangle
 ```
 where the ith element in each row is taken by adding the ith and (i-1)st elements in the previous row. This corresponds to the rule below, where $n$ is the row of Pascal's triangle, and $k$ is the column. 
 
+**Theorem.**
 $$
 \dbinom nk = \dbinom{n-1}{k-1} + \dbinom {n-1}k
 $$
 
+**Proof**
 We can prove this by observing that 
 there are two ways to choose $k$ elements out of $\\{1,\ldots,n\\}$
-* choose $k$ elements from the first $n-1$
-* choose $k-1$ elements from the first $n-1$ and then add $n$
+* choose $k$ elements from the first $n-1$ in $\binom {n-1}k$ ways
+* choose $k-1$ elements from the first $n-1$ and then add $n$ in $\binom {n-1}{k-1}$
 
 The first is $\binom {n-1}k$ and the second is $\binom {n-1}{k-1}$ and their sum
-is therefore $\binom nk$
-
+is $\binom nk$ which proves the Theorem.
+**QED**
 
 ## Multinomial Theorem
 We can think of the n choose k operation as counting the number of subsets of size k in a set of size n, but we can also think of it as the number of ways partitioning a set of size n into two subsets, one of size k and one of size n-k.
