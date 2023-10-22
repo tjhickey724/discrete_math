@@ -121,10 +121,7 @@ We can apply the generalized multiplication principle as follows:
 The n choose k function arises in many places beside in counting. One of the best known is in the binomial formula:
 
 **Theorem** [The Binomial Theorem]
-
-$$
-(x + y)^n = \sum_\limits{k=0}^n \dbinom{n}{k} x^ky^{n-k}
-$$
+$(x + y)^n = \sum_\limits{k=0}^n \binom{n}{k} x^ky^{n-k}$
 
 **Proof:** Observe that $(x+y)^n$ is a sum of monomials constructed by 
 selecting either x or y from each of the n factors (x+y) ... For example.
@@ -162,10 +159,7 @@ The coefficients also can be arranged in rows to form Pascal's Triangle
 ```
 where the ith element in each row is taken by adding the ith and (i-1)st elements in the previous row. This corresponds to the rule below, where $n$ is the row of Pascal's triangle, and $k$ is the column. 
 
-**Theorem.**
-$$
-\dbinom nk = \dbinom{n-1}{k-1} + \dbinom {n-1}k
-$$
+**Theorem.**$\binom nk = \binom{n-1}{k-1} + \binom {n-1}k$
 
 **Proof**
 We can prove this by observing that 
@@ -217,12 +211,16 @@ $$
 x_1^{k_1}\ldots x_r^{k_r}
 $$
 
+The proof is the same as for the binomial theorem. The coefficient of $x_1^{k_1}\ldots x_r^{k_r}$
+is the number of ways of choosing $x_1$ $k_1$ times, and $x_2$ $k_2$ times, etc when multiplying out that product.
+
 ### Applications
 Find the number of ways we can form 3 teams A,B,C of two each out of 6 people.
 
 To do this we use the multinomial 
 * $\binom{6}{2,2,2} = \binom 62 * \binom 42 * \binom 22 = 15*6 = 90$
 
+Now do the same to count the number of ways you can make 3 equal sized teams from 12 people.
 
 
 
