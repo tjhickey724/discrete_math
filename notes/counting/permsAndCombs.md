@@ -223,4 +223,24 @@ To do this we use the multinomial
 Now do the same to count the number of ways you can make 3 equal sized teams from 12 people.
 
 
+# Counting Cards
+Poker is a card game with many variations, in one version each player gets dealt five cards and
+the player with the highest hand wins.  The hands are ranked as shown in this wikipedia page on
+[List of Poker Hands](https://en.wikipedia.org/wiki/List_of_poker_hands).
 
+Calculating the number of hands of each type is a good exercise in using the counting skills we've developed so far.
+
+Remember there are 13 ranks  {2,3,4,5,6,7,8,9,10,J,Q,K,A} and four suites {hearts, diamonds, spades, clubs}
+for a total of 52 (= 13*4) cards. Cards are dealt to a player and hence form a sequence of five elements.
+
+### Total number of hands
+There are 52 choices for the first card, 51 for the next, 50 for the third, 49 for the fourth and 48 for the fifth,
+so the total number of hands is 
+
+$P(52,5) = 52*51*50*49*48 = 311,875,200$
+
+### Four of a kind.
+First pick the rank (13 choices),
+then pick the positions in the sequence (5 choose 4 = 5), then the order of the suite (4!) and rank of the other card (12*4). This gives
+
+$13*24*5*12*4 = 74880$
