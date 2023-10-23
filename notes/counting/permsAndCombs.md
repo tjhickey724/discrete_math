@@ -237,7 +237,7 @@ for a total of 52 (= 13*4) cards. Cards are dealt to a player and hence form a s
 There are 52 choices for the first card, 51 for the next, 50 for the third, 49 for the fourth and 48 for the fifth,
 so the total number of hands is 
 
-$P(52,5) = 52*51*50*49*48 = 311,875,200$
+$P(52,5) = 52 * 51 * 50 * 49 * 48 = 311,875,200$
 
 ### Total number of hands as a set
 We can also not worry about the order of the cards and count the number of sets of 5 cards choosen from a deck of 52.
@@ -248,7 +248,7 @@ Using the Generalized Multiplication rule, we must look at the steps we would ta
 * pick the rank of the 4 of a kind card (13 choices)
 * pick the rank and suit of the other card (12*4=48 choice)
 
-So the number would be $13*48=624$
+So the number would be $13 * 48=624$
 
 ### Four of a kind as a sequence
 First pick the rank (13 choices),
