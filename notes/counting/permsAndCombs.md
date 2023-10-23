@@ -8,9 +8,13 @@ How many such sequences are there? Since we have $n$ choices for each of the $k$
 in the sequence, there are $n^k$ such sequences.
 
 Let's do an example, let's pick 2 elements from $\\{1,2,3\\}$
-There are 9 possibilities
+There are 9 possibilities if you allow duplicates
 ```
 11 12 13 21 22 23 31 32 33
+```
+only 6 with no duplicatews
+```
+12 13 21 23 31 32
 ```
 
 Suppose now we want sequences with no repeated elements!
