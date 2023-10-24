@@ -45,7 +45,7 @@ in the $i$ th group.
 
 For the stars and bars arrangements we have k stars and n-1 bars for a total of n+k-1 characters, and we can specify such
 an arrangement by specifying which k of the n+k-1 characters are stars. There are n+k-1 choose k such arrangements.
-Thus, using this 1-1 correspondence, we see that $M(n,k) = \binom{n+k-1|{k}$. **QED**
+Thus, using this 1-1 correspondence, we see that $M(n,k) = \binom{n+k-1}{k}$. **QED**
 
 ---
 
