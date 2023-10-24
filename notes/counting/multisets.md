@@ -96,7 +96,7 @@ ABC
 500  aaaaa  *****||
 ```
 
-### non-decreasing phonenumbers
+### non-decreasing phone numbers
 Suppose we are interested in the number of phone numbers where each digit is at least as big as the previous one,
 e.g. 011-2669  or 222-3466
 How many such phone numbers are there?
