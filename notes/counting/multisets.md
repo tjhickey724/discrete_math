@@ -42,7 +42,7 @@ As we can see in the table above, each multiset can be specified either by listi
 or by a string of k stars and n-1 bars (e.g. '**|*|'), where the n-1 bars divide the k stars into n groups, and $x_i$ is the number of stars 
 in the $i$ th group.
 
-Using this 1-1 correspondence, we see the $M(n,k) = \binom{n+k-1}{n-1|$. **QED**
+Using this 1-1 correspondence, we see that $M(n,k) = \binom{n+k-1}{n-1}$. **QED**
 
 ---
 
