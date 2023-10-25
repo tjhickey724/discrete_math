@@ -41,9 +41,6 @@ $$
 and this contradicts our assumption that $\vert A\vert \gt k* \vert B \vert$  **QED**
 
 # Applications
-### Show that is $S$ is the set of at most 100 numbers less than 100, then there are at least 100 subsets of $S$ with the same sum.
+### Show that is $S$ is the set of at most 20 numbers less than 100, then there are at least 2 subsets of $S$ with the same sum.
 
-**Proof:** Let $f(S)$ be the sum of the numbers in $S$, and let $I=\\{1,2,\ldots,99}$ then $f(S)\lt 100*100=10000 for every S.
-so $f:P(I)\rightarrow B$ wherre $B = \\{1,\ldots,\2000\\}$
-put $P(I)$ has $2^20$ elements which is more than 1 million, and $B$ has only 10000 elements, so P(I) is 100 times larger than $B$.
-This implies that there are 100 subsets of $I$ that have the same sum!
+**Proof:** ...
