@@ -13,10 +13,16 @@ bbc
 bcc
 ccc
 ```
-The other way to look at this is a the number of solutions to the equation x1+x2+x3=3
-with x1,x2,x3 >=0, and we can also associate to each such solution as combination of stars (*) and bars (|)
+Note we are including aab in this list but not aba or baa. We can also think about it as ordered sequences of 
+elements from a set.
+
+* another way to look at this is a the number of solutions to the equation x1+x2+x3=3
+with x1,x2,x3 >=0, and
+* we can also associate to each such solution as combination of stars (*) and bars (|)
 where * represents an element of the set and a bar (|) where each bar indicates switching to the next element of the set
 and each * represents an element of that set.
+
+Here we see the same set of multisets represented in these three different ways:
 ```
 300    aaa  ***||
 210    aab  **|*|
