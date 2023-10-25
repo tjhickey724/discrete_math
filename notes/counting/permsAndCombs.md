@@ -261,3 +261,7 @@ then pick the positions in the sequence (5 choose 4 = 5), then the order of the 
 $13*24*5*12*4 = 74880$
 
 Try some others, e.g. full house, 3 of a kind, 2 pairs, straight flush, flush,...
+
+# More Problems
+ Discrete Math: An Open Introduction by Oscar Levin has many good problems (worked out) 
+ [at the end of Chapter 1.3](https://discrete.openmathbooks.org/dmoi3/sec_counting-combperm.html)
