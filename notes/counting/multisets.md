@@ -13,9 +13,11 @@ bbc
 bcc
 ccc
 ```
-Note we are including aab in this list but not aba or baa. We can also think about it as ordered sequences of 
-elements from a set.
+Note we are including aab in this list but not aba or baa. 
 
+There are several other ways we can think about multisets:
+
+* as ordered sequences of elements from a set.
 * another way to look at this is a the number of solutions to the equation x1+x2+x3=3
 with x1,x2,x3 >=0, and
 * we can also associate to each such solution as combination of stars (*) and bars (|)
