@@ -197,8 +197,12 @@ To be announced
 * then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
 # Week 8: 10/23-27
+### Homework due 10/29
+* Complete the new MLA homework problems on Counting
+* Read [Chapter 2 of  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
 ## Lesson 21: Mon 10/23 <br> _Combinations and Permutations_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
-  
+## Lesson 22: Wed 10/25 <br> _Counting Practice;  Stars and Bars_
+* we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
