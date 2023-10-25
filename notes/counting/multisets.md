@@ -125,4 +125,6 @@ Let $A$ be a set with $n$ elements, then
 3. The number of multisets of A of size $k$ is $\binom {n+k-1}{k}$
 
 
+# More Problems
+Discrete Math: An Open Introduction by Oscar Levin has many good problems (worked out) [at the end of Chapter 1.5](https://discrete.openmathbooks.org/dmoi3/sec_stars-and-bars.html)
 
