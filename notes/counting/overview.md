@@ -8,6 +8,6 @@ In this course we will cover several different counting techniques which can be 
 are constructed
 * [basic counting](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/basicCounting.md) i.e. counting disjoint unions, products, powersets, ...
 * [counting permutations and combinations](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/permsAndCombs.md)
-* [multisets](./multisets.md) 
+* [multisets](./multisets.md) also known as "Stars and Bars" counting
 
 We'll also look at applications of counting such as the Pigeonhole principle.
