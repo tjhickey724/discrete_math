@@ -50,5 +50,7 @@ But there are $2^{20}$ subsets of $S$ and $2^{20} = 1048576$ which is bigger tha
 $f$ is not 1-1, and hence there are at least two subsets of $S$ with the same sum. ***QED***
 
 Here is such a set of numbers:
+
 9753 7611 3791 7335 6520 1724 1077 4437 9752 3354 8977 8925 5887 2236 104 9384 4192 2543 9191 4980
+
 We don't know which two subsets have the same sum, but we know they have to exist!
