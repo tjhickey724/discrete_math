@@ -27,7 +27,7 @@ If $A$ and $B$ are sets and there is a bijection from $A$ to $B$, then $\vert A 
 ## Principle of Inclusion and Exclusion
 If $A$, $B$, and $C$ are sets then
 * $\vert A \cup B \vert = \vert A \vert + \vert B \vert - \vert A\cap B \vert$
-* $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert+ \vert C \vert  - \vert A\cap B \vert - \vert A\cap C \vert - \vert B\cap C \vert + \vert A\cap B \cap C$
+* $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert+ \vert C \vert  - \vert A\cap B \vert - \vert A\cap C \vert - \vert B\cap C \vert + \vert A\cap B \cap C\vert$
 * and for larger interesections you alternately add and subtract the intersections of increasing numbers of sets
 
   
