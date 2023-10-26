@@ -12,3 +12,4 @@ are constructed
 * [the pigeonhole principle](pigeonhole.md)
 
 
+Here is a [summary of the counting methods](summary.md)
