@@ -44,12 +44,17 @@ Let's use the notation M(n,k) to denote the number of multisets of size k from a
 **Theorem.** $M(n,k) = \binom{n+k-1}{k}$
 
 **Proof:** 
-We will show that $M(n,k)$ can be seen as choosing $k-1$ positions from the sequence $1,2,...,n$.
 As we can see in the table above, each multiset can be specified either 
 * by listing the elements in the multiset (e.g. aab) or
 * by a sequence of natural numbers specifying how many times $x_i$ each element $a_i$ is in the set (e.g. 210) or
 * by a string of k stars and n-1 bars (e.g. '**|*|'), where the n-1 bars divide the k stars into n groups, and $x_i$ is the number of stars 
 in the $i$ th group.
+
+_To go from a stars and bars model you replace each * with the number of bars that preceeds it_
+so
+```
+||***|**|||*|| --> 222336
+```
 
 For the stars and bars arrangements we have k stars and n-1 bars for a total of n+k-1 characters, and we can specify such
 an arrangement by specifying which k of the n+k-1 characters are stars. There are n+k-1 choose k such arrangements.
