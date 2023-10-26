@@ -41,6 +41,13 @@ $$
 and this contradicts our assumption that $\vert A\vert \gt k* \vert B \vert$  **QED**
 
 # Applications
-### Show that is $S$ is the set of at most 20 numbers less than 100, then there are at least 2 subsets of $S$ with the same sum.
+### Show that is $S$ is any set of 20 positive integers less than 10000, then there are at least 2 subsets of $S$ with the same sum.
 
-**Proof:** ...
+**Proof:** Let U be any subset of S, then the sum of U is at most 20*10,000 = 200,000. So if $f:P(S)\rightarrow \mathbb{N}$ is the
+function that takes $U$ to the sum of the numbers in $U$, then the range of $f$ is contained in the interval $[20,200000]$.
+But there are $2^{20}$ subsets of $S$ and $2^{20} = 1048576$ which is bigger than 200,000 so
+$f$ is not 1-1, and hence there are at least two subsets of $S$ with the same sum. ***QED***
+
+Here is such a set of numbers:
+9753 7611 3791 7335 6520 1724 1077 4437 9752 3354 8977 8925 5887 2236 104 9384 4192 2543 9191 4980
+We don't know which two subsets have the same sum, but we know they have to exist!
