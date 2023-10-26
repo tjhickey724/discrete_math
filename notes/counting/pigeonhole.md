@@ -41,7 +41,8 @@ $$
 and this contradicts our assumption that $\vert A\vert \gt k* \vert B \vert$  **QED**
 
 # Applications
-### Show that is $S$ is any set of 20 positive integers less than 10000, then there are at least 2 subsets of $S$ with the same sum.
+### Subset sums
+**Show that is $S$ is any set of 20 positive integers less than 10000, then there are at least 2 subsets of $S$ with the same sum.**
 
 **Proof:** Let U be any subset of S, then the sum of U is at most 20*10,000 = 200,000. So if $f:P(S)\rightarrow \mathbb{N}$ is the
 function that takes $U$ to the sum of the numbers in $U$, then the range of $f$ is contained in the interval $[20,200000]$.
