@@ -60,6 +60,21 @@ For the stars and bars arrangements we have k stars and n-1 bars for a total of 
 an arrangement by specifying which k of the n+k-1 characters are stars. There are n+k-1 choose k such arrangements.
 Thus, using this 1-1 correspondence, we see that $M(n,k) = \binom{n+k-1}{k}$. **QED**
 
+Note to go from a solution of $x_1+\ldots+x_n=k$ to a stars and bars string draw n-1 bars and k stars
+
+0032001011  --> ||***|**||*||*|*
+
+**Theorem** The number of solutions to $x_1+\ldots+x_n=k$ is the number of strings with n-1 bars and k stars $=\binom{n+k-1}{n-1}=\binom{n+k-1}{k}$
+
+**Proof:**
+For any such solution, we can create a multiset of the elements $A=\\{1,\ldots,n\\}$, with $x_i\ge 0$ occurrences of $i$
+so this is a sequence of length $k$ from a set $A$ of size $n$, e.g.
+```
+0+2+0+6=8 --> 11333333  which is a multiset of length 8 with elements in a set {0,1,2,3} of size 4
+```
+where the multiset has $x_i$ occurrences of $i$ for $i=0,\ldots,n-1$ 
+**QED**
+
 ---
 
 ## Applications
