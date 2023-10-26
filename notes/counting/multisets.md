@@ -77,6 +77,27 @@ where the multiset has $x_i$ occurrences of $i$ for $i=0,\ldots,n-1$
 
 ---
 
+## Different formulations of the problem...
+### Non-negative sums of integers
+If we want to know the number of solutions to $x_1+\ldots+x_n=k$ then we need to count star/bar strings with k stars and n-1 bars
+```
+2+0+3 = 5
+0+0+5 = 5
+2+1+2 = 5
+...
+```
+here the number of variables is n = 3 and their sum is k = 5
+
+### Multisets
+If we want the number of multisets of length $k$ with elements from a set $A$ of size $n$, we need k stars and n-1 bars
+```
+aaccc
+ccccc
+aabcc
+```
+here the length of the multiset is $k=5$ and the size of the set is $n=3$
+
+
 ## Applications
 ### Cookies
 Suppose we have 5 cookies that we want to distribute among our three friends {Amy, Bohan, and Carlos). 
