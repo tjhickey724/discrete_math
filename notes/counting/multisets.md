@@ -121,8 +121,9 @@ Here are the three main counting formulas we've discussed.
 Let $A$ be a set with $n$ elements, then
 
 1. The number of sequences of length $k$ with elements from $A$ is $n^k$
-2. The number of subsets of A of size $k$ is $\binom nk = \frac{n!}{(n-k)!}$
-3. The number of multisets of A of size $k$ is $\binom {n+k-1}{k}$
+2. The number of permuations of size $k$ with elements from $A$ is $P(n,k) = n!/(n-k)!$
+3. The number of subsets of A of size $k$ is $\binom nk = \frac{n!}{(n-k)!}$
+4. The number of multisets of A of size $k$ is $\binom {n+k-1}{k}$
 
 
 # More Problems
