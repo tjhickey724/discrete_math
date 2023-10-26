@@ -7,7 +7,7 @@ We have seen how to count four different kinds of sequences of elements from an 
 | sequence of size $k$: $A^k$ | $\\{(a_1,\ldots,a_k:\ a_i \in A\\}$ | $n^k$ |
 | permutation of size $k$: $P(A,k)$ | $\\{(a_1,\ldots,a_k:\ a_i \in A, \ a_i \ {\rm distinct}\\}$ | $P(n,k)=\frac{n!}{(n-k)!}$ |
 | combination of size $k$: $C(A,k)$ | $\\{(a_1,\ldots,a_k:\ a_i \in A, \ a_1\lt a_2 \lt \ldots \lt a_k\\}$ | $C(n,k)=\binom{n}{k}=\frac{P(n,k)}{k!} = \frac{n!}{k!(n-k)!}$ |
-| mulltiset of size $k$: $M(A,k)$ | $\\{(a_1,\ldots,a_k:\ a_i \in A, \ a_1\le a_2 \le \ldots \le a_k\\}$ | $M(n,k)=\binom{n-k+1}{k} =\frac{(n+k-1)!}{k!}$ |
+| mulltiset of size $k$: $M(A,k)$ | $\\{(a_1,\ldots,a_k:\ a_i \in A, \ a_1\le a_2 \le \ldots \le a_k\\}$ | $M(n,k)=\binom{n-k+1}{k} =\frac{(n+k-1)!}{(n-1)!k!}$ |
 
 Note that we have identified subsets of size $k$ of a set $A$ with ordered sequences of distinct elements, because these are in 1-1 correspondence with subsets of size $k$. Any such subset can be sorted and results in a unique ordered sequence of distinct elements.
 
