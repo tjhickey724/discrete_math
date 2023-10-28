@@ -42,9 +42,9 @@ If you suspect a sequence is a polynomial sequence of degree $n$ then you can us
 to find the polynomial! Let's use the triangle numbers sequence as an example.
 
 Let's assume $s_n = a n^2 + b n + c$ for some numbers a,b,c. Then since we know the value of $s_i$ for small values of $i$ we can conclude that
-* $0 = s_0 = a 0^2 + b 0 + c = c$
-* $1 = s_1 = a 1^2 + b 1 + c = a+b+c$
-* $3 = s_2 = a 2^2 + b 2 + c = 4a +2b + c$
+* $0 = s_0 = a * 0^2 + b * 0 + c = c$
+* $1 = s_1 = a * 1^2 + b * 1 + c = a+b+c$
+* $3 = s_2 = a * 2^2 + b * 2 + c = 4a +2b + c$
 
 This gives us three linear equations in a,b,c (i.e. not squares or higher powers)
 * $c=0$
