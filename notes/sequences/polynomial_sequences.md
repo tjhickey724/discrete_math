@@ -74,7 +74,7 @@ Polynomials sequences often arise when analyzing algorithms and we are able to v
 * a recurrence relations: $s_n = s_{n-1}+ f(n)$ for some function $f$ and all $n>j$ for some number $j$.
 
 Notice that if $s$ is defined by a recurrence relation as above, then
-* $s_n = s_{j}+ \sum_limit{i=j+1}^\infty f(j)$
+* $s_n = s_{j}+ \sum_\limit{i=j+1}^\infty f(j)$
 
 If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d+1$
 
