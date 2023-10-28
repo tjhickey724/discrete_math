@@ -14,3 +14,6 @@ We will look at 2 different kinds of sequences
 We will learn how to recognize when a sequence is one of these two types, and how to find the coefficients $a_i$ (and mabybe $b_i$)
 when it is.
 
+In practice, sequences which are polynomial corresponds to "practical" programs like sorting and database searching,
+while sequence which are exponential are not feasible, like determining if a boolean formula is satisfiable.
+
