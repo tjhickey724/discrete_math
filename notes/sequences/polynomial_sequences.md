@@ -35,6 +35,8 @@ Let's try it with the triangular numbers
 Any sequence which eventually becomes a sequence of zeroes is a polynomial sequence
 and if $D^k(s) = 0$ then s is a polynomial sequence of degree $k-1$.
 
+**Difference skill** be able to calculate differences to show a sequence might be polynomial of degree d
+
 ## Polynomial Fitting
 If you suspect a sequence is a polynomial sequence of degree $n$ then you can use polynomial fitting
 to find the polynomial! Let's use the triangle numbers sequence as an example.
@@ -64,6 +66,7 @@ so $b=1/2$  and substitution into $a+b=1$ we get $a+1/2 = 1$ so $a=1/2$
 
 and this shows that $s_n = (1/2)n^2 + (1/2)n = n(n+1)/2$
 
+**Polynomial fitting skill** use polynomial fitting to find the coefficients of a possible polynomial closed for for a sequence
 
 ## Recurrence Equations
 Polynomials sequences often arise when analyzing algorithms and we are able to verify two properties of the sequence:
@@ -71,12 +74,14 @@ Polynomials sequences often arise when analyzing algorithms and we are able to v
 * a recurrence relations: $s_n = s_{n-1}+ f(n)$ for some function $f$ and all $n>j$ for some number $j$.
 
 Notice that if $s$ is defined by a recurrence relation as above, then
-* $s_n = s_{j} \sum_limit{i=j+1}^\infty f(j)$
+* $s_n = s_{j}+ \sum_limit{i=j+1}^\infty f(j)$
 
 If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d+1$
 
 If you have a polynomial sequence defined by a recurrence relation, and you have used polynomial fitting 
 to find a candidate polynomial p where $s_n=p(n)$, you can prove that $s_n=p(n)$ using induction
+
+**Induction skill** use induction to show that a sequence defined by a summation or a recurrence equation is polynomial for a particular polynomial $p$.
 
 
 
