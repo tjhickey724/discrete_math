@@ -84,6 +84,17 @@ If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree
 If you have a polynomial sequence defined by a recurrence relation, and you have used polynomial fitting 
 to find a candidate polynomial p where $s_n=p(n)$, you can prove that $s_n=p(n)$ using induction
 
+## Induction
+We show how to prove that a predicate $P(n)$ is true for all $n$ by proving the following to properties:
+* $P(0), P(1), \ldots, P(k)$ are true
+* $\forall j>k: P(j) \rightarrow P(j+1)$
+
+If these two propositions are true, then we can conclude that
+* $\forall n P(n)$ is true where $n$ ranges over all natural numbers, 0,1,2,...
+
+Let's try this out!
+
+
 **Induction skill** use induction to show that a sequence defined by a summation or a recurrence equation is polynomial for a particular polynomial $p$.
 
 
