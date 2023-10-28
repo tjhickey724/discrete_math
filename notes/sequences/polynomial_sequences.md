@@ -23,6 +23,15 @@ For example, let's apply $D$ successively to the seequence $s$ of squares
 | $D(D(s))$  | $(2,2,2,2,2,2,2,\ldots)$  | sequence of 2s |
 | $D(D(D(s)))$ | $(0,0,0,0,0,\ldots)$ | sequence of 0's |
 
-Any sequence which eventually becomes a sequence of zeroes is a polynomial sequence.
+Any sequence which eventually becomes a sequence of zeroes is a polynomial sequence
+and if $D^n(s) = 0$ then s is a polynomial sequence of degree $n-1$.
+
+## Polynomial Fitting
+If you suspect a sequence is a polynomial sequence of degree $n$ then you can use polynomial fitting
+to find the polynomial! Let's use the triangle numbers sequence as an example.
+
+## Recurrence Equations
+
+
 
 
