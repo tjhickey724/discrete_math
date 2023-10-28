@@ -30,7 +30,38 @@ and if $D^n(s) = 0$ then s is a polynomial sequence of degree $n-1$.
 If you suspect a sequence is a polynomial sequence of degree $n$ then you can use polynomial fitting
 to find the polynomial! Let's use the triangle numbers sequence as an example.
 
+Let's assume $s_n = a n^2 + b n + c$ for some numbers a,b,c. Then since we know the value of $s_i$ for small values of $i$ we can conclude that
+* $ 0 = s_0 = a 0^2 + b 0 + c = c$
+* $ 1 = s_1 = a 1^2 + b 1 + c = a+b+c$
+* $ 3 = s_2 = a 2^2 + b 2 + c = 4a +2b + c$
+
+This gives us three linear equations in a,b,c (i.e. not squares or higher powers)
+* $c=0$
+* $a+b+c = 1$
+* $4a + 2b + c = 3$
+
+Since we have three linear eequations in three variables, we can attempt to solve this by substituting in 
+values (e.g. c=0) into the other equantions and then subtracting multiples of one equation against another to
+eliminate variables...
+
+Start with replacing $c$ with 0 in the other two equations and we get:
+* $a+b=1$
+* $4a+2b=3$
+
+now multiply the first equation by 4 to get $4a+4b=4$ and subtract the seccond equation to get
+* $2b = 1$
+
+so $b=1/2$  and substitution into $a+b=1$ we get $a+1/2 = 1$ so $a=1/2$
+
+and this shows that $s_n = (1/2)n^2 + (1/2)n = n(n+1)/2$
+
+
 ## Recurrence Equations
+Polynomials sequences often arise when analyzing algorithms and we are able to verify two properties of the sequence:
+* a base condition $s_0=a_0$, $s_1=a_2$, ... for some numbers $a_0$, $a_1$, ...
+* a recurrence relations: $s_n = s_{n-1}+ f(n)$ for some function $f$
+
+If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d+1$
 
 
 
