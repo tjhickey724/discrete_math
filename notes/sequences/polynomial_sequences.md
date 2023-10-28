@@ -51,8 +51,8 @@ This gives us three linear equations in a,b,c (i.e. not squares or higher powers
 * $a+b+c = 1$
 * $4a + 2b + c = 3$
 
-Since we have three linear eequations in three variables, we can attempt to solve this by substituting in 
-values (e.g. c=0) into the other equantions and then subtracting multiples of one equation against another to
+Since we have three linear equations in three variables, we can attempt to solve this by substituting in 
+values (e.g. c=0) into the other equations and then subtracting multiples of one equation against another to
 eliminate variables...
 
 Start with replacing $c$ with 0 in the other two equations and we get:
@@ -75,6 +75,9 @@ Polynomials sequences often arise when analyzing algorithms and we are able to v
 
 Notice that if $s$ is defined by a recurrence relation as above, then
 * $s_n = s_{j}+ \sum_\limits{i=j+1}^\infty f(j)$
+
+For example, the triangle numbers are defined by $s_n = s_{n-1} + n$ for $n>0$ and $s_0=0$, so
+* $s_n = \sum_\limits{i=0}^n i = 0.5 n^2 + 0.5 n$
 
 If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d+1$
 
