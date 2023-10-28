@@ -18,7 +18,7 @@ For example, let's apply $D$ successively to the seequence $s$ of squares
 
 | sequence | values | description |
 | --- | --- | --- |
-| $$ | $(0,1,4,9,16,25,36,49,64,81,100,\ldots)$ | sequence of squares |
+| $s$ | $(0,1,4,9,16,25,36,49,64,81,100,\ldots)$ | sequence of squares |
 | $D(s)$ | $(1,3,5,7,9,11,13,15,17,19,\ldots)$ | sequence of odd numbers|
 | $D(D(s))$  | $(2,2,2,2,2,2,2,\ldots)$  | sequence of 2s |
 | $D(D(D(s)))$ | $(0,0,0,0,0,\ldots)$ | sequence of 0's |
@@ -27,7 +27,7 @@ Let's try it with the triangular numbers
 
 | sequence | values | description |
 | --- | --- | --- |
-| $$ | $(0,1,3,6,10,15,21,\ldots)$ | sequence of triangle numbers |
+| $s$ | $(0,1,3,6,10,15,21,\ldots)$ | sequence of triangle numbers |
 | $D(s)$ | $(1,2,3,4,5,6\ldots)$ | sequence of positive integers|
 | $D(D(s))$  | $(1,1,1,1,1,\ldots)$  | sequence of 1s |
 | $D(D(D(s)))$ | $(0,0,0,0,0,\ldots)$ | sequence of 0's |
