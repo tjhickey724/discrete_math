@@ -23,8 +23,17 @@ For example, let's apply $D$ successively to the seequence $s$ of squares
 | $D(D(s))$  | $(2,2,2,2,2,2,2,\ldots)$  | sequence of 2s |
 | $D(D(D(s)))$ | $(0,0,0,0,0,\ldots)$ | sequence of 0's |
 
+Let's try it with the triangular numbers
+
+| sequence | values | description |
+| --- | --- | --- |
+| $$ | $(0,1,3,6,10,15,21,\ldots)$ | sequence of triangle numbers |
+| $D(s)$ | $(1,2,3,4,5,6\ldots)$ | sequence of positive integers|
+| $D(D(s))$  | $(1,1,1,1,1,\ldots)$  | sequence of 1s |
+| $D(D(D(s)))$ | $(0,0,0,0,0,\ldots)$ | sequence of 0's |
+
 Any sequence which eventually becomes a sequence of zeroes is a polynomial sequence
-and if $D^n(s) = 0$ then s is a polynomial sequence of degree $n-1$.
+and if $D^k(s) = 0$ then s is a polynomial sequence of degree $k-1$.
 
 ## Polynomial Fitting
 If you suspect a sequence is a polynomial sequence of degree $n$ then you can use polynomial fitting
@@ -59,10 +68,15 @@ and this shows that $s_n = (1/2)n^2 + (1/2)n = n(n+1)/2$
 ## Recurrence Equations
 Polynomials sequences often arise when analyzing algorithms and we are able to verify two properties of the sequence:
 * a base condition $s_0=a_0$, $s_1=a_2$, ... for some numbers $a_0$, $a_1$, ...
-* a recurrence relations: $s_n = s_{n-1}+ f(n)$ for some function $f$
+* a recurrence relations: $s_n = s_{n-1}+ f(n)$ for some function $f$ and all $n>j$ for some number $j$.
+
+Notice that if $s$ is defined by a recurrence relation as above, then
+* $s_n = s_{j} \sum_limit{i=j+1}^\infty f(j)$
 
 If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d+1$
 
+If you have a polynomial sequence defined by a recurrence relation, and you have used polynomial fitting 
+to find a candidate polynomial p where $s_n=p(n)$, you can prove that $s_n=p(n)$ using induction
 
 
 
