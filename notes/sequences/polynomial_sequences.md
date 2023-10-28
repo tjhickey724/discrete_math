@@ -16,6 +16,13 @@ If we apply this operator $n$ times and get the zero sequence $(0,0,0,\ldots)$
 
 For example, let's apply $D$ successively to the seequence $s$ of squares 
 
-* $s= (0,1,4,9,16,25,36,49,64,81,100,\ldots)$ is the sequence of squares
-* $D(s) = (1,3,5,7,9,11,13,15,17,19,\ldots)$ is the sequence of odd numbers
-* $D(D(s)) = (2,2,2,2,2,2,2,\ldots)$ 
+| sequence | values | description |
+| --- | --- | --- |
+| $$ | $(0,1,4,9,16,25,36,49,64,81,100,\ldots)$ | sequence of squares |
+| $D(s)$ | $(1,3,5,7,9,11,13,15,17,19,\ldots)$ | sequence of odd numbers|
+| $D(D(s))$  | $(2,2,2,2,2,2,2,\ldots)$  | sequence of 2s |
+| $D(D(D(s)))$ | $(0,0,0,0,0,\ldots)$ | sequence of 0's |
+
+Any sequence which eventually becomes a sequence of zeroes is a polynomial sequence.
+
+
