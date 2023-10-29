@@ -51,6 +51,14 @@ This gives us three linear equations in a,b,c (i.e. not squares or higher powers
 * $a+b+c = 1$
 * $4a + 2b + c = 3$
 
+## Solving Systems of Simultaneous Linear Equations
+Using the Polynomial fitting approach always generates a set of linear equations whose variables
+are the coefficients of the polynomial, and we can evaluate the polynomial of degree k on k+1 points
+so we wil have k+1 equations in k+1 variables. Any such system can be "solved" if it does come from a 
+polyomial sequence. The process is to add and subtact multiples of the equations from each other to
+eliminate variables and then to use substitution to get the values of the eliminated variables. We illustrate
+that below with our "triangle number" example.
+
 Since we have three linear equations in three variables, we can attempt to solve this by substituting in 
 values (e.g. c=0) into the other equations and then subtracting multiples of one equation against another to
 eliminate variables...
@@ -64,7 +72,10 @@ now multiply the first equation by 4 to get $4a+4b=4$ and subtract the seccond e
 
 so $b=1/2$  and substitution into $a+b=1$ we get $a+1/2 = 1$ so $a=1/2$
 
+
 and this shows that $s_n = (1/2)n^2 + (1/2)n = n(n+1)/2$
+
+**Solving Linear Equations skill** use variable elimination and substitution to solve a system of linear equations
 
 **Polynomial fitting skill** use polynomial fitting to find the coefficients of a possible polynomial closed for for a sequence
 
