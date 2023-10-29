@@ -81,10 +81,15 @@ and this shows that $s_n = (1/2)n^2 + (1/2)n = n(n+1)/2$
 
 ## Recurrence Equations
 Polynomials sequences often arise when analyzing algorithms and we are able to verify two properties of the sequence:
-* a base condition $s_0=a_0$, $s_1=a_2$, ... for some numbers $a_0$, $a_1$, ...
+* a base condition $s_0=f(0)$ for some function $f$
 * a recurrence relations: $s_n = s_{n-1}+ f(n)$ for some function $f$ and all $n>j$ for some number $j$.
 
-Notice that if $s$ is defined by a recurrence relation as above, then
+In the case of k=0, this generates the infinite set of equations
+* $s_0 = f(0)$
+* $s_1 = s_0 + f(1) = f(0) + f(1)$
+* $s_2 = s_1 + f(2) = f(0) + f(1)+ f(2)$
+* $s_3 = s_2 + f(3) = f(0) + f(1)+ f(2) + f(3)$
+* $\ldots$
 * $s_n = s_{j}+ \sum_\limits{i=j+1}^\infty f(j)$
 
 For example, the triangle numbers are defined by $s_n = s_{n-1} + n$ for $n>0$ and $s_0=0$, so
