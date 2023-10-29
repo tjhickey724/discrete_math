@@ -90,12 +90,12 @@ In the case of k=0, this generates the infinite set of equations
 * $s_2 = s_1 + f(2) = f(0) + f(1)+ f(2)$
 * $s_3 = s_2 + f(3) = f(0) + f(1)+ f(2) + f(3)$
 * $\ldots$
-* $s_n = s_{n}+ f(n)=  \sum_\limits{j=0}^n f(j)$
+* $s_n = s_{n-1}+ f(n)=  \sum_\limits{j=0}^n f(j)$
 
-For example, the triangle numbers are defined by $s_n = s_{n-1} + n$ for $n>0$ and $s_0=0$, so
-* $s_n = \sum_\limits{i=0}^n i = 0.5 n^2 + 0.5 n$
+For example, the triangle numbers are defined by $s_n = s_{n-1} + n$ for $n>0$ and $s_0=0$, so $f(j)=j$ for all j and
+* $s_n = \sum_\limits{j=0}^n f(j) = \sum_\limits{j=0}^n j = 0.5 n^2 + 0.5 n$
 
-If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d+1$
+If $f$ is a polynomial of degree $d$ then $s$ is a polynomial sequence of degree $d$
 
 If you have a polynomial sequence defined by a recurrence relation, and you have used polynomial fitting 
 to find a candidate polynomial p where $s_n=p(n)$, you can prove that $s_n=p(n)$ using induction
