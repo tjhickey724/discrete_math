@@ -90,7 +90,7 @@ In the case of k=0, this generates the infinite set of equations
 * $s_2 = s_1 + f(2) = f(0) + f(1)+ f(2)$
 * $s_3 = s_2 + f(3) = f(0) + f(1)+ f(2) + f(3)$
 * $\ldots$
-* $s_n = s_{j}+ \sum_\limits{i=j+1}^\infty f(j)$
+* $s_n = s_{n}+ f(n)=  \sum_\limits{j=0}^n f(j)$
 
 For example, the triangle numbers are defined by $s_n = s_{n-1} + n$ for $n>0$ and $s_0=0$, so
 * $s_n = \sum_\limits{i=0}^n i = 0.5 n^2 + 0.5 n$
