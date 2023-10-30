@@ -206,3 +206,15 @@ To be announced
 
 ## Lesson 22: Wed 10/25 <br> _Counting Practice;  Stars and Bars_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+
+## Lesson 23: Thu 10/26 <br> _Stars and Bars_
+* we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+
+# Week 9: 10/30-11/3
+
+### Howework due 11/6
+
+## Lesson 24: Mon 10/30 <br> _Polynomial Sequences_
+* we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
+  by looking at [polynomial sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/polynomial_sequences.md)
+
