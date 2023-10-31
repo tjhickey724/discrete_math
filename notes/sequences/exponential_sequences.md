@@ -40,6 +40,9 @@ Calculate the first 6 elements of the series defined by
 
 $s = (0,1,3,7,15,31,\ldots)$
 
+### RecursiveDefinitionSkill 
+_be able to calculate sequence from its recursive definition_
+
 ## The Characteristic Polynomial Method
 For a sequence defined recursively with a recurrence definition of the form
 * $s_n = a_1 s_{n-1} + a_2 s_{n-2} + \ldots + a_k s_{n-k}$
@@ -72,6 +75,8 @@ and the closed form has the shape:
 * $s_n \  = \ \alpha_1 \beta_1^n +  \alpha_2 \beta_2^n$ if $\beta_1 \ne \beta_2$
 * $s_n \  = \ (\alpha_1 n + \alpha_2) \beta^n$ if $\beta_1 = \beta_2 = \beta$
 
+## CharacteristicPoly skill
+_be able to find the characteristic polyomial from a recursive definition and factor it_
 
 ## Finding a closed form
 We can find the coefficients $\alpha_i$ by solving systems of linear equations, just as we did with polyomial sequences.
@@ -101,4 +106,7 @@ So the closed form is
 * $s_n = 2^n - 1$
 
 Let's apply this for the Fibonacci sequence, which give a more complex result...
+
+## ClosedFormSkill
+_be able to find the closed form of an exponential sequence_
 
