@@ -90,9 +90,9 @@ We can find the coefficients by using the same approach as for polynomial fittin
 
 |n | s(n) | linear expression in $\alpha_i$ | simplifies as |
 | --- | --- | ---| --- |
-| 0 | 0 | $\alpha_1 * 2^0 + \alpha_2 * 1^0$ | $\alpha_1 + alpha_2 = 0$ |
-| 1 | 1 | $\alpha_1 * 2^1 + \alpha_2 * 1^1$ | $2 \alpha_1 + alpha_2 = 1$ |
-| 2 | 3 | $\alpha_1 * 2^2 + \alpha_2 * 1^2$ | $4 \alpha_1 + alpha_2 = 3$ |
+| 0 | 0 | $\alpha_1 * 2^0 + \alpha_2 * 1^0$ | $\alpha_1 + \alpha_2 = 0$ |
+| 1 | 1 | $\alpha_1 * 2^1 + \alpha_2 * 1^1$ | $2 \alpha_1 + \alpha_2 = 1$ |
+| 2 | 3 | $\alpha_1 * 2^2 + \alpha_2 * 1^2$ | $4 \alpha_1 + \alpha_2 = 3$ |
 
 The first equation gives us $\alpha_2 = -\alpha_1$ and if substitute that into the second equation we get
 * $1 = 2 \alpha_1 + \alpha_2 = 2 \alpha_1 - \alpha_1 = \alpha_1$
