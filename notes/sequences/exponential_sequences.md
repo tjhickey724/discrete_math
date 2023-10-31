@@ -8,7 +8,7 @@ characteristic polynomial technique to find a closed form for such sequences.
 A recursive definition of a sequence $s=(s_0,s_1,s_2,\ldots)$ consists of
 * some initial conditions giving the values of $s_0$ and possibly a few other initial values of $s$, e.g. $s_1, s_2$
 * a recurrence relations which expresses $s_n$ for $n$ bigger than some initial value (typically 1) in terms of the
-  values of $s_i$ for $i<n$, e.g. $s_{n-1}, s_{n-2}$, etc.
+  values of $s_i$ for $i\lt n$, e.g. $s_{n-1}, s_{n-2}$, etc.
 
 ### Example 1
 The triangle numbers are defined by
@@ -51,12 +51,12 @@ s_n \  = \ \alpha_1 \beta_1^n +  \alpha_2 \beta_2^n + \ldots +  \alpha_k \beta_k
 $$
 
 where $\beta_1,\ldots,\beta_k$ are the roots of the **characteristic polynomial**
-* $x^k - a_1 x^{k-1| - a_2 x^{k-2} - ldots - a_k x^0$
+* $x^k - a_1 x^{k-1} - a_2 x^{k-2} - \ldots - a_k x^0$
 
 The $\beta_i$ are obtained by factoring the characteristic polynomial:
-* $x^k - a_1 x^{k-1| - a_2 x^{k-2} - ldots - a_k x^0 = (x-\beta_1) * (x-\beta_2) * \ldots *  (x-\beta_k)$
+* $x^k - a_1 x^{k-1} - a_2 x^{k-2} - \ldots - a_k x^0 = (x-\beta_1) * (x-\beta_2) * \ldots *  (x-\beta_k)$
 
-This holds only if the roots are distinct (i.e. $\beta_i\ne\beta_j for i\ne j$.
+This holds only if the roots are distinct (i.e. $\beta_i\ne\beta_j$ for $i\ne j$.
 If $\beta_i$ appears $r_i$ times, in the factorization then the closed form has the following shape:
 
 $$
@@ -90,7 +90,7 @@ We can find the coefficients by using the same approach as for polynomial fittin
 
 |n | s(n) | linear expression in $\alpha_i$ | simplifies as |
 | --- | --- | ---| --- |
-| 0 | 0 | $\alpha_1 * 2^n + \alpha_2 * 1^n$ | $\alpha_1 + alpha_2 = 0$ |
+| 0 | 0 | $\alpha_1 * 2^0 + \alpha_2 * 1^0$ | $\alpha_1 + alpha_2 = 0$ |
 | 1 | 1 | $\alpha_1 * 2^1 + \alpha_2 * 1^1$ | $2 \alpha_1 + alpha_2 = 1$ |
 | 2 | 3 | $\alpha_1 * 2^2 + \alpha_2 * 1^2$ | $4 \alpha_1 + alpha_2 = 3$ |
 
