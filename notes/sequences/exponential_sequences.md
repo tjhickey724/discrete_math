@@ -132,7 +132,8 @@ so we can solve for $\alpha_1$ and $\alpha_2$ in the closed form
 | 1 | $\alpha_1 \beta_1^1 +  \alpha_2 \beta_2^1$ | $\alpha_1 \beta_1 + \alpha_2 \beta_2 =1$ |
 
 We can solve these two equations by letting $\alpha_2 = -\alpha_1$ and so
-* $1 = \alpha_1 \beta_1 - \alpha_1 \beta_2 = \alpha_1 (\beta_1 - \beta_2) = \alpha_1 ((1+\sqrt{5})/2 - (1-\sqrt{5})/2) = \sqrt{5} *
+* $1 = \alpha_1 \beta_1 - \alpha_1 \beta_2 = \alpha_1 (\beta_1 - \beta_2)$
+* $\ \  = \alpha_1 ((1+\sqrt{5})/2 - (1-\sqrt{5})/2) = \alpha_1\sqrt{5}$
 * so $\alpha_1 = 1/\sqrt{5}$ and
 * $s_n = (1/\sqrt{5})*(\beta_1^n - \beta_2^n)$
 
