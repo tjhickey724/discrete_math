@@ -162,6 +162,7 @@ needed when working with sequences.
 _be able to solve for the parameters of a closed form given the initial values of the sequence_
 
 Putting together all of the skills covered to day we have the following:
+
 **ClosedFormSkill**
 _be able to find the closed form of an exponential sequence_
 
