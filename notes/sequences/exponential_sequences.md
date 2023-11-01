@@ -143,7 +143,7 @@ Lets look at the sequence defined by
 * $s_1 = 1$
 * $s_n = 4s_{n-1} - 4 s_{n-2} = 4(s_{n-1} - s_{n-2})$ for all $n\ge 2$
 
-so $s = (0 1 4 12 32 80 ...)$
+so $s = (0, 1, 4, 12, 32, 80, ...)$
 
 The characteristic equation is $x^2-4x+4 = (x-2)^2$
 so the solution has the form
