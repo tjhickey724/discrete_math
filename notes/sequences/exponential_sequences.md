@@ -135,8 +135,7 @@ We can solve these two equations by letting $\alpha_2 = -\alpha_1$ and so
 * $1 = \alpha_1 \beta_1 - \alpha_1 \beta_2 = \alpha_1 (\beta_1 - \beta_2)$
 * $\ \  = \alpha_1 ((1+\sqrt{5})/2 - (1-\sqrt{5})/2) = \alpha_1\sqrt{5}$
 * so $\alpha_1 = 1/\sqrt{5}$ and
-* $s_n = (1/\sqrt{5})*(\beta_1^n - \beta_2^n)$
-
+* $s_n = (1/\sqrt{5})*(\beta_1^n - \beta_2^n)$ which gives a formula for the nth Fibonacci number!
 
 
 **ClosedFormSkill**
