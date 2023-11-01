@@ -10,7 +10,7 @@ where $P(n)$ is some predicate on the natural numbers $\mathbb{N}$ and the unive
 
 We can prove such a proposition by first proving two simpler propositions:
 * A) Prove $P(0)$ is true
-* B) Prove that $forall n. P(n) \rightarrow P(n+1)$
+* B) Prove that $\forall n. P(n) \rightarrow P(n+1)$
 
 From (A) we know P(0) is true, and hence by (B) P(1) is true, and so P(2) is true, etc....
 Hence P(n) is true for all $n\ge 0$.
@@ -28,18 +28,20 @@ which is a non-recursive way to define this sequence.
 
 **Theorem.** $s_n = \sum_\limits{i=0}^n i = n(n+1)/2$.
 
-**Proof:** We prove this by induction where $P(n)$ is the statement $s_n = n(n+1)/2$.
+**Proof:** We prove this by induction on $n$ where $P(n)$ is the statement $s_n = n(n+1)/2$.
 
-First we prove that $P(0)$ is true i.e. that $s_0 = 0(0+1)/2 = 0$, which is true by definition of $s$
+First we prove the base case, that $P(0)$ is true i.e. that $s_0 = 0(0+1)/2 = 0$, which is true by definition of $s$
 
-Next we assume that $P(n-1)$ is true and prove that $P(n)$ is true.
+Next we assume that $P(n-1)$ is true and our induction hypothes is that
 * $P(n-1)$ is $s_{n-1} = (n-1) * ((n-1)+1)/2 = (n-1)n/2 = (n^2-n)/2$
 
 and by the definion of $s_n$ we know that
 * $s_n = s_{n-1} + n$
-So if we substitute in the formula for $ds_{n-1}$ that we get from induction we find that
+ 
+So if we substitute in the formula for $s_{n-1}$ that we get from induction we find that
 * $s_n = (n^2-n)/2 + n = (n^2-n+2n)/2 = (n^2+n)/2 = n(n+1)/2$
 
+which shows that $P(n-1)$ implies $P(n)$ and hence by induction $P(n)$ is true forall $n$,
 which is what we were supposed to prove. **QED**
 
 
