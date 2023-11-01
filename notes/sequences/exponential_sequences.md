@@ -141,7 +141,9 @@ We can solve these two equations by letting $\alpha_2 = -\alpha_1$ and so
 Lets look at the sequence defined by
 * $s_0 = 0$
 * $s_1 = 1$
-* $s_n = 4s_{n-1} - 4 s_{n-2}$ for all $n\ge 2$
+* $s_n = 4s_{n-1} - 4 s_{n-2} = 4(s_{n-1} - s_{n-2})$ for all $n\ge 2$
+
+so $s = (0 1 4 12 32 80 ...)$
 
 The characteristic equation is $x^2-4x+4 = (x-2)^2$
 so the solution has the form
@@ -151,7 +153,7 @@ Plugging in values for n=0,1 we get
 * $a * 0 + b = 0$ so b=0
 * $(a*1+b)*2^1 = 1$ so a = 1/2
 
-so $s_n = (n/2)*2^n = n*2^{n-1}$
+so $s_n = (n/2) * 2^n = n * 2^{n-1}$
 
 
 **ClosedFormSkill**
