@@ -79,7 +79,7 @@ But can we prove that this holds directly?  Yes, using induction.
 ---
 
 **Theorem.** Let $s_n$ be the sequence defined above, then 
-* $\forall n s_n = n 2^{n-1}$
+* $\forall n \ s_n = n 2^{n-1}$
 
 **Proof:** We prove this using induction on $n$. For n=0 and 1 it holds because
 * $0 * 2^{0-1} = 0 * 1/2 = 0 = s_0$
