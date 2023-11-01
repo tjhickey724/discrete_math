@@ -111,7 +111,7 @@ The first equation gives us $\alpha_2 = -\alpha_1$ and if substitute that into t
 So the closed form is
 * $s_n = 2^n - 1$
 
-### Example 2
+### Example 4
 Let's apply this for the Fibonacci sequence, which give a more complex result...
 The recursion equation is 
 * $s_n = s_{n-1} + s_{n-2}$
@@ -136,6 +136,22 @@ We can solve these two equations by letting $\alpha_2 = -\alpha_1$ and so
 * $\ \  = \alpha_1 ((1+\sqrt{5})/2 - (1-\sqrt{5})/2) = \alpha_1\sqrt{5}$
 * so $\alpha_1 = 1/\sqrt{5}$ and
 * $s_n = (1/\sqrt{5})*(\beta_1^n - \beta_2^n)$ which gives a formula for the nth Fibonacci number!
+
+## Example 5
+Lets look at the sequence defined by
+* $s_0 = 0$
+* $s_1 = 1$
+* $s_n = 4s_{n-1} - 4 s_{n-2}$ for all $n\ge 2$
+
+The characteristic equation is $x^2-4x+4 = (x-2)^2$
+so the solution has the form
+* $s_n = (an+b)2^n$
+
+Plugging in values for n=0,1 we get
+* $a * 0 + b = 0$ so b=0
+* $(a*1+b)*2^1 = 1$ so a = 1/2
+
+so $s_n = (n/2)*2^n = n*2^{n-1}$
 
 
 **ClosedFormSkill**
