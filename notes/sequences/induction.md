@@ -21,6 +21,9 @@ instead of proving P(n) implies P(n+1) for all $n\ge 0$, but it is the same stat
 ## Example 1
 Let $s$ be the sequence defined by $s_0=0$, and $s_n=s_{n-1}+n$ for all $n\ge 1$.
 
+By unwinding this definition we see that $s_n = 0 + 1 + 2 + 3 + \ldots + n = \sum_\limits{i=0}^n i$
+which is a non-recursive way to define this sequence.
+
 ---
 
 **Theorem.** $s_n = n(n+1)/2$
