@@ -75,6 +75,12 @@ and the closed form has the shape:
 * $s_n \  = \ \alpha_1 \beta_1^n +  \alpha_2 \beta_2^n$ if $\beta_1 \ne \beta_2$
 * $s_n \  = \ (\alpha_1 n + \alpha_2) \beta^n$ if $\beta_1 = \beta_2 = \beta$
 
+The roots of a quadratic $x^2 - a_1 x - a_2 =0$ can be found using the quadratic formula:
+* $d = a_1^2+4a_2$
+* if $d=0$ then there is one root, $x=(a_1/2)$
+* otherwise there are two roots $x=(a_1+\sqrt{d})/2$ and $x=(a_1-\sqrt{d})/2$
+* if $d<0$ these two roots are both complex numbers, if $d>0$ they are real numbers.
+
 ## CharacteristicPoly skill
 _be able to find the characteristic polyomial from a recursive definition and factor it_
 
