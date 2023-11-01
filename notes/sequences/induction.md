@@ -56,7 +56,7 @@ and then we can show that $P(n)$ is true.
 
 We can prove a proposition by strong induction by first proving two simpler propositions:
 * A) Prove $P(0)$ is true
-* B) Prove that $(forall d\lt n\  P(d)) \rightarrow P(n)$
+* B) Prove that $(\forall d\lt n\  P(d)) \rightarrow P(n)$
 
 From (A) we know P(0) is true, and hence by (B) P(1) is true, and so P(2) is true, etc....
 Hence P(n) is true for all $n\ge 0$.
