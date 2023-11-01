@@ -97,6 +97,7 @@ So
 * $\ \  = n(2^{n} - 2^{n-1}) + 2^n -  2^{n}$
 * $\ \  = n 2^{n-1} $, as $2^n - 2^{n-1} = 2^{n-1} * (2 - 1) = 2^{n-1}$
 
+so $s_n = n 2^{n-1}$ 
 and this is what we were trying to prove. **QED**
 
 ---
