@@ -47,6 +47,7 @@ which is what we were supposed to prove. So
 $s_n = n(n+1)/2$ is true for all $n\ge 0$ by induction.
 **QED**
 
+You can try to find a closed form for $\sum_\limits{i=0}^n i^2$ and prove that is is correct using induction.
 
 ## Strong Induction
 Sometimes we need a stronger form of induction (which is actually a consequence of regular induction).
@@ -137,6 +138,10 @@ By induction they can be fully broken down in $am-1$ and $bm-1$ steps, so the to
 Since it is true in both cases, we have proven the Theorem by induction. **QED***
 
 ---
+
+You can try to prove that the parse tree for a Propositional Formula with $n$ logical operators will have $2n+1$ nodes.
+For example, $P\wedge (Q \rightarrow P) \vee (P \oplus Q)$ has 4 operators and the tree and and 9 nodes total (i.e. 5 propositional symbols).
+Prove it by induction on the the number of operators.
 
 
 
