@@ -81,7 +81,7 @@ The roots of a quadratic $x^2 - a_1 x - a_2 =0$ can be found using the quadratic
 * otherwise there are two roots $x=(a_1+\sqrt{d})/2$ and $x=(a_1-\sqrt{d})/2$
 * if $d<0$ these two roots are both complex numbers, if $d>0$ they are real numbers.
 
-## CharacteristicPoly skill
+**CharacteristicPoly skill**
 _be able to find the characteristic polyomial from a recursive definition and factor it_
 
 ## Finding a closed form
@@ -139,6 +139,6 @@ We can solve these two equations by letting $\alpha_2 = -\alpha_1$ and so
 
 
 
-## ClosedFormSkill
+**ClosedFormSkill**
 _be able to find the closed form of an exponential sequence_
 
