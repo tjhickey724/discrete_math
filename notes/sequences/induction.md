@@ -50,7 +50,8 @@ $s_n = n(n+1)/2$ is true for all $n\ge 0$ by induction.
 
 ## Strong Induction
 Sometimes we need a stronger form of induction (which is actually a consequence of regular induction).
-That is we need to assume that $P(d)$ is true for all $d\lt n$ and then we can show that $P(n)$ is true.
+That is we need to assume that $P(d)$ is true for all $d\lt n$  not just for $n-1$,
+and then we can show that $P(n)$ is true.
 
 We can prove a proposition by strong induction by first proving two simpler propositions:
 * A) Prove $P(0)$ is true
