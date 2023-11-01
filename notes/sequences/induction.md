@@ -3,10 +3,10 @@ In this section we show how to prove that a close formula holds for a sequence d
 We will use a special case of the Induction Technique.
 
 ## Induction Proofs
-The induction axiom for the natural numbers is used to prove statement of the form
-* $\forall n\in\mathbb{N} P(n)$
+The induction axiom for the natural numbers $\mathbb{N}$ is used to prove statement of the form
+* $\forall n P(n)$
 
-where $P(n)$ is some predicate on the natural numbers $\mathbb{N}$.
+where $P(n)$ is some predicate on the natural numbers $\mathbb{N}$ and the universal quantifier is over all natural numbers $\\{0,1,2,\ldots\\}$
 
 We can prove such a proposition by first proving two simpler propositions:
 * A) Prove $P(0)$ is true
