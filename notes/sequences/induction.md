@@ -13,7 +13,15 @@ We can prove such a proposition by first proving two simpler propositions:
 * B) Prove that $\forall n. P(n) \rightarrow P(n+1)$
 * C) Conclude that $\forall n\ P(n)$
 
-From (A) we know P(0) is true, and hence by (B) P(1) is true, and so P(2) is true, etc....
+From (A) we know P(0) is true, and expanding out (B) we see
+* B1) $P(0) \rightarrow P(1)$
+* B2) $P(1) \rightarrow P(2)$
+* B3) $P(2) \rightarrow P(3)$
+* $\ldots$
+  
+and hence by (A) and (B1) P(1) is true,
+* and so by (B2), P(2) is true,
+  
 Hence P(n) is true for all $n\ge 0$.
 
 Sometimes it is easier, with the math notation to prove that P(n-1) implies P(n) for all $n\ge 1$
