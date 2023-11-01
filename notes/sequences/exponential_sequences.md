@@ -155,7 +155,14 @@ Plugging in values for n=0,1 we get
 
 so $s_n = (n/2) * 2^n = n * 2^{n-1}$
 
+This process of finding the parameters of a closed form by using the initial values is a key skill
+needed when working with sequences.
 
+**ParameterSolvingSkill**
+_be able to solve for the parameters of a closed form given the initial values of the sequence_
+
+Putting together all of the skills covered to day we have the following:
 **ClosedFormSkill**
 _be able to find the closed form of an exponential sequence_
+
 
