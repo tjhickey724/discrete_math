@@ -26,7 +26,7 @@ which is a non-recursive way to define this sequence.
 
 ---
 
-**Theorem.** $s_n = n(n+1)/2$
+**Theorem.** $s_n = \sum_\limits{i=0}^n i = n(n+1)/2$.
 
 **Proof:** We prove this by induction where $P(n)$ is the statement $s_n = n(n+1)/2$.
 
