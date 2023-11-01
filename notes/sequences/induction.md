@@ -21,6 +21,8 @@ instead of proving P(n) implies P(n+1) for all $n\ge 0$, but it is the same stat
 ## Example 1
 Let $s$ be the sequence defined by $s_0=0$, and $s_n=s_{n-1}+n$ for all $n\ge 1$.
 
+---
+
 **Theorem.** $s_n = n(n+1)/2$
 
 **Proof:** We prove this by induction where $P(n)$ is the statement $s_n = n(n+1)/2$.
@@ -28,4 +30,16 @@ Let $s$ be the sequence defined by $s_0=0$, and $s_n=s_{n-1}+n$ for all $n\ge 1$
 First we prove that $P(0)$ is true i.e. that $s_0 = 0(0+1)/2 = 0$, which is true by definition of $s$
 
 Next we assume that $P(n-1)$ is true and prove that $P(n)$ is true.
+* $P(n-1)$ is $s_{n-1} = (n-1) * ((n-1)+1)/2 = (n-1)n/2 = (n^2-n)/2$
+
+and by the definion of $s_n$ we know that
+* $s_n = s_{n-1} + n$
+So if we substitute in the formula for $ds_{n-1}$ that we get from induction we find that
+* $s_n = (n^2-n)/2 + n = (n^2-n+2n)/2 = (n^2+n)/2 = n(n+1)/2$
+
+which is what we were supposed to prove. **QED**
+
+---
+
+
 
