@@ -111,7 +111,32 @@ The first equation gives us $\alpha_2 = -\alpha_1$ and if substitute that into t
 So the closed form is
 * $s_n = 2^n - 1$
 
+### Example 2
 Let's apply this for the Fibonacci sequence, which give a more complex result...
+The recursion equation is 
+* $s_n = s_{n-1} + s_{n-2}$
+
+So the characteristic equation is 
+* $x^2 -x -1=0$  with $a_1=a_2=1$
+
+The roots of this equation are
+* $\beta_1 = (1+\sqrt{5})/2 = 1.6180...$
+* $\beta_2 = (1-\sqrt{5})/2 = -0.6180...$
+
+so we can solve for $\alpha_1$ and $\alpha_2$ in the closed form
+* $s_n \  = \ \alpha_1 \beta_1^n +  \alpha_2 \beta_2^n$
+
+| n | $s_n$ | closed form | simplified equation|
+| --- | --- | --- | --- |
+| 0 | $\alpha_1 \beta_1^0 +  \alpha_2 \beta_2^0$ | $\alpha_1+  \alpha_2 =0$ |
+| 1 | $\alpha_1 \beta_1^1 +  \alpha_2 \beta_2^1$ | $\alpha_1 \beta_1 + \alpha_2 \beta_2 =1$ |
+
+We can solve these two equations by letting $\alpha_2 = -\alpha_1$ and so
+* $1 = \alpha_1 \beta_1 - \alpha_1 \beta_2 = \alpha_1 (\beta_1 - \beta_2) = \alpha_1 ((1+\sqrt{5})/2 - (1-\sqrt{5})/2) = \sqrt{5} *
+* so $\alpha_1 = 1/\sqrt{5}$ and
+* $s_n = (1/\sqrt{5})*(\beta_1^n - \beta_2^n)$
+
+
 
 ## ClosedFormSkill
 _be able to find the closed form of an exponential sequence_
