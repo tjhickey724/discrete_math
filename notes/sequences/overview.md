@@ -17,3 +17,11 @@ when it is.
 In practice, sequences which are polynomial corresponds to "practical" programs like sorting and database searching,
 while sequence which are exponential are not feasible, like determining if a boolean formula is satisfiable.
 
+Next, we will show how to use [induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md) to prove
+that a closed form found using the previous techniques is correct for that sequence.
+
+Finally, we will show how to use generating functions to prove that the techniques described above are correct (and hence you only
+need to use induction to check your work!)
+
+
+
