@@ -42,7 +42,59 @@ So if we substitute in the formula for $ds_{n-1}$ that we get from induction we 
 
 which is what we were supposed to prove. **QED**
 
+
+## Strong Induction
+Sometimes we need a stronger form of induction (which is actually a consequence of regular induction).
+That is we need to assume that $P(d)$ is true for all $d\lt n$ and then we can show that $P(n)$ is true.
+
+We can prove a proposition by strong induction by first proving two simpler propositions:
+* A) Prove $P(0)$ is true
+* B) Prove that $(forall d\lt n\  P(d)) \rightarrow P(n)$
+
+From (A) we know P(0) is true, and hence by (B) P(1) is true, and so P(2) is true, etc....
+Hence P(n) is true for all $n\ge 0$.
+
 ---
+
+## Example 2.
+Let's try this on an exponential sequence. We will use strong induction, since we will prove that a formula for $s_n$ holds
+by assuming it holds for $s_{n-1}$ and $s_{n-2}$.
+
+Suppose we define $s$ by
+* $s_0 = 0$
+* $s_1 = 1$
+* $s_n = 4 *(s_{n-1}  - s_{n-2})$ for all $n\ge 2$
+
+Then in the last lesson we showed that if the closed form for this has the shape $s_n = (an+b)2^n$, then a=1/2 and b=1/2, that is
+* $s_n = n*2^{n-1}$
+
+But can we prove that this holds directly?  Yes, using induction.
+
+---
+
+**Theorem.** Let $s_n$ be the sequence defined above, then 
+* $\forall n s_n = n 2^{n-1}$
+
+**Proof:** We prove this using induction on $n$. For n=0 and 1 it holds because
+* $0 * 2^{0-1} = 0 * 1/2 = 0 = s_0$
+* $1 * 2^{1-1} = 1 * 2^0 = 1 * 1 = 1 = s_1$
+
+and for $n\ge 2$ lets assume, by induction that $s_k = k 2^{k-1}$, then
+* $s_{n-1} = (n-1) 2^{n-1-1} = (n-1) 2^{n-2}
+* $s_{n-2} = (n-2) 2^{n-2-1} = (n-2) 2^{n-3}
+
+So
+* $s_n = 4 s_{n-1} - 4 s_{n-2}$
+* $\ \  = 4 (n-1) 2^{n-2} - 4 (n-2) 2^{n-3}$
+* $\ \  = (n-1)2^n - (n-2)2^{n-1}$  as $4=2^2$ and $2^a * 2^b 2^{a+b}$
+* $\ \  = n2^{n} - 2^n + n 2^{n-1} - 2 * 2^{n-1}$
+* $\ \  = n(2^{n} - 2^{n-1}) + 2^n -  2^{n}$
+* $\ \  = n 2^{n-1} $, as $2^n - 2^{n-1} = 2^{n-1} * (2 - 1) = 2^{n-1}$
+
+and this is what we were trying to prove. **QED**
+
+---
+
 
 
 
