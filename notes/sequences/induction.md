@@ -34,7 +34,7 @@ First we prove the base case, that $P(0)$ is true i.e. that $s_0 = 0(0+1)/2 = 0$
 
 Next we assume that $P(n-1)$ is true and our induction hypothes is that
 * $s_{n-1} = (n-1) * ((n-1)+1)/2$
-* $\ \  = (n-1)n/2 = (n^2-n)/2$, after simplification
+*  $\ \ \ \  = (n-1)n/2 = (n^2-n)/2$, after simplification
 
 and by the definion of $s_n$ we know that
 * $s_n = s_{n-1} + n$
