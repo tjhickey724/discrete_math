@@ -213,6 +213,8 @@ To be announced
 # Week 9: 10/30-11/3
 
 ### Howework due 11/6
+* Read Chapters 16 and 17 from [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
+* Complete the Homework assignments on MLA which are due on 11/6
 
 ## Lesson 24: Mon 10/30 <br> _Polynomial Sequences_
 * we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
