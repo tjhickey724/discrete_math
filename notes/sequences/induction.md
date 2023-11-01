@@ -102,6 +102,43 @@ and this is what we were trying to prove. **QED**
 
 ---
 
+## Example 3.
+Induction is a general proof technique that works whenever you want to prove something is true
+for all natural numbers n.
+
+Here is an example of a strong induction proof that has nothing to do with sequences.
+
+Suppose we take one of those chocolate bars which you can break into smaller squares. 
+It is typically a 8x4 grid of squares, but in principle it could be any $n x m$ grid of squares.
+
+If we break it along one of the vertical or horizontal lines we'll get two smaller chocolate bars, e.g.
+a 4x8 could be broken into a 1x8 and 3x8   or a 4x1 and 4x7 or  a 4x3 and 4x5.
+
+--- 
+
+**Theorem.** The number of breaks you need to split an $n \times m$ chocolate bar into $1 \times 1$ squares
+is $nm-1$.
+
+**Proof.** We will prove this by strong induction on $nm$.
+
+_Base case:_ if $nm=1$ then $n=1$ and $m=1$ and it is already a 1x1 square so it requires $1-1=0$ breaks!
+
+_Induction case:_ There are two cases actually, we can break it vertically (if $m\gt 1$ or horizontally if $n\gt 1$)
+and if $n$ and $m$ are both 1, we are in the base case, so it is true.
+
+If we break it vertically, then $m=ab$ and we break the $n\times m$ into two pieces $n \times a$ and $n \times b$.
+
+By induction the number of steps to break these two parts are $na-1$ and $nb-1$ so the total number of steps to break the
+chocolate bar is $1 + na-1 + nb-1 = 1 + n(a+b) -2 = nm +1-2 = nm-1$ as was to be proved.
+
+The case of breaking horizontally is essentially the same, but we let $n=a+b$ and have pieces of size $a \times m$ and $b\times m$.
+By induction they can be fully broken down in $am-1$ and $bm-1$ steps, so the total number of steps is $1 + am-1 + bm-1 = (a+b)m +1-2 = nm-1$.
+
+Since it is true in both cases, we have proven the Theorem by induction. **QED***
+
+---
+
+
 
 
 
