@@ -19,8 +19,9 @@ From (A) we know P(0) is true, and expanding out (B) we see
 * B3) $P(2) \rightarrow P(3)$
 * $\ldots$
   
-and hence by (A) and (B1) P(1) is true,
-* and so by (B2), P(2) is true,
+and hence since $P(0)$ is trye and (B1) says $P(0)\rightarrow P(1)$, we know $P(1)$ is true.
+
+Similarly for $P(2)$, $P(3)$, etc.
   
 Hence P(n) is true for all $n\ge 0$.
 
