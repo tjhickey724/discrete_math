@@ -224,3 +224,7 @@ To be announced
 ## Lesson 25: Wed 11/1 <br> _Exponential Sequences_
 * we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
   by looking at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
+
+## Lesson 26: Thu 11/2 <br> _Induction_
+* We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
+   and use it to prove closed form expression for series elements defined recursively are correct.
