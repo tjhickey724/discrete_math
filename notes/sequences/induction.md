@@ -33,16 +33,19 @@ which is a non-recursive way to define this sequence.
 First we prove the base case, that $P(0)$ is true i.e. that $s_0 = 0(0+1)/2 = 0$, which is true by definition of $s$
 
 Next we assume that $P(n-1)$ is true and our induction hypothes is that
-* $s_{n-1} = (n-1) * ((n-1)+1)/2 = (n-1)n/2 = (n^2-n)/2$
+* $s_{n-1} = (n-1) * ((n-1)+1)/2$
+* $\ \  = (n-1)n/2 = (n^2-n)/2$, after simplification
 
 and by the definion of $s_n$ we know that
 * $s_n = s_{n-1} + n$
  
 So if we substitute in the formula for $s_{n-1}$ that we get from induction we find that
-* $s_n = (n^2-n)/2 + n = (n^2-n+2n)/2 = (n^2+n)/2 = n(n+1)/2$
+* $s_n = (n^2-n)/2 + n$
+* $\ \  = (n^2-n+2n)/2 = (n^2+n)/2 = n(n+1)/2$ after simplification
 
-which shows that $P(n-1)$ implies $P(n)$ and hence by induction $P(n)$ is true forall $n$,
-which is what we were supposed to prove. **QED**
+which is what we were supposed to prove. So 
+$s_n = n(n+1)/2$ is true for all $n\ge 0$ by induction.
+**QED**
 
 
 ## Strong Induction
