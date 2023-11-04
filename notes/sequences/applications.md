@@ -16,14 +16,9 @@ and we can prove by induction that this means $B(k) = 2^k-1$
 The fibonacci trees can be defined recursively as follows:
 * $F_1$ is a single node
 * $F_2$ is a tree where the root has one child on the left and none on the right
-* $F_k$ for $k>2$ is a tree whose left child is $F_{k-2}$ and whose right child is $F_{k-1}$
+* $F_k$ for $k>2$ is a tree whose left child is $F_{k-1}$ and whose right child is $F_{k-2}$
 
 Below we see the first few Fibonacci trees
-
-Combining two answers I came out with a solution, that might not look that pretty,
-but it works!
-
-It creates a thumbnail with a specific size that might be clicked to bring you to the max resolution image.
 
 ![FibonacciTrees](FibonacciTrees.png)
 
