@@ -35,11 +35,29 @@ The number of $F(k)$ in the fibonacci tree of height k satisifies the following 
 
 and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence then we can prove the following theorem by induction
 
-**Theorem.$$ $F(k) = f_{k+2}$ for all $k\ge 0$.
+---
 
-We leave the proof to you as an exercise!
+**Theorem.** $F(k) = f_{k+2}$ for all $k\ge 0$.
 
-We have already seen that $f_n$ is $(\beta_1^n - \beta_2^n)/\sqrt{5}$ which is about $1.618^n/\sqrt{5}$ since $\beta_2 = -0.618...$ so $\beta_2^n$ is always between -1 and 1.
+**Proof:** We leave the proof to you as an exercise! **QED**
+
+---
+
+We have already found a formula for the $n$th fibonacci number,  
+* $f_n$ is $(\beta_1^n - \beta_2^n)/\sqrt{5}$
+
+which is about $1.618^n/\sqrt{5}$ since $\beta_2 = -0.618...$ so $\beta_2^n$ is always between -1 and 1.
+So we have the following:
+
+---
+
+**Corollary.** $F(k)$ is about $1.17*\beta^k$.
+
+**Proof:** 
+We know that $F(k) = f_{k+2}$  and $f_{k+2} = \beta^{n+2}/\sqrt{5} = $\beta^n * c$ where $c = $\beta^2/\sqrt{5} = 1.17...$
+**QED**
+
+---
 
 ## AVL Trees
 One of the most important data structures we learn about in a Data Structures and Algorithms class is the AVL tree. This is a tree whose nodes
