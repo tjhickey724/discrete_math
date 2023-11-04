@@ -31,7 +31,8 @@ Below we see the first few Fibonacci trees
 The number of $F(k)$ in the fibonacci tree of height k satisifies the following recursion equation:
 * $F(1)=1$
 * $F(2)=2$
-* $F(k) = F(k-1)+F(k-2)$ for all $k\ge 3$
+* $F(k) = 1+ F(k-1)+F(k-2)$ for all $k\ge 3$ where the $1$ corresponds to the root of the tree and the other terms to the two children
+
 and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence then we can prove the following theorem by induction
 
 **Theorem.$$ $F(k) = f_{k+2}$ for all $k\ge 0$.
