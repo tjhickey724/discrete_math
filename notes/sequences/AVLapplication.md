@@ -1,8 +1,14 @@
-# Applications of Sequences
+# Applications of Sequences to AVL trees
 
 The techniques we've used for solving recursive equations have many applications in Computer Science.
 In this note, we will show how a variation of the fibonacci sequence has applications in finding the
 performance of certain algorithms for quickly storing and looking up data.
+
+In this note we will sketch out the proof that the basic operations of an AVL tree (defined below)
+can be done in time about $\log_2(n)$.  These operations are to insert or remove an element from the tree
+and to find whether a given element is in the tree. The main point we want to illustrate here is the
+way in which recursion equations like the ones we've been studying arise when analyzing the execution time
+of interesting (and important) programs.
 
 A full binary tree of height k is a tree in which every node has exactly two children and the every leaf
 has exactly k+1 ancestors. The image below shows the binary trees of heights 1,2,3,...
