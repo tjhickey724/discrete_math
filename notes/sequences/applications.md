@@ -18,4 +18,24 @@ The fibonacci trees can be defined recursively as follows:
 * $F_2$ is a tree where the root has one child on the left and none on the right
 * $F_k$ for $k>2$ is a tree whose left child is $F_{k-2}$ and whose right child is $F_{k-1}$
 
+Below we see the first few Fibonacci trees
+
+Combining two answers I came out with a solution, that might not look that pretty,
+but it works!
+
+It creates a thumbnail with a specific size that might be clicked to bring you to the max resolution image.
+
+![FibonacciTrees](FibonacciTrees.png)
+
+The number of $F(k)$ in the fibonacci tree of height k satisifies the following recursion equation:
+* $F(1)=1$
+* $F(2)=2$
+* $F(k) = F(k-1)+F(k-2)$ for all $k\ge 3$
+and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence then we can prove the following theorem by induction
+
+**Theorem.$$ $F(k) = f_{k+2}$ for all $k\ge 0$.
+
+We leave the proof to you as an exercise!
+
+
 
