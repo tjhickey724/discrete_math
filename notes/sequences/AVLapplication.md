@@ -53,10 +53,10 @@ So we have the following:
 
 ---
 
-**Corollary.** $F(k)$ is about $1.17*1.618^k$.
+**Corollary.** $F(k)$ is the closest integer to $1.17..*1.618..^k$.
 
 **Proof:** 
-We know that $F(k) = f_{k+2}$  and $f_{k+2} = \beta^{n+2}/\sqrt{5} = \beta^n * c$ where $c = $\beta^2/\sqrt{5} = 1.17...$
+We know that $F(k) = f_{k+2}$  and $f_{k+2} = \beta^{n+2}/\sqrt{5} = \beta^n * c$ where $c = \beta^2/\sqrt{5} = 1.17...$
 **QED**
 
 ---
