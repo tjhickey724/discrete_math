@@ -86,8 +86,8 @@ Because of the AVL property, the number $N$ of nodes in an AVL tree is always be
 and the least dense is the Fibonacci tree. 
 * $2^k-1 \le N \le \beta^{n+2}/\sqrt{5} = \beta^n * c$ where $c = (\beta^2/\sqrt{5}) = 1.17...$ and $\beta = 1.618...$ is the golden ratio.
 
-This gives us a bound o the height $H$ of an AVL tree with $n$ nodes
-* $ \log_2(n) \le H \le \log_\beta(n/c) < $\log_\beta(n)$
+This gives us a bound on the height $H$ of an AVL tree with $n$ nodes
+* $\log_2(n) \le H \le \log_\beta(n/c) < $\log_\beta(n)$
 
 and $\log_\beta(n) = \log_2(n)/\log_2(\beta) = 1.44... \log_2(n)$
 
