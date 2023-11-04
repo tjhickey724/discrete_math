@@ -31,7 +31,9 @@ Below we see the first few Fibonacci trees
 The number of $F(k)$ in the fibonacci tree of height k satisifies the following recursion equation:
 * $F(1)=1$
 * $F(2)=2$
-* $F(k) = 1+ F(k-1)+F(k-2)$ for all $k\ge 3$ where the $1$ corresponds to the root of the tree and the other terms to the two children
+* $F(k) = 1+ F(k-1)+F(k-2)$ for all $k\ge 3$
+
+where the $1$ corresponds to the root of the tree and the other terms to the two children
 
 and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence then we can prove the following theorem by induction
 
@@ -43,7 +45,7 @@ and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence t
 
 ---
 
-We have already found a formula for the $n$th fibonacci number,  
+We have already found a formula for the nth fibonacci number,  
 * $f_n$ is $(\beta_1^n - \beta_2^n)/\sqrt{5}$
 
 which is about $1.618^n/\sqrt{5}$ since $\beta_2 = -0.618...$ so $\beta_2^n$ is always between -1 and 1.
@@ -51,11 +53,26 @@ So we have the following:
 
 ---
 
-**Corollary.** $F(k)$ is about $1.17*\beta^k$.
+**Corollary.** $F(k)$ is about $1.17*1.618^k$.
 
 **Proof:** 
 We know that $F(k) = f_{k+2}$  and $f_{k+2} = \beta^{n+2}/\sqrt{5} = $\beta^n * c$ where $c = $\beta^2/\sqrt{5} = 1.17...$
 **QED**
+
+---
+
+**Corollary.** The height of the Fibonacci tree with $n$ nodes is at most 
+
+**Proof:**
+By the previous Corollary we know that the number of nodes $n$ in the Fibonacci tree of height $k$ satisfies
+* $n = 1.17 * 1.618^k$
+
+so $k = \log_{1.618}(n/1.17) = \log_2(n/1.17)/\log_2(1.618) \lt 1.44 \log_2(n)$
+
+**QED**
+
+---
+
 
 ---
 
