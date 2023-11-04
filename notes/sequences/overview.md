@@ -20,8 +20,14 @@ while sequence which are exponential are not feasible, like determining if a boo
 Next, we will show how to use [induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md) to prove
 that a closed form found using the previous techniques is correct for that sequence.
 
+We give an introduction to how these techniques are useful in Computer Science by discussing the analysis of [AVL Trees](AVLapplication.md)
+where the height of a tree in terms of how many nodes it has gives an estimate of how long it takes to do basic operations on that tree.
+
 Finally, we will show how to use generating functions to prove that the techniques described above are correct (and hence you only
-need to use induction to check your work!)
+need to use induction to check your work!) Here is a [pdf on Generating Functions](GeneratingFunctions.pdf) which outlines the general approach.
+The key idea is to use a series to define a function, and use the properties of the series (e.g. recursion equation) to determine properties of the
+function. In many cases, the function turns out to be something simple and we can use our knowledge of that function to calculate a formula for the
+elements of the series!
 
 
 
