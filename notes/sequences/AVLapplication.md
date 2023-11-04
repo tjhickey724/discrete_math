@@ -12,7 +12,7 @@ of interesting (and important) programs.
 
 A full binary tree of height k is a tree in which every node has exactly two children and the every leaf
 has exactly k+1 ancestors. The image below shows the binary trees of heights 1,2,3,...
-![Full Binary Trees](BinaryTrees.jpg)
+![Full Binary Trees](BinaryTrees.png)
 
 If B(k) is the number of nodes in a binary tree of height k, then $B$ satisfies the following recursion equation:
 * $B(1)=1$
