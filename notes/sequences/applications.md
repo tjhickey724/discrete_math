@@ -32,5 +32,34 @@ and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence t
 
 We leave the proof to you as an exercise!
 
+We have already seen that $f_n$ is $(\beta_1^n - \beta_2^n)/\sqrt{5}$ which is about $1.618^n/\sqrt{5}$ since $\beta_2 = -0.618...$ so $\beta_2^n$ is always between -1 and 1.
+
+## AVL Trees
+One of the most important data structures we learn about in a Data Structures and Algorithms class is the AVL tree. This is a tree whose nodes
+contain important information and there are algorithms that can search for a value in an AVL tree, or add a new value or remove a value, and the time
+of these operations is proportional to the height of the tree.  The key property of the AVL tree is the following:
+* the heights of the two children of any node in the tree are either the same or differ by 1
+
+Because of the AVL property, the number $N$ of nodes in an AVL tree is always between $B(k)$ and $F(k)$ as the most dense AVL tree of height k is a full binary tree
+and the least dense is the Fibonacci tree. 
+* $2^k-1 \le N \le \beta^{n+2}/\sqrt{5} = \beta^n * c$ where $c = (\beta^2/\sqrt{5}) = 1.17...$ and $\beta = 1.618...$ is the golden ratio.
+
+This gives us a bound o the height $H$ of an AVL tree with $n$ nodes
+* $ \log_2(n) \le H \le \log_\beta(n/c) < $\log_\beta(n)$
+
+and $\log_\beta(n) = \log_2(n)/\log_2(\beta) = 1.44... \log_2(n)$
+
+This gives us a bound on the efficiency of the AVL operations.
+
+---
+
+**Theorem** The time $T(n)$ it takes to search for an element in an AVL tree of size n, or to insert or remove an element satisfies
+* $a\log_2(n) \lt T(n) \lt b\log_2(n)$ for some constants a and b depending on the speed of the computer.
+
+**Proof.** Here we are assuming that these operations take time proportional to the height of the tree and we know from our recursion equations
+that the height is between $\log_2(n)$ and $1.45 \log_2(n)$.  The constants $a$ and $b$ give the proportions... **QED**
+
+---
+
 
 
