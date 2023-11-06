@@ -1,4 +1,4 @@
-# Applications of Sequences to AVL trees
+# Applications of Sequences to Priority Queues and AVL trees
 
 The techniques we've used for solving recursive equations have many applications in Computer Science.
 In this note, we will show how a variation of the fibonacci sequence has applications in finding the
@@ -10,6 +10,7 @@ and to find whether a given element is in the tree. The main point we want to il
 way in which recursion equations like the ones we've been studying arise when analyzing the execution time
 of interesting (and important) programs.
 
+## Priority Queues and Full Binary Trees
 A full binary tree of height k is a tree in which every node has exactly two children and the every leaf
 has exactly k+1 ancestors. The image below shows the binary trees of heights 1,2,3,...
 ![Full Binary Trees](BinaryTrees.png)
@@ -19,6 +20,17 @@ If B(k) is the number of nodes in a binary tree of height k, then $B$ satisfies 
 * $B(k) = 2*B(k-1) + 1$
 and we can prove by induction that this means $B(k) = 2^k-1$
 
+Full Binary trees are used to implement what is called a Priority Queue. The idea is that one inserts elements 
+into the Queue or removes "the lowest" element.  The Queue is a full binary tree except that the last row
+is only full on the left. The time to insert a new element or remove the smallest is proportional to the
+height of the tree and since a full binary tree of height h has about $n=2^h$ nodes, we conclude that the height
+h is proportional to $\log_n$.
+* $n=2^h$  so $h = \log_2(n)$
+
+and this makes for a very efficient algorithm it can insert or remove up to a billion nodes with only about 30
+steps for each of these operations!
+
+## The AVL algorithm and Fibonacci trees.
 The fibonacci trees can be defined recursively as follows:
 * $F_1$ is a single node
 * $F_2$ is a tree where the root has one child on the left and none on the right
@@ -41,14 +53,16 @@ and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence t
 
 **Theorem.** $F(k) = f_{k+2}$ for all $k\ge 0$.
 
-**Proof:** We leave the proof to you as an exercise! **QED**
+**Proof:** We leave the proof to you as an exercise in our homework! **QED**
 
 ---
 
 We have already found a formula for the nth fibonacci number,  
 * $f_n$ is $(\beta_1^n - \beta_2^n)/\sqrt{5}$
+* $\beta_1 = (1 + \sqrt{5})/2 = 1.6180...$
+* $\beta_2 = (1 - \sqrt{5})/2 0 -0.618...$
 
-which is about $1.618^n/\sqrt{5}$ since $\beta_2 = -0.618...$ so $\beta_2^n$ is always between -1 and 1.
+so $f(n)$ is about $1.618^n/\sqrt{5}$ since $\beta_2^n$ is always between -1 and 1 and gets close to zero as $n$ gets large.
 So we have the following:
 
 ---
@@ -61,7 +75,7 @@ We know that $F(k) = f_{k+2}$  and $f_{k+2} = \beta^{n+2}/\sqrt{5} = \beta^n * c
 
 ---
 
-**Corollary.** The height of the Fibonacci tree with $n$ nodes is at most 
+**Corollary.** The height of the Fibonacci tree with $n$ nodes is at most $1.44 \log_2(n)$.
 
 **Proof:**
 By the previous Corollary we know that the number of nodes $n$ in the Fibonacci tree of height $k$ satisfies
