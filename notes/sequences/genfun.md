@@ -10,14 +10,15 @@ if $s = (1,t,t^2,t^3,\ldots, t^k,\ldots)$ then  $f_s(x) = 1 + tx + t^2x^2 + t^3x
 
 $f_s(x) = 1/(1-tx)$.
 
-## combination series
+## combination sequence
 if $s = (\binom{n}{0},\binom{n}{1},\binom{n}{2},\ldots,\binom{n}{k},\ldots)$ then $s_k = \binom{n}{k}$ and
 
 $f_s = 1/(1-x)^k
 
-## polynomial series
+## polynomial sequence
 If $s_k=p(k)$ for some polynomial k of degree d, then
 
 $f_s = q(x)/(1-x)^d$ where q is a polynomial of degree less than $d$
+
 
 ## sequences from a recurrence relation
