@@ -231,7 +231,7 @@ To be announced
 
 # Week 19
 
-## Lesson 27
+## Lesson 27 <br> _Induction and Generating Functions_
 * We finish up our study of [sequences](https://github.com/tjhickey724/discrete_math/tree/main/notes/sequences)
 * We give some examples of recursion equations that arise in the study of algorithms (Priority Queues and AVL Trees)
 * We give a brief introduction to Generating Functions
