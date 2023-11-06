@@ -51,7 +51,7 @@ and if we let $f = (1,1,2,3,5,8,13,21,34,...)$ be the usual fibonacci sequence t
 
 ---
 
-**Theorem.** $F(k) = f_{k+2}$ for all $k\ge 0$.
+**Theorem.** $F(k) = f_{k+2}-1$ for all $k\ge 0$.
 
 **Proof:** We leave the proof to you as an exercise in our homework! **QED**
 
