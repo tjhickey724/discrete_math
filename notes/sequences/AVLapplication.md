@@ -30,7 +30,7 @@ h is proportional to $\log_n$.
 and this makes for a very efficient algorithm it can insert or remove up to a billion nodes with only about 30
 steps for each of these operations!
 
-## The AVL algorithm and Fibonacci trees.
+## Fibonacci trees.
 The fibonacci trees can be defined recursively as follows:
 * $F_1$ is a single node
 * $F_2$ is a tree where the root has one child on the left and none on the right
