@@ -23,8 +23,8 @@ e.g.
   * $\binom{-2}{2}= -2 * -3/*(1 * 2) = 3$
   * $\binom{-2}{3}= -2 * -3 * -4/*(1 * 2 * 3) = -4$
   * $\binom{-2}{k}= (k+1) * (-1)^k$
-* likewise for $r=-3$  $\binom{-3|{k} = (k+1)*(k_2)/2#
-* so $(1-x)^{-2} = \sum_\limits{k=0}^\infty \binom{-2}{k} x^k = \sum_\limits{k=0}^\infty (k+1) x^k = $
+* likewise for $r=-3$  $\binom{-3|{k} = (k+1)*(k_2)/2$
+* so $(1-x)^{-2} = \sum_\limits{k=0}^\infty \binom{-2}{k} x^k = \sum_\limits{k=0}^\infty (k+1)(-1)^{k} (-x)^k =  \sum_\limits{k=0}^\infty (k+1) x^k $
 * 
 
 ## polynomial sequence
