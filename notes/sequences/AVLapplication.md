@@ -110,7 +110,7 @@ This gives us a bound on the efficiency of the AVL operations.
 ---
 
 **Theorem** The time $T(n)$ it takes to search for an element in an AVL tree of size n, or to insert or remove an element satisfies
-* $\log_2(n) \lt a*T(n) \lt \log_2(n)$ for some constant a depending on the speed of the computer.
+* $\log_2(n) \lt a*T(n) \lt 1.44 \log_2(n)$ for some constant a depending on the speed of the computer.
 
 **Proof.** Here we are assuming that these operations take time $h/a$ proportional to the height $h$ of the tree for some number $a\gt 0$
 and we know from our recursion equations that the height is between $\log_2(n)$ and $1.45 \log_2(n)$.  The constants $a$ and $b$ give the proportions... **QED**
