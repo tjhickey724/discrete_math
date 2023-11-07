@@ -12,12 +12,16 @@ the text which explains each of these three steps.
 
 ## Step 1: Find the Sample Space....
 Our goal is to determine the likelihood of some particular event, so the first step is to find the set of all possible events of which our events are a subset.
-These events will often be describe by a sequence of choices. For example, being dealt five cards from a deck of 52 cards, or being given 1000 zip codes, or tracing a path
+These events will often be describe by a sequence of choices. 
+In the "Let's make a deal" example, the sample space is all possible outcomes where the prize is placed behind a door, the user picks a door, and the host opens one of the doors that doesn't contain the prize, and the player either decides to stay with their choice or to change to the other door.
+
+For more examples consider the following: being dealt five cards from a deck of 52 cards, or being given 1000 zip codes, or tracing a path
 from the root of tree down to one of its leaves.... This first step is to use the definition of the events to create a set of all possible events, the sample space, 
 and to define it mathematically in a way that we can analyze it.
 
 ## Step 2: Identify events of interest.
-Once we've defined the sample space, we need to clearly specify which events we are interested in... what are the events whose likelihood we want to calculate.
+Once we've defined the sample space, we need to clearly specify which events we are interested in... what are the events whose likelihood we want to calculate.\
+For the "Let's make a deal" example, the events of interest are when the u
 This might be the five card hands containing a full house, or the zip codes from regions with a majority of senior citizens, or paths in a tree of a particular length.
 
 ## Step 3: Determine outcome probabilities
