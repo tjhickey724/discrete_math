@@ -21,8 +21,10 @@ and to define it mathematically in a way that we can analyze it.
 
 ## Step 2: Identify events of interest.
 Once we've defined the sample space, we need to clearly specify which events we are interested in... what are the events whose likelihood we want to calculate.\
-For the "Let's make a deal" example, the events of interest are when the u
-This might be the five card hands containing a full house, or the zip codes from regions with a majority of senior citizens, or paths in a tree of a particular length.
+For the "Let's make a deal" example, the events of interest are when the user's choice results in picking a door with a prize behind it.
+
+For the other cases, the interesting events might be
+the five card hands containing a full house, or the zip codes from regions with a majority of senior citizens, or paths in a tree of a particular length.
 
 ## Step 3: Determine outcome probabilities
 For each of the possible outcomes in the sample space we need to determine how likely that particular outcome is.  We usually use our understanding of the choice made
@@ -38,7 +40,7 @@ We will work through these examples in class to make sure you understand the rea
 * Card games provide many examples where calculating probabilities can be helpful. For example, suppose you have been dealt three cards
   the A,2,3 of hearts, what is the probability that after being dealt two more cards you will have a three of a kind? or a straight? or a flush?
   If someone else already has 3 fours, what is the probability that you will beat them with the next two cards?
-* The MIT book also has an interesting example about dice games that is quite unintuitive.
+* The MIT book also has an interesting example about dice games with non-standard dice, that is quite unintuitive.
 
 
   
