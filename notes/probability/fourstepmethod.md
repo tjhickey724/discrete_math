@@ -6,7 +6,7 @@ In many cases, we can rigorously calculate such probabilities by following a fou
 We will follow the book and show how these apply in the "Let's make a deal" scenario.
 
 For the TV show,  "Let's make a deal", the contestant would see three doors. One of which would contain a prize. The player would pick a door.
-The host would open one of the other two doors, showing it had not prize behind it and then ask the contestant if they wanted to change their choice.
+The host would open one of the other two doors, showing it didn't have a prize behind it and would then ask the contestant if they wanted to change their choice.
 The question we have here is whether the contestant should change their choice.  We'll follow the four steps below to come to a decision, or you can read
 the text which explains each of these three steps.
 
