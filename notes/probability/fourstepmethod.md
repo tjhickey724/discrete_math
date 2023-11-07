@@ -3,6 +3,12 @@
 One of the most fundamental skills in probability is determining the likelihood of a particular outcome for a clearly specified sequence of events.
 
 In many cases, we can rigorously calculate such probabilities by following a four step approach, whoch we have taken from the text book Mathematics for Computer Science....
+We will follow the book and show how these apply in the "Let's make a deal" scenario.
+
+For the TV show,  "Let's make a deal", the contestant would see three doors. One of which would contain a prize. The player would pick a door.
+The host would open one of the other two doors, showing it had not prize behind it and then ask the contestant if they wanted to change their choice.
+The question we have here is whether the contestant should change their choice.  We'll follow the four steps below to come to a decision, or you can read
+the text which explains each of these three steps.
 
 ## Step 1: Find the Sample Space....
 Our goal is to determine the likelihood of some particular event, so the first step is to find the set of all possible events of which our events are a subset.
