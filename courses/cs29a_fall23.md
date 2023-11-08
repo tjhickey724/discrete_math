@@ -231,6 +231,13 @@ To be announced
 
 # Week 19
 
+### Homework - due Monday 11/13/2023 before class
+Skim the following sections of two online books on Discrete Math
+* [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
+* [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+
+and complete the homework problems on the MLA due on Monday.
+
 ## Lesson 27 <br> _Induction and Generating Functions_
 * We finish up our study of [sequences](https://github.com/tjhickey724/discrete_math/tree/main/notes/sequences)
 * We give some examples of recursion equations that arise in the study of algorithms (Priority Queues and AVL Trees)
