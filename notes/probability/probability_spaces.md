@@ -60,12 +60,13 @@ $$
 For the second replace the conditional probabilities with their defintions and everything cancels out. **QED**
 
 ## Example
-We show how to calculate the conditional probability using the example from the MIT text.
+Calculate the conditional probability using the example from the MIT text.
 
 Two teams, A and B, are playing a 3 game tournament and the first team to win 2 games wins the tournament.
 
 Team A also has the following property. If the win a game, then they are enthused and the probability they win their next game is 2/3.
 If they lose, then they are demoralized and the probability they win the next game is 1/3.  Find the probability that they win the tournament
-assuming they win the first game.
+assuming they win the first game. Draw the tree, identify the events of interest, calculate the probabilities of each outcome (assume that team A wins the first game with probability 1/2), then calculate the probabilities of the events and use the definition of conditional probability in terms
+of usual probability to find the answer.
 
 
