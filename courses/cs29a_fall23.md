@@ -236,4 +236,7 @@ To be announced
 * We give some examples of recursion equations that arise in the study of algorithms (Priority Queues and AVL Trees)
 * We give a brief introduction to Generating Functions
 
+## Lesson 28 <br> _Probability and the 4 step method_
+* We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
+
 
