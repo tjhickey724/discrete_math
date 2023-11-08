@@ -44,3 +44,8 @@ Because a probability function is a function on subsets of $S$ we can easily pro
 * ${\rm Pr}[E_1 - E_2] = {\rm Pr}[E_1] - {\rm Pr}[E_1\cap E_2]$
 * if $A\subseteq B$ then ${\rm Pr}[A] \le {\rm Pr}[B]$
 * ${\rm Pr}[\bigcup_\limits{i=1}^\infty E_i] \le  \bigcup_\limits{i=1}^\infty {\rm Pr}[E_i]$
+
+## Conditional Probability
+We use the notation ${\rm Pr}[E \vert F]$ for the probability that event $E$ occurs, assuming that event $F$ also occurs. It is defined set-theoretically as follows:
+
+* ${\rm Pr}[E \vert F] = ${\rm Pr}[E \cap F]/ ${\rm Pr}[F]
