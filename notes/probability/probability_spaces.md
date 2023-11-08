@@ -16,6 +16,17 @@ A **Probability Space** is a Sample Space with a Probability function.
 A Probability Space is **uniform** if ${\rm Pr}[\omega]$ is the same for all $\omega$ in $S$.
 This only makes sense for finite sample spaces...
 
+## The Birthday Principle
+The MIT text finds a formula in Chapter 16.4 for the probability $b$ that a sequence of size n
+with elements from a set of size d has no duplicate elements, assuming they are chosen from 
+a uniform distribution. The estimate they prove is
+
+$$
+b = P(d,n)/d^n =\frac{d(d-1)\ldots(d-n+1)}{d * d * \ldots * d}=
+\left (\frac{1}{1-\frac 1d}\right ) \left (\frac{1}{1-\frac 2d}\right ) \ldots\left (\frac{1}{1-\frac{n-1}{d}}\right ) 
+\lt e^{-\frac 1d} e^{-\frac 2d} \ldots e^{-\frac {n-1}{d}} = e^{-(n(n-1)/2d}
+$$
+
 ## Properties of Probability functions.
 We define the probability of an event $E$ to the the sum of the probabilities of all outcomes in $E$
 * ${\rm Pr}[E] = \sum_\limits{\omega\in E} {\rm Pr}[\omega]$
