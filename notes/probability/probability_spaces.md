@@ -27,10 +27,10 @@ b(d,n) = P(d,n)/d^n =\frac{d(d-1)\ldots(d-n+1)}{d * d * \ldots * d}=
 \lt e^{-\frac 1d} e^{-\frac 2d} \ldots e^{-\frac {n-1}{d}} = e^{-(n(n-1)/2d}
 $$
 
-As a rule of thumb if we substitute in $d = n^2/2$ we get $b(d,n)< e{-1} \approx 0.368$ and this is a fairly good estimate
+As a rule of thumb if we substitute in $d = n^2/2$ we get $b(d,n)< e{-1} \approx 0.368$ and this is a fairly good estimate.
+Note that if $d=n^2/2$ then $n = \sqrt{2d}$
 
-**Birthday Principle** The probability that a sequence of size $n$ taken from a set with $n^2/2$ elements as duplicate elements is about 
-$1-1/e = 0.632$.  or equivalently a sequence of size $sqrt{2d}$ taken from a set of size $d$ will have duplicate elements with probability $0.632$.
+**Birthday Principle** The probability that a sequence of size $\sqrt{2d}$ taken from a set of size $d$ will have duplicate elements is about $1-\frac 1e \approx 0.632$.
 
 ## Properties of Probability functions.
 We define the probability of an event $E$ to the the sum of the probabilities of all outcomes in $E$
