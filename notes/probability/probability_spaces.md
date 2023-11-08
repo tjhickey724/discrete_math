@@ -48,4 +48,22 @@ Because a probability function is a function on subsets of $S$ we can easily pro
 ## Conditional Probability
 We use the notation ${\rm Pr}[E \vert F]$ for the probability that event $E$ occurs, assuming that event $F$ also occurs. It is defined set-theoretically as follows:
 
-* ${\rm Pr}[E \vert F] = ${\rm Pr}[E \cap F]/ ${\rm Pr}[F]
+$$
+{\rm Pr}[E \vert F] = \frac{{\rm Pr}[E \cap F]}{ {\rm Pr}[F]}
+$$
+
+**Lemma** 
+${\rm Pr}[E \cap F]   = {\rm Pr}[F] \ {\rm Pr}[E \vert F]$
+
+**Proof:**  multiply both sides of the defintion by ${\rm Pr}[F]$ **QED**
+
+## Example
+We show how to calculate the conditional probability using the example from the MIT text.
+
+Two teams, A and B, are playing a 3 game tournament and the first team to win 2 games wins the tournament.
+
+Team A also has the following property. If the win a game, then they are enthused and the probability they win their next game is 2/3.
+If they lose, then they are demoralized and the probability they win the next game is 1/3.  Find the probability that they win the tournament
+assuming they win the first game.
+
+
