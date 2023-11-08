@@ -53,9 +53,11 @@ $$
 $$
 
 **Lemma** 
-${\rm Pr}[E \cap F]   = {\rm Pr}[F] \ {\rm Pr}[E \vert F]$
+* ${\rm Pr}[E \cap F]   = {\rm Pr}[F] \ {\rm Pr}[E \vert F]$
+* ${\rm Pr}[E_1 \cap E_\cap E3]   = {\rm Pr}[E_1] \ {\rm Pr}[E_2 \vert E_1]  \ {\rm Pr}[E_3 \vert E_1 \cap E_2] $
 
-**Proof:**  multiply both sides of the defintion by ${\rm Pr}[F]$ **QED**
+**Proof:**  For the first, multiply both sides of the defintion by ${\rm Pr}[F]$.
+For the second replace the conditional probabilities with their defintions and everything cancels out. **QED**
 
 ## Example
 We show how to calculate the conditional probability using the example from the MIT text.
