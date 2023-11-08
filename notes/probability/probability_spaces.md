@@ -11,5 +11,9 @@ A **Probability Function** on a sample space $S$ is a total function ${\rm Pr}:S
 * ${\rm Pr}[\omega]\ge 0$ for all $\omega \in S$
 * $\sum_\limits{\omega in S} {\rm Pr}[\omega] = 1$
 
+We define the probability of an event $E$ to the the sum of the probabilities of all outcomes in $E$
+* ${\rm Pr}[E] = \sum_\limits{\omega\in E} {\rm Pr}[\omega]$
 
+Because the probability function is a function on subsets of $S$ we can easily prove several very useful identities, e.g.
 
+* $
