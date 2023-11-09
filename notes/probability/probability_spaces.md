@@ -40,10 +40,10 @@ Because a probability function is a function on subsets of $S$ we can easily pro
 
 * ${\rm Pr}[E_1 \cup E_2] = {\rm Pr}[E_1] + {\rm Pr}[E_2]$ if $E_1$ and $E_2$ are disjoint subsets of $S$.
 * ${\rm Pr}[E_1 \cup E_2] = {\rm Pr}[E_1] + {\rm Pr}[E_2] - {\rm Pr}[E_1\cap E_2] \le {\rm Pr}[E_1] + {\rm Pr}[E_2]$ for any events $E_1$, $E_2$
-* ${\rm Pr}[\overline{E}]  = 1 = {\rm Pr}[E]$ where $\overline{E}$ is the complement of $E$, i.e. $\overline{E} = S-E$
+* ${\rm Pr}[\overline{E}]  = 1 - {\rm Pr}[E]$ where $\overline{E}$ is the complement of $E$, i.e. $\overline{E} = S-E$
 * ${\rm Pr}[E_1 - E_2] = {\rm Pr}[E_1] - {\rm Pr}[E_1\cap E_2]$
 * if $A\subseteq B$ then ${\rm Pr}[A] \le {\rm Pr}[B]$
-* ${\rm Pr}[\bigcup_\limits{i=1}^\infty E_i] \le  \bigcup_\limits{i=1}^\infty {\rm Pr}[E_i]$
+* ${\rm Pr}[\bigcup_\limits{i=1}^\infty E_i] \le  \sum_\limits{i=1}^\infty {\rm Pr}[E_i]$
 
 We sometimes use logic operations instead of set operations on events since 
 * the event $E_1\cup E_2$ can be viewed as $E_1 \vee E_2$ occurring, and
@@ -93,7 +93,7 @@ An event A is independent of an event B if ${\rm Pr}[B]=0$ or if ${\rm Pr}[B]\no
 * ${\rm Pr}[A \vert B] = {\rm Pr}[A]$
 
 Unrolling the defintion of conditional probability
-* ${\rm Pr}[A \vert B]  =  {\rm Pr}[A /cap B] / {\rm Pr}[B]$
+* ${\rm Pr}[A \vert B]  =  {\rm Pr}[A \cap B] / {\rm Pr}[B]$
 
 We see that A is indepent of B if an only if 
 * ${\rm Pr}[A \cap B] = {\rm Pr}[A]\  {\rm Pr}[B]$
@@ -119,6 +119,7 @@ $R_1$ and $R_2$ are said to be **independent random variables** by definition if
 $$
 {\rm Pr}[(R_1=j) \wedge (R_2=k)] = {\rm Pr}[R_1=j] * {\rm Pr}[R_2=k] 
 $$
+
 Making the assumption that two random variables are independent makes it easier to reason about them
 because knowing the value of one variable doesn't impact the value of the other, that is
 
