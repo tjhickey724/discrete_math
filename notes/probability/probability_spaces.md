@@ -83,5 +83,22 @@ but this does raise philosophical issues!
 An event A is independent of an event B if ${\rm Pr}[B]=0$ or if ${\rm Pr}[B]\not = 0$ and
 * ${\rm Pr}[A \vert B] = {\rm Pr}[A]$
 
-Two events are independent of each other if
+Unrolling the defintion of conditional probability
+* $ ${\rm Pr}[A \vert B]  =  ${\rm Pr}[A /cap B] / ${\rm Pr}[B]
+
+We see that A is indepent of B if an only if 
 * ${\rm Pr}[A \cap B] = {\rm Pr}[A]\  {\rm Pr}[B]$
+
+In other words, the probability that A and B both occur is the product of their probabilities of occuring individually.
+If we assume that two events are independent, it makes them much easier to work with!
+
+
+## Random Variables
+
+A **random variable** X on a probability space is a total function whose domain is the sample space.
+
+The **expected value** $E(X)$ of a random varaible on a probability space with sample space S is defined to be
+$$
+{\rm E}[X] = \sum_\limits{\omega\in S} X(\omega)\ {\rm Pr}[\omega]
+
+It is also called the "mean value" of the variable "X".
