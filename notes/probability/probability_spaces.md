@@ -59,7 +59,7 @@ $$
 **Proof:**  For the first, multiply both sides of the defintion by ${\rm Pr}[F]$.
 For the second replace the conditional probabilities with their defintions and everything cancels out. **QED**
 
-## Example
+## Example 1
 Calculate the conditional probability using the example from the MIT text.
 
 Two teams, A and B, are playing a 3 game tournament and the first team to win 2 games wins the tournament.
@@ -69,4 +69,19 @@ If they lose, then they are demoralized and the probability they win the next ga
 assuming they win the first game. Draw the tree, identify the events of interest, calculate the probabilities of each outcome (assume that team A wins the first game with probability 1/2), then calculate the probabilities of the events and use the definition of conditional probability in terms
 of usual probability to find the answer.
 
+## Bayes Rule
+Baye's rule allows one to calculate the "inverse" of conditional probabilities.
+$$
+{\rm Pr}[B \vert A]   = \frac{{\rm Pr}[B] \ {\rm Pr}[A\vert B]}{ {\rm Pr}[A] }
+$$
 
+This follow easily from the fact that ${\rm Pr}[A \cap B]   = {\rm Pr}[B] \ {\rm Pr}[A \vert B]$
+We can use it to calculate the "probability" that the team won their first game, if we know they won the tournament....
+but this does raise philosophical issues!
+
+## Independent Events
+An event A is independent of an event B if ${\rm Pr}[B]=0$ or if ${\rm Pr}[B]\not = 0$ and
+* ${\rm Pr}[A \vert B] = {\rm Pr}[A]$
+
+Two events are independent of each other if
+* ${\rm Pr}[A \cap B] = {\rm Pr}[A]\  {\rm Pr}[B]$
