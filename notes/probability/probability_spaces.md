@@ -45,6 +45,12 @@ Because a probability function is a function on subsets of $S$ we can easily pro
 * if $A\subseteq B$ then ${\rm Pr}[A] \le {\rm Pr}[B]$
 * ${\rm Pr}[\bigcup_\limits{i=1}^\infty E_i] \le  \bigcup_\limits{i=1}^\infty {\rm Pr}[E_i]$
 
+We sometimes use logic operations instead of set operations on events since 
+* the event $E_1\cup E_2$ can be viewed as $E_1 \vee E_2$ occurring, and
+* the event $E_1\cap E_2$ can be viewed as $E_1 \wedge E_2$ occurring, and
+* the event $\overline{E_1}$ can be viewed as the outcomes where $\neg E_1$
+
+
 ## Conditional Probability
 We use the notation ${\rm Pr}[E \vert F]$ for the probability that event $E$ occurs, assuming that event $F$ also occurs. It is defined set-theoretically as follows:
 
@@ -59,7 +65,7 @@ $$
 **Proof:**  For the first, multiply both sides of the defintion by ${\rm Pr}[F]$.
 For the second replace the conditional probabilities with their defintions and everything cancels out. **QED**
 
-## Example 1
+## Exercise 1
 Calculate the conditional probability using the example from the MIT text.
 
 Two teams, A and B, are playing a 3 game tournament and the first team to win 2 games wins the tournament.
@@ -71,13 +77,16 @@ of usual probability to find the answer.
 
 ## Bayes Rule
 Baye's rule allows one to calculate the "inverse" of conditional probabilities.
+
 $$
-{\rm Pr}[B \vert A]   = \frac{{\rm Pr}[B] \ {\rm Pr}[A\vert B]}{ {\rm Pr}[A] }
+{\rm Pr}[B \vert A]   = \frac{{\rm Pr}[B] \ {\rm Pr}[A\vert B]}{ {\rm Pr}[A]}
 $$
 
 This follow easily from the fact that ${\rm Pr}[A \cap B]   = {\rm Pr}[B] \ {\rm Pr}[A \vert B]$
-We can use it to calculate the "probability" that the team won their first game, if we know they won the tournament....
-but this does raise philosophical issues!
+
+## Exercise 2
+We can use Bayes rule to calculate the "probability" that the team won their first game, if we know they won the tournament....
+This does raise philosophical issues!
 
 ## Independent Events
 An event A is independent of an event B if ${\rm Pr}[B]=0$ or if ${\rm Pr}[B]\not = 0$ and
@@ -129,8 +138,6 @@ $$
 $$
 
 
-
-
 When $S$ is a finite set and every outcome has the same probability, this gives the mean of that set of values!
 Expected value is more general than the mean as it allows for non-uniform distributions and even infinite sample
 spaces.
@@ -144,6 +151,22 @@ where the weights are the probability the variable takes that value, i.e.
 $$
 {\rm E}[R] = \sum_\limits{k\in R(S)} k\ {\rm Pr}[R=k]
 $$
+
+## Exercise 3
+Let $S$ be the sample space of all finite sequences of coin flips.
+Let $R(\omega)$ be the position of the first "tails" in the coin flip, so $R(HHHT)=4$
+What is the expected value of $R$?
+
+## Applications to Computer Science
+A very common application of random variables is to estimate the average esecution time $T$ for a program.
+The sample space is the set of all inputs $\omega$, the random variable is the execution time $T(\omega)$on a particular input,
+the events of interest are $E_1,E_2,\ldots$ where $E_k$ is the set of inputs of size $k$ and we want to find
+a formula for the expected value of $T$ when we restrict $S$ to the inputs of size $k$, or when we model 
+a distribution which occurs in practice, i.e. what is the probablity that the program be give input $\omega$.
+
+One classic example is to compute the averate execution time for sorting algorithms such as quicksort. 
+But this also comes up when analyzing the efficiency of a web app where you can model the likelihood of 
+particular inputs from the users (e.g. google searches!)
 
 
 
