@@ -93,7 +93,7 @@ An event A is independent of an event B if ${\rm Pr}[B]=0$ or if ${\rm Pr}[B]\no
 * ${\rm Pr}[A \vert B] = {\rm Pr}[A]$
 
 Unrolling the defintion of conditional probability
-* $ ${\rm Pr}[A \vert B]  =  ${\rm Pr}[A /cap B] / ${\rm Pr}[B]
+* ${\rm Pr}[A \vert B]  =  {\rm Pr}[A /cap B] / {\rm Pr}[B]$
 
 We see that A is indepent of B if an only if 
 * ${\rm Pr}[A \cap B] = {\rm Pr}[A]\  {\rm Pr}[B]$
