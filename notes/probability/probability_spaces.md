@@ -97,8 +97,54 @@ If we assume that two events are independent, it makes them much easier to work 
 
 A **random variable** X on a probability space is a total function whose domain is the sample space.
 
-The **expected value** $E(X)$ of a random varaible on a probability space with sample space S is defined to be
-$$
-{\rm E}[X] = \sum_\limits{\omega\in S} X(\omega)\ {\rm Pr}[\omega]
+Since we are assuming the sample space $S$ is either finite or countable infinite, the range of a random
+variable is either finite or countably infinite, and the outcomes where $X$ takes a given value can be viewed
+as events written as
+* ${\rm Pr}(X=k)$
 
-It is also called the "mean value" of the variable "X".
+Two random variables $R_1$ and $R_2$ are said to be independent provided these events are all independent, that is
+
+$R_1$ and $R_2$ are said to be **independent random variables** by definition if forall $j$ and $k$ we have
+* ${\rm Pr}[R_1=j]$ and ${\rm Pr}[R_2=k]$ are independent events
+
+$$
+{\rm Pr}[(R_1=j) \wedge (R_2=k)] = {\rm Pr}[R_1=j] * {\rm Pr}[R_2=k] 
+$$
+Making the assumption that two random variables are independent makes it easier to reason about them
+because knowing the value of one variable doesn't impact the value of the other, that is
+
+* ${\rm Pr}[(R_1=j) \ \vert \ (R_2=k)]$
+* $= {\rm Pr}[(R_1=j) \wedge (R_2=k)]/{\rm Pr}[R_2=k]$  by definition of conditional probability
+* $= {\rm Pr}[R_1=j] * {\rm Pr}[R_2=k] /{\rm Pr}[R_2=k]$ by definition of independence
+* $=  {\rm Pr}[R_1=j]$ by algebra assuming ${\rm Pr}[R_2=k] \not - 0$
+
+If we can reasonably believe that two variables are independent, it makes it much easier to reason about them.
+
+## Expected Value, a generalization of the mean
+
+The **expected value** $E(R)$ of a random varaible $R$ on a probability space with sample space $S$ is defined to be
+
+$$
+{\rm E}[R] = \sum_\limits{\omega\in S} R(\omega)\ {\rm Pr}[\omega]
+$$
+
+
+
+
+When $S$ is a finite set and every outcome has the same probability, this gives the mean of that set of values!
+Expected value is more general than the mean as it allows for non-uniform distributions and even infinite sample
+spaces.
+
+We can also define the expected value in terms of larger events than outcomes.
+
+**Theorem** 
+The expectation is the weighted average of all values in the range of $R$
+where the weights are the probability the variable takes that value, i.e.
+
+$$
+{\rm E}[R] = \sum_\limits{k\in R(S)} k\ {\rm Pr}[R=k]
+$$
+
+
+
+
