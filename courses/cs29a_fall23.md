@@ -229,7 +229,7 @@ To be announced
 * We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
    and use it to prove closed form expression for series elements defined recursively are correct.
 
-# Week 19
+# Week 10: 11/6-10 - Probability
 
 ### Homework - due Monday 11/13/2023 before class
 Skim the following sections of two online books on Discrete Math
@@ -238,12 +238,18 @@ Skim the following sections of two online books on Discrete Math
 
 and complete the homework problems on the MLA due on Monday.
 
-## Lesson 27 <br> _Induction and Generating Functions_
+## Lesson 27: Mon 11/6 <br> _Induction and Generating Functions_
 * We finish up our study of [sequences](https://github.com/tjhickey724/discrete_math/tree/main/notes/sequences)
 * We give some examples of recursion equations that arise in the study of algorithms (Priority Queues and AVL Trees)
 * We give a brief introduction to Generating Functions
 
-## Lesson 28 <br> _Probability and the 4 step method_
+## Lesson 28: Wed 11/8 <br> _Probability and the 4 step method_
 * We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
 
+## Lesson 29: Wed 11/9 <br> _Conditional Probability, Expected Values, and Random Variables_
+* We conclude our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
 
+# Week 11: 11/13-17 - Graph Theory
+
+## Lesson 30: Mon 11/13 <br> _Graphs_
+* We begin our study of Graph Theory 
