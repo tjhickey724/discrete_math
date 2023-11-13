@@ -14,7 +14,7 @@ Examples:
 
 ## Partial Orders
 A **strict partial order** is a binary relation $R$ on $A \times A$ for some set $A$, which satisfies the following property
-* Irreflexive $\forall a \not (aRa)$
+* Irreflexive $\forall a \neg (aRa)$
 * Transitive $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
 
 ## Equivalence Relations
