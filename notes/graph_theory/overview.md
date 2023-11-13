@@ -20,7 +20,7 @@ A **strict partial order** is a binary relation $R$ on $A \times A$ for some set
 ## Equivalence Relations
 An **equivalence relation** is a binary relation $R$ on $A\times A$ which is
 * reflexive; $\forall a \ aRa$
-* symmetric: $\forall a \forall b aRb rightarrow bRa$
+* symmetric: $\forall a \forall b aRb \rightarrow bRa$
 * transitive: $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
 
 
