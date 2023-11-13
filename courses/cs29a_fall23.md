@@ -251,6 +251,9 @@ and complete the homework problems on the MLA due on Monday.
 
 # Week 11: 11/13-17 - Graph Theory
 
+
 ## Lesson 30: Mon 11/13 <br> _Graphs_
+* We review Question 20 on exam 8 about Advanced Counting
+* We show how to calculate the expected number of rolls in a game of Craps
 * We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)
   
