@@ -12,6 +12,17 @@ Examples:
 * Let $f:A\rightarrow B$ be a partial function and define $R(a,b) \equiv  f(a)=b$, so every graph can be viewed as a relation
 * Let $R$ be the relation defined by $R(x,y) \equiv x=y^2$ then $R$ can be viewed as the multivalued partial function $f(x) = \pm \sqrt{x}$
 
+## Partial Orders
+A **strict partial order** is a binary relation $R$ on $A \times A$ for some set $A$, which satisfies the following property
+* Irreflexive #\forall a \not (aRa)$
+* Transitive $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
+
+## Equivalence Relations
+An **equivalence relation** is a binary relation $R$ on $A\times A$ which is
+* reflexive; $\forall a \ aRa$
+* symmetric: $\forall a \forall b aRb rightarrow bRa$
+* transitive: $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
+
 
 ## Directed Graphs
 
