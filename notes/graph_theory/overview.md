@@ -33,8 +33,11 @@ An equivalence relation partitions the set $A$ into equivalence classes consisti
 all of the elements which are equivalent to each other.
 
 ### Example
-Let $A$ be the set of integers and let $aEb$ be true if 5 divides $a-b$.
+Let $A$ be the set of integers and let $aEb$ be true if 2 divides $a-b$.
+The the equivalence classes are the even numbers and the odd numbers.
 
+
+## Factoring a digraph into a DAG over equivalence classes
 
 Given a partial order $R$ we can define an equivalence relation $E$ by
 * $aEb \leftrightarrow aRb \wedge bRa$
@@ -64,5 +67,7 @@ Sometimes we label the edges and/or vertices of a digraph.
 ## Directed Acyclic Graphs
 A graph without any cycles is called a **directed acyclic graph** or **DAG**
 
-Any directed graph can be 
+## Factoring a digraph
+Any directed graph can be factored into a DAG whose elements are equivalence classes...
+
   
