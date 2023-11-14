@@ -13,15 +13,34 @@ Examples:
 * Let $R$ be the relation defined by $R(x,y) \equiv x=y^2$ then $R$ can be viewed as the multivalued partial function $f(x) = \pm \sqrt{x}$
 
 ## Partial Orders
-A **strict partial order** is a binary relation $R$ on $A \times A$ for some set $A$, which satisfies the following property
-* Irreflexive $\forall a \neg (aRa)$
+A **partial order** is a binary relation $R$ on $A \times A$ for some set $A$, which satisfies the following property
 * Transitive $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
+
+If it also satisfies the following axiom it is a **strict partial order**
+* Irreflexive $\forall a \neg (aRa)$
+  
+The canonical partial order is the less-than-or-equal-to relationship on integers $a\le b$
+and the standard strict partial order is the less-than relation $a\lt b$.
+
 
 ## Equivalence Relations
 An **equivalence relation** is a binary relation $R$ on $A\times A$ which is
 * reflexive; $\forall a \ aRa$
 * symmetric: $\forall a \forall b aRb \rightarrow bRa$
 * transitive: $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
+
+An equivalence relation partitions the set $A$ into equivalence classes consisting of
+all of the elements which are equivalent to each other.
+
+### Example
+Let $A$ be the set of integers and let $aEb$ be true if 5 divides $a-b$.
+
+
+Given a partial order $R$ we can define an equivalence relation $E$ by
+* $aEb \leftrightarrow aRb \wedge bRa$
+
+for example, the equivalence relation for $a\le b$ on the integers is just equality
+* $a==b \ \equiv \ (a\le b) \wedge (b \le a)
 
 
 ## Directed Graphs
@@ -34,5 +53,16 @@ We say that the the edge $d=(a,b)$ goes from $a$ to $b$,
 * $a$ is the tail of $e$
 * $b$ is the head of $b$
 
+## Digraphs are another way of thinking about Binary Relations
+We can easily create a digraph from a relation R on $A\times B$ by letting $V= A\cup B$ and letting $E = \\{(a\rightarrow b) ir aRb\\}$
 
+Likewise, given a digraph $(V,E)$ we can create a binary relation $R:V\rightarrow V$ where $aRb \equiv (a,b)\in E$
+
+## Labelled graphs
+Sometimes we label the edges and/or vertices of a digraph. 
+
+## Directed Acyclic Graphs
+A graph without any cycles is called a **directed acyclic graph** or **DAG**
+
+Any directed graph can be 
   
