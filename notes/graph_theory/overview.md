@@ -11,6 +11,9 @@ Examples:
 * Let $H$ be the set of all five card poker hands and let $R(h1,h2)$ be true if $h2$ is worth more than $h1$
 * Let $f:A\rightarrow B$ be a partial function and define $R(a,b) \equiv  f(a)=b$, so every graph can be viewed as a relation
 
+
+
+
 ## Multi-valued Partial Functions
 Another way to think about a relation is as
 a *multi-valued partial function*, which is a function $f:A \rightarrow 2^B$ where $f(a)$ is the set of values that $f$ takes on $a$
@@ -30,7 +33,22 @@ We can define the image and the inverse image of a set under $R$ in the same way
 * $R(S) = \\{b: \exists a \ aRb\\}$
 * $R^{-1}(T) = \\{a: \exists b\  aRb\\}$
 
+## In and out degree
+The figure below shows four binary relations
 
+![binary relations](binary_relations.png)
+
+* R1 is not a function, it is however a multi-valued partial function
+* R2 is a bijection
+* R3 is a surjective partial function
+* R4 is an injective function
+
+We can extend the notion of injectivity and surjectivity to Relations by looking at the number of edges leaving each node in A (the out degree)
+and the number of edges going into a node in B,  the in degree.
+* R is a function if the outdegree $\le 1$ for each $a\in A$
+* R is a total function if the outdegree is $= 1$ for each $a\in A$
+* R is injective if the indegree is $\le 1$ for each $b\in B$
+* R is surjective if the outdegree is $\ge 1$ for each $b in B$
 
 
 ## Partial Orders
