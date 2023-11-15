@@ -37,13 +37,23 @@ Let $A$ be the set of integers and let $aEb$ be true if 2 divides $a-b$.
 The the equivalence classes are the even numbers and the odd numbers.
 
 
-## Factoring a digraph into a DAG over equivalence classes
+## Partitioning a set into equivalence classes
 
 Given a partial order $R$ we can define an equivalence relation $E$ by
 * $aEb \leftrightarrow aRb \wedge bRa$
 
 for example, the equivalence relation for $a\le b$ on the integers is just equality
 * $a==b \ \equiv \ (a\le b) \wedge (b \le a)
+
+We can define a strict partial order from our original partial order by
+* $a < b \ \leftrightarrow \  (a\le b) and not (a E b)$
+
+## Linear Orders
+a partial order $R$ is a linear order if 
+* $\forall a \forall b aRb\ \vee \ bRa$
+
+In many programming languages, the sorting methods ask you to pass in a linear order relation
+to allow the elements to be sorted.
 
 
 ## Directed Graphs
@@ -70,4 +80,13 @@ A graph without any cycles is called a **directed acyclic graph** or **DAG**
 ## Factoring a digraph
 Any directed graph can be factored into a DAG whose elements are equivalence classes...
 
-  
+**Digraph Factoring Skill**
+We will have you practice factoring a digraph into a set of equivalence classes with a DAG ontop of those equivalence classes.
+
+## Finite State Machines aka Deterministic Finite Automata
+a good example of a digraph is a finite state machine which is used to define "regular expressions" that can easily
+be recognized by computer programs. We'll give some examples in class.
+
+## Non-deterministic Finite Automata
+We can create a more general finite state machine where allow multiple edges out of a node to have the same label.
+Given an NFA with states S we can create a DFA whose states are a subset of P(S) 
