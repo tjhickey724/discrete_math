@@ -33,6 +33,12 @@ We can define the image and the inverse image of a set under $R$ in the same way
 * $R(S) = \\{b: \exists a \ aRb\\}$
 * $R^{-1}(T) = \\{a: \exists b\  aRb\\}$
 
+We can also compose multivalued partial functions
+* $R_1(R_2(S)) = \\{c\in C | \exists a\in A \exists b\in B aR_1b \wedge bR_2c\\\}$
+
+In other words, it is the set of all elements which can be reached by the following the arrows
+from a node in $S$.
+
 ## In and out degree
 The figure below shows four binary relations
 
