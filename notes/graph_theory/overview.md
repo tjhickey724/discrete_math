@@ -11,16 +11,27 @@ Examples:
 * Let $H$ be the set of all five card poker hands and let $R(h1,h2)$ be true if $h2$ is worth more than $h1$
 * Let $f:A\rightarrow B$ be a partial function and define $R(a,b) \equiv  f(a)=b$, so every graph can be viewed as a relation
 
-## Multi-valued Partial Function
-A *multi-valued partial function* is a function $f:A \rightarrow 2^B$ where $f(a)$ is the set of values that $f$ takes on $a$
+## Multi-valued Partial Functions
+Another way to think about a relation is as
+a *multi-valued partial function*, which is a function $f:A \rightarrow 2^B$ where $f(a)$ is the set of values that $f$ takes on $a$
 which could be empty, could be a single value $b$ or could be set of values $\\{b)1,\ldots,b_n\\}$
 
 For example, we can define $f_1:\mathbb{R} \rightarrow 2^\mathbb{R}$ by $f_1(x)$ is the set of real numbers such that $y^2=x$.
 So $f_1(4)= \\{2,-2\\}$ and $f_1(0) = \\{0\\}$ and $f_1(-1) - \\{\\}$, we usually write this as $f_1(x) = \pm \sqrt{x}$.
 
-Any binary relation can be viewed as a multi-valued partial function and vice versa.
+Let $R$ be the relation defined by $R(x,y) \equiv x=y^2$ then $R$ can be viewed as the multivalued partial function $f_1(x) = \pm \sqrt{x}$
 
-* Let $R$ be the relation defined by $R(x,y) \equiv x=y^2$ then $R$ can be viewed as the multivalued partial function $f_1(x) = \pm \sqrt{x}$
+Any binary relation $R$ can be viewed as a multi-valued partial function $f$ and vice versa via
+* $aRb \equiv b\in f_R(a)$ and
+* $f_R(a) = \\{b: aRb\\}$
+We sometime just write $R(a)$ instead of $f_R(a)$.
+
+We can define the image and the inverse image of a set under $R$ in the same way as for functions:
+* $R(S) = \\{b: \exists a \ aRb\\}$
+* $R^{-1}(T) = \\{a: \exists b\  aRb\\}$
+
+
+
 
 ## Partial Orders
 A **partial order** is a binary relation $R$ on $A \times A$ for some set $A$, which satisfies the following property
