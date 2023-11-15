@@ -59,10 +59,10 @@ and the number of edges going into a node in B,  the in degree.
 
 ## Partial Orders
 A **partial order** is a binary relation $R$ on $A \times A$ for some set $A$, which satisfies the following property
-* Transitive $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
+* Transitivity: $\forall a \forall b \forall x \ aRb \wedge bRc \rightarrow aRc$
 
 If it also satisfies the following axiom it is a **strict partial order**
-* Irreflexive $\forall a \neg (aRa)$
+* Irreflexivity $\forall a \neg (aRa)$
   
 The canonical partial order is the less-than-or-equal-to relationship on integers $a\le b$
 and the standard strict partial order is the less-than relation $a\lt b$.
