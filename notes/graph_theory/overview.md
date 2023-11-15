@@ -2,7 +2,7 @@
 
 ## Binary Relations
 
-A **binary relation** is a subset $E$ of $A\times B$ for two sets $A$ and $B$ or equivalently a boolean function $R:A\\times H \rightarrow \mathbb{B}$.
+A **binary relation** is a subset $E$ of $A\times B$ for two sets $A$ and $B$ or equivalently a boolean function $R:A\\times B \rightarrow \mathbb{B}$.
 When viewed as a boolean function we write
 * $aRb \leftrightarrow (a,b)\in E \leftrightarrow R(a,b)=T$
 
