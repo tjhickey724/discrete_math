@@ -175,4 +175,28 @@ For example, multiplying the 1st row of A by the 2nd column of B gives
 * $(1 1 0) * (0 1 1) = 1 * 0 + 1 * 1 + 0 * 1 = 1$
 
 ## Reachability
-We can use a similar approach if we just want to find
+We can use a similar approach if we want to find whether node i is reachable from node j.
+
+In this case, we can use an adjacency matrix with Boolean values, were 
+* $A_{ij}=T$ if i=j or if there is an edge from i to j and
+* $A_{ij}=F$ otherwise
+
+To see if there is a path from $i$ to $j$ of length 2, we would use the following calculation
+* $A^2_{ij} = \bigvee_\limits{k=1}^n A_{ik}\wedge A_{kj}$
+
+Calculating this boolean matrix requires about $n^3$ conjunctions and disjunctions.
+
+Similarly, we can use the same approach to calculate $(A^2)^2=A^{2^2}$ which will take anohter $n^3$ steps
+
+Continuing $k$ times we can calculate $B = A^{2^k}$ in $kn^3$ steps 
+and this will be matrix where $B_{ij}=T$ if there is apath from $i$ to $j$ of length $2^k$ or less.
+
+If the graph contains $n$ nodes, then if there is a path from $i$ to $j$, then there is a path with length
+at most $n$ (Prove it!)
+
+This implies that if we compute $B=A^{2^k}$ for $2^k\ge n$,
+then $B_{ij}=T$ if and only if there is a path from $i$ to $j$ of any length.
+
+Since $2^k\ge n$ if and only if $k \ge \log_2(n)$, this means we can compute the reachability matrix for the graph $G$
+in time $n \log_2(n)$ by repeatedly squaring the matrix $A$ $\log_2(n)$ times.
+
