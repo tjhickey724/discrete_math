@@ -157,3 +157,19 @@ there is a path from $i$ to $k$ and from $k$ to $j$.  If we let $A^2$ be the mat
 
 and this is exactly the definition of the matrix multiplication of $A$ with itself!
 
+## Matrix Multiplication
+If $A$ is a rxs matrix and $B$ is a sxt matrix, then $A * B$ is the matrix $C$ whose entries are
+* $C_{ij} = \sum_\limits{k=1}^s A_{ik}*B_{kj}$
+
+Visually we multiply the $i$ th row by the $k$ th column, by multiplying the corresponding elements (1st 2nd 3rd ..)
+and summing those products. Here is an example:
+
+```
+1 1 0        1 0 0       2 1 0
+0 0 1    *   1 1 0  =    1 1 1
+1 0 0        1 1 1       1 0 0
+```
+For example, multiplying the 1st row of A by the 2nd column of B gives 
+* $(1 1 0) * (0 1 1) = 1 * 0 + 1 * 1 + 0 * 1 = 1$
+
+
