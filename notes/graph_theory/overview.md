@@ -122,6 +122,7 @@ Sometimes we label the edges and/or vertices of a digraph.
 ## Directed Acyclic Graphs
 A graph without any cycles is called a **directed acyclic graph** or **DAG**
 
+
 ## Factoring a digraph
 Any directed graph can be factored into a DAG whose elements are equivalence classes...
 
@@ -177,6 +178,7 @@ For example, multiplying the 1st row of A by the 2nd column of B gives
 * $(1 1 0) * (0 1 1) = 1 * 0 + 1 * 1 + 0 * 1 = 1$
 
 ## Reachability
+
 We can use a similar approach if we want to find whether node i is reachable from node j.
 
 In this case, we can use an adjacency matrix with Boolean values, were 
