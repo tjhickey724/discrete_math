@@ -181,6 +181,10 @@ For example, multiplying the 1st row of A by the 2nd column of B gives
 
 We can use a similar approach if we want to find whether node i is reachable from node j.
 
+If we defined the relation $a\prec b$ to mean b is reachable from a, then it is clear this
+is a partial order (i.e. it is transitive), but it may not be a strict partial order. We
+can compute this relation using a kind of matrix multiplication...
+
 In this case, we can use an adjacency matrix with Boolean values, were 
 * $A_{ij}=T$ if i=j or if there is an edge from i to j and
 * $A_{ij}=F$ otherwise
