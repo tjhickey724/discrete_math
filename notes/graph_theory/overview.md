@@ -135,3 +135,25 @@ be recognized by computer programs. We'll give some examples in class.
 ## Non-deterministic Finite Automata
 We can create a more general finite state machine where allow multiple edges out of a node to have the same label.
 Given an NFA with states S we can create a DFA whose states are a subset of P(S) 
+
+# Representing Digraphs
+The simplest way to represent a digraph is as a 2d table of integer values where
+* the ith row and jth column contains $1$ if there is an edge from vertex $i$ to vertex $j$
+* otherwise there it contains $0$
+
+This table is called the adjacency matrix.
+
+For a very large matrix it is better to just have a list of adjacent vertices for each vertex.
+
+# Paths in a digraph
+It turns out that there is a nice way to calculate the number of paths between each pair of vertices using
+the adjacency matrix.  Let $A$ be the adjacency matrix for a graph G with nodes $\\{1,2,\ldots,n\\}$, then
+* the entry in A for the ith row and jth column is denoted $A_{ij}$
+* this is the number of paths from $i$ to $j$ of length 1
+
+To calculate the number of paths of length 2 between $i$ and $j$ we need to count the number of nodes $k$ for which
+there is a path from $i$ to $k$ and from $k$ to $j$.  If we let $A^2$ be the matrix whose $ij$ th entry is the number of paths from $i$ to $j$ of length 2, then
+* $A^2_{ij} = \sum_\limits{k-1}^n A_{ik} * A_{kj}$
+
+and this is exactly the definition of the matrix multiplication of $A$ with itself!
+
