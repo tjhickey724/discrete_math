@@ -132,6 +132,8 @@ We will have you practice factoring a digraph into a set of equivalence classes 
 a good example of a digraph is a finite state machine which is used to define "regular expressions" that can easily
 be recognized by computer programs. We'll give some examples in class.
 
+**DFA Skill** - determine a DFA for some set of strings and/or determine if a string is accepted by a particular DFA
+
 ## Non-deterministic Finite Automata
 We can create a more general finite state machine where allow multiple edges out of a node to have the same label.
 Given an NFA with states S we can create a DFA whose states are a subset of P(S) 
