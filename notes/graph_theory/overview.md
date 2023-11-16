@@ -124,7 +124,8 @@ A graph without any cycles is called a **directed acyclic graph** or **DAG**
 
 
 ## Factoring a digraph
-Any directed graph can be factored into a DAG whose elements are equivalence classes...
+Any directed graph can be factored into a DAG whose elements are equivalence classes of the relation
+defined by $a\equiv b$ if there is a path from a to b and vice versa.
 
 **Digraph Factoring Skill**
 We will have you practice factoring a digraph into a set of equivalence classes with a DAG ontop of those equivalence classes.
