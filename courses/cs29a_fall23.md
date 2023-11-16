@@ -257,4 +257,8 @@ and complete the homework problems on the MLA due on Monday.
   
 ## Lesson 31: Wed 11/15 <br> _Graphs_
 * We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)
-  
+
+## Lesson 32: Thu 11/16 <br> _More Graphs_
+* We continue our study of [Graph Theory ](../notes/graph_theory/overview.md)
+
+
