@@ -155,6 +155,8 @@ To calculate the number of paths of length 2 between $i$ and $j$ we need to coun
 there is a path from $i$ to $k$ and from $k$ to $j$.  If we let $A^2$ be the matrix whose $ij$ th entry is the number of paths from $i$ to $j$ of length 2, then
 * $A^2_{ij} = \sum_\limits{k-1}^n A_{ik} * A_{kj}$
 
+Notice that this will take $n^3$ multiplications to find all of $n^2$ entries in the matrix $A^2$.
+
 and this is exactly the definition of the matrix multiplication of $A$ with itself!
 
 ## Matrix Multiplication
@@ -172,4 +174,5 @@ and summing those products. Here is an example:
 For example, multiplying the 1st row of A by the 2nd column of B gives 
 * $(1 1 0) * (0 1 1) = 1 * 0 + 1 * 1 + 0 * 1 = 1$
 
-
+## Reachability
+We can use a similar approach if we just want to find
