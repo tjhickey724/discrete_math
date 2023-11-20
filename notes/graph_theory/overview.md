@@ -230,11 +230,18 @@ and have zero or more "a"s or "b"s between them.
 
 It is relatively easy to go from a RE to a NFA
 and we have seen earlier how to convert an NFA to a DFA.
-You can also convert an NFA to a RE using a Generalized NFA  (GNFA) where the
+
+## Converting an NFA to a Regular Expression
+You can convert an NFA to a RE using a Generalized NFA  (GNFA) where the
 edges are marked with regular expressions, not just single characters.
 The algorithm is as follows:
 * create a new start state and a new final state and add epsilon transitions between the new start and final states and the original start and final states
 * remove states from a graph one at a time, resulting in a new GNFA with one fewer state
 * continue until you have just one edge from the start state to the final state
+
+The image below shows how to remove a node $b$ from a GNFA  which has $n$ incoming and $k$ outgoing edges and 1 loop.
+This process removes the $n+k+1$ edges and 1 node and adds $n*k$ new edges.
+
+![nfa-re.pmg](nfa-re.png)
 
 To go from a RE to an NFA you introduce states between each character in the RE
