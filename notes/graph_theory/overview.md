@@ -178,20 +178,25 @@ and summing those products. Here is an example:
 For example, multiplying the 1st row of A by the 2nd column of B gives 
 * $(1 1 0) * (0 1 1) = 1 * 0 + 1 * 1 + 0 * 1 = 1$
 
-## Reachability
+## Reachability and Transitive Closure
 
 We can use a similar approach if we want to find whether node i is reachable from node j.
 
 If we defined the relation $a\prec b$ to mean b is reachable from a, then it is clear this
 is a partial order (i.e. it is transitive), but it may not be a strict partial order. We
-can compute this relation using a kind of matrix multiplication...
+can compute this relation using a kind of matrix multiplication... 
 
-In this case, we can use an adjacency matrix with Boolean values, were 
+The reachability relation for a partial order is called the transitive closure of that partial order. Given the adjacency matrix of a partial order, we would like to compute the adjacency
+matrix of the transitive closure relatively quickly....
+
+To do this, we can use an adjacency matrix with Boolean values, were 
 * $A_{ij}=T$ if i=j or if there is an edge from i to j and
 * $A_{ij}=F$ otherwise
 
 To see if there is a path from $i$ to $j$ of length 2, we would use the following calculation
 * $A^2_{ij} = \bigvee_\limits{k=1}^n A_{ik}\wedge A_{kj}$
+
+This is just matrix multiplication but using $\vee$ for addition and $\wedge$ for multiplication.
 
 Calculating this boolean matrix requires about $n^3$ conjunctions and disjunctions.
 
