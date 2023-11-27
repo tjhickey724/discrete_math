@@ -5,6 +5,13 @@ The idea is to generate two keys: a public key $k_1$ and a private key $k_2$ and
 which encrypts a message $m$ using the key $k$. The amazing feature of this algorithm is that if you encrypt $m$ with $k_1$ and then encrypt it again with $k_2$, you get your original message back! Moreover, we believe it is
 very hard to discover the private key $k_2$ from the public key $k_1$.
 
+## RSA in Python
+The file [rsademo.py](rsademo.py) contains an implementation of the RSA algorithm which will let you create a public/private key pair and encode and decode messages using that keypair. We will begin by having everyone
+load that file into a Python intepreter (a nice online choice is [brython](https://brython.info/tests/editor.html?lang=en)
+
+We'll spend most of the class showing how to use RSA to have a secret conversation on a public channel and how
+to sign digital documents so the user knows it is from you!
+
 ## Using RSA to establish a secure connection when a third party can observe all of the communication
 Assume we have three players Alice, Bob, and Carl and that Alice and Bob want to have a secret conversation,
 but that Bob can hear everything they say.
