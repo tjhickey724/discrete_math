@@ -198,14 +198,16 @@ def strings_to_string(vals):
     return "".join(vals)
 
 def test_encoding():
+    '''test encoding/decoding'''
     d = int(input("Enter number of digits for primes p, q: "))
     pkc = generate_keypair(d)
+    print('pkc=',pkc)
     text = input("Enter the plaintext to be encrypted: ")
     nums = encode_string(text,pkc)
     print('-'*20)
     print('The string has been encoded as follows:')
     for num in nums:
-        print(num)
+        print(num,end=' ')
     text2 = decode_nums(nums,pkc)
     print('-'*20)
     print('Decoding those numbers gives')
