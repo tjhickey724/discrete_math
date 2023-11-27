@@ -1,4 +1,4 @@
-# Public Key Cryptograph
+# Public Key Cryptography
 In this note we give an overview of the core ideas and techniques in the RSA approach to public key cryptograpy.
 
 The idea is to generate two keys: a public key $k_1$ and a private key $k_2$ and an encryption algorithm $E(k,m)$
