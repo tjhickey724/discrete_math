@@ -82,9 +82,12 @@ We can define addition and multiplication on this set by
 
 where $u % v$ is the result of dividing u by v and taking the remainder. 
 It is not hard to prove that addition and multipication satisfy the standard properties:
-* identity:  $x+0=x$  $x*1=x$
-* commutativity: $x+y=y+x$  $x * y=y * x$
-* associativity: $x+(y+z)=(x+y)+z$ $x * (y * z) = (x * y) * z$
+* additive identity:  $x+0=x$
+* multiplicative $x*1=x$
+* additive commutativity: $x+y=y+x$
+* multiplicative commutativity $x * y=y * x$
+* additive associativity: $x+(y+z)=(x+y)+z$
+* multiplicative associativity: $x * (y * z) = (x * y) * z$
 * distributivity: $x * (y+z)=x * y+x * z$
 * additive inverse: $\forall x \exists y \ x+y = 0$
 * multiplicative inverse: $\forall x\  x\ne 0 \rightarrow \exists y\ x*y=1$
