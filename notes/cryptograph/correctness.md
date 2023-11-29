@@ -68,7 +68,7 @@ One very important feature of the integers is the division algorithm which state
 for any integers m and n with $n\gt 0$ there are unique integers $q$ and $r$ with $0\le r \lt n$ such that
 * $m = qn+r$
 
-In Python we calculate these with $//$ for division and $%$ for remainder
+In Python we calculate these with ```//``` for division and ```%``` for remainder
 ```
 q = m//n
 r = m%n
@@ -79,4 +79,21 @@ Let $p$ be a prime and let $\mathbb{F}_p$ be the set of integers $\\{0,1,2,\ldot
 We can define addition and multiplication on this set by
 * $(x * y) % p$
 * $(x + y) % p$
+
 where $u % v$ is the result of dividing u by v and taking the remainder. 
+It is not hard to prove that addition and multipication satisfy the standard properties:
+* identity:  $x+0=x$  $x*1=x$
+* commutativity: $x+y=y+x$  $x*y=y*x$
+* associativity: $x+(y+z)=(x+y)+z$ $x*(y*z) = (x*y)*z$
+* distributivity: $x*(y+z) = x*y + x*z$
+* additive inverse: $\forall x \exists y \ x+y = 0$
+* multiplicative inverse: $\forall x\  x\ne 0 \rightarrow \exists y\ x*y=1$
+
+The last follows from Bézout's Theorem because if $x\ne 0$ then gcd(x,p)=1 so there exists a,b with
+* $ax + bp = 1$
+
+which means that $a*x= 1$ modulo p.
+
+These properties make $\mathbb{F}_p$ into a mathematical object called a Field.
+Other fields are the rational numbers and the real numbers and the complex numbers.
+
