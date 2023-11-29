@@ -253,19 +253,10 @@ then $y$ is in the range $[0,n)$ and $gcd(y,m)=1$
 
 **Proof**
 This is a simple calculation
-* $y^f = (x^e)^f = x^{ef} = x^{1 + mg} = x^1 * x^{mg} = x * (x^m)^g = x * 1^g = x * 1 = x$ mod n
+* $y^f = (x^e)^f = x^{ef} = x^{1 + mg} = x^1 * x^{mg}$
+* now we know that $x^m=1$ mod n, so
+* $y^f = x * (x^m)^g = x * 1^g = x * 1 = x$ mod n
+* so $y^f$ % $n = x$
 
 **QED**
 
-
-
-
-
-
-
-
-
-Hence if we can then find large numbers $e$ and $f$ with $ef = 1+mg$ then
-* $(x^e)^f = x^{ef} = x^{1+mg} = x^1 * x^{mg} = x * (x^m)^g = x * 1^g = x * 1 = x$
-
-which is the fundamental property used to define encryption and decryption in RSA.
