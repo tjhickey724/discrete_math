@@ -195,14 +195,32 @@ def generate_prime(d):
     return n
 ```
 
-We can now understand how to generate two large primes $p$ and $q$ and form 
+## RSA
+We can now see how to generate two large primes $p$ and $q$ and form 
 * their product $n=pq$, and
 * the product $m=(p-1) * (q-1)$
   
 which is the first step in the RSA algorithm.
 
-Next we'll prove that if $gcd(x,m)=1$, then
+The next step is to prove that Fermat's Little Theorem also holds for $m=pq$,
+that is
+
+**Theorem** Let p,q be two primes and m=(p-1)(q-1) and let $x$ be an integer in the range [0,m-1]
+which has no common factors with m, that is $gcd(x,m)=1$, then
 * $x^m = 1$ mod $m$
+
+**Proof**
+First observe that 
+* $x^m = (x^{p-1})^{q-1}$
+
+By Fermat's little theorem we know that 
+* $x^{q-1} = x$ mod $q$ for every x relatively prime to q, so
+* $x^{p-1}{q-1} = x^{p-1}$ mod $q$
+
+and likewise
+* $x^{p-1}{q-1} = x^{q-1}$ mod $p$
+
+
 
 Hence if we can then find large numbers $e$ and $f$ with $ef = 1+mg$ then
 * $(x^e)^f = x^{ef} = x^{1+mg} = x^1 * x^{mg} = x * (x^m)^g = x * 1^g = x * 1 = x$
