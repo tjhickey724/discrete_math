@@ -24,7 +24,10 @@ def gcd(a,b):
         return d
 ```
 
-Try it out!
+Try it out by finding the gcd of 
+* 21 and 15 or
+* 105 and 49
+
 
 ## Bézout's identity
 By modifying the algorithm slightly we can show that if d is the gcd of m and n, then there are positive integers a and b
@@ -56,4 +59,24 @@ def gcd(a,b):
         return (d,n1,m1-n1*(a//b))
 ```
 
+Try it out by finding the coeficients a and b for the gcds of 
+* 21 and 15 or
+* 105 and 49
 
+## The Division Algorithm
+One very important feature of the integers is the division algorithm which states that
+for any integers m and n with $n\gt 0$ there are unique integers $q$ and $r$ with $0\le r \lt n$ such that
+* $m = qn+r$
+
+In Python we calculate these with $//$ for division and $%$ for remainder
+```
+q = m//n
+r = m%n
+```
+
+## The Finite Field $\mathbb{F}_p$ for primes p.
+Let $p$ be a prime and let $\mathbb{F}_p$ be the set of integers $\\{0,1,2,\ldots,p-1\\}$.
+We can define addition and multiplication on this set by
+* $(x * y) % p$
+* $(x + y) % p$
+where $u % v$ is the result of dividing u by v and taking the remainder. 
