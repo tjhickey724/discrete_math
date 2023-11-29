@@ -242,13 +242,13 @@ One may need to generate several random numbers to find one which is relatively 
 Now use the Bézout algorithm to find a numbers $f$ and $g$ such that
 * $f * e + g * m = 1$
 
-This means that $f * e = 1$ mod $m$.
+This means that $f * e = 1 + g * m = 1$ mod $m$.
 
 **Corollary** [Correctness of RSA]
 Let $x$ be any integer in the range $[0,n)$ which is not divisible by p or q, and let
 * $y = x^e$ % $n$
 
-then $y is in the rnage $[0,n)$ and
+then $y$ is in the range $[0,n)$ and $gcd(y,m)=1$
 * $y^f$ % $n = x$
 
 **Proof**
