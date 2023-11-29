@@ -77,8 +77,8 @@ r = m%n
 ## The Finite Field $\mathbb{F}_p$ for primes p.
 Let $p$ be a prime and let $\mathbb{F}_p$ be the set of integers $\\{0,1,2,\ldots,p-1\\}$.
 We can define addition and multiplication on this set by
-* $(x * y) % p$
-* $(x + y) % p$
+* $(x * y)$ % p
+* $(x + y)$ % p
 
 where $u % v$ is the result of dividing u by v and taking the remainder. 
 It is not hard to prove that addition and multipication satisfy the standard properties:
