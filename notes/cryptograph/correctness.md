@@ -97,3 +97,97 @@ which means that $a*x= 1$ modulo p.
 These properties make $\mathbb{F}_p$ into a mathematical object called a Field.
 Other fields are the rational numbers and the real numbers and the complex numbers.
 
+## Fermat's Little Theorem
+
+**Theorem** Let $p$ be a prime and $x$ an integer not divisible by $p$, then
+* $p$ divides $x^p - x$
+
+**Proof**
+First we prove that $(p-1)! = -1$ mod p
+
+To do this observe that each non-zero element $x$ of $\mathbb{F}_p$ has a unique inverse $x^{-1}$
+and that $x \ne x^{-1}$ unless x is 1 or -1. To see this, note that
+* $x = x^{-1}$ implies $x * x = x * x^{-1} = 1$ so $x^2 = 1$ so $x^2-1 = (x-1)(x+1) = 0$
+* so $x-1=0$ or $x+1=0$
+* so $x = 1$ or $x=-1$
+
+So $(p-1)! = 1 * 2 * \ldots * (p-2) * (p-1)$ 
+
+and 
+all of the numbers except the first and the last can be paired with their inverse. So multiplying them
+gives $1$ and we conclude that
+* $(p-1)! = 1 * 2 * \ldots * (p-2) * (p-1) = 1 * (p-1) = -1$ mod p
+
+Now suppose we multiply each of those factors in $(p-1)!$ by some $x$ with 1\le x \lt p$, then we get
+* $(1*x) *(2*x) * \dots * (p-1)*x = (p-1)! x^{p-1}$
+
+but it is not hard to see that
+* $((1*x),(2*x),  \dots , (p-1)*x)$ is a permutation of $(1,2,...,p-1)$
+
+and hence has the same product! so
+* $(1*x) *(2*x) * \dots * (p-1)*x = (p-1)! x^{p-1} = (p-1)! = -1$
+
+and so we can conclude that 
+* $x^{p-1} = 1$ mod p, so
+* $x^p = x$ mod p, that is
+* $p$ divides $x^p - x$
+
+Let's try it out with $p=5$ or $p=7$ and various $x$.
+
+# Fast probabalistic test for primality
+We can use Fermat's little theorem to quickly test if a number is "probably" prime.
+I won't prove it here, but if $p$ is not prime then 
+* the probability that $x^p=x$ mod p is less than 1/2
+
+So one way to test if a number $p$ is prime is to repeatedly generated random numbers $x$
+and test to see if $p$ divides $x^p-x$. If it ever fails, then you know $p$ is not prime.
+If it doesn't fail after $N$ attempts, then the probability that $p$ is not prime is less than $1/2^N$.
+Picking $N=100$, the probability is less than $10^{-30}$.
+
+# Fast exponentiation
+But how can we raise an number $x$ to such a large power mod p quickly?
+
+Below is an algorithm for doing this:
+``` python
+def power(x,n,m):
+    ''' return x^n mod m
+        We introduce a variable p, initially 1
+        with the invariant on (p,x,n,m) that (p*x^n)%m is constant
+        at the top of the loop. When n=0 we return p%m which
+        is equal to (x^n)%m
+    '''
+    p = 1
+    while n>0:
+        # invariant on (p,x,n,m) is p* x^n mod m at top of the loop
+        if n%2==0:
+            #x^n= x^(2r)=(x^2)*r
+            x = (x*x)%m
+            n = n//2
+        else:
+            # p*x^n = 
+            # p*x^(2r+1)=
+            # (p*x)*(x^2)^r
+            p = (p*x)%m
+            x = (x*x)%m
+            n = (n-1)//2
+    
+    return p
+```
+
+We can then use this to test primality and to generate large primes as follows
+``` python
+def prime_test(p,n):
+    ''' return true p passes prime test n times '''
+    for i in range(n):
+        x = randint(2,p-1)
+        if power(x,p-1,p)!=1:
+            return False
+    return True
+
+def generate_prime(d):
+    ''' return next probable prime with d digits '''
+    n = randint(10**d,10**(d+1))
+    while not prime_test(n,100):
+        n=n+1
+    return n
+```
