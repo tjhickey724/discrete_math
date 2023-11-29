@@ -80,7 +80,7 @@ We can define addition and multiplication on this set by
 * $(x * y)$ % p
 * $(x + y)$ % p
 
-where $u% % $v$ is the result of dividing u by v and taking the remainder. 
+where $u % v$ is the result of dividing u by v and taking the remainder. 
 It is not hard to prove that addition and multipication satisfy the standard properties:
 * additive identity:  $x+0=x$
 * multiplicative $x*1=x$
