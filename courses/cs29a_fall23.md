@@ -264,7 +264,7 @@ and complete the homework problems on the MLA due on Monday.
 # Week 12: 11/27-12/1 - Number Theory
 
 ## Lesson 34
-[Crypto](../Notes/cryptograph/overview.md)
+[Crypto](../notes/cryptograph/overview.md)
 
 ## Lesson 35 RSA
-[Crypto](../Notes/cryptograph/overview.md)
+[Crypto](../notes/cryptograph/overview.md)
