@@ -261,6 +261,10 @@ and complete the homework problems on the MLA due on Monday.
 ## Lesson 32: Thu 11/16 <br> _More Graphs_
 * We continue our study of [Graph Theory ](../notes/graph_theory/overview.md)
 
+# Week 12: 11/27-12/1 - Number Theory
 
 ## Lesson 34
+[Crypto](../Notes/cryptograph/overview.md)
+
+## Lesson 35 RSA
 [Crypto](../Notes/cryptograph/overview.md)
