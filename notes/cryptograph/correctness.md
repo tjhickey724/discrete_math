@@ -122,13 +122,13 @@ gives $1$ and we conclude that
 * $(p-1)! = 1 * 2 * \ldots * (p-2) * (p-1) = 1 * (p-1) = -1$ mod p
 
 Now suppose we multiply each of those factors in $(p-1)!$ by some $x$ with 1\le x \lt p$, then we get
-* $(1*x) *(2*x) * \dots * (p-1)*x = (p-1)! x^{p-1}$
+* $(1 * x) * (2 * x) * \dots * (p-1) * x = (p-1)! x^{p-1}$
 
 but it is not hard to see that
-* $((1*x),(2*x),  \dots , (p-1)*x)$ is a permutation of $(1,2,...,p-1)$
+* $((1 * x),(2 * x),  \dots , (p-1) * x)$ is a permutation of $(1,2,...,p-1)$
 
 and hence has the same product! so
-* $(1*x) *(2*x) * \dots * (p-1)*x = (p-1)! x^{p-1} = (p-1)! = -1$
+* $(1 * x) * (2 * x) * \dots * (p-1) * x = (p-1)! x^{p-1} = (p-1)! = -1$
 
 and so we can conclude that 
 * $x^{p-1} = 1$ mod p, so
