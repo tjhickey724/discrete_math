@@ -194,3 +194,17 @@ def generate_prime(d):
         n=n+1
     return n
 ```
+
+We can now understand how to generate two large primes $p$ and $q$ and form 
+* their product $n=pq$, and
+* the product $m=(p-1) * (q-1)$
+  
+which is the first step in the RSA algorithm.
+
+Next we'll prove that if $gcd(x,m)=1$, then
+* $x^m = 1$ mod $m$
+
+Hence if we can then find large numbers $e$ and $f$ with $ef = 1+mg$ then
+* $(x^e)^f = x^{ef} = x^{1+mg} = x^1 * x^{mg} = x * (x^m)^g = x * 1^g = x * 1 = x$
+
+which is the fundamental property used to define encryption and decryption in RSA.
