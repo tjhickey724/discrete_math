@@ -30,7 +30,7 @@ Try it out by finding the gcd of
 
 
 ## Bézout's identity
-By modifying the algorithm slightly we can show that if d is the gcd of m and n, then there are positive integers a and b
+By modifying the algorithm slightly we can show that if d is the gcd of m and n, then there are integers a and b
 such that
 
 $a m + b n = d$
