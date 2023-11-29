@@ -213,12 +213,55 @@ which has no common factors with m, that is $gcd(x,m)=1$, then
 First observe that 
 * $x^m = (x^{p-1})^{q-1}$
 
+Let 
+* $x_p = x^{p-1}$ and $x_q = x^{q-1}$
+ 
 By Fermat's little theorem we know that 
-* $x^{q-1} = x$ mod $q$ for every x relatively prime to q, so
-* $x^{p-1}{q-1} = x^{p-1}$ mod $q$
+* $ x_p^{q-1} = 1$ mod $q$ for every x relatively prime to q, so
+* $x_p^{q-1} = 1 + qm_1$ for some integer $m_1$
 
-and likewise
-* $x^{p-1}{q-1} = x^{q-1}$ mod $p$
+Likeise 
+* $x_q^{p-1} = 1$ mod $p$ for every x relatively prime to p, so
+* $x_q^{p-1} = 1+ p m_2$ for some integer m_2
+
+So $x^{(p-1)(q-1)} = x_p^{q-1} = x_q^{p-1} = 1 + q m_1 = 1 + p m_2$
+
+This means
+* $qm_1 = p m_2$ and since $p$ and $q$ are distinct primes, p divides $m_1$ so $m_1 = p m_3$ for some integer $m_3$
+* so $q m_1 = q p m_3 = p m_2$ so $m_2 = q m_3$
+* Thus $x^{(p-1)(q-1)} = x_p^{q-1} = x_q^{p-1} = 1 + q p m_3$, so
+* $x^{(p-1)(q-1)} = 1$ mod $pq$ whenever x is not divisible by $p$ or $q$
+
+**QED**
+
+We can now complete the RSA algorithm.
+
+Pick a random number $e$ in the range [0,m) for which $gcd(e,m) = 1$.
+One may need to generate several random numbers to find one which is relatively prime to $m$
+
+Now use the Bézout algorithm to find a numbers $f$ and $g$ such that
+* $f * e + g * m = 1$
+
+This means that $f * e = 1$ mod $m$.
+
+**Corollary** [Correctness of RSA]
+Let $x$ be any integer in the range $[0,n)$ which is not divisible by p or q, and let
+* $y = x^e$ % $n$
+
+then $y is in the rnage $[0,n)$ and
+* $y^f$ % $n = x$
+
+**Proof**
+This is a simple calculation
+* $y^f = (x^e)^f = x^{ef} = x^{1 + mg} = x^1 * x^{mg} = x * (x^m)^g = x * 1^g = x * 1 = x$ mod n
+
+**QED**
+
+
+
+
+
+
 
 
 
