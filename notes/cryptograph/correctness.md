@@ -166,20 +166,24 @@ def power(x,n,m):
     while n>0:
         # invariant on (p,x,n,m) is p* x^n mod m at top of the loop
         if n%2==0:
-            #x^n= x^(2r)=(x^2)*r
+            #p*x^n= p*x^(2r)=p*(x^2)*r
             x = (x*x)%m
             n = n//2
         else:
-            # p*x^n = 
-            # p*x^(2r+1)=
-            # (p*x)*(x^2)^r
+            # p*x^n = p*x^(2r+1) = (p*x)*(x^2)^r
             p = (p*x)%m
             x = (x*x)%m
             n = (n-1)//2
     
     return p
 ```
-**Proposition** The algorithm above correctly computes $x^n$ % $m$ in at most $\log_2(n)$ steps.
+## Loop Invariants and Correctness Proofs
+Next we show that the "power" function defined above is correct using the "loop invariant" technique.
+This is the most common way to prove that algorithms containing loops are correct. The idea is to find some
+function which is true before the loop, and whose value isn't changed by the body of the loop, and hence
+it must also be true at the end of the loop.
+
+**Proposition** The "power" algorithm above correctly computes $x^n$ % $m$ in at most $\log_2(n)$ steps.
 
 **Proof**
 We will show that the value $v(p,x,n) = (p * x^n)$ % $m$ is a loop invariant at the top of the loop. That means
@@ -205,7 +209,27 @@ then n must be at least $2^j$, so  $n \ge 2^j$ so $j\le \log_2(n)$
 
 **QED**
 
-We can then use this to test primality and to generate large primes as follows
+We can also raise $x$ to a power mod $m$ using a recursive function as follows:
+``` python
+def powerfn(t,x,n,m):
+    ''' returns t * x^n mod m
+    '''
+    if (n==0):
+        return t
+    else:
+        if n%2==0:
+            return powerfn(t,(x*x)%m,n//2)
+        else:
+            return powerfn(t*x,(x*x)%m,(n-1)//2)
+```
+To prove the correctness of this function we have to show it terminates in at most $\log_2(n)$ calls, which is easy
+because $n$ is reduced by at least $2$ in each call and never gets below 1. We also need to show that
+the value $t * x^n$ % $m$ is preserved by the function and that proof is the same as the one for the iterative power function above.
+
+
+## Primality Testing
+
+We can now use this power function to test primality and to generate large primes efficiently as follows
 ``` python
 def prime_test(p,n):
     ''' return true p passes prime test n times '''
@@ -217,13 +241,13 @@ def prime_test(p,n):
 
 def generate_prime(d):
     ''' return next probable prime with d digits '''
-    n = randint(10**d,10**(d+1))
+    n = randint(10**d,10**(d+1)) # generate a random number with d+1 decimal digits
     while not prime_test(n,100):
         n=n+1
     return n
 ```
 
-## RSA
+## Proving the Correctness of RSA
 We can now see how to generate two large primes $p$ and $q$ and form 
 * their product $n=pq$, and
 * the product $m=(p-1) * (q-1)$
@@ -245,11 +269,11 @@ Let
 * $x_p = x^{p-1}$ and $x_q = x^{q-1}$
  
 By Fermat's little theorem we know that 
-* $ x_p^{q-1} = 1$ mod $q$ for every x relatively prime to q, so
+* $ x_p^{q-1} = 1$ mod $q$ since $x_p$ is relatively prime to q, so
 * $x_p^{q-1} = 1 + qm_1$ for some integer $m_1$
 
 Likeise 
-* $x_q^{p-1} = 1$ mod $p$ for every x relatively prime to p, so
+* $x_q^{p-1} = 1$ mod $p$ since $x_q$ is relatively prime to p, so
 * $x_q^{p-1} = 1+ p m_2$ for some integer m_2
 
 So $x^{(p-1)(q-1)} = x_p^{q-1} = x_q^{p-1} = 1 + q m_1 = 1 + p m_2$
@@ -258,7 +282,8 @@ This means
 * $qm_1 = p m_2$ and since $p$ and $q$ are distinct primes, p divides $m_1$ so $m_1 = p m_3$ for some integer $m_3$
 * so $q m_1 = q p m_3 = p m_2$ so $m_2 = q m_3$
 * Thus $x^{(p-1)(q-1)} = x_p^{q-1} = x_q^{p-1} = 1 + q p m_3$, so
-* $x^{(p-1)(q-1)} = 1$ mod $pq$ whenever x is not divisible by $p$ or $q$
+* $x^{(p-1)(q-1)} = 1$ mod $pq$ whenever x is not divisible by $p$ or $q$, so
+* $x^m = 1$ mod $n$
 
 **QED**
 
