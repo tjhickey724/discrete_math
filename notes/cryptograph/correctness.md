@@ -179,7 +179,7 @@ def power(x,n,m):
     
     return p
 ```
-**Proposition** The algorithm below correctly computes $x^n$ % $m$ in $\log_2(n)+1$ steps.
+**Proposition** The algorithm above correctly computes $x^n$ % $m$ in at most $\log_2(n)$ steps.
 
 **Proof**
 We will show that the value $v(p,x,n) = (p * x^n)$ % $m$ is a loop invariant at the top of the loop. That means
@@ -194,6 +194,9 @@ There are three cases.
 
 This shows that the value of v(p,x,n) is the same at the top of the loop as at the bottom and hence it is the same
 before the loop and after the loop, so $p has the value $x^n$ % $m$  when the function returns.
+
+Notice that each time $n$ is reduced by at least a factor of 2, so if there are $j$ iterations of the loop
+then n must be at least $2^j$, so  $n \ge 2^j$ so $j\le \log_2(n)$
 
 **QED**
 
