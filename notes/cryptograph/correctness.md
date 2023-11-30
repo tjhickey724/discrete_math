@@ -163,7 +163,6 @@ def power(x,n,m):
         at the top of the loop. When n=0 we return p%m which
         is equal to (x^n)%m
     '''
-    p = 1
     while n>0:
         # invariant on (p,x,n,m) is p* x^n mod m at top of the loop
         if n%2==0:
@@ -180,6 +179,23 @@ def power(x,n,m):
     
     return p
 ```
+**Proposition** The algorithm below correctly computes $x^n$ % $m$ in $\log_2(n)+1$ steps.
+
+**Proof**
+We will show that the value $v(p,x,n) = (p * x^n)$ % $m$ is a loop invariant at the top of the loop. That means
+this formula $p * x^n$ % $m$ always has the same value. The first time through the loop $p=1$ and so $v$ has
+the value $x^n$ % $m$ that we want to compute.  After the loop is over, $n=0$ and so $x^n$ % $m$ $= v = p * x^0 = p$
+so we have computed $x^n$ and stored it in the variable $p$.
+
+There are three cases.
+* $n=0$, in this case the loop is over and $v(p,x,n)=p*x^0 = p$ which is the value we return
+* $n = 2k$, if $n$ is even, then $v(p,x,n) = p * x^{2k} = p * (x^2)^k = p * (x^2)^{n/2} = v(p,x^2,n/2)$
+* $n = 2k+1$, if $n$ is odd, then $v(p,x,n) = p * x^{2k+1} = p * x * (x^2)^k = v(p*x,x^2,(n-1)/2)
+
+This shows that the value of v(p,x,n) is the same at the top of the loop as at the bottom and hence it is the same
+before the loop and after the loop, so $p has the value $x^n$ % $m$  when the function returns.
+
+**QED**
 
 We can then use this to test primality and to generate large primes as follows
 ``` python
