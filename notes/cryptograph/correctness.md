@@ -163,6 +163,7 @@ def power(x,n,m):
         at the top of the loop. When n=0 we return p%m which
         is equal to (x^n)%m
     '''
+    p=1
     while n>0:
         # invariant on (p,x,n,m) is p* x^n mod m at top of the loop
         if n%2==0:
