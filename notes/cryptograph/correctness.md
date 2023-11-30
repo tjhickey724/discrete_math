@@ -257,7 +257,7 @@ then $y$ is in the range $[0,n)$ and $gcd(y,m)=1$
 
 **Proof**
 This is a simple calculation
-* $y^f = (x^e)^f = x^{ef} = x^{1 + mg} = x^1 * x^{mg}$
+* $y^f = (x^e)^f = x^{ef} = x^{1 + mg} = x^1 * x^{mg}$ mod $n$
 * now we know that $x^m=1$ mod n, so
 * $y^f = x * (x^m)^g = x * 1^g = x * 1 = x$ mod n
 * so $y^f$ % $n = x$
