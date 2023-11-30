@@ -261,7 +261,7 @@ that is
 
 **Theorem** Let p,q be two primes and m=(p-1)(q-1) and let $x$ be an integer in the range [0,m-1]
 which has no common factors with m, that is $gcd(x,m)=1$, then
-* $x^m = 1$ mod $m$
+* $x^m = 1$ mod $n$
 
 **Proof**
 First observe that 
