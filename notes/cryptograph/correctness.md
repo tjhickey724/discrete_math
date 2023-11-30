@@ -183,11 +183,16 @@ def power(x,n,m):
 
 **Proof**
 We will show that the value $v(p,x,n) = (p * x^n)$ % $m$ is a loop invariant at the top of the loop. That means
-this formula $p * x^n$ % $m$ always has the same value. The first time through the loop $p=1$ and so $v$ has
-the value $x^n$ % $m$ that we want to compute.  After the loop is over, $n=0$ and so $x^n$ % $m$ $= v = p * x^0 = p$
-so we have computed $x^n$ and stored it in the variable $p$.
+this formula 
+* $v(p,x,n) = p * x^n$ % $m$
 
-There are three cases, and we omit the % $m$ to keep the notation simpler.
+always has the same value. The first time through the loop $p=1$ and so $v(1,x,n)$ has
+the value $x^n$ % $m$ that we want to compute.  After the loop is over, $n=0$ and so
+* $v(p,x,n) = p * x^0 = p$
+
+and since the value of v is invariant, $p$ will have the value $x^n$ % $m$ after the loop is over.
+
+There are three cases, and we omit the "% $m$" to keep the notation simpler.
 * $n=0$, in this case the loop is over and $v(p,x,n)=p*x^0 = p$ which is the value we return
 * if $n$ is even, then $n = 2k$ for some k, and so $v(p,x,n) = p * x^{2k} = p * (x^2)^k = p * (x^2)^{n/2} = v(p,x^2,n/2)$
 * if $n$ is odd, then $n = 2k+1$ for some k, and so $v(p,x,n) = p * x^{2k+1} = p * x * (x^2)^k = v(p*x,x^2,(n-1)/2)
