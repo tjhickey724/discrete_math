@@ -142,6 +142,10 @@ We can use Fermat's little theorem to quickly test if a number is "probably" pri
 I won't prove it here, but if $p$ is not prime then 
 * the probability that $x^p=x$ mod p is less than 1/2
 
+Actually there are some non-primes (called Carmichael numbers) that satisify Fermat's Little Theorem,
+RSA still works with Carmichael primes but it is 
+[somewhat less secure:](https://link.springer.com/content/pdf/10.1007/BFb0024472.pdf)
+
 So one way to test if a number $p$ is prime is to repeatedly generated random numbers $x$
 and test to see if $p$ divides $x^p-x$. If it ever fails, then you know $p$ is not prime.
 If it doesn't fail after $N$ attempts, then the probability that $p$ is not prime is less than $1/2^N$.
