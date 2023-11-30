@@ -104,6 +104,7 @@ Other fields are the rational numbers and the real numbers and the complex numbe
 
 **Theorem** Let $p$ be a prime and $x$ an integer not divisible by $p$, then
 * $p$ divides $x^p - x$
+* i.e. $x^{p-1} = 1% mod $p$
 
 **Proof**
 First we prove that $(p-1)! = -1$ mod p
