@@ -1,4 +1,4 @@
-# Correctness of the RSA algorithm
+# Correctness and Efficiency of the RSA algorithm
 
 In these notes we will show how to implement RSA and sketch a proof of each step.
 You can see a complete treatment of RSA in Chapter 8.11 of 
