@@ -187,10 +187,10 @@ this formula $p * x^n$ % $m$ always has the same value. The first time through t
 the value $x^n$ % $m$ that we want to compute.  After the loop is over, $n=0$ and so $x^n$ % $m$ $= v = p * x^0 = p$
 so we have computed $x^n$ and stored it in the variable $p$.
 
-There are three cases.
+There are three cases, and we omit the % $m$ to keep the notation simpler.
 * $n=0$, in this case the loop is over and $v(p,x,n)=p*x^0 = p$ which is the value we return
-* $n = 2k$, if $n$ is even, then $v(p,x,n) = p * x^{2k} = p * (x^2)^k = p * (x^2)^{n/2} = v(p,x^2,n/2)$
-* $n = 2k+1$, if $n$ is odd, then $v(p,x,n) = p * x^{2k+1} = p * x * (x^2)^k = v(p*x,x^2,(n-1)/2)
+* if $n$ is even, then $n = 2k$ for some k, and so $v(p,x,n) = p * x^{2k} = p * (x^2)^k = p * (x^2)^{n/2} = v(p,x^2,n/2)$
+* if $n$ is odd, then $n = 2k+1$ for some k, and so $v(p,x,n) = p * x^{2k+1} = p * x * (x^2)^k = v(p*x,x^2,(n-1)/2)
 
 This shows that the value of v(p,x,n) is the same at the top of the loop as at the bottom and hence it is the same
 before the loop and after the loop, so $p has the value $x^n$ % $m$  when the function returns.
