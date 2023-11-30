@@ -313,3 +313,10 @@ This is a simple calculation
 
 **QED**
 
+## Efficiency of arithmetic on large numbers
+One thing we didn't talk about was how much time it takes to do arithmetic on very large numbers.
+The simple way is to use the algorithms we use by hand for multiplication, addition, subtraction, and division
+and you can convince your self that these operations on two $k$ digit numbers can be done in at most $c k^2$ steps
+for some small constant $c$, but since $k$ is a relatively small number (say 100 or 500 or 1000). This doesn't
+create a problem for efficient implementation (as you can see by running the Python code!) If we do arithmetic on
+numbers with billions of digits, more sophisticated techniques would be needed...
