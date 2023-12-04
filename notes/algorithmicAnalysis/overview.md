@@ -60,7 +60,7 @@ The constant $k$ is used to focus our attention only on efficiency for large val
 We say that $g$ is big-Oh of $f$ if $g \in O(f)$.
 
 Let's show that $g(n) = 2n^2 + 3n+4$ is big-O of $n^2$ so we want to find $c$ and $k$ such that
-* $2n^2 + 2n+4 \le c n^2$ whenever $n>k$
+* $2n^2 + 3n+4 \le c n^2$ whenever $n>k$
 
 Let's factor out an $n^2$ from the formula to get
 * $n^2 (1 + 3/n + 4/n^2) \le c n^2$ when $n>k$
@@ -68,12 +68,26 @@ Let's factor out an $n^2$ from the formula to get
 If we pick k=10, then $3/n<3/10$ and $4/n^2 < 4/100$ so
 * $n^2 (1 + 3/n + 4/n^2) \le n^2 (1+0.3 + 0.04) = 1.34n^2$ if $n>10$
 
-and we can let $c=1.34$ and $k=10$
+and we can let $c=1.34$ and $k=10$, which shows that $2n^2 + 3n+4 \in O(n^2)$
 
 The same approach works for almost all such calculations. We find the "fastest growing term"
 and factor it out of the rest of the terms, then all of those should get small for larger $n$.
 
 We can use the same approach to show that $g \in \Omega(f)$ by looking for lower bounds, e.g.
-* $2n^2 + 2n+4 \ge 2 n^2$ whenever $n>1$ because $3/n+4/n^2\ge 0$ if $n\ge 1$
+* $2n^2 + 3n+4 \ge 2 n^2$ whenever $n>1$ because $3/n+4/n^2\ge 0$ if $n\ge 1$
+* so $2n^2 + 3n+4 \ge 2 n^2 \in \Omega(n^2)$
+* so $2n^2 + 3n+4 \ge 2 n^2 \in \Theta(n^2)$
+
+## Divide and Conquer algorithms and Recursion equations
+We'll look at some interesting algorithms and find simple formulas for their asymptotic growth.
+* summing a list of numbers
+* finding the smallest number is a list
+* testing if a number is in a sorted list of numbers
+* sorting a list of numbers
+* multiplying two $n$-bit numbers
+* multiply two nxn matrices
+
+
+
 
 
