@@ -118,6 +118,26 @@ case 1: if $g(n) = O(n^{r+\epsilon})$ for some $\epsilon \gt 0$, then
 case 2: if $g(n) = \Theta(n^r \log(n)^k$, for some $k\gt 0$, then
 * $T(n) = \Theta(n^r \log(n)^{k+1})$
 
+case 3: if $g(n) = \Omega(n^{r+\epsilon})$ for some $\epsilon\gt 0$, then
+* $T(n) = \Theta(g(n))$
+
+## Try it out!
+Let's try it out on the examples from above
+
+## Strategies for solving linear recurrences
+As noted before if we let $n=2^k$, these become linear recurrences in $k$
+but they have some additional terms, e.g.
+
+* merge sort: $T(k) = 2 T(k-1) + 2^k$
+* Strassen: $T(k) = 7 T(k-1) + 15 * 2^{2k}$
+* binary search: $T(k) = T(k-1) + 1$
+
+We will look at section 21.4 of the MIT text to get an overview of how
+to solve these more general recurrences using a combination of algebra,
+numerical computation, guessing, and induction.
+
+
+
 
 
 
