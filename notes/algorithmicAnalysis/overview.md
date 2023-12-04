@@ -84,8 +84,8 @@ and factor it out of the rest of the terms, then all of those should get small f
 
 We can use the same approach to show that $g \in \Omega(f)$ by looking for lower bounds, e.g.
 * $2n^2 + 3n+4 \ge 2 n^2$ whenever $n>1$ because $3/n+4/n^2\ge 0$ if $n\ge 1$
-* so $2n^2 + 3n+4 \ge 2 n^2 \in \Omega(n^2)$
-* so $2n^2 + 3n+4 \ge 2 n^2 \in \Theta(n^2)$
+* so $2n^2 + 3n+4 \in \Omega(n^2)$
+* so $2n^2 + 3n+4 \in \Theta(n^2)$ as it is big-Oh and big-Omega of $n^2$.
 
 ## Divide and Conquer algorithms and Recursion equations
 We'll look at some interesting algorithms and find simple formulas for their asymptotic growth.
