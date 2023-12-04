@@ -136,6 +136,15 @@ We will look at section 21.4 of the MIT text to get an overview of how
 to solve these more general recurrences using a combination of algebra,
 numerical computation, guessing, and induction.
 
+## Example 1: Mult of two n-bit numbers
+In the usual way we get
+* $T(n) = 4*T(n/2) + 8 n$ and $T(0)=1$
+
+and we can prove (by induction) that
+* $T(n) = 9n^2 -8n$
+
+For the master theorem, $a=4$, $b=2$, $g(n) = 8n$ and $4 = \log_b(a) = \log_2(4) = 2$.
+
 
 
 
