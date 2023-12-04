@@ -112,7 +112,7 @@ Many of these Divide and Conquer problems can be analyzed using the so-called Ma
 and let $r = \log_b(a)$, then the growth of $T$ is determined by how quickly
 $g$ grows compared to $n^r$
 
-case 1: if $g(n) = O(n^{r+\epsilon})$ for some $\epsilon \gt 0$, then
+case 1: if $g(n) = O(n^{r-\epsilon})$ for some $\epsilon \gt 0$, then
 * $T(n) = \Theta(n^r)$
 
 case 2: if $g(n) = \Theta(n^r \log(n)^k$, for some $k\gt 0$, then
