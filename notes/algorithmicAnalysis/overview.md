@@ -89,12 +89,21 @@ We can use the same approach to show that $g \in \Omega(f)$ by looking for lower
 
 ## Divide and Conquer algorithms and Recursion equations
 We'll look at some interesting algorithms and find simple formulas for their asymptotic growth.
-* summing a list of numbers
-* finding the smallest number is a list
-* testing if a number is in a sorted list of numbers
+* summing a list of numbers $T(n) = 2*T(n/2)+1$
+* finding the smallest number is a list $T(n) = 2*T(n/2)+1$
+* testing if a number is in a sorted list of numbers $T(n) = T(n/2)+1$
 * sorting a list of numbers
+  * $T(n) = T(n-1)+n$ insertion sort
+  * $T(n) = 2*T(n/2) + n$  merge sort
 * multiplying two $n$-bit numbers
+  * $T(n) = 4*T(n/2) + cn$ usual
+  * $T(n) = 3*T(n/2) + cn$ faster!
 * multiply two nxn matrices
+  * $T(n) = 8*T(n/2) + 4n^2$  usual
+  * $T(n) = 7*T(n/2) + 15n^2$  Strassen
+
+## Master Theorem
+Many of these Divide and Conquer problems can be analyzed using the so-called Master Theorem (Thm 21.4.4 on page 887 of the MIT text Math for CS)
 
 
 
