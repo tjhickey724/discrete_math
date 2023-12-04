@@ -272,6 +272,6 @@ and complete the homework problems on the MLA due on Monday.
 ## Lesson 36 more RSA
 [Crypto](../notes/cryptograph/overview.md)
 
-# WQeek 13: 12/4-12/8
+# Week 13: 12/4-12/8
 ## Lesson 37
 [Analysis of Algorithms](../notes/AlgorithmicAnalysis/overview.md)
