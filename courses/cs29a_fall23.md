@@ -274,4 +274,4 @@ and complete the homework problems on the MLA due on Monday.
 
 # Week 13: 12/4-12/8
 ## Lesson 37
-[Analysis of Algorithms](../notes/AlgorithmicAnalysis/overview.md)
+[Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
