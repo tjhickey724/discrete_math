@@ -65,7 +65,10 @@ The constant $k$ is used to focus our attention only on efficiency for large val
 ## Practice
 We say that $g$ is big-Oh of $f$ if $g \in O(f)$.
 
-Let's show that $g(n) = 2n^2 + 3n+4$ is big-O of $n^2$ so we want to find $c$ and $k$ such that
+Let's show that $g(n) = 2n^2 + 3n+4$ is big-O of $n^2$ 
+that is lets show $g\in O(n^2)$
+
+So we want to find $c$ and $k$ such that
 * $2n^2 + 3n+4 \le c n^2$ whenever $n>k$
 
 Let's factor out an $n^2$ from the formula to get
