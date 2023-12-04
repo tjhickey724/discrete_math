@@ -106,6 +106,18 @@ We'll look at some interesting algorithms and find simple formulas for their asy
 Many of these Divide and Conquer problems can be analyzed using the so-called Master Theorem (Thm 21.4.4 on page 887 of the MIT text Math for CS)
 
 
+**Theorem** Let $T$ be a recurrence of the form
+* $T(n) = aT(n/b) + g(n)$
+
+and let $r = \log_b(a)$, then the growth of $T$ is determined by how quickly
+$g$ grows compared to $n^r$
+
+case 1: if $g(n) = O(n^{r+\epsilon})$ for some $\epsilon \gt 0$, then
+* $T(n) = \Theta(n^r)$
+
+case 2: if $g(n) = \Theta(n^r \log(n)^k$, for some $k\gt 0$, then
+* $T(n) = \Theta(n^r \log(n)^{k+1})$
+
 
 
 
