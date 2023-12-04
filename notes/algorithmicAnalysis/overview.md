@@ -72,12 +72,12 @@ So we want to find $c$ and $k$ such that
 * $2n^2 + 3n+4 \le c n^2$ whenever $n>k$
 
 Let's factor out an $n^2$ from the formula to get
-* $n^2 (1 + 3/n + 4/n^2) \le c n^2$ when $n>k$
+* $n^2 (2 + 3/n + 4/n^2) \le c n^2$ when $n>k$
 
 If we pick k=10, then $3/n<3/10$ and $4/n^2 < 4/100$ so
-* $n^2 (1 + 3/n + 4/n^2) \le n^2 (1+0.3 + 0.04) = 1.34n^2$ if $n>10$
+* $n^2 (2 + 3/n + 4/n^2) \le n^2 (2+0.3 + 0.04) = 2.34n^2$ if $n>10$
 
-and we can let $c=1.34$ and $k=10$, which shows that $2n^2 + 3n+4 \in O(n^2)$
+and we can let $c=2.34$ and $k=10$, which shows that $2n^2 + 3n+4 \in O(n^2)$
 
 The same approach works for almost all such calculations. We find the "fastest growing term"
 and factor it out of the rest of the terms, then all of those should get small for larger $n$.
