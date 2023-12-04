@@ -20,12 +20,18 @@ We will then classify such sequences by their growth rates...
 Let $f$ and $g$ be functions from $\mathbb{N}\rightarrow \mathbb{R}^+$ where $\mathbb{R}^+$ is the set of non-negative real numbers.
 
 * $O(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \exists c \exists k \ \forall n\gt k \ g(n)\le f(n)$
-* $o(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \forall c \exists k \ \forall n\gt k \ g(n)\le f(n)$
-* $\Omega(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \forall c \exists k \ \forall n\gt k \ g(n)\ge f(n)$
-* $\omega(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \forall c \exists k \ \forall n\gt k \ g(n)\ge f(n)$
+* $\Omega(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \exists c \exists k \ \forall n\gt k \ g(n)\ge f(n)$
 * $\Theta(f) = O(f) \cap \Omega(f)$
 
 We call these sets big-Oh of f, little-Oh of f, big-Omega of f, little-Omega of f, big-Theta of f.
+
+We sometimes also use the following two sets of functions where 
+$o(f) \subset O(f)$ and $\omega(f)\subset \Omega(f)$.
+* $o(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \forall c \exists k \ \forall n\gt k \ g(n)\le f(n)$
+* $\omega(f) = \\{g:\mathbb{N}\rightarrow \mathbb{R} \vert \forall c \exists k \ \forall n\gt k \ g(n)\ge f(n)$
+For these two the function $f$ is strictly bigger than the best possible upper bound...
+
+We call these sets little-Oh of f and little-Omega of f.
 
 Intuitively, big-Oh is used to give a simple upper bound on functions of particular types. The most common
 asymptotic classes in Computer Science are the following
