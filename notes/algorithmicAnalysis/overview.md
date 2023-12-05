@@ -138,12 +138,26 @@ numerical computation, guessing, and induction.
 
 ## Example 1: Mult of two n-bit numbers
 In the usual way we get
-* $T(n) = 4*T(n/2) + 8 n$ and $T(0)=1$
-
-and we can prove (by induction) that
+* $T(n) = 4*T(n/2) + 8 n$ and $T(1)=1$
+* 
+and we can prove (by induction) that for n a power of 2
 * $T(n) = 9n^2 -8n$
+  
+For the master theorem, $a=4$, $b=2$, $g(n) = 8n$ and $r = \log_b(a) = \log_2(4) = 2$
+and this says $T(n) = O(n^2)$
 
-For the master theorem, $a=4$, $b=2$, $g(n) = 8n$ and $4 = \log_b(a) = \log_2(4) = 2$.
+For the more efficient way
+* $T(n) - 3*T(n/2) + 15n$ and $T(1)=1$
+
+and we can prove by induction that 
+* $T(n) = 31* n^{log_2(3)} - 30 n$
+
+and for the master theorem we have $a=3$ $b=2$ $r=\log_b(a) = \log_2(3)= 1.58...$ and $g(n)=15n = O(n^{1.58..})$
+so the Theorem says that $T(n) = O(n^{1.58...})$ which is what we have found.
+
+
+
+
 
 
 
