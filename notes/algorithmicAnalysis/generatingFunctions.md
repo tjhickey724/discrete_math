@@ -24,7 +24,7 @@ So we get a linear recurrence on S from the divide-and-conquer recurrence on T
 * $S(k) = 4 S(k-1) + 8 * 2^k$
 
 If we didn't have the last term $8 * 2^k$, this would be a simple linear recurrence and we know how to solve it
-by finding the characteristic polynomial $x-4$ and using polynomial fitting for the form $s(k) = a*2^k$.
+by finding the characteristic polynomial $x-4$ and using polynomial fitting for the form $s(k) = a*4^k$.
 
 But we have this additional term which makes the recurrence into an **inhomogeneous** recurrence relation.
 If we can find the general form of the solution, then we can use polynomial fitting to find the closed form.
