@@ -67,5 +67,22 @@ $$S(x) = \frac{R(x)}{Q(x)} = \sum_\limits{i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}
 
 where $R_i$ is a polynomial of degree less than $r_i$. 
 
+In the case where we have an inhomogeneous equation with polyomials $b_i$ and real (or complex) values $\gamma_i$
+* $S(k) = a_1 S(k-1) + a_2 S(k-2) + .... + a_j S(k-j) + b_1(k)\gamma_1^k + \ldots + b_s(k) \gamma_s^k$
+
+We can show the inhomogeneious part is also from a generating function of the form:
+
+$$I(x) = \sum_\limits{i-1}^r \frac{G_i(x)}{(1-\gamma_i)^{ss_i}}$$
+
+where $s_i$ is the degree of the polynomial $b_i$.
+
+Hence our formula for $S$ in the inhomogenous case is
+* $S(x) = (P(x) + I(x))/Q(x)$
+
+and so the general form of the generating function is
+
+$$S(k) = \sum_\limits{i=1}^m c_i(k)\beta_i^k + \sum_\limits{i=1}^r d_i(k)\gamma_i^k$$
+
+and we can use polynomial fitting to find the coefficients of the polynomials $c_i$ and $d_i$.
 
 
