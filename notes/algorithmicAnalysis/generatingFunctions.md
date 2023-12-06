@@ -39,7 +39,7 @@ For a sequence S(k) on the natural numbers 0,1,2,... we can define a formal powe
 If we have a linear recurrence on $S$ 
 * $S(k) = a_1 S(k-1) + a_2 S(k-2) + .... + a_j S(k-j)$
 
-then it can be transformed into a equation on $S$
+then it can be transformed into an equation on $S$
 * $(1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j)) F_S = P(x)$
 * $F_S(x) = P(x)/Q(x)$ where $Q(x) = (1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j))$
 
