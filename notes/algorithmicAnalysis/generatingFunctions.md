@@ -33,24 +33,24 @@ We will use Generating Functions to find that general form.
 
 ## Generating Functions for Inhomogeneous Linear Recurrences
 For a sequence S(k) on the natural numbers 0,1,2,... we can define a formal power series F by
-* $F(x) = \sum_\limits{i=0}^\infty S(k) x^k$
+* $F_S(x) = \sum_\limits{i=0}^\infty S(k) x^k$
 
 **Theorem**
 If we have a linear recurrence on $S$ 
 * $S(k) = a_1 S(k-1) + a_2 S(k-2) + .... + a_j S(k-j)$
 
 then it can be transformed into a equation on $S$
-* $(1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j)) S = P(x)$
-* $S(x) = P(x)/Q(x)$ where $Q(x) = (1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j))$
+* $(1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j)) F_S = P(x)$
+* $F_S(x) = P(x)/Q(x)$ where $Q(x) = (1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j))$
 
 where $P$ is a polynomial in x of degree at most $j-1$. 
 
 **Proof** We can see this by observing that
-* $a_j x^j S(x) = \sum_\limits{k=0}^\infty S(k) x^{k+j}$
+* $a_j x^j F_S(x) = \sum_\limits{k=0}^\infty S(k) x^{k+j}$
 * $= \sum_\limits{k=j}^\infty  a_j S(k-j) x^{k}$
 
 So 
-* $( a_1 x + a_2x^2 + \ldots +a_m x^m) S = \sum_\limits{k=j}^\infty b_k x^{k}$
+* $( a_1 x + a_2x^2 + \ldots +a_m x^m) F_S = \sum_\limits{k=j}^\infty b_k x^{k}$
 * where $b_k = \sum_\limits{i=1}^m a_j S(k-j)$ for $k \ge m$
 * So $b_k = S(k)$ for $k\ge m$
 
@@ -59,14 +59,14 @@ So
 ---
 
 This implies that 
-* $S(x) = P(x)/Q(x)$
+* $F_S(x) = P(x)/Q(x)$
 
 where $Q(x) = 1 -a_1 x -a_2 x^2 - \ldots - a_m x^m$ and if we let $x = 1/y$ then $y^m Q(1/y)$ is the characteristic polymomial.
 
 If we factor $Q$ as $\prod_\limits{i=1}^r (x-\beta_i)^{r_i}$ where $r_i$ is the multiplicity of the root $\beta_i$,
 then we can use the partial fractions approach to rewrite $S(x)$ as 
 
-$$S(x) = \frac{R(x)}{Q(x)} = \sum_\limits{i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}}$$
+$$F_S(x) = \frac{R(x)}{Q(x)} = \sum_\limits{i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}}$$
 
 where $R_i$ is a polynomial of degree less than $r_i$. 
 
@@ -80,8 +80,8 @@ $$I(x) = \sum_\limits{i-1}^r \frac{G_i(x)}{(1-\gamma_i)^{ss_i}}$$
 
 where $s_i$ is the degree of the polynomial $b_i$.
 
-Hence our formula for $S$ in the inhomogenous case is
-* $S(x) = (P(x) + I(x))/Q(x)$
+Hence our formula for $F_S$ in the inhomogenous case is
+* $F_S(x) = (P(x) + I(x))/Q(x)$
 
 and so the general form of the generating function is
 
@@ -97,8 +97,8 @@ Lets try this with the following Divide and Conquer recursion for multiplying 2 
 Using $n=2^k$ this becomes a linear inhomogeneous recursion $S(k) = T(2^k)$
 * $S(0) = 1$
 * $S(k) = 4 S(k-1) + 4 * 2^k$
-* so $(1-4x) S = 4/(1-2x) - 3 = (1+6x)/(1-2x)$
-* so $S = (1+6x)/((1-4x)(1-2x))$
+* so $(1-4x) F_S = 4/(1-2x) - 3 = (1+6x)/(1-2x)$
+* so $F_S = (1+6x)/((1-4x)(1-2x))$
 
 From our observations above this means that the general form of the solution will be
 * $S(n) = a * 4^n + b * 2^n$
