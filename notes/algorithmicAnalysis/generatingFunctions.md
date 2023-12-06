@@ -36,6 +36,7 @@ Let's assume $n=2^k$ and lets solve this recurrence only for powers of 2. Let $S
 * $S(k) = T(2^k) = 4*T(2^k/2) + 8 * 2^k = 4 * T(2^{k-1}) + 8 * 2^k = 4 S(k-1) + 8 * 2^k$
 
 So we get a linear recurrence on S from the divide-and-conquer recurrence on T
+* $S(0)=1$
 * $S(k) = 4 S(k-1) + 8 * 2^k$
 
 If we didn't have the last term $8 * 2^k$, this would be a simple linear recurrence and we know how to solve it
