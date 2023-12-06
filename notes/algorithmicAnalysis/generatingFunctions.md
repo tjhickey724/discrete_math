@@ -32,7 +32,7 @@ If we can find the general form of the solution, then we can use polynomial fitt
 We will use Generating Functions to find that general form.
 
 ## Generating Functions for Inhomogeneous Linear Recurrences
-For a sequence S(k) on the natural numbers 0,1,2,... we can define a formal power series F by
+For a sequence S(k) on the natural numbers 0,1,2,... we can define a formal power series $F_S$ by
 * $F_S(x) = \sum_\limits{i=0}^\infty S(k) x^k$
 
 **Theorem**
