@@ -1,6 +1,17 @@
 # Solving Divide And Conquer recurrences with Generating Functions
 
-Today we will show how to solve recurrences that arise from analyzing divide and conquer algorithms by using Generating Functions.
+Today we will show how to solve recurrences that arise from analyzing divide and conquer algorithms by using Generating Functions. Almost all of the fast algorithms we know rely on divide and conquer techniques where a
+problem of size $n$ is broken down into $b$ problems of size $n/b$  (typically 2 problems of size $n/2$) and
+these are solved and their solutions joined together.  These algorithms always result in a particular kind of 
+recurrence 
+
+$$S(n) =  a S(n/b) + g(n)$$
+
+where we reduce a problem of size $n$ into $a$ problems of size $n/b$ and $a$ and $b$ are integers (1,2,3....).
+We will show how to solve such recurrences when $g$ is a sum of polynomials in $n$ times exponentials
+
+$$g(n) = \sum_\limits{i=1}^m p_i(n) * \beta_i^n$$
+
 The key idea is to 
 1. convert the recurrence equations into an equation on the Generating Function for the series
 and then
