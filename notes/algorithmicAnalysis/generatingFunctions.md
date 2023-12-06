@@ -8,7 +8,7 @@ recurrence
 $$S(n) =  a S(n/b) + g(n)$$
 
 where we reduce a problem of size $n$ into $a$ problems of size $n/b$ and $a$ and $b$ are integers (1,2,3....).
-We will show how to solve such recurrences when $g$ is a sum of polynomials in $n$ times exponentials
+We will show how to solve such recurrences when $g$ is a sum of polynomials $p_i(n)$ times exponentials $\beta_i^n$:
 
 $$g(n) = \sum_\limits{i=1}^m p_i(n) * \beta_i^n$$
 
