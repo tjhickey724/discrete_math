@@ -63,9 +63,8 @@ where $Q(x) = 1 -a_1 x -a_2 x^2 - \ldots - a_m x^m$ and if we let $x = 1/y$ then
 If we factor $Q$ as $\prod_\limits{i=1}^r (x-\beta_i)^{r_i}$ where $r_i$ is the multiplicity of the root $\beta_i$,
 then we can use the partial fractions approach to rewrite $P(x)/Q(x)$ as
 
-$$
-\sum_\limits(i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}}
-$$
+$$\sum_\limits(i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}}$$
+
 where $R_i$ is a polynomial of degree less than $r_i$.
 
 
