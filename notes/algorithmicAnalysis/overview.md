@@ -1,6 +1,8 @@
 # Analysis of Algorithms
 
-In this section we give an overview of techniques for analyzing the performance of algorithms.
+In this section we give an overview of techniques for analyzing the performance of algorithms,
+and in another section we show how to use [generating functions](generatingFunctions.md) to do this
+analysis.
 
 ## Big-Oh, Big-Omega, and Big-Theta notation
 The first step is to define some families of functions that we use to classify algorithms by their
