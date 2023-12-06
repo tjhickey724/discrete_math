@@ -25,6 +25,9 @@ We'll illustrate this with an example. Let's look at the formula that arises fro
 two n-bit numbers usind divide and conquer:
 * $T(1)=1$
 * $T(n) = 4 T(n/2) + 8n$
+* $T(2) = 4 T(2/2) + 8 * 2 = 4 T(1) + 16 = 20$
+* $T(4) = 4 T(4/2) + 8 * 4 = 4 T(2) + 32 = 112$
+* $T(8) = 4 T(8/2) + 8 * 8 = 4 T(4) + 64 = 512$
 
 Our first step is to convert this into a linear recurrence relation by restricting to powers of 2.
 
