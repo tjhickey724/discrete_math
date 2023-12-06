@@ -65,7 +65,7 @@ then we can use the partial fractions approach to rewrite $P(x)/Q(x)$ as
 
 $$\sum_\limits{i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}}$$
 
-where $R_i$ is a polynomial of degree less than $r_i$.
+where $R_i$ is a polynomial of degree less than $r_i$. 
 
 
 
