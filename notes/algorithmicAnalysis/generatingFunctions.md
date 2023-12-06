@@ -15,9 +15,10 @@ $$g(n) = \sum_\limits{i=1}^m p_i(n) * \beta_i^n$$
 The key idea is to 
 1. convert the recurrence equations into an equation on the Generating Function for the series
 and then
-2. to use standard techniques to find the form of the answer, with unspecified variables a,b,c,... and finally
+2. to use standard techniques to find the form of the answer, with unspecified variables a,b,c,... 
 3. use "polynomial fitting" to generate linear equations for those variables which we can solve 
-   using linear algebra techniques such as variable elimination
+   using linear algebra techniques such as variable elimination, and finally
+4. prove that the closed form is correct using induction.
 
 ## Example 0 - converting divide-and-conquer recursions to inhomogeneous linear recurrences
 We'll illustrate this with an example. Let's look at the formula that arises from an algorithm for multiplying 
