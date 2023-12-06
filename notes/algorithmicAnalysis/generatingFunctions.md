@@ -67,6 +67,7 @@ $$S(x) = \frac{R(x)}{Q(x)} = \sum_\limits{i-1}^r \frac{R_i(x)}{(1-\beta_i)^{r_i}
 
 where $R_i$ is a polynomial of degree less than $r_i$. 
 
+## Handling the Inhomogeneous case
 In the case where we have an inhomogeneous equation with polyomials $b_i$ and real (or complex) values $\gamma_i$
 * $S(k) = a_1 S(k-1) + a_2 S(k-2) + .... + a_j S(k-j) + b_1(k)\gamma_1^k + \ldots + b_s(k) \gamma_s^k$
 
