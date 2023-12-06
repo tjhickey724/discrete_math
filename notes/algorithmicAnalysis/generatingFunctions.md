@@ -109,7 +109,7 @@ Which gives us $2a = 10$ so $a=5$ and $b=-4$ and
 * $S(k) = 5 * 4^k - 4 * 2^k$
 
 and letting $k=\log_2(n)$, i.e. $n = 2^k$ we get
-* $T(n) = 5 n^2 - 4n$
+* $T(n) = 5 n^2 - 4n = O(n^2)$
 
 when $n$ is a power of $2$.
 
@@ -118,6 +118,16 @@ Let's try this with
 * $T(1)=1$  $T(n) = 3 T(n/2) + 15n$
 
 and we'll find that the result is
-* $T(n) = 31 n^r - 30 n$
+* $S(k) = 31 * 3^k - 30 * 2^k$, and so with $n=2^k$
+* $T(n) = 31 n^r - 30 n = O(n^r)$
 
-where $r = \log_2(3) = 1.58...$
+where $r = \log_2(3) = 1.58...$ and $n^r = 2^{k \log_2(3)} = 2^{\log_2(3)}^k = 3^k$
+
+## Example 4
+Let's try it with the merge sort recursion
+* $T(n) = 2 T(n/2) + n$
+* $S(k) = 2 S(k-1) + 2^k$
+
+and we'll find that
+* $S(k) = (k+1)2^k$ and so
+* $T(n) = (\log_2(n) + 1) n = n\log_2(n) + n = O(\log_2(n))$
