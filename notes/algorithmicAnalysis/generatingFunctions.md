@@ -148,4 +148,4 @@ Let's try it with the merge sort recursion
 
 and we'll find that
 * $S(k) = (k+1)2^k$ and so
-* $T(n) = (\log_2(n) + 1) n = n\log_2(n) + n = O(\log_2(n))$
+* $T(n) = (\log_2(n) + 1) n = n\log_2(n) + n = O(n\log_2(n))$
