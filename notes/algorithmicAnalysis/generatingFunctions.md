@@ -20,7 +20,7 @@ Let's assume $n=2^k$ and lets solve this recurrence only for powers of 2. Let $S
 * $S(k) = T(2^k) = 4*T(2^k/2) + 8 2^k = 4 * T(2^{k-1}) + 8 * 2^k = 4 S(k-1) + 8 * 2^k$
 
 So we get a linear recurrence on S from the divide-and-conquer recurrence on T
-* $S(k) = 4 S(k-1) + 8 2^k$
+* $S(k) = 4 S(k-1) + 8 * 2^k$
 
 If we didn't have the last term $8 2^k$, this would be a simple linear recurrence and we know how to solve it
 by finding the characteristic polynomial $x-4$ and using polynomial fitting for the form $s(k) = a*2^k$.
@@ -29,4 +29,25 @@ But we have this additional term which makes the recurrence into an **inhomogene
 If we can find the general form of the solution, then we can use polynomial fitting to find the closed form.
 
 We will use Generating Functions to find that general form.
+
+## Generating Functions for Inhomogeneous Linear Recurrences
+For a sequence S(k) on the natural numbers 0,1,2,... we can define a formal power series F by
+* $F(x) = \sum_\limits{i=0}^\infty S(k) x^k$
+
+If we have a linear recurrence on $S$ 
+* $S(k) = a_1 S(k-1) + a_2 S(k-2) + .... + a_j S(k-j)$
+
+that can be transformed into a equation on $S$
+* $(1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j)) S = P(x)$
+
+where $P$ is a polynomial in x of degree at most $j-1$. We can see this by observing that
+* $ a_j x^j S(x) = \sum_\limits{k=0}^\infty S(k) x^{k+j}$
+* $ = \sum_\limits{k=j}^\infty  a_j S(k-j) x^{k}$
+
+So 
+* $( a_1 x + a_2x^2 + \ldots +a_m x^m) S = \sum_\limits{k=j}^\infty b_k x^{k}$
+* where $b_k = \sum_\limits{i=1}^m a_j S(k-j)$ for $k \ge m$
+* So $b_k = S(k)$ for $k\ge m$
+
+
 
