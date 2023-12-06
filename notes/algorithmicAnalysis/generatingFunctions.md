@@ -11,7 +11,8 @@ and then
 ## Example 0 - converting divide-and-conquer recursions to inhomogeneous linear recurrences
 We'll illustrate this with an example. Let's look at the formula that arises from an algorithm for multiplying 
 two n-bit numbers usind divide and conquer:
-* $T(1)=1  T(n) = 4 T(n/2) + 8n$
+* $T(1)=1$
+* $T(n) = 4 T(n/2) + 8n$
 
 Our first step is to convert this into a linear recurrence relation by restricting to powers of 2.
 
@@ -89,8 +90,9 @@ $$S(k) = \sum_\limits{i=1}^m c_i(k)\beta_i^k + \sum_\limits{i=1}^r d_i(k)\gamma_
 and we can use polynomial fitting to find the coefficients of the polynomials $c_i$ and $d_i$.
 
 ## Example 1
-Lets try this with the following Divide and Conquer recursion 
-* $T(1)=1$  $T(n) = 4 T(n/2) + 8n$
+Lets try this with the following Divide and Conquer recursion for multiplying 2 n-bit binary numbers
+* $T(1)=1$
+* $T(n) = 4 T(n/2) + 8n$
 
 Using $n=2^k$ this becomes a linear inhomogeneous recursion $S(k) = T(2^k)$
 * $S(0) = 1$
@@ -118,8 +120,16 @@ and letting $k=\log_2(n)$, i.e. $n = 2^k$ we get
 when $n$ is a power of $2$.
 
 ## Example 2
-Let's try this with 
-* $T(1)=1$  $T(n) = 3 T(n/2) + 15n$
+Let's try this with the smart multiplication of 2 n-bit binary numbers using the identity
+* $(A_1 * 2^n + A_0) * (B_1 * 2^n + B_0) =$
+* $A_1B_1 (2^{2n} + 2^n) + (A_1-A_0) * (B_0-B_1) * 2^n + A_0 B_0 (1 + 2^n)$
+
+which uses only 3 n-bit multiplications instead of the usual four with
+$ $A_1B_1 2^{2n} + (A_1B_0 + A_0 B_1) 2^n + A_0 B_0$
+
+The Recursive Equation for this is 
+* $T(1)=1$
+* $T(n) = 3 T(n/2) + 15n$
 
 and we'll find that the result is
 * $S(k) = 31 * 3^k - 30 * 2^k$, and so with $n=2^k$
@@ -129,7 +139,9 @@ where $r = \log_2(3) = 1.58...$ and $n^r = 2^{k \log_2(3)} = (2^{\log_2(3)})^k =
 
 ## Example 4
 Let's try it with the merge sort recursion
+* $T(1) = 1$
 * $T(n) = 2 T(n/2) + n$
+* $S(0)=1$
 * $S(k) = 2 S(k-1) + 2^k$
 
 and we'll find that
