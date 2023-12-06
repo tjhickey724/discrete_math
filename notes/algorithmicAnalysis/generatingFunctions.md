@@ -60,7 +60,7 @@ So
 This implies that 
 * $S(x) = P(x)/Q(x)$
 
-where $Q(x) = 1 -a_1 x -a_2 x^2 - \ldots - a_m x^m$ and if we let $x = 1/y$ then $Q(1/y)$ is the characteristic polymomial.
+where $Q(x) = 1 -a_1 x -a_2 x^2 - \ldots - a_m x^m$ and if we let $x = 1/y$ then $y^m Q(1/y)$ is the characteristic polymomial.
 
 If we factor $Q$ as $\prod_\limits{i=1}^r (x-\beta_i)^{r_i}$ where $r_i$ is the multiplicity of the root $\beta_i$,
 then we can use the partial fractions approach to rewrite $S(x)$ as 
