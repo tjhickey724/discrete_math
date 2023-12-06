@@ -121,7 +121,7 @@ and we'll find that the result is
 * $S(k) = 31 * 3^k - 30 * 2^k$, and so with $n=2^k$
 * $T(n) = 31 n^r - 30 n = O(n^r)$
 
-where $r = \log_2(3) = 1.58...$ and $n^r = 2^{k \log_2(3)} = 2^{\log_2(3)}^k = 3^k$
+where $r = \log_2(3) = 1.58...$ and $n^r = 2^{k \log_2(3)} = {2^{\log_2(3)}}^k = 3^k$
 
 ## Example 4
 Let's try it with the merge sort recursion
