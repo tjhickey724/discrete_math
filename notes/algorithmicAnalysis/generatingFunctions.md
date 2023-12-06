@@ -34,11 +34,13 @@ We will use Generating Functions to find that general form.
 For a sequence S(k) on the natural numbers 0,1,2,... we can define a formal power series F by
 * $F(x) = \sum_\limits{i=0}^\infty S(k) x^k$
 
+**Theorem**
 If we have a linear recurrence on $S$ 
 * $S(k) = a_1 S(k-1) + a_2 S(k-2) + .... + a_j S(k-j)$
 
 then it can be transformed into a equation on $S$
 * $(1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j)) S = P(x)$
+* $S(x) = P(x)/Q(x)$ where $Q(x) = (1 - (a_1 x + a_2x^2 + \ldots+ a_m x^j))$
 
 where $P$ is a polynomial in x of degree at most $j-1$. 
 
