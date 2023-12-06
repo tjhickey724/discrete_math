@@ -125,7 +125,9 @@ Let's try this with the smart multiplication of 2 n-bit binary numbers using the
 * $A_1B_1 (2^{2n} + 2^n) + (A_1-A_0) * (B_0-B_1) * 2^n + A_0 B_0 (1 + 2^n)$
 
 which uses only 3 n-bit multiplications instead of the usual four with
-$ $A_1B_1 2^{2n} + (A_1B_0 + A_0 B_1) 2^n + A_0 B_0$
+$A_1B_1 2^{2n} + (A_1B_0 + A_0 B_1) 2^n + A_0 B_0$
+
+though it has many more additions and shifts (15 compared to 4)
 
 The Recursive Equation for this is 
 * $T(1)=1$
