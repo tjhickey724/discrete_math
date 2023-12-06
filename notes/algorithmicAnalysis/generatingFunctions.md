@@ -8,7 +8,7 @@ and then
 3. use "polynomial fitting" to generate linear equations for those variables which we can solve 
    using linear algebra techniques such as variable elimination
 
-## Example 1 - converting divide-and-conquer recursions to inhomogeneous linear recurrences
+## Example 0 - converting divide-and-conquer recursions to inhomogeneous linear recurrences
 We'll illustrate this with an example. Let's look at the formula that arises from an algorithm for multiplying 
 two n-bit numbers usind divide and conquer:
 * $T(1)=1  T(n) = 4 T(n/2) + 8n$
@@ -95,6 +95,8 @@ Lets try this with the following Divide and Conquer recursion
 Using $n=2^k$ this becomes a linear inhomogeneous recursion $S(k) = T(2^k)$
 * $S(0) = 1$
 * $S(k) = 4 S(k-1) + 4 * 2^k$
+* so $(1-4x) S = 4/(1-2x) - 3 = (1+6x)/(1-2x)$
+* so $S = (1+6x)/((1-4x)(1-2x))$
 
 From our observations above this means that the general form of the solution will be
 * $S(n) = a * 4^n + b * 2^n$
