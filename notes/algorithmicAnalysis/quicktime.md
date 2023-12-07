@@ -66,3 +66,12 @@ so
 
 $$T(n) \le  k n\log(n) + (cn + \frac{4b}{n} - kn/2)$$
 
+and the last term simplifies as
+
+$$(cn + \frac{4b}{n} - (2b+2c)n/2) = n (c + 4b/n^2 -b - c) < 0$$
+
+because $n\ge 2$ implies $4b/n^2\le b$, so
+
+$$T(n) \le  k n\log(n)$$
+
+**QED**
