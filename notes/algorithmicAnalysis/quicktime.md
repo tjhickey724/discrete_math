@@ -60,6 +60,9 @@ $$T(n) \le cn + \frac{4b}{n} + \frac{2}{n} * k * \frac{n^2\log(n) - n^2/2}{2}$$
 
 and simplifying a bit we get
 
-$$T(n) \le cn + \frac{4b}{n} +  kn\log(n) - kn/2 = k n\log(n) + cn + \frac{4b}{n} - kn/2$$
+$$T(n) \le cn + \frac{4b}{n} +  kn\log(n) - kn/2 $$
 
+so
+
+$$T(n) \le  k n\log(n) + (cn + \frac{4b}{n} - kn/2)$$
 
