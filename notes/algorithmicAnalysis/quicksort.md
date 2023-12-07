@@ -52,6 +52,8 @@ Next, since $x \log(x)$ is an increasing function on $[2,n]$ we can bound the su
 
 $$\sum_\limits{i=2}^{n-1}i \log(i) \le \int_\limits{2}^n x \log(x) dx$$
 
+![xlogx](xlogx-integral.png)
+
 and from Calculus we know that 
 
 $$\int_\limits{2}^n x \log(x) dx = ((1/2) * (x^2 \log(x) - x^2/2) \vert_2^n \le \frac{n^2\log(n) - n^2/2}{2}$$
