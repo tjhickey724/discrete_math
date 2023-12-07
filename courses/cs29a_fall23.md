@@ -273,5 +273,9 @@ and complete the homework problems on the MLA due on Monday.
 [Crypto](../notes/cryptograph/overview.md)
 
 # Week 13: 12/4-12/8
-## Lesson 37
+## Lesson 37 and 38
 [Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
+
+## Lesson 39
+[Quicksort Analysis](../notes/algorithmicAnalysis/quicksort.md)
+
