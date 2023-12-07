@@ -1,4 +1,4 @@
-# Average case analysis of Quicktime
+# Average case analysis of Quicksort
 
 The quicksort algorithm is a divide and conquer algorithm which sorts a list of size n as follows:
 * pick a random member p of the list, called the pivot
