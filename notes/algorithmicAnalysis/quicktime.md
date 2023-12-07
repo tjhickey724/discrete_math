@@ -10,3 +10,11 @@ The quicksort algorithm is a divide and conquer algorithm which sorts a list of 
 In the worst case, the pivot could be the first element and so the time would be n + n-1 + n-2 + ... + 1 = n(n+1)/2
 
 We want to find the average case which will be O(nlog(n))
+
+For the average, the position of the pivot could be at any of the n elements in the list
+and if it is in position i, then size(L0) = i-1 and size(L1) = n-i
+So the execution time, on the average will be
+
+$$T(n) = cn + \frac{1}{n}\sum_\limits{i=1}^n T(i-1) + T(n-i)$$
+
+
