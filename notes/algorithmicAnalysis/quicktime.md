@@ -42,7 +42,17 @@ Applying our induction hypothesis in the case where $n\gt 2$ we get
 
 $$T(n) = cn + \frac{2}{n}\sum_\limits{i=0}^{n-1} k i \log(i)$$
 
+We know that $T(0)=T(1)=b$ so we can pull those two terms out and sum from $n=2$
 
+$$T(n) = cn + \frac{4b}{n} + \frac{2}{n}\sum_\limits{i=2}^{n-1} k i \log(i)$$
+
+Next, since $x \log(x)$ is an increasing function on $[2,n]$ we can bound the sum by an integral!
+
+$$\sum_\limits{i=2}^{n-1}i \log(i) \le \int_\limits{2}^n x \log(x) dx$$
+
+and from Calculus we know that 
+
+$$\int_\limits{2}^n x \log(x) dx = ((1/2) * (x \log(x) - x^2/2) \vert_2^n \le n\log(n) - n^2/2$$
 
 
 
