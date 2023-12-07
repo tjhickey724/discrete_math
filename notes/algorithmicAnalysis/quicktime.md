@@ -11,10 +11,38 @@ In the worst case, the pivot could be the first element and so the time would be
 
 We want to find the average case which will be O(nlog(n))
 
+## Setting up the equation
 For the average, the position of the pivot could be at any of the n elements in the list
 and if it is in position i, then size(L0) = i-1 and size(L1) = n-i
 So the execution time, on the average will be
 
 $$T(n) = cn + \frac{1}{n}\sum_\limits{i=1}^n T(i-1) + T(n-i)$$
+
+where $c$ is some constant. Also, we can assume that $T(0)$ and $T(1)$ take some constant time, say $b$, so
+* splitting a list of size $n$ takes $cn$ time
+* sorting a list of size 0 or 1 takes time $b$
+
+## Simplifying the equation
+If we stare at this equation for a moment we can see that each value $T(j)$ appears twice in the sum,
+once as $i-1$ for $i=j+1$ and once for $n-i$ for $i=n-j$, so we can rewrite it as
+
+$$T(n) = cn + \frac{2}{n}\sum_\limits{i=0}^{n-1} T(i)$$
+
+## Stating the Theorem, which we'll prove by induction
+
+**Theorem** $T(n) \le k n \log(n)$ where $k=2b+2c$ for every $n\ge 2$.
+
+We will prove this by induction
+
+### Base case:
+$T(2) = 2c + (2/2) * (T(0) + T(1)) = 2c + (2/2)* (b+b) = 2c+2b = k \lt k 2 \log(2)$  as $1< 2\log(2)$.
+
+### Induction step
+Applying our induction hypothesis in the case where $n\gt 2$ we get
+
+$$T(n) = cn + \frac{2}{n}\sum_\limits{i=0}^{n-1} k i \log(i)$$
+
+
+
 
 
