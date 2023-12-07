@@ -52,7 +52,14 @@ $$\sum_\limits{i=2}^{n-1}i \log(i) \le \int_\limits{2}^n x \log(x) dx$$
 
 and from Calculus we know that 
 
-$$\int_\limits{2}^n x \log(x) dx = ((1/2) * (x \log(x) - x^2/2) \vert_2^n \le n\log(n) - n^2/2$$
+$$\int_\limits{2}^n x \log(x) dx = ((1/2) * (x^2 \log(x) - x^2/2) \vert_2^n \le \frac{n^2\log(n) - n^2/2}{2}$$
 
+So, substituting this into our formula for $T(n)$ we get 
+
+$$T(n) \le cn + \frac{4b}{n} + \frac{2}{n} * k * \frac{n^2\log(n) - n^2/2}{2}$$
+
+and simplifying a bit we get
+
+$$T(n) \le cn + \frac{4b}{n} +  kn\log(n) - kn/2 = k n\log(n) + cn + \frac{4b}{n} - kn/2$$
 
 
