@@ -1,11 +1,12 @@
 # CS29a Spring 2025 Discrete Structures 
 ## Instructor: Tim Hickey at Brandeis University
 
-# CS29a Fall23 Brandeis University
-This file contains links to course notes and homework for sections 1 and 2 of CS29a in Fall 2023
+This file contains links to course notes and homework for CS29a in Spring 2025
 
-Homework will consist of readings (sometimes with reflections) and Mastery Learning App (MLA) problems.
-The MLA Homework site is https://mastery.cs.brandeis.edu  with PIN 731541
+## Homework and Exam Software
+We will be using the Mastery Learning App [MLA](https://specsgradingapp.onrender.com)
+for all work in this class including weekly exams and homework and daily in-class questions.
+You can connect to the app using your Brandeis login and the following PIN ???????
 
 ## Textbooks 
 Most of our readings will come from the follwoing online books:
@@ -28,21 +29,21 @@ Most of our readings will come from the follwoing online books:
 # Lesson Notes
 
 ---
-# Week 0: 8/28-9/1
+# Week 1: 1/14,17/25
 
-### Homework - due Wednesday 9/6/2023 before class
+### Homework - due Tuesday 1/14/25 before the first class
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
 * MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
 
-## Lesson 1 Thu 8/31/2023  <br> _Intro and overview_
+## Lesson 1 Tue 1/14/2023  <br> _Intro and overview_
 
 * We begin with
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
-* We ask everyhone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN 5074577
+* We ask everyhone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN ???????
 * We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
@@ -50,51 +51,39 @@ and try some of the problems at the end of the sections. We will go over some of
 
 ---
 
-# Week 1: 9/4-9/8
 
-### Homework - due Monday 9/11/2023 before class
-Read 
-* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
-* Chapter 2 of PDM
-* Chapter 8 of MFLP
-  
-Connect to the https://mastery.cs.brandeis.edu site with PIN 731541 and do all of the problems in the following problem sets:
-* Translation to Propositional Logic
-* Evaluation of Propositional Formulas
-* Truth Tables
 
-## Lesson 2 Wed 9/6/2023 <br> _Propositional Calculus and Boolean Algebra_
-* We begin with a review of the [syntax of formulas in the propositional calculus]( https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
-* Next we get [more practice converting propositional calculus to English and vice versa](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
+## Lesson 2 Fri 1/17 <br> _Propositional Calculus and Boolean Algebra_
+
 * Next we show how to find the value of a propositional formula for particular values of its variables
   To do this we need to [create a parse tree for a formula, and then use that tree to evaluate the formula](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
-
-
-
-## Lesson 3 Thu 9/7/2023 <br>  _Truth Tables_
 * We show how to [create a truth table](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTables.md)
   for a formula, this shows its value for all possible interpretations of its variables.
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We also show how to [use a Parse Tree to evaluate a Boolean formula on an interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 * We show how to [estimate how long it would take to prove a formula is a tautology with the Truth Method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md)
 
----
+# Week 2: 1/24  (Tuesday is a Brandeis Monday)
 
-# Week 2: 9/11-9/15
-
-### Homework - due Monday 9/18/2023 before class
+### Homework - due Monday 1/24 before class
 Read 
 * [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
+* Chapter 2 of PDM
+* Chapter 8 of MFLP
+  
+Connect to the MLA homework site and do all of the problems in the following problem sets:
+* Translation to Propositional Logic
+* Evaluation of Propositional Formulas
+* Truth Tables
 
-Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/18
-
-## Lesson 4 Mon 9/11/2023 <br> _Inference_
+## Lesson 3 Mon1/24 <br> _Inference_
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and we show that every formula can be reduced to
   [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
   
+# Week 3: 1/28,1/31
 
 ## Lesson 5 Wed 9/13/2023 <br> _The Truth Tree Method for Propositional Logic_
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
@@ -106,7 +95,7 @@ and we show that every formula can be reduced to
 
 ---
 
-# Week 3: 9/18-9/22
+
 
 ### Homework - due Tuesday (Brandeis Monday) 9/26/2023 before class
 Read 
