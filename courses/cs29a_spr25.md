@@ -53,13 +53,12 @@ and try some of the problems at the end of the sections. We will go over some of
 * We begin with
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
-* We ask everyhone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN ???????
+* We ask everyone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN ???????
 * We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
   - We get some practice in [converting between English and the Propoaitional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 
----
 
 
 
@@ -72,6 +71,8 @@ and try some of the problems at the end of the sections. We will go over some of
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We also show how to [use a Parse Tree to evaluate a Boolean formula on an interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 * We show how to [estimate how long it would take to prove a formula is a tautology with the Truth Method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md)
+
+---
 
 # Week 2: 1/24  (Tuesday is a Brandeis Monday)
 
@@ -95,6 +96,8 @@ and we show that every formula can be reduced to
   [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
 * We also show that conjunction and disjunction exhibit [a specific kind of duality](https://en.wikipedia.org/wiki/Conjunction/disjunction_duality)
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
+
+---
   
 # Week 3: 1/28,1/31
 ### Motivation
@@ -114,7 +117,7 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
 
----
+
 
 
 
@@ -125,6 +128,7 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
 * We show [how to evaluate a First Order Formula given an Interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLinterpretations.md).
+---
 
 # Week 4: 2/4, 2/7
 ### Motivation
