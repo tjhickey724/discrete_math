@@ -74,7 +74,8 @@ and try some of the problems at the end of the sections. We will go over some of
 
 ---
 
-# Week 2: 1/24  (Tuesday is a Brandeis Monday)
+# Week 2: 1/24  
+(Tuesday is a Brandeis Monday)
 
 ### Homework - due Monday 1/24 before class
 Read 
