@@ -77,7 +77,7 @@ and try some of the problems at the end of the sections. We will go over some of
 # Week 2: 1/24  
 (Tuesday is a Brandeis Monday)
 
-### Homework - due Monday 1/24 before class
+### Homework - due Friday 1/24 before class
 Read 
 * [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
 * Chapter 2 of PDM
