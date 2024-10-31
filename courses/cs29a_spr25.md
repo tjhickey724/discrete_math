@@ -3,7 +3,7 @@
 
 This file contains links to course notes and homework for CS29a in Spring 2025
 
-## Homework and Exam Software
+## The Mastery Learning App
 We will be using the Mastery Learning App [MLA](https://specsgradingapp.onrender.com)
 for all work in this class including weekly exams and homework and daily in-class questions.
 You can connect to the app using your Brandeis login and the following PIN ???????
@@ -30,6 +30,16 @@ Most of our readings will come from the follwoing online books:
 
 ---
 # Week 1: 1/14,17/25
+### Motivation
+This week we will give an overview of the course and start our first major topic
+which is Propositional Logic and Boolean Algebra. 
+
+Logic pervades all parts of computer
+science from the boolean expressions in conditionals and loops, to proofs of the correctness
+and efficiency of algorithms. This first week we will focus on the Propositional Logic which deals
+with simple statements containing propositions that can be true or false. In the following two weeks
+we will expand to first order logic that is the formal language of Mathematics. Every other section
+of this course will rely on your ability to work with, and understand the meaning of, logical formulas.
 
 ### Homework - due Tuesday 1/14/25 before the first class
 Read the following sections of two online books on Discrete Math
@@ -81,15 +91,26 @@ Connect to the MLA homework site and do all of the problems in the following pro
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and we show that every formula can be reduced to
   [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
+  and also to
+  [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
+* We also show that conjunction and disjunction exhibit [a specific kind of duality](https://en.wikipedia.org/wiki/Conjunction/disjunction_duality)
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
   
 # Week 3: 1/28,1/31
+### Motivation
+This week we learn a graphical method for proving theorems in Propositional Logic.
+Next week we'll show how to do this for First Order Logic.
 
-## Lesson 5 Wed 9/13/2023 <br> _The Truth Tree Method for Propositional Logic_
+### Homework - due Tuesday (Brandeis Monday) 1/28 before class
+Read 
+* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
+* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+
+Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 problems
+
+## Lesson 4 Tue 1/28 <br> _The Truth Tree Method for Propositional Logic_
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 * We give example of using the [Truth Tree method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeMethod.md) to prove Theorems and to find counter-examples and we describe the steps of the Truth Tree method and explain why they work
-
-## Lesson 6 Thu 9/14/2023 <br> _More Truth Tree Method Practice_
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
 
@@ -97,72 +118,69 @@ and we show that every formula can be reduced to
 
 
 
-### Homework - due Tuesday (Brandeis Monday) 9/26/2023 before class
-Read 
-* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
-* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
 
-Connect to the [MLA](https://mastery.cs.brandeis.edu) Homework site with PIN 731541 and do all of the problems due 9/25
 
-## Lesson 7 Mon 9/18/2023 <br> _The Predicate Calculus_
+## Lesson 5 Fri 1/31 <br> _The Predicate Calculus_
 * We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
-
-## Lesson 8 Wed 9/20/2023 <br> _Simplification of First Order Formulas_
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
 * We show [how to evaluate a First Order Formula given an Interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLinterpretations.md).
 
-
-
-## Lesson 9 Thu 9/21/2023 <br> _Inference in First Order Logic_
-* We give an overview of [the simplification rules in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/simplification.md)
-* We give [an example of translating an argument to the predicate calculus and simplifying the resulting argument](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
-
----
-
-# Week 4: 9/25-9/29
+# Week 4: 2/4, 2/7
+### Motivation
+This week we complete our study of logic by learning how to use the Tree Method to prove that
+a formula follows from a set of assumptions, or to find a counter example.
 
 ### Homework
 To be announced
 
-## Lesson 10 Tue 9/26/2023 <br> _Truth Trees for Predicate Calculus_
+
+## Lesson 6 Tue 2/4 <br> _Inference in First Order Logic_
+* We give an overview of [the simplification rules in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/simplification.md)
+* We give [an example of translating an argument to the predicate calculus and simplifying the resulting argument](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
 * We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 * We show [how the Truth Tree method can be used in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truthTrees.md)
 
-## Lesson 11 Wed 9/27/2023 <br> _More Truth Trees for Predicate Calculus_
+## Lesson 7 Fri 2/7 <br> _More Truth Trees for Predicate Calculus_
 * We get more practice using the Truth Tree method to show arguments are valid
   * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
   * and looking at [the Peano Axiomatization of Arithmetic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/peanoAxioms.md).
 
-## Lesson 12 Thu 9/28/2023 <br> _Intro to Proofs_
-* We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 
 
-# Week 5: 10/2-10/6
+
+# Week 5: 2/11, 2/14
 
 ### Homework
 * Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 * Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 * Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
 
-## Lesson 13 Mon 10/2/2023 <br> _Practice with Proof Techniques_
-* We complete the overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
+## Lesson 8 Tue 2/11 <br> _Intro to Proofs_
+* We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 
 
-## Lesson 14 Wed 10/4 <br> _Mathematical Notation_
+## Lesson 9 Fri 2/14 <br> _Mathematical Notation_
 * We first complete our overview of proof techniques by giving an interesting proof by cases
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
+
+# Vacation Week 2/17-2/21
+
+# THE REST OF THIS PAGE HAS NOT YET BEEN PROCESSED
+
+# Week 6: 2/25, 2/28
+
+### Homework
+* Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+
 
 ## Lesson 15 Thu 10/5 <br> _Well Ordering Principle and more notation_
 * We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
 * Then we continue giving [more examples of proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/moreProofs.md), some using this new notation.
 
-# Week 6: 10/8-12
 
-### Homework
-* Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 
 ## Lesson 16 Wed 10/11 <br> _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
