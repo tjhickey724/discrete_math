@@ -88,7 +88,7 @@ Connect to the MLA homework site and do all of the problems in the following pro
 * Evaluation of Propositional Formulas
 * Truth Tables
 
-## Lesson 3 Mon1/24 <br> _Inference_
+## Lesson 3 Fri 1/24 <br> _Inference_
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and we show that every formula can be reduced to
