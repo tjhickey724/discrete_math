@@ -4,9 +4,9 @@
 This file contains links to course notes and homework for CS29a in Spring 2025
 
 ## The Mastery Learning App
-We will be using the Mastery Learning App [MLA](https://specsgradingapp.onrender.com)
+We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
 for all work in this class including weekly exams and homework and daily in-class questions.
-You can connect to the app using your Brandeis login and the following PIN ???????
+When you register for the course you will be added to the app;
 
 ## Textbooks 
 Most of our readings will come from the follwoing online books:
