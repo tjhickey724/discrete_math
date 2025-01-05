@@ -45,8 +45,8 @@ where $F_2$ is not equivalent to $F_1$ but is true whenever $F_1$ is true...
 
 Using these rules you can convert any boolean formula into a normal form called _Disjunctive Normal Form_ ( ***DNF*** )
 which is a disjunction (ORs) of conjunctions (ANDs) or propositions or negated propositions.  We can easily
-write downn the DNF of a formula by looking at its truth table, e.g. lets look at the truth table for
-$(P \rightarrow \neg Q \wedge R $
+write down the DNF of a formula by looking at its truth table, e.g. lets look at the truth table for
+$(P \rightarrow \neg Q \wedge R) $
 
 | $P$ | $Q$ | $R$ |   $P \rightarrow \neg Q \wedge R $ |   
 | --- | --- | --- | --- |
