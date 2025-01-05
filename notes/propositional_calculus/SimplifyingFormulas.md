@@ -50,9 +50,9 @@ First we replace the implications with disjunctions:
 
 $(A\rightarrow B) \rightarrow \neg (B \rightarrow A) \equiv$
 
-$(\neg A\ vee B) \rightarrow \neg (\neg B \vee A) \equiv$
+$(\neg A\vee B) \rightarrow \neg (\neg B \vee A) \equiv$
 
-$\neg (\neg A\ vee B) \vee \neg (\neg B \vee A) \equiv$
+$\neg (\neg A\vee B) \vee \neg (\neg B \vee A) \equiv$
 
 Then we apply the DeMorgan rules:
 
