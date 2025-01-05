@@ -34,8 +34,8 @@ Each sentence has a truth value (true or false) which can be obtained from the t
 An assignment of truth values $\\{T,F\\}$ to a set of variables is called an __interpretation__ e.g.
 
 $P\longrightarrow F$<br>
-Q\longrightarrow T$<br>
-R\longrightarrow F$<br>
+$Q\longrightarrow T$<br>
+$R\longrightarrow F$<br>
 
 A formula which is true for all interpretations is called a __tautology__
 
