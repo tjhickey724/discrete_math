@@ -53,7 +53,7 @@ and try some of the problems at the end of the sections. We will go over some of
 * We begin with
   - an overview of the course and
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
-* We ask everyone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu) with PIN ???????
+* We ask everyone to connect to the [Mastery Learning App](https://mastery.cs.brandeis.edu), if you have registered for the course you will see the CS29a appear on the MLA when you log in with your Brandeis ID.
 * We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
