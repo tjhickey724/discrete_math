@@ -36,7 +36,7 @@ that make P and P implies Q true, they also make Q true.
 Use the Truth Table method to show that the following is a valid argument:
 ```
 P implies R
-Q impiles R
+Q implies R
 P or Q
 ------------
 R
