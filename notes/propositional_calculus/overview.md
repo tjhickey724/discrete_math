@@ -31,8 +31,8 @@ Each sentence has a truth value (true or false) which can be obtained from the t
 
  
 ## Definitions of some terms related to Propositional Calculus
-An assignment of truth values to a set of variables is called an __interpretation__
-e.g. P=F Q=T R=F
+An assignment of truth values \{T,F\}$ to a set of variables is called an __interpretation__
+e.g. $P\longrightarrow F$, Q=T R=F
 
 A formula which is true for all interpretations is called a __tautology__
 
@@ -46,7 +46,7 @@ If $\neg E$ is not satisfiable, then E is a tautology.
 
 The formula  $\neg (P \wedge Q)$ is satisfiable, but is not a tautology.
 
-The formaula $P \wedge \neg P$ is not satisfiable.
+The formula $P \wedge \neg P$ is not satisfiable.
 
 How long does it take to test if a formula with N variables is a tautology using a truth table?
 
