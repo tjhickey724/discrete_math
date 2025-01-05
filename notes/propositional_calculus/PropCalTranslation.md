@@ -60,11 +60,11 @@ ___
 
 # Translate to Logic
 
-Suppose we have the following Propositions;
-S = the shift key is pressed
-X = the X key is pressed
-E = the form is in edit mode
-A = an alert box pops up
+Suppose we have the following Propositions;<br>
+S = the shift key is pressed<br>
+X = the X key is pressed<br>
+E = the form is in edit mode<br>
+A = an alert box pops up<br>
 
 Translate the following statements to Propositional Logic using only the propositions S, X, E, A and the following logical connectives: 
   not, and, xor, or, implies, iff. 
