@@ -33,9 +33,9 @@ Each sentence has a truth value (true or false) which can be obtained from the t
 ## Definitions of some terms related to Propositional Calculus
 An assignment of truth values $\\{T,F\\}$ to a set of variables is called an __interpretation__ e.g.
 
-$P\longrightarrow F$, 
+$P\longrightarrow F$ 
 
-$Q\longrightarrow T$. 
+$Q\longrightarrow T$ 
 
 $R\longrightarrow F$
 
