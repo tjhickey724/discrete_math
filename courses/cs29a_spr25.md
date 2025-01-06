@@ -23,6 +23,7 @@ Most of our readings will come from the follwoing online books:
   by _Paul Teller_ 
 * TLN: [The Logic Notes](https://users.cecs.anu.edu.au/~jks/LogicNotes/index.html)
   by _John Slaney_
+* LibreTexts: [Free and Open Source Discrete Math Textbooks](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
 
 ---
 
@@ -46,7 +47,7 @@ Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
 * MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
-and try some of the problems at the end of the sections. We will go over some of them in class on Monday.
+and try some of the problems at the end of the sections. We will go over some of them in class.
 
 ## Lesson 1 Tue 1/14/2023  <br> _Intro and overview_
 
