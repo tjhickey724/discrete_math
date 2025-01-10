@@ -3,6 +3,15 @@
 
 This file contains links to course notes and homework for CS29a in Spring 2025
 
+---
+
+# Lesson Notes
+* [Lesson 1](#lesson-1)
+* [Lesson 2](#lesson-2)
+* [Lesson 3](#lesson-3)
+* [Lesson 4](#lesson-4)
+
+
 ## The Mastery Learning App
 We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
 for all work in this class including weekly exams and homework and daily in-class questions.
@@ -27,8 +36,7 @@ Most of our readings will come from the follwoing online books:
 
 ---
 
-# Lesson Notes
-* [Lesson 1](#lesson-1)
+
 
 ---
 # Week 1: 1/14,17/25
@@ -65,7 +73,8 @@ and try some of the problems at the end of the sections. We will go over some of
 
 
 
-## Lesson 2 Fri 1/17 <br> _Propositional Calculus and Boolean Algebra_
+## Lesson 2 
+### Fri 1/17 <br> _Propositional Calculus and Boolean Algebra_
 
 * Next we show how to find the value of a propositional formula for particular values of its variables
   To do this we need to [create a parse tree for a formula, and then use that tree to evaluate the formula](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
@@ -91,7 +100,8 @@ Connect to the MLA homework site and do all of the problems in the following pro
 * Evaluation of Propositional Formulas
 * Truth Tables
 
-## Lesson 3 Fri 1/24 <br> _Inference_
+## Lesson 3 
+### Fri 1/24 <br> _Inference_
 * We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
   [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and we show that every formula can be reduced to
@@ -115,7 +125,8 @@ Read
 
 Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 problems
 
-## Lesson 4 Tue 1/28 <br> _The Truth Tree Method for Propositional Logic_
+## Lesson 4 
+### Tue 1/28 <br> _The Truth Tree Method for Propositional Logic_
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 * We give example of using the [Truth Tree method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeMethod.md) to prove Theorems and to find counter-examples and we describe the steps of the Truth Tree method and explain why they work
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
