@@ -242,13 +242,15 @@ To be announced
 * read Chapter 14 on Counting in  MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * complete the new problems on the MLA Homework site
 
-## Lesson 12 Thu 3/4/<br> _Functions and Relations_
+## Lesson 12 
+### Thu 3/4/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Sets and Sequences
 
 
 
 
-## Lesson 13: Thu 3/7 <br> _Counting_
+## Lesson 13
+### Thu 3/7 <br> _Counting_
 * First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 * then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
