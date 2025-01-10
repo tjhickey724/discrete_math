@@ -140,7 +140,8 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 
 
 
-## Lesson 5 Fri 1/31 <br> _The Predicate Calculus_
+## Lesson 5 
+### Fri 1/31 <br> _The Predicate Calculus_
 * We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
@@ -156,13 +157,15 @@ a formula follows from a set of assumptions, or to find a counter example.
 To be announced
 
 
-## Lesson 6 Tue 2/4 <br> _Inference in First Order Logic_
+## Lesson 6 
+### Tue 2/4 <br> _Inference in First Order Logic_
 * We give an overview of [the simplification rules in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/simplification.md)
 * We give [an example of translating an argument to the predicate calculus and simplifying the resulting argument](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
 * We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 * We show [how the Truth Tree method can be used in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truthTrees.md)
 
-## Lesson 7 Fri 2/7 <br> _More Truth Trees for Predicate Calculus_
+## Lesson 7 
+### Fri 2/7 <br> _More Truth Trees for Predicate Calculus_
 * We get more practice using the Truth Tree method to show arguments are valid
   * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
   * and looking at [the Peano Axiomatization of Arithmetic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/peanoAxioms.md).
@@ -177,12 +180,14 @@ To be announced
 * Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 * Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
 
-## Lesson 8 Tue 2/11 <br> _Intro to Proofs_
+## Lesson 8 
+### Tue 2/11 <br> _Intro to Proofs_
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 
 
-## Lesson 9 Fri 2/14 <br> _Mathematical Notation_
+## Lesson 9 
+### Fri 2/14 <br> _Mathematical Notation_
 * We first complete our overview of proof techniques by giving an interesting proof by cases
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
@@ -196,14 +201,19 @@ To be announced
 ### Homework
 * Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 
+---
+# EVERYTHING BELOW HERE IS UNDER CONSTRUCTION!!
+---
 
-## Lesson 15 Thu 10/5 <br> _Well Ordering Principle and more notation_
+## Lesson 10
+###  _Well Ordering Principle and more notation_
 * We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
 * Then we continue giving [more examples of proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/moreProofs.md), some using this new notation.
 
 
 
-## Lesson 16 Wed 10/11 <br> _Sets and Sequences_
+## Lesson 11 
+###  _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
 
 ## Lesson 17 Thu 10/12/<br> _Functions and Relations_
