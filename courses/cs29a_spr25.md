@@ -28,6 +28,7 @@ Most of our readings will come from the follwoing online books:
 ---
 
 # Lesson Notes
+* [Lesson 1](#lesson-1)
 
 ---
 # Week 1: 1/14,17/25
@@ -49,7 +50,8 @@ Read the following sections of two online books on Discrete Math
 * MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and try some of the problems at the end of the sections. We will go over some of them in class.
 
-## Lesson 1 Tue 1/14/2023  <br> _Intro and overview_
+## Lesson 1
+### Tue 1/14/2023  <br> _Intro and overview_
 
 * We begin with
   - an overview of the course and
