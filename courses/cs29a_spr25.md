@@ -8,26 +8,26 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 # Lesson Notes
 * [Course Overview](#course-overview)
 * [Week 1](week-1)
-  * [Lesson 1: Mon 1/14 Intro and Overview](#lesson-1)
-  * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2)
+  * [Lesson 1: Mon 1/14 Intro and Overview - F01,F02,F03](#lesson-1)
+  * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra - F01,F02,F03](#lesson-2)
 * Week 2
-  * [Lesson 3: Fri 1/25 Inference](#lesson-3)
+  * [Lesson 3: Fri 1/25 Inference - F04](#lesson-3)
 * Week 3
-  * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4)
-  * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)
+  * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic - G01](#lesson-4)
+  * [Lesson 5: Fri 1/31 The Predicate Calculus - F04,F05,F06](#lesson-5)
 * Week 4
-  * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6)
-  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7)
+  * [Lesson 6: Tue 2/4 Inference in First Order Logic - F07](#lesson-6)
+  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus - G02](#lesson-7)
 * Week 5
-  * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
-  * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9)
+  * [Lesson 8: Tue 2/11 Intro to Proofs - F08,F09,F10](#lesson-8)
+  * [Lesson 9: Fri 2/14 Mathematical Notation - F08](#lesson-9)
 * Vacation week 2/17-2/21
 * Week 6
-  * [Lesson 10: Tue 2/25 Well-Ordering Principle](#lesson-10)
-  * [Lesson 11: Fri 2/28 Sets, Sequences, and Countability](#lesson-11)
+  * [Lesson 10: Tue 2/25 Well-Ordering Principle - F09,G03](#lesson-10)
+  * [Lesson 11: Fri 2/28 Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
 * Week 7
-  * [Lesson 12: Tue 3/4 Functions and Relations](#lesson-12)
-  * [Lesson 13: Fri 3/7 Counting](#lesson-13)
+  * [Lesson 12: Tue 3/4 Functions and Relations - F15,F16,F17](#lesson-12)
+  * [Lesson 13: Fri 3/7 Counting - F18](#lesson-13)
 
 
 # Course Overview
