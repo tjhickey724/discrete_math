@@ -194,16 +194,11 @@ To be announced
 
 # Vacation Week 2/17-2/21
 
-# THE REST OF THIS PAGE HAS NOT YET BEEN PROCESSED
-
 # Week 6: 2/25, 2/28
 
 ### Homework
 * Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 
----
-# EVERYTHING BELOW HERE IS UNDER CONSTRUCTION!!
----
 
 ## Lesson 10
 ###  _Well Ordering Principle and more notation_
