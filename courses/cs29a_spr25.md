@@ -205,13 +205,14 @@ To be announced
 ### Tue 2/11 <br> _Intro to Proofs_
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
-
+* Then we complete our overview of proof techniques by giving an interesting proof by cases
 
 ## Lesson 9 
 ### Fri 2/14 <br> _Mathematical Notation_
-* We first complete our overview of proof techniques by giving an interesting proof by cases
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
+* Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
+
 
 # Vacation Week 2/17-2/21
 
@@ -223,18 +224,16 @@ To be announced
 
 
 ## Lesson 10
-###  _Well Ordering Principle and more notation_
+###  2/25 _Well Ordering Principle and more notation_
 * We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
 * Then we continue giving [more examples of proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/moreProofs.md), some using this new notation.
 
 
 
 ## Lesson 11 
-###  _Sets and Sequences_
+###  2/28 _Sets, Sequences, and Countability_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
-
-## Lesson 12 Thu 10/12/<br> _Functions and Relations_
-* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Sets and Sequences
+* Then we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 
 # Week 7: 3/4,3/7 
 
@@ -243,14 +242,13 @@ To be announced
 * read Chapter 14 on Counting in  MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * complete the new problems on the MLA Homework site
 
-## Lesson 18 Mon 10/16 <br> _Functions, and Counting_
-* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md)
+## Lesson 12 Thu 3/4/<br> _Functions and Relations_
+* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Sets and Sequences
 
-## Lesson 19: Wed 10/18 <br> _Binary Representation and Countability_
-* First we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
-* Then we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 
-## Lesson 20: Thu 10/19 <br> _Counting_
+
+
+## Lesson 13: Thu 3/7 <br> _Counting_
 * First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 * then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
