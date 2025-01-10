@@ -19,7 +19,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 6: Tue 2/4 Inference in First Order Logic - F07](#lesson-6)
   * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus - G02](#lesson-7)
 * Week 5
-  * [Lesson 8: Tue 2/11 Intro to Proofs - F08,F09,F10](#lesson-8)
+  * [Lesson 8: Tue 2/11 Intro to Proofs - F08,F09,F10,F11](#lesson-8)
   * [Lesson 9: Fri 2/14 Mathematical Notation - F08](#lesson-9)
 * Vacation week 2/17-2/21
 * Week 6
@@ -33,21 +33,24 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 15: Fri 3/14 Advanced Methods, Pigeons, Isomorphisms - F21,G06](#lesson-15)
 * Week 9
   * [Lesson 16: Tue 3/18 Polynomial and Exponential Sequences - F23](#lesson-16)
-  * [Lesson 17: Fri 3/21 Induction and Generating Functions- G04,G05](#lesson-17)
+  * [Lesson 17: Fri 3/21 Induction and Generating Functions- F11,G04,G05](#lesson-17)
 * Week 10
   * [Lesson 18: Tue 3/25 Probability and the 4 Step Method - F24](#lesson-18)
   * [Lesson 19: Fri 3/29 Expected Values - F25](#lesson-19)
 * Week 11
   * [Lesson 20: Tue 4/1 Advanced Counting - G06](#lesson-20)
-  * [Lesson 21: Fri 4/4 Graph Theory - F26](#lesson-21)
+  * [Lesson 21: Fri 4/4 Graph Theory - F26,G07,G08](#lesson-21)
 * Week 12
-  * [Lesson 22: Tue 4/8 Number Theory](#lesson-22)
-  * [Lesson 23: Fri 4/11 Cryptography](#lesson-23)
+  * [Lesson 22: Tue 4/8 Number Theory - F27,G09](#lesson-22)
+  * [Lesson 23: Fri 4/11 Cryptography - F27](#lesson-23)
 * Week 13
-  * Lesson 24
-  * Lesson 25
+  * Lesson 24 - TBA
+  * Lesson 25 - TBA
 * Week 14
-  * Lesson 26
+  * Lesson 26 - TBA
+
+We will reserve the last few lessons as slack space so we can spend more time on 
+earlier lessons if needed.
 
 
 # Course Overview
