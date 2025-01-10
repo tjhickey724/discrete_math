@@ -7,10 +7,15 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 
 # Lesson Notes
 * [Course Overview](#course-overview)
-* [Lesson 1: Mon 1/14/25 Intro and Overview](#lesson-1)
-* [Lesson 2: Fri 1/17/25 Propositional Calculus and Boolean Algebra](#lesson-2)
-* [Lesson 3: Fri 1/25/25 Inference](#lesson-3)
-* [Lesson 4: Tue 1/28/25 The Truth Tree Method for Propositional Logic](#lesson-4)
+* [Week 1](week-1)
+  * [Lesson 1: Mon 1/14/25 Intro and Overview](#lesson-1)
+  * [Lesson 2: Fri 1/17/25 Propositional Calculus and Boolean Algebra](#lesson-2)
+* Week 2
+  * [Lesson 3: Fri 1/25/25 Inference](#lesson-3)
+* Week 3
+  * [Lesson 4: Tue 1/28/25 The Truth Tree Method for Propositional Logic](#lesson-4)
+  * [Lesson 5: ](#lesson-5)
+* Week 4
 
 
 # Course Overview
@@ -41,7 +46,8 @@ Most of our readings will come from the follwoing online books:
 
 
 ---
-# Week 1: 1/14,17/25
+# Week 1
+## 1/14,17/25
 ### Motivation
 This week we will give an overview of the course and start our first major topic
 which is Propositional Logic and Boolean Algebra. 
@@ -88,8 +94,8 @@ and try some of the problems at the end of the sections. We will go over some of
 
 ---
 
-# Week 2: 1/24  
-(Tuesday is a Brandeis Monday)
+# Week 2
+## Fri 1/24 (Tuesday is a Brandeis Monday)
 
 ### Homework - due Friday 1/24 before class
 Read 
@@ -115,7 +121,8 @@ and we show that every formula can be reduced to
 
 ---
   
-# Week 3: 1/28,1/31
+# Week 3
+## 1/28,1/31
 ### Motivation
 This week we learn a graphical method for proving theorems in Propositional Logic.
 Next week we'll show how to do this for First Order Logic.
@@ -148,7 +155,8 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 * We show [how to evaluate a First Order Formula given an Interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLinterpretations.md).
 ---
 
-# Week 4: 2/4, 2/7
+# Week 4
+## 2/4, 2/7
 ### Motivation
 This week we complete our study of logic by learning how to use the Tree Method to prove that
 a formula follows from a set of assumptions, or to find a counter example.
@@ -173,7 +181,8 @@ To be announced
 
 
 
-# Week 5: 2/11, 2/14
+# Week 5
+## 2/11, 2/14
 
 ### Homework
 * Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
@@ -194,7 +203,8 @@ To be announced
 
 # Vacation Week 2/17-2/21
 
-# Week 6: 2/25, 2/28
+# Week 6
+## 2/25, 2/28
 
 ### Homework
 * Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
