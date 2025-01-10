@@ -28,6 +28,26 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 * Week 7
   * [Lesson 12: Tue 3/4 Functions and Relations - F15,F16,F17](#lesson-12)
   * [Lesson 13: Fri 3/7 Counting - F18](#lesson-13)
+* Week 8
+  * [Lesson 14: Tue 3/11 Combinations, Permutations, and PIE - F19,F20](#lesson-14)
+  * [Lesson 15: Fri 3/14 Advanced Methods, Pigeons, Isomorphisms - F21,G06](#lesson-15)
+* Week 9
+  * [Lesson 16: Tue 3/18 Polynomial and Exponential Sequences - F23](#lesson-16)
+  * [Lesson 17: Fri 3/21 Induction and Generating Functions- G04,G05](#lesson-17)
+* Week 10
+  * [Lesson 18: Tue 3/25 Probability and the 4 Step Method - F24](#lesson-18)
+  * [Lesson 19: Fri 3/29 Expected Values - F25](#lesson-19)
+* Week 11
+  * [Lesson 20: Tue 4/1 Advanced Counting - G06](#lesson-20)
+  * [Lesson 21: Fri 4/4 Graph Theory - F26](#lesson-21)
+* Week 12
+  * [Lesson 22: Tue 4/8 Number Theory](#lesson-22)
+  * [Lesson 23: Fri 4/11 Cryptography](#lesson-23)
+* Week 13
+  * Lesson 24
+  * Lesson 25
+* Week 14
+  * Lesson 26
 
 
 # Course Overview
