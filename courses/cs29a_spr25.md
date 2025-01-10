@@ -59,8 +59,8 @@ Most of our readings will come from the follwoing online books:
 
 ---
 # Week 1
-## 1/14,17/25
-### Motivation
+### 1/14,17/25
+#### Motivation
 This week we will give an overview of the course and start our first major topic
 which is Propositional Logic and Boolean Algebra. 
 
@@ -107,7 +107,7 @@ and try some of the problems at the end of the sections. We will go over some of
 ---
 
 # Week 2
-## Fri 1/24 (Tuesday is a Brandeis Monday)
+### Fri 1/24 (Tuesday is a Brandeis Monday)
 
 ### Homework - due Friday 1/24 before class
 Read 
@@ -134,8 +134,8 @@ and we show that every formula can be reduced to
 ---
   
 # Week 3
-## 1/28,1/31
-### Motivation
+### 1/28,1/31
+#### Motivation
 This week we learn a graphical method for proving theorems in Propositional Logic.
 Next week we'll show how to do this for First Order Logic.
 
@@ -168,8 +168,9 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 ---
 
 # Week 4
-## 2/4, 2/7
-### Motivation
+### 2/4, 2/7
+
+#### Motivation
 This week we complete our study of logic by learning how to use the Tree Method to prove that
 a formula follows from a set of assumptions, or to find a counter example.
 
@@ -194,7 +195,7 @@ To be announced
 
 
 # Week 5
-## 2/11, 2/14
+### 2/11, 2/14
 
 ### Homework
 * Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
@@ -217,7 +218,7 @@ To be announced
 # Vacation Week 2/17-2/21
 
 # Week 6
-## 2/25, 2/28
+### 2/25, 2/28
 
 ### Homework
 * Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
@@ -235,7 +236,8 @@ To be announced
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
 * Then we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 
-# Week 7: 3/4,3/7 
+# Week 7
+### 3/4,3/7 
 
 ### Homework
 * read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
@@ -252,42 +254,42 @@ To be announced
 * First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 * then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
-# THE REST OF THE PAGE IS UNDER CONSTRUCTION 
 
-# Week 8: 10/23-27
+# Week 8
+### 3/11-14
 ### Homework due 10/29
 * Complete the new MLA homework problems on Counting
 * Read [Chapter 2 of  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
-## Lesson 21: Mon 10/23 <br> _Combinations and Permutations_
+## Lesson 14
+### Tue 3/11 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
-## Lesson 22: Wed 10/25 <br> _Counting Practice;  Stars and Bars_
+## Lesson 15
+### Fri 3/14 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
-## Lesson 23: Thu 10/26 <br> _Stars and Bars_
-* we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
-
-# Week 9: 10/30-11/3
+# Week 9
+### 3/18-21
 
 ### Howework due 11/6
 * Read Chapters 15 _Generating Functions_, Chapter 16 _Events and Probability Spaces_ and Chapter 17 _Conditional Probability_ from [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * Read [Chapter 5.1 from  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/sec_addtops-genfun.html)
 * Complete the Homework assignments on MLA which are due on 11/6
 
-## Lesson 24: Mon 10/30 <br> _Polynomial Sequences_
+## Lesson 16
+### Tue 3/18 <br> _Polynomial and Exponential Sequences_
 * we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
   by looking at [polynomial sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/polynomial_sequences.md)
+* next we look at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
 
-## Lesson 25: Wed 11/1 <br> _Exponential Sequences_
-* we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
-  by looking at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
-
-## Lesson 26: Thu 11/2 <br> _Induction_
+## Lesson 17
+### Fri 3/21 <br> _Induction_
 * We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
    and use it to prove closed form expression for series elements defined recursively are correct.
 
-# Week 10: 11/6-10 - Probability
+# Week 10
+### 3/25-28 - Probability
 
 ### Homework - due Monday 11/13/2023 before class
 Skim the following sections of two online books on Discrete Math
@@ -296,44 +298,47 @@ Skim the following sections of two online books on Discrete Math
 
 and complete the homework problems on the MLA due on Monday.
 
-## Lesson 27: Mon 11/6 <br> _Induction and Generating Functions_
+## Lesson 18
+### Tue 3/25 <br> _Induction and Generating Functions_
 * We finish up our study of [sequences](https://github.com/tjhickey724/discrete_math/tree/main/notes/sequences)
 * We give some examples of recursion equations that arise in the study of algorithms (Priority Queues and AVL Trees)
 * We give a brief introduction to Generating Functions
 
-## Lesson 28: Wed 11/8 <br> _Probability and the 4 step method_
+## Lesson 19
+### Fri 3/28 <br> _Probability and the 4 step method_
 * We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
 
-## Lesson 29: Wed 11/9 <br> _Conditional Probability, Expected Values, and Random Variables_
-* We conclude our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
+# Week 11
+### 4/1-4 - Graph Theory
 
-# Week 11: 11/13-17 - Graph Theory
-
-## Lesson 30: Mon 11/13 <br> _Prob Review_
-* We review Question 20 on exam 8 about Advanced Counting
+## Lesson 20
+### Tue 4/1 <br> _Advanced Counting_
 * We show how to calculate the expected number of rolls in a game of Craps (3.37575...)
   
-## Lesson 31: Wed 11/15 <br> _Graphs_
+## Lesson 21
+### Fri 4/4 <br> _Graphs_
 * We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)
 
-## Lesson 32: Thu 11/16 <br> _More Graphs_
-* We continue our study of [Graph Theory ](../notes/graph_theory/overview.md)
 
-# Week 12: 11/27-12/1 - Number Theory
+# Week 12
+### 4/8-11 - Number Theory
 
-## Lesson 34 Cryptography
+## Lesson 22 Cryptography
 [Crypto](../notes/cryptograph/overview.md)
 
-## Lesson 35 RSA
+## Lesson 23 RSA
 [Crypto](../notes/cryptograph/overview.md)
 
-## Lesson 36 more RSA
-[Crypto](../notes/cryptograph/overview.md)
 
-# Week 13: 12/4-12/8
-## Lesson 37 and 38
+# Week 13
+### 4/22-25
+
+## Lesson 24
 [Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
 
-## Lesson 39
+## Lesson 25
 [Quicksort Analysis](../notes/algorithmicAnalysis/quicksort.md)
+
+# Week 14
+## 4/29
 
