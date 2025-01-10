@@ -244,15 +244,15 @@ To be announced
 
 ## Lesson 12 
 ### Thu 3/4/<br> _Functions and Relations_
-* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Sets and Sequences
-
-
+* We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
 
 ## Lesson 13
 ### Thu 3/7 <br> _Counting_
 * First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 * then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+
+# THE REST OF THE PAGE IS UNDER CONSTRUCTION 
 
 # Week 8: 10/23-27
 ### Homework due 10/29
