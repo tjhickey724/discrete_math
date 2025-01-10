@@ -14,8 +14,20 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 3: Fri 1/25/25 Inference](#lesson-3)
 * Week 3
   * [Lesson 4: Tue 1/28/25 The Truth Tree Method for Propositional Logic](#lesson-4)
-  * [Lesson 5: ](#lesson-5)
+  * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)
 * Week 4
+  * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6)
+  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7)
+* Week 5
+  * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
+  * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9)
+* Vacation week 2/17-2/21
+* Week 6
+  * [Lesson 10: Tue 2/25 Well-Ordering Principle](#lesson-10)
+  * [Lesson 11: Fri 2/28 Sets and Sequences](#lesson-11)
+* Week 7
+  * [Lesson 12: Functions and Relations](#lesson-12)
+  * [Lesson 13: Counting and Countability](#lesson-13)
 
 
 # Course Overview
@@ -221,10 +233,10 @@ To be announced
 ###  _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
 
-## Lesson 17 Thu 10/12/<br> _Functions and Relations_
+## Lesson 12 Thu 10/12/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Sets and Sequences
 
-# Week 7: 10/16-20 
+# Week 7: 3/4,3/7 
 
 ### Homework
 * read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
