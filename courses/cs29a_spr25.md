@@ -6,12 +6,14 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 ---
 
 # Lesson Notes
+* [Course Overview](#course-overview)
 * [Lesson 1: Mon 1/14/25 Intro and Overview](#lesson-1)
 * [Lesson 2: Fri 1/17/25 Propositional Calculus and Boolean Algebra](#lesson-2)
 * [Lesson 3: Fri 1/25/25 Inference](#lesson-3)
 * [Lesson 4: Tue 1/28/25 The Truth Tree Method for Propositional Logic](#lesson-4)
 
 
+# Course Overview
 ## The Mastery Learning App
 We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
 for all work in this class including weekly exams and homework and daily in-class questions.
