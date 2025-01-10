@@ -44,10 +44,10 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 22: Tue 4/8 Number Theory - F27,G09](#lesson-22)
   * [Lesson 23: Fri 4/11 Cryptography - F27](#lesson-23)
 * Week 13
-  * Lesson 24 - TBA
-  * Lesson 25 - TBA
+  * Lesson 24: Tue 4/22 - TBA
+  * Lesson 25: Fri 4/25 - TBA
 * Week 14
-  * Lesson 26 - TBA
+  * Lesson 26: Tue 4/29 - TBA
 
 We will reserve the last few lessons as slack space so we can spend more time on 
 earlier lessons if needed.
