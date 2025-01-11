@@ -81,12 +81,14 @@ with simple statements containing propositions that can be true or false. In the
 we will expand to first order logic that is the formal language of Mathematics. Every other section
 of this course will rely on your ability to work with, and understand the meaning of, logical formulas.
 
-### Homework - due Tuesday 1/14/25 before the first class
+### Homework - due Tuesday 1/21/25 
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
 * MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and try some of the problems at the end of the sections. We will go over some of them in class.
+
+Then answer the Week 1 problems on the MLA Homework site
 
 ## Lesson 1
 ### Tue 1/14/2023  <br> _Intro and overview_
