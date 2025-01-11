@@ -100,7 +100,7 @@ Then answer the Week 1 problems on the MLA Homework site
 * We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
-  - We get some practice in [converting between English and the Propoaitional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
+  - We get some practice in [converting between English and the Propositional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 
 
 
