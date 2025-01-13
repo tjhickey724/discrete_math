@@ -8,7 +8,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 # Lesson Notes
 * [Course Overview](#course-overview)
 * [Week 1](#week-1)
-  * [Lesson 1: Mon 1/14 Intro and Overview](#lesson-1) [F01](#F01) [F02](#F02) [F03](#F03)
+  * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](#F01) [F02](#F02) [F03](#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](#F01) [F02](#F02) [F03](#F03)
 * [Week 2](#week-2)
   * [Lesson 3: Fri 1/25 Inference](#lesson-3) [F04](#F04)
