@@ -8,6 +8,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 # Lesson Notes
 * [Course Overview](#course-overview)
 * [Week 1](#week-1)
+  * [Week 1 Homework](#Homework01)
   * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](#F01) [F02](#F02) [F03](#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](#F01) [F02](#F02) [F03](#F03)
 * [Week 2](#week-2)
@@ -81,7 +82,8 @@ with simple statements containing propositions that can be true or false. In the
 we will expand to first order logic that is the formal language of Mathematics. Every other section
 of this course will rely on your ability to work with, and understand the meaning of, logical formulas.
 
-### Homework - due Tuesday 1/21/25 
+### Homework01
+#### due Tuesday 1/21/25 
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
