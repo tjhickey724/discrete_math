@@ -36,7 +36,7 @@ B. If the load is high then at least one of the functions throws an error
 
 answer: $H \rightarrow (E1 \vee E2)$   <br> ```H IMPLIES ( E1 OR E2)```
 
-C. The program craahes if two conditions hold: (1) the load is high and (2) one (or both) of the functions throws an error.
+C. The program crashes if two conditions hold: (1) the load is high and (2) one (or both) of the functions throws an error.
 
 D. Two things are true: (1) If the load is high the function 1 throws an error, and (2) if the load is low then the program crashes only if function 2 throws an error
 
