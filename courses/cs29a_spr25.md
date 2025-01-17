@@ -9,7 +9,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 * [Course Overview](#course-overview)
 * [Week 1](#week-1)
   * [Week 1 Homework](#Homework01)
-  * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](../skills/Propositional_Calculus/Syntax_and_Semantics.md) [F02](#F02) [F03](#F03)
+  * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](#F01) [F02](#F02) [F03](#F03)
 * [Week 2](#week-2)
   * [Week 2 Homework](#Homework02)
