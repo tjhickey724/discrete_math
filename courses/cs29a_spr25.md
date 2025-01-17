@@ -115,7 +115,12 @@ Then answer the Week 1 problems on the MLA Homework site
   To do this we need to [create a parse tree for a formula, and then use that tree to evaluate the formula](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 * We also show how to [use a Parse Tree to evaluate a Boolean formula on an interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
 * We show how to [estimate how long it would take to prove a formula is a tautology with the Truth Method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/ComplexityOfSat.md)
-
+* We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
+  [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+and we show that every formula can be reduced to
+  [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
+  and also to
+  [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
 ---
 
 # Week 2
@@ -134,12 +139,6 @@ Connect to the MLA homework site and do all of the problems in the following pro
 
 ## Lesson 3 
 ### Fri 1/24 <br> _Inference_
-* We review the [inference rules for Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/InferenceRules.md) from
-  [Chapter 3.4 of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
-and we show that every formula can be reduced to
-  [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
-  and also to
-  [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
 * We also show that conjunction and disjunction exhibit [a specific kind of duality](https://en.wikipedia.org/wiki/Conjunction/disjunction_duality)
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
 
