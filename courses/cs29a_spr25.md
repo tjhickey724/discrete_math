@@ -8,11 +8,11 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 # Lesson Notes
 * [Course Overview](#course-overview)
 * [Week 1](#week-1)
-  * [Week 1 Homework 1](#Homework01)
+  * [Week 1 Homework](#Homework01)
   * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](#F01) [F02](#F02) [F03](#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](#F01) [F02](#F02) [F03](#F03)
 * [Week 2](#week-2)
-  * [Week 1 Homework 2](#Homework02)
+  * [Week 2 Homework](#Homework02)
   * [Lesson 3: Fri 1/25 Inference](#lesson-3) [F04](#F04)
 * [Week 3](#week-3)
   * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](#G01)
