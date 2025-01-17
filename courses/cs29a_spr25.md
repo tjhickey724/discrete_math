@@ -8,10 +8,11 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 # Lesson Notes
 * [Course Overview](#course-overview)
 * [Week 1](#week-1)
-  * [Week 1 Homework](#Homework01)
+  * [Week 1 Homework 1](#Homework01)
   * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](#F01) [F02](#F02) [F03](#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](#F01) [F02](#F02) [F03](#F03)
 * [Week 2](#week-2)
+  * [Week 1 Homework 2](#Homework02)
   * [Lesson 3: Fri 1/25 Inference](#lesson-3) [F04](#F04)
 * [Week 3](#week-3)
   * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](#G01)
@@ -126,16 +127,15 @@ and we show that every formula can be reduced to
 # Week 2
 ### Fri 1/24 (Tuesday is a Brandeis Monday)
 
-### Homework - due Friday 1/24 before class
+### Homework02
+#### due Friday 1/24 before class
 Read 
 * [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
 * Chapter 2 of PDM
 * Chapter 8 of MFLP
   
-Connect to the MLA homework site and do all of the problems in the following problem sets:
-* Translation to Propositional Logic
-* Evaluation of Propositional Formulas
-* Truth Tables
+Connect to the MLA homework site and do all of the Week 2 problems.
+
 
 ## Lesson 3 
 ### Fri 1/24 <br> _Inference_
