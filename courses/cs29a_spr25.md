@@ -356,7 +356,9 @@ and complete the homework problems on the MLA due on Monday.
 # Skills
 ## F01
 ### Propositional Logic: Syntax and Semantics 
-Ability to evaluate a propositional formula given a True/False interpretation for the propositions in the formula. This also requires the ability to recognize whether a formula is syntactically correct and to be able to draw a parse tree for an expression and evaluate the truth value at every node. We assume that the grammar uses the standard logical operators: AND, OR, NOT, IMPLIES, IFF, XOR both in English and in traditional Mathematical notation.
+Ability to evaluate a propositional formula given a True/False interpretation for the propositions in the formula. This also requires the ability to recognize whether a formula is syntactically correct and to be able to draw a parse tree for an expression and evaluate the truth value at every node. We assume that the grammar uses the standard logical operators: AND, OR, NOT, IMPLIES, IFF, XOR both in English and in traditional Mathematical notation. 
+[Notes](skills/Propositional_Calculus/Syntax_and_Semantics.md)
+
 ## F02
 ### Propositional Logic: Truth Tables and Satisfiability 
 Ability to determine if a Propositional formula is a tautology, or is satisfiable, or is unsatisfiable by creating a Truth Table with a column for each variable and operator in the formula.
