@@ -128,8 +128,10 @@ and we show that every formula can be reduced to
 
 ### Homework02
 #### due Friday 1/24 before class
-Read 
+Read:
 * [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
+
+Optional reading:
 * Chapter 2 of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
 * Chapter 8 of [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
   
