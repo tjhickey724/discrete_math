@@ -67,9 +67,9 @@ $\neg F = \overline{F}$
 
 For example, if 
 
-$F = (P \vee ((Q \wedge \neg R) \vee (\neg P \wedge Q)))$, then
+$F = P \vee (Q \wedge \neg R) \vee (\neg P \wedge Q)$, then
 
-$\overline{F} = (\neg P \wedge ((\neg Q \vee \neg \neg R) \wedge  (\neg \neg P \vee \neg Q)))$
+$\overline{F} = \neg P \wedge (\neg Q \vee \neg \neg R) \wedge  (\neg \neg P \vee \neg Q)))$
 
 and you can verify for yourself using DeMorgan that $\neg F = \overline{F}$
 
