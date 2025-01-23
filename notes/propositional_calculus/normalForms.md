@@ -21,9 +21,12 @@ A formula is in conjunctive normal form if it is a conjunction of disjunctions o
 A conjunctions of literals is called a "clause". We can write such a clause by putting the
 negative literals first and the positive literal second:
 
-$\neg B \vee \neg B \vee \ldots \vee C \vee D \vee E \vee \ldots F$
+$\neg A \vee \neg B \vee \ldots \vee C \vee D \vee E \vee \ldots F$
 
 and my applying DeMorgan's rule we get an if-then rule:
 
 $(A\wedge B \wedge \ldots C) \rightarrow (D \vee E \vee \ldots F)$
+
+So a formula in conjunctive normal form corresponds to a set of if-then rules that are all true.
+
 
