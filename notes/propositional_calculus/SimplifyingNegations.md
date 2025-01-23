@@ -59,17 +59,17 @@ $P \rightarrow (Q \rightarrow P) \equiv True$
 So $P\rightarrow (Q \rightarrow P)$ is a valid formula, i.e. a taugology.
 
 ## Generalized DeMorgan's Law
-There is a useful generalization of DeMorgan's Law that works for any formula containing only $\vee$, $\wedge$, and propositional symbols and their negations, i.e. the negations have been pushed all the way down to the leaves of the parse trees.
+There is a useful generalization of DeMorgan's Law that works for any formula containing only $\vee$, $\wedge$, $\neg$ and propositional symbols.
 
-Let $F$ be any such formula and let $\overline{F}$ be the fully parenthesized formula obtained by replacing all $\vee$ with $\wedge$ and $\wedge$ with $\vee$ and replacing each propositional symbol $P$ with its negation $\neg P$, and replacing $true$ with $false$ and vice versa. Then $\overline(F)$ only has negations of propositional symbols and
+Let $F$ be any such formula and let $\overline{F}$ be the fully parenthesized formula obtained by replacing all $\vee$ with $\wedge$ and $\wedge$ with $\vee$ and replacing each propositional symbol $P$ with its negation $\neg P$, and replacing $true$ with $false$ and vice versa. Then
 
 $\neg F = \overline{F}$
 
 For example, if 
 
-$F = P \vee (Q \wedge \neg R) \vee (\neg P \wedge Q)$, then
+$F = P \vee \neg (Q \wedge \neg R) \vee (\neg P \wedge Q)$, then
 
-$\overline{F} = \neg P \wedge (\neg Q \vee  R) \wedge  ( P \vee \neg Q)))$
+$\overline{F} = \neg P \wedge \neg (\neg Q \vee  R) \wedge  ( P \vee \neg Q)))$
 
 and you can verify for yourself using DeMorgan that $\neg F = \overline{F}$
 
