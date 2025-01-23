@@ -77,6 +77,7 @@ and you can verify for yourself using DeMorgan that $\neg F = \overline{F}$
 One approach to proving that a boolean formula $F$ is valid, i.e. is a tautology, is to show that the
 negation of the formula $\neg F$ simplifies to False; or equivalently, using the booolean algebra rules
 to show that $F$ is equivalent to True.
+$\neg F \equiv {\rm false}$   -->  $F \equiv {\rm true}$
 
 In many cases this is much faster than using the Truth Table method to show $F$ is true for all interpretation, but there is no known "fast" algorithm to prove a formula is a tautology.
 
