@@ -65,6 +65,14 @@ Let $F$ be any such formula and let $\overline{F}$ be the formula obtained by re
 
 $\neg F = \overline{F}$
 
+For example, if 
+
+$F = (P \vee \neg (Q \wedge \neg R \vee \neg (\neg P \wedge Q)))$, then
+
+$\overline{F} = (\neg P \wedge \neg (\neg Q \vee \neg \neg R \wedge \neg (\neg \neg P \vee \neg Q)))$
+
+and you can verify for yourself using DeMorgan that $\neg F = \overline{F}$
+
 ## Theorem proving by simplifying negation
 One approach to proving that a boolean formula $F$ is valid, i.e. is a tautology, is to show that the
 negation of the formula $\neg F$ simplifies to False; or equivalently, using the booolean algebra rules
