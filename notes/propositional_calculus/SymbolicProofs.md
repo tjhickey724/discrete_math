@@ -1,4 +1,4 @@
-# Symbolic proofs
+# Arguments, Formal Proofs, and Counter-examples
 
 One of the main goals of this course is the help you learn how to write clear and convincing proofs of mathematical theorems. 
 
@@ -9,7 +9,7 @@ for theorems in the Predicate Calculus).
 
 First some definitions.
 
-An ___argument___ is a set of statements, one of which is the ___conclusion___ 
+An ___argument___ is a set of propositional formulas, one of which is the ___conclusion___ 
 (usually the last) and the rest are the ___premises___
 
 An argument is ___valid___ if the conclusion is true whenever the premises are true;
@@ -17,7 +17,7 @@ otherwise it is invalid.
 
 An argument is invalid if there is an interpretation of the propositional variables which makes
 all of the premises True and makes the conclusion False. Such an interpretation is called a
-counterexample to the argument.
+__counterexample__ to the argument.
 
 ## Example 1
 Here is an example of a valid argument (which is called ___modus ponens___)
