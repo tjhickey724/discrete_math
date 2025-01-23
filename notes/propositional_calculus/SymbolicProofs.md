@@ -74,4 +74,15 @@ to prove this argument is valid, we can apply modus ponens to infer that Q is tr
 and we have shown that R is true whenever statements 1,2,3 are true. We can now use this rule
 as an inference rule. 
 
+# Example 3. An invalid argument.
+Here is an invalid argument
+```
+P implies R
+P implies Q
+R or Q
+------------
+P
+```
+This has a simple counterexample where $P$ is false, and both $R$ and $Q$ are true.
+That makes all three premises true, but the conclusion is false.
 
