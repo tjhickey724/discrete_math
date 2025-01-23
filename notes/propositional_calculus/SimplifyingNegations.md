@@ -58,6 +58,13 @@ $P \rightarrow (Q \rightarrow P) \equiv True$
 
 So $P\rightarrow (Q \rightarrow P)$ is a valid formula, i.e. a taugology.
 
+## Generalized DeMorgan's Law
+There is a useful generalization of DeMorgan's Law that works for any formula containing only $\vee$, $\wedge$, $\neg$, and propositional symbols.
+
+Let $F$ be any such formula and let $\bar{F}$ be the formula obtained by replacing all $\vee$ with $\wedge$ and $\wedge$ with $\vee$ and replacing each propositional symbol $P$ with its negation $\neg P$, and replacing $true$ with $false$ and vice versa. Then
+
+$\neg F = \bar{F}$
+
 ## Theorem proving by simplifying negation
 One approach to proving that a boolean formula $F$ is valid, i.e. is a tautology, is to show that the
 negation of the formula $\neg F$ simplifies to False; or equivalently, using the booolean algebra rules
