@@ -4,7 +4,7 @@ Any formula in propositional logic can be converted into a normal form, called D
 which is a disjunction of conjunctions of literals, where a literal is a propositional symbol or its negation. 
 For example,
 
-$ (P\wedge Q \wedge \neg R) \vee (P \wedge \neg Q \wedge R)$
+$(P\wedge Q \wedge \neg R) \vee (P \wedge \neg Q \wedge R)$
 
 If we draw out the truth table for this formula, then it will be true for exactly two rows:
 
