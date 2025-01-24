@@ -30,6 +30,11 @@ Q
 where the premises are the statements above the dashed line and the conclusion is the statement after the dashed line.
 This argument states that whenever P and P implies Q are true, then Q must also be true.
 
+Notice that this is true even if P and Q are formulas themselves! 
+This observation is called the ---"Substitution Rule"---, if you have proved an inference is valid, then it
+remains valid when you replace the propositional symbols $A_1,\ldots,A_n$ with any propositional formulas
+$F_1,\ldots,F_n$. The reason is that if the inference is valid then it evaluates to true for any values of the $A_i$, and evaluating the $F_i$ gives a value for the $A_i$.
+
 One way to prove this is to create Truth Tables for P and P implies Q and Q and to observe that for all interpretation
 that make P and P implies Q true, they also make Q true. 
 
@@ -73,6 +78,31 @@ to prove this argument is valid, we can apply modus ponens to infer that Q is tr
 ```
 and we have shown that R is true whenever statements 1,2,3 are true. We can now use this rule
 as an inference rule. 
+
+# Inference Rules and The Substitution Rule
+When we are trying to prove that a conclusion follows from a set of premises, the usual process is to
+apply inference rules, like Modus Ponens, as we did above. In general, if you have proved that some inference
+is valid, then you can use the substitution rule to make that an inference rule! For example, 
+the inference
+```
+P implies R
+Q implies R
+P or Q
+------------
+R
+```
+can be used to prove that
+```
+A\vee B implies C\oplus B
+A\wedge B implies C\oplus B
+A\vee B \vee (A \wedge B)
+------------
+C\oplus B
+```
+by substituting $A\vee B$ for $P$, and $A\wedge B$ for $Q$, and $C\oplus B$ for $R$.
+
+
+
 
 # Example 3. An invalid argument.
 Here is an invalid argument
