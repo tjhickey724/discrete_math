@@ -1,4 +1,4 @@
-# Arguments, Formal Proofs, and Counter-examples
+# Arguments, Inference, Formal Proofs, and Counter-examples
 
 One of the main goals of this course is the help you learn how to write clear and convincing proofs of mathematical theorems. 
 
