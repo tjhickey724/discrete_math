@@ -30,11 +30,6 @@ Q
 where the premises are the statements above the dashed line and the conclusion is the statement after the dashed line.
 This argument states that whenever P and P implies Q are true, then Q must also be true.
 
-Notice that this is true even if P and Q are formulas themselves! 
-This observation is called the ___"Substitution Rule"___, if you have proved an inference is valid, then it
-remains valid when you replace the propositional symbols $A_1,\ldots,A_n$ with any propositional formulas
-$F_1,\ldots,F_n$. The reason is that if the inference is valid then it evaluates to true for any values of the $A_i$, and evaluating the $F_i$ gives a value for the $A_i$.
-
 One way to prove this is to create Truth Tables for P and P implies Q and Q and to observe that for all interpretation
 that make P and P implies Q true, they also make Q true. 
 
@@ -101,10 +96,14 @@ C\oplus B
 ```
 by substituting $A\vee B$ for $P$, and $A\wedge B$ for $Q$, and $C\oplus B$ for $R$.
 
+This observation is called the ___"Substitution Rule"___, if you have proved an inference is valid, then it
+remains valid when you replace the propositional symbols $A_1,\ldots,A_n$ with any propositional formulas
+$F_1,\ldots,F_n$. 
 
 
 
-# Example 3. An invalid argument.
+
+# Example 3. An invalid argument and a counterexample.
 Here is an invalid argument
 ```
 P implies R
@@ -114,5 +113,6 @@ R or Q
 P
 ```
 This has a simple counterexample where $P$ is false, and both $R$ and $Q$ are true.
-That makes all three premises true, but the conclusion is false.
+That makes all three premises true, but the conclusion is false. An argument is invalid if and only if
+it has a counterexample.
 
