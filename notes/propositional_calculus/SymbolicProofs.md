@@ -31,7 +31,7 @@ where the premises are the statements above the dashed line and the conclusion i
 This argument states that whenever P and P implies Q are true, then Q must also be true.
 
 Notice that this is true even if P and Q are formulas themselves! 
-This observation is called the ---"Substitution Rule"---, if you have proved an inference is valid, then it
+This observation is called the ___"Substitution Rule"___, if you have proved an inference is valid, then it
 remains valid when you replace the propositional symbols $A_1,\ldots,A_n$ with any propositional formulas
 $F_1,\ldots,F_n$. The reason is that if the inference is valid then it evaluates to true for any values of the $A_i$, and evaluating the $F_i$ gives a value for the $A_i$.
 
