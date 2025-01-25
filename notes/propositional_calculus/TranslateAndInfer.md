@@ -10,7 +10,8 @@ among other things, and which runs on a system which could have a high load or a
 
 ```
 Premise1: If the load is high then at least one of the functions throws an error
-Premise2: The program keeps running (i.e. doesn't crash) only if both functions work correctly (i.e. neither function throws an error)
+Premise2: The program keeps running (i.e. doesn't crash)
+    only if both functions work correctly (i.e. neither function throws an error)
 .............
 Conclusion: If the load is high then the program crashes.
 ```
@@ -49,7 +50,8 @@ Let's try this one, with the same propositional symbols as above.
 
 ```
 Premise1: If the load is high then at least one of the functions throws an error
-Premise2: The program keeps running (i.e. doesn't crash) only if both functions work correctly (i.e. neither function throws an error)
+Premise2: The program keeps running (i.e. doesn't crash)
+    only if both functions work correctly (i.e. neither function throws an error)
 .............
 Conclusion: If the load is low, then both functions throw an error
 ```
