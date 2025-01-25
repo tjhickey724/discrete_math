@@ -99,10 +99,10 @@ Now let's have you do some translation of Mathematics statements into the predic
 
 ## More examples
 Now lets use the domain of functions from the real numbers to the real numbers, where 
-* $A(f)$ means f is always increasing, i.e. $\forall x \forall y (x\lt y) \rightarrow f(x)\lt f(y)$
+* $I(f)$ means f is always Increasing, i.e. $\forall x \forall y (x\lt y) \rightarrow f(x)\lt f(y)$
 * $B(f,g)$  means f(x) is always bigger than or equal to g(x) (i.e $\forall x f(x)\lt g(x)$)
-* $C(f,g,h)$ means $\forall x f(x)+g(x) = h(x)$, i.e. f+g=h
-* $E(f,g)$ means f and g are the same function (i.e. $\forall x f(x)=g(x)$
+* $S(f,g,h)$ means $\forall x f(x)+g(x) = h(x)$, i.e. f+g=h, so the Sum of f and g is h.
+* $E(f,g)$ means f and g are the same function (i.e. $\forall x f(x)=g(x)$, they are Equal)
 
 Try to convert these to predicate calculus using only the predicate symbols A,B,C,E, the quantifiers, and logical connectives.
 * every function f is always increasing or there is a bigger function which is always increasing
