@@ -20,8 +20,8 @@ _________
 
 $A_{1000}$
 
-With the Truth Table method this would take at lesat $2^{1000}$ steps which is about $10^{300}$ and hence
-is impossible.
+With the Truth Table method this would take at least $2^{1000}$ steps which is about $10^{300}$ and hence
+is impossible.... (how long would it take if you could check one trillion rows per second?) 
 
 But with the Truth Tree Method we see that the tree has a simple form and can be processed in about $1000$ steps.
 Likewise, the more general problem with $n$ premises and $n$ propositional symbols could be done in $n$ steps instead of $2^n$.
