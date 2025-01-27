@@ -25,11 +25,12 @@ $E_1,\ldots,E_n \models C$ and we say that $C$ is a logical consequence of $E_1,
 ## An Example of using the Truth Tables to prove a logical inference
 Below we have an example of using the Truth Tree Method to prove that
 
-$A\rightarrow C, B\rightarrow C, A\vee B \models C$
+$A\rightarrow C,\; B\rightarrow C,\; A\vee B \;\models\; C$
 
 Here is how we prove this is true using Truth Tables.  
 We create the truth tables for each of $A\rightarrow C, B\rightarrow C, A\vee B$
-and then show that for each of the interpretations where all three are true, we also see that $C$ is true.
+and then show that for each of the three interpretations where all three are true
+(ABC = TTT, TFT, FTT),we also see that $C$ is true.
 ![TruthTableExample1](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTableInference.jpg)
 
 
