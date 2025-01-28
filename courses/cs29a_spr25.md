@@ -165,6 +165,9 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 * We give example of using the [Truth Tree method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeMethod.md) to prove Theorems and to find counter-examples and we describe the steps of the Truth Tree method and explain why they work
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
+* We also try to prove or disprove validity of inference from the exercises in
+[chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
+* More exercises in Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
 
 
 
