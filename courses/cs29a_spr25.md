@@ -15,6 +15,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Week 2 Homework](#Homework02)
   * [Lesson 3: Fri 1/25 Inference](#lesson-3) [F04](../skills/README.md/#F04)
 * [Week 3](#week-3)
+* [Week 4 Homework](#Homework03)
   * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](../skills/README.md/#G01)
   * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
 * Later Weeks (4-14)
@@ -153,10 +154,16 @@ Connect to the MLA homework site and do all of the Week 2 problems.
 This week we learn a graphical method for proving theorems in Propositional Logic.
 Next week we'll show how to do this for First Order Logic.
 
-### Homework - due Tuesday (Brandeis Monday) 1/28 before class
+### Homework03
+#### due Tuesday (Brandeis Monday) 1/28 before class
 Read 
 * [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
 * [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+
+Additional Reading on Truth Trees
+* [chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
+* [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
+
 
 Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 problems
 
@@ -167,7 +174,7 @@ Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 proble
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
 * We also try to prove or disprove validity of inference from the exercises in
 [chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
-* More exercises in Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
+* More exercises in [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
 
 
 
