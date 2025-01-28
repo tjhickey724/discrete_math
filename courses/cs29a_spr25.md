@@ -155,7 +155,7 @@ This week we learn a graphical method for proving theorems in Propositional Logi
 Next week we'll show how to do this for First Order Logic.
 
 ### Homework03
-#### due Tuesday (Brandeis Monday) 1/28 before class
+#### due (Friday) 1/31 before class
 Read 
 * [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
 * [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
