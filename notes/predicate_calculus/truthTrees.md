@@ -46,7 +46,7 @@ p1: $\exists x \forall y P(x,y)$
 
 c: $\forall y \exists x P(x,y)$
 
-The first step is to simplify the premis and the negation of the conclusion, to get
+The first step is to simplify the premise and the negation of the conclusion, to get
 
 p1: $\forall y P(a,y)$, we introduce the Skolem constant $a$ to replace the $\exists x$
 
