@@ -22,13 +22,17 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
   * Exam 03: F01 F02 F03 F04 [G01](../skills/README.md/#G01)
 * Week 4
-  * [Lesson 6: Inference in First Order Logic - F07](#lesson-6)
-  * [Lesson 7: Truth Trees for Predicate Calculus - G02](#lesson-7)
+  * [Lesson 6: Tue 2/4 Inference in First Order Logic - F07](#lesson-6)
+  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus - G02](#lesson-7)
   * Exam 04: F01 F02 F03 F04 G01 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
-* Later Weeks (5-14)
+* Week 5
+  * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
+  * [Lesson 9: Fri 2/14 Mathematical Notation - F08](#lesson-9)
+  * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
+* February Vacation
+* Later Weeks (6-14)
 
-  * [Lesson 8: Intro to Proofs - F08,F09,F10,F11](#lesson-8)
-  * [Lesson 9: Mathematical Notation - F08](#lesson-9)
+
   * [Lesson 10: Well-Ordering Principle - F09,G03](#lesson-10)
   * [Lesson 11: Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
   * [Lesson 12: Functions and Relations - F15,F16,F17](#lesson-12)
