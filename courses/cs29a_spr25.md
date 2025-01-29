@@ -11,16 +11,22 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Week 1 Homework](#Homework01)
   * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
+  * Exam 01: [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
 * [Week 2](#week-2)
   * [Week 2 Homework](#Homework02)
   * [Lesson 3: Fri 1/25 Inference](#lesson-3) [F04](../skills/README.md/#F04)
+  * Exam 02: F01 F02 F03 [F04](../skills/README.md/#F04)
 * [Week 3](#week-3)
   * [Week 3 Homework](#Homework03)
   * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](../skills/README.md/#G01)
   * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
-* Later Weeks (4-14)
+  * Exam 03: F01 F02 F03 F04 [G01](../skills/README.md/#G01)
+* Week 4
   * [Lesson 6: Inference in First Order Logic - F07](#lesson-6)
   * [Lesson 7: Truth Trees for Predicate Calculus - G02](#lesson-7)
+  * Exam 04: F01 F02 F03 F04 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
+* Later Weeks (4-14)
+
   * [Lesson 8: Intro to Proofs - F08,F09,F10,F11](#lesson-8)
   * [Lesson 9: Mathematical Notation - F08](#lesson-9)
   * [Lesson 10: Well-Ordering Principle - F09,G03](#lesson-10)
@@ -122,6 +128,9 @@ and we show that every formula can be reduced to
   [Disjunctive Normal Form](https://en.wikipedia.org/wiki/Disjunctive_normal_form)
   and also to
   [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
+
+## Exam01
+### F01, F02, F03
 ---
 
 # Week 2
