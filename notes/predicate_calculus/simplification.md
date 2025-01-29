@@ -110,9 +110,11 @@ If we are given an interpretation for the formula in a first order language,
 this shows us how extend that intepretation to a new language containing the new function symbols. 
 So the original formula had an interpretation that makes it true if and only if the new skolemized formula does.
 
-### Step 4: move the quantifers to the front
+Conversely, if the skolemized set of formulas is unsatisfiable, then the original formulas are also unsatisfiable.
+
+### Optional Step 4: move the quantifers to the front
 Since all of the quantifed variables are unique, and we only have universal quantifiers, we can now move them all to the front.
-This is called "prenex" form.
+This is called "prenex" form. When using the Tree Method for First Order Logic, it will sometimes be helpful not to put the formulas in prenex form...
 
 # Examples
 Let's try this out!
