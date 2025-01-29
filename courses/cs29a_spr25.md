@@ -22,8 +22,8 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
   * Exam 03: F01 F02 F03 F04 [G01](../skills/README.md/#G01)
 * Week 4
-  * [Lesson 6: Tue 2/4 Inference in First Order Logic - F07](#lesson-6)
-  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus - G02](#lesson-7)
+  * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6)[F07](../skills/README.md/#F07)
+  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7)[G02](../skills/README.md/#G02)
   * Exam 04: F01 F02 F03 F04 G01 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
 * Week 5
   * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
