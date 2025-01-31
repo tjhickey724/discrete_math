@@ -15,7 +15,7 @@ The axioms for "=" are
 * S $\forall x \forall y ((x=y) \rightarrow (y=x))$, equality is symmetric
 * T $\forall x \forall y \forall z ((x=y) \wedge (y=z) \rightarrow (x=z))$  equality is transitive
 
-and the axioms for addition and multiplicaiton are
+and the axioms for addition and multiplication are
 1. $\forall x (x+0=x)$
 2. $\forall x \forall y (x+s(y)) = s(x+y)$  i.e. x+(y+1) = (x+y)+1
 3. $\forall x (x*0=0)$
