@@ -22,7 +22,7 @@ and the axioms for addition and multiplication are
 4. $\forall x \forall y (x * s(y) = x * y + x)$
 5. $\forall x \forall y (x=y) \rightarrow (s(x)=s(y))$,
 6. $\forall x \forall y \forall z (x=y) \rightarrow (x+z = y+z) \wedge (z+x=z+y)$
-7. $\forall x \forall y \forall z (x=y) \rightarrow (x*z = y*z) \wedge (z*x=z*y)$
+7. $\forall x \forall y \forall z (x=y) \rightarrow (x * z = y * z) \wedge (z * x=z * y)$
 
 Let's use these axioms to prove that 1+1=2, i.e.
 * $s(0)+s(0) = s(s(0))$
