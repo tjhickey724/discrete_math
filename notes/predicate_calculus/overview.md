@@ -69,7 +69,7 @@ $\forall p . {\rm prime}(p) \leftrightarrow \neg \exists a \exists b  ((1 \lt a)
 
 or, if d is a positive divisor of p then d=1 or d=p
 
-$\forall p . {\rm prime}(p) \leftrightarrow \forall d (\exists a . p=ad) \rightarrow (d=1) \vee (d=p)$
+$\forall p . {\rm prime}(p) \leftrightarrow \forall d (\exists a . a>0 \wedge p=ad) \rightarrow (d=1) \vee (d=p)$
 
 
 
