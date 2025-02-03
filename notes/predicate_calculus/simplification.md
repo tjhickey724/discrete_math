@@ -112,6 +112,8 @@ So the original formula had an interpretation that makes it true if and only if 
 
 Conversely, if the skolemized set of formulas is unsatisfiable, then the original formulas are also unsatisfiable.
 
+So a set of first order formulas is satisfiable if an only if its simplified form (after skolemization) is satisfiable. 
+
 ### Optional Step 4: move the quantifers to the front
 Since all of the quantifed variables are unique, and we only have universal quantifiers, we can now move them all to the front.
 This is called "prenex" form. When using the Tree Method for First Order Logic, it will sometimes be helpful not to put the formulas in prenex form...
