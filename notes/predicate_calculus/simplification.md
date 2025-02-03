@@ -52,8 +52,7 @@ $\forall x \forall y  P(x,y) \rightarrow \exists z Q(z,y)$
 which is much easier to understand.
 
 ### Step 1 of Simplification: replace operators by disjunctions and conjunctions
-The first step is to rename any quantified variables which appear in 2 or more quantifiers. Then we use the usual rules
-to replace all operators with $\vee$ or $\wedge$
+The first step is to rename any quantified variables which appear in 2 or more quantifiers. Then we use the usual rules to replace all operators with $\vee$ or $\wedge$. We can also interleave Steps 1 and 2, doing some step 2 transforms before step 1 transforms...
 
 $A \rightarrow B \equiv \neg A \vee B$
 
@@ -71,6 +70,10 @@ $\neg (A \vee B) \equiv (\neg A \wedge \neg B)$
 $\neg \forall x F(x) \equiv \exists x \neg F(x)$
 
 $\neg \exists x F(x) \equiv \forall x \neg F(x)$
+
+$\neg (A\oplus B) \equiv (A\leftrightarrow B)$
+
+$\neg (A\leftrightarrow B) \equiv (A\oplus B)$
 
 
 ### Step 3: Skolemization
