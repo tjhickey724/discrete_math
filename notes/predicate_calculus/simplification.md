@@ -15,7 +15,7 @@ $\neg \forall x F(x) \equiv \exists x \neg F(x)$
 
 $\neg \exists x F(x) \equiv \forall x \neg F(x)$
 
-Notice that if the domain $D$ of discourse is a finite set, e.g. $D=\{a,b,c\}$,
+Notice that if the domain $D$ of discourse is a finite set, e.g. $D=\\{a,b,c\\}$,
 then universal quantification is equivalent to a conjunction:
 
 $\forall x F(x)$  $\equiv$ $F(a) \wedge F(b) \wedge F(c)$
