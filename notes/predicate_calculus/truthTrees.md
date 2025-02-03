@@ -13,7 +13,7 @@ We can use a similar approach for arguments in the Predicate Calculus using the 
 2. simplify all of the premises and the negation of the conclusion
 
 This leaves us with a set of formulas with the following properties
-* the formulas only have universal quantifiers, and those appear at the beginning of the formula
+* the formulas only have universal quantifiers
 * the only operators are $\wedge$ and $\vee$ and any negations only appear directly in front of predicates
 
 In making this simplification we may have added some constants $C$ and some function symbols $F$, so we let
