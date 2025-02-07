@@ -51,7 +51,7 @@ We'll look at some of these and then have you practice writing some proofs using
 * Theorem 1.5.1 on page 12, an example of a direct proof
   * now you use the same approach to prove that $n^3-3n^2+2n$ is divisible by 3 for all integers $n$
 * Theorem 1.5.2 on page 13, a proof by contradiction
-  * now you prove that the $n$th room of any irrational number $r$ is irrational, for all $n>0$
+  * now you prove that the $n$ th root of any irrational number $r$ is irrational, for all $n>0$
 * Theorem 1.6.1 on page 14, a proof by chain of iff's
 * Theorem 1.7 on clubs and groups, a proof by cases...
   [Here](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/groupsAndStrangers.jpg) is a link to a figure showing six people with their connections (either they know each other (red) or not (black))
