@@ -77,6 +77,10 @@ Here is the Tree Method drawn out for this problem.
 ![FOL Tree Method 1](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreeMethod1.jpg)
 
 # Example 2
+Here is a more complex example with a skolem constant and skolem function
+[Truth Tree Example with FOL](./Truth\ Tree\ Example\ with\ FOL.pdf)
+
+# Example 3
 If we try to test the validity of the converse argument
 
 
