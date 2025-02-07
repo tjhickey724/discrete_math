@@ -30,6 +30,14 @@ We will learn how to use the following proof techniques:
 * **proof by induction** - showing that some statement P(n) is true for every $n\ge 0$ by showing it is true for $n=0$ and
   showing that $\forall n (P(n) \rightarrow P(n+1))$, hence $P(0)$ is true and so is $P(1)$ and $P(2)$ and $P(3)$ etc....
 
+  $P(0)$
+
+  $\forall n P(n) \rightarrow P(n+1)$
+
+  ---
+
+  $\forall n P(n)$
+
 Ideally we want to find the simplest, clearest, most convincing argument that something is true, and we may need to
 try different proof techniques to find the best one.
 
