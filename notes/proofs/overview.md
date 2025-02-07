@@ -150,7 +150,7 @@ We know that we can remove any common factors of $a$ and $b$ to put the fraction
 
 so we can assume that they are not both even (why?)
 
-so $\sqrt{2}=a/b$ iff $2 = (a/b)^2$ iff $2=a^2/b^2$ iff $2b^2 = a^2$. So $a^2 is even, and hence by our results above $a$ must be even.
+so $\sqrt{2}=a/b$ iff $2 = (a/b)^2$ iff $2=a^2/b^2$ iff $2b^2 = a^2$. So $a^2$ is even, and hence by our results above $a$ must be even.
 
 Hence $a=2k$ for some integer $k$.
 
