@@ -178,7 +178,7 @@ Additional Reading on Truth Trees
 * [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
 
 
-Connect to the MLA Homework site with PIN 731541 and do all of the Week 3 problems
+Connect to the MLA Homework site and do all of the Week 3 problems
 
 ## Lesson 4 
 ### Tue 1/28 <br> _The Truth Tree Method for Propositional Logic_
