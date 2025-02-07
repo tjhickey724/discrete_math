@@ -69,7 +69,7 @@ and is often found at the end of a proof signalling that the proof is over.
 Let's have you give a direct proof of the following:
 * if $x$ is odd, then so is $x^2$.
 * if $x$ and $y$ are even, then so is $x+y$
-* $x*y$ is even if $x$ or $y$ is even
+* $x*y$ is even if $x$ is even
 
 ## Proof by Contrapositive
 Suppose we want to prove the following:
