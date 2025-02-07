@@ -87,48 +87,6 @@ Here is what the tree looks like when you start it.
 
 ![FOL Tree method 2](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreeMethod2.jpg)
 
-# Example 3
-So let's focus on showing that arguments are valid, and not look for counterexamples for now.
-
-Let's look now at [the example of the soccer players who aren't quarantined](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md)
-
-The simplified rules are all universally quantified disjunctions and we needed to introduce 
-* a Skolem constant $a$ for the person who tests positive, and
-* a Skolem function $f$ where $f(x)$ is the close contact of $x$ who plays soccer
-
-We can then replace the universally quantified variables with any expressions formed from the
-Skolem constants and functions. In this case, with $a, f(a), f(f(a)), \ldots$.
-
-The trick is to find just the instantiations you need to close every branch!
-
-The tree below shows one way of doing this....
-
-![Truth Tree Soccer](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truth_tree_soccer.jpg)
-
-We can translate this into a natural language proof as follows:
-
-The original argument is as follows:
-* P1: $\forall x \forall y (C(x,y) \rightarrow C(y,x)))$
-* P2: $\forall x \forall y P(x)\wedge C(x,y) \rightarrow Q(y)$
-* P3: $\forall x \exists y C(x,y)\wedge S(y)$
-* P4: $\forall x S(x) \rightarrow \neg Q(x)$
-* Conclusion: $\neg \exists x P(x)$
-
-and here is a proof by contradiction, in plain English:
-* If we assume the conclusion doesn't hold, then someone, say 'a', tests positive.
-* We know by P3, that 'a' has a close associate 'f(a)' that is a soccer player
-* We know by P2 since 'a' tested positive and 'a' is a close associate of 'f(a)', 'f(a)' must be quarantined.
-* But by P4, no soccer player is quarantined, so 'f(a)' is not quarantined.
-* But we can't have 'f(a)' be quarantined and not be quarantined.
-* This contradiction shows that there can not be any one who tests positive.
-
-Here is another proof in plain English.
-* by P3 every person 'a' has a close contact 'f(a)' who is a soccer player
-* by P4, that soccer player 'f(a)' is not in quarantine
-* by the contrapositive of P2, no close contact of 'f(a)' can test positive, so 'a' is not positive
-* so every person does not test positive, i.e. there is no one who tests positive.
-
-  
 
 
 
