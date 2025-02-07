@@ -100,7 +100,7 @@ which has the form $A\leftrightarrow B$
 
 To prove $A\leftrightarrow B$ there are a few ways to proceeed.
 1. prove that $A\rightarrow B$ and $B\rightarrow A$
-2. prove that $A\rightarrow B$ and $\neg A \rightarrow \neg B$, where we're proving the contrapositive of $B\rightarrow AS
+2. prove that $A\rightarrow B$ and $\neg A \rightarrow \neg B$, where we're proving the contrapositive of $B\rightarrow A$
 3. find statements $A_1,A_2,\ldots,$A_n$ and prove a chain of simpler iff's that starts with $A$ and ends with $B$
    * $A=A_1\leftrightarrow A_2\leftrightarrow\ldots\leftrightarrow A_n=B$
 
