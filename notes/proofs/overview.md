@@ -87,7 +87,7 @@ Remembering that $n$ is not odd is the same as saying $n$ is even, we must then 
 which we have already proved and which was fairly easy!
 
 Let's have you prove the following:
-* if $n^3 is odd, then $n$ is odd
+* if $n^3$ is odd, then $n$ is odd
 * if $n^3$ is even, then $n$ is even
 
 ## Proofs of iff statements
