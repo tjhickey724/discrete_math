@@ -26,7 +26,7 @@ We will learn how to use the following proof techniques:
 * **proof by contradiction** - assuming that the conclusion is false and using  the premises to generate a contradiction, which shows the conclusion can not be false
     <br> $(P\wedge \neg C)\rightarrow {\rm false} \equiv \neg (P \wedge \neg C) \equiv \neg P \vee C \equiv P \rightarrow C$
 * **proof by cases** - showing that $a_1\rightarrow c$ and  $a_2\rightarrow c$ and $\ldots$ and $a_n\rightarrow c$ and  and at least one of a1, a2,...., an must be true, so $c$ must be true.
-   <br> $(A_1\vee A_2\vee\ldots\vee A_n)$<br> $\wedge (A_1\rightarrow C) \wedge (A_2\rightarrow C) \wedge\ldots\wedge (A_n \rightarrow C)$<br> $\rightarrow C$
+   <br> $(A_1\vee A_2\vee\ldots\vee A_n)$  <br>$(A_1\rightarrow C) \wedge (A_2\rightarrow C) \wedge\ldots\wedge (A_n \rightarrow C)$<hr> $C$
 * **proof by induction** - showing that some statement P(n) is true for every $n\ge 0$ by showing it is true for $n=0$ and
   showing that $\forall n (P(n) \rightarrow P(n+1))$, hence $P(0)$ is true and so is $P(1)$ and $P(2)$ and $P(3)$ etc....
 
