@@ -139,7 +139,7 @@ This contradicts our premise that $n^2$ is odd, so $n$ can not be even, so it mu
 ## Interesting Application.
 Let's use these techniques to prove something more interesting, that the square root of 2 is irrational, that is, can't be expressed as a fraction $a/b$ where $a$ and $b$ are integers.
 
-**Theorem** 1. $\sqrt{2}$ is an irrational number.
+**Theorem**  $\sqrt{2}$ is an irrational number.
 
 **Proof**
 We will prove this by contradiction. Assume $\sqrt{2} = a/b$ for integers $a$ and $b$.
