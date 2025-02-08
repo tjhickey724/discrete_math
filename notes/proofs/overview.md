@@ -32,7 +32,7 @@ We will learn how to use the following proof techniques:
 
   $P(0)$
 
-  $\forall n \; (P(n) \rightarrow P(n+1))$
+  $\forall n  (P(n) \rightarrow P(n+1))$
 
   ---
 
