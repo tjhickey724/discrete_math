@@ -27,9 +27,9 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * Exam 04: F01 F02 F03 F04 G01 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
 * Week 5
   * [Week 5 Homework](#Homework05)
-  * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
+  * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
   * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9) [F08](../skills/README.md/#F08)
-  * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
+  * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
 * February Vacation
 * Later Weeks (6-14)
 
