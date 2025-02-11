@@ -247,6 +247,7 @@ Read about the topic we will cover when we return from break.
 
 ## Lesson 8 
 ### Tue 2/11 <br> _Intro to Proofs_
+* First we review the answers to Exam 4 and the common mistakes...
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 * Then we complete our overview of proof techniques by giving an interesting proof by cases
