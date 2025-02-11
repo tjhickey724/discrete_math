@@ -26,6 +26,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7) [G02](../skills/README.md/#G02)
   * Exam 04: F01 F02 F03 F04 G01 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
 * Week 5
+  * [Week 5 Homework](#Homework05)
   * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
   * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9) [F08](../skills/README.md/#F08)
   * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) [F11](../skills/README.md/#F11)
@@ -234,7 +235,12 @@ To be announced
 # Week 5
 ### 2/11, 2/14
 
-### Homework
+### Homework05
+Read about the topics we are covering this week (this was HW03)
+* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
+* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+
+Read about the topic we will cover when we return from break.
 * Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 * Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
 * Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
