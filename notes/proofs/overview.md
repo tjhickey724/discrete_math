@@ -126,7 +126,7 @@ Since $n$ must either be even or odd, and in both cases $n^2+n$ is even, we see 
 
 Note: we could prove this directly by noting that $n^2+n = n(n+1)$ and since either $n$ or $n+1$ must be even, so must their product!
 
-Here is another example of a proof by cases.
+Here is another example of a proof by cases. 
 
 __Theorem__  Assume we paint a square 1x1 panel with 2 colors (say red and blue), then there must be 2 points which are exactly 1 unit apart.
 
@@ -135,6 +135,8 @@ __Proof__ pick two adjacent corners of the square.
 * Case 2. The colors are different.  In this case there is a point P inside the square which makes an equilateral triangle with the two corners. Since the two corners have different colors, one is red and the other is blue, if the point P is red, then it is 1 unit a way from the red corner, and if it is blue, then it is one unit away from the blue corner, so in either case there are two points of the same color exactly 1 unit apart.
 
 We have shown in both cases that there are two points with the same color exactly one unit apart, so the Theorem is true. __Q.E.D.__
+
+![2 color painting](https://nukeart.com/cdn/shop/files/abstract-painting-bound-by-opposites-484947.jpg?v=1724032326&width=1400){width=100}
 
 ## Proof by contradiction
 This is the method we've been using in our formal proofs. To prove that $A \rightarrow B$, assume $A$ is true but $B$ is false and show this generates a contradication and hence can't be true.  Thus whenever $A$ is true, $B$ can't be false, so $B$ must also be true.
