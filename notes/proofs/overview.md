@@ -130,6 +130,9 @@ Here is another example of a proof by cases.
 
 __Theorem__  Assume we paint a square 1x1 panel with 2 colors (say black and white), then there must be 2 points which are exactly 1 unit apart.
 
+Here is an example of such a panel:
+![2 color painting](https://nukeart.com/cdn/shop/files/abstract-painting-bound-by-opposites-484947.jpg?v=1724032326&width=100)
+
 __Proof__ pick two adjacent corners of the square.
 * Case 1. The colors of the two corners are the same.  In this case we are done as they are 1 unit apart.
 * Case 2. The colors are different.  In this case there is a point P inside the square which makes an equilateral triangle with the two corners. Since the two corners have different colors, one is black and the other is white. So we again have two cases, depending on the color of the point P.
@@ -139,7 +142,7 @@ so in either case there are two points of the same color exactly 1 unit apart.
 
 We have shown in both cases that there are two points with the same color exactly one unit apart, so the Theorem is true. __Q.E.D.__
 
-![2 color painting](https://nukeart.com/cdn/shop/files/abstract-painting-bound-by-opposites-484947.jpg?v=1724032326&width=100)
+
 
 ## Proof by contradiction
 This is the method we've been using in our formal proofs. To prove that $A \rightarrow B$, assume $A$ is true but $B$ is false and show this generates a contradication and hence can't be true.  Thus whenever $A$ is true, $B$ can't be false, so $B$ must also be true.
