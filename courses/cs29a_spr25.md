@@ -258,9 +258,11 @@ Read about the topic we will cover when we return from break.
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 * Then we complete our overview of proof techniques by giving an interesting proof by cases
 
-
+---
 
 # Vacation Week 2/17-2/21
+
+---
 
 # Week 6
 ### 2/25, 2/28
