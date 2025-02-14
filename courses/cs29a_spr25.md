@@ -28,13 +28,19 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 * Week 5
   * [Week 5 Homework](#Homework05)
   * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
-  * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9) [F08](../skills/README.md/#F08)
+
   * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
 * February Vacation
-* Later Weeks (6-14)
+* * Week 6
+  * [Week 6 Homework](#Homework06)
+  * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9) [F08](../skills/README.md/#F08)
+  * [Lesson 10: Well-Ordering Principle - F09,G03](#lesson-10)[F11](../skills/README.md/#F11)
+  * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
+    
+* Later Weeks (7-14)
 
 
-  * [Lesson 10: Well-Ordering Principle - F09,G03](#lesson-10)
+ 
   * [Lesson 11: Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
   * [Lesson 12: Functions and Relations - F15,F16,F17](#lesson-12)
   * [Lesson 13: Counting - F18](#lesson-13)
@@ -252,11 +258,6 @@ Read about the topic we will cover when we return from break.
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 * Then we complete our overview of proof techniques by giving an interesting proof by cases
 
-## Lesson 9 
-### Fri 2/14 <br> _Mathematical Notation_
-* We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
-* And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
-* Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
 
 
 # Vacation Week 2/17-2/21
@@ -264,21 +265,31 @@ Read about the topic we will cover when we return from break.
 # Week 6
 ### 2/25, 2/28
 
-### Homework
-* Read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+### Homework05
+Read about the topic we will cover when we return from break.
+* Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+* Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
+* Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
+
+
+
 
 
 ## Lesson 10
-###  2/25 _Well Ordering Principle and more notation_
+###  2/25 _Mathematical Notation and Induction_
+* We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
+* And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
+* Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
+* We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
+   and use it to prove closed form expression for series elements defined recursively are correct.
+
+## Lesson 11
+###  2/28 _Well Ordering Principle and more notation_
 * We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
 * Then we continue giving [more examples of proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/moreProofs.md), some using this new notation.
 
 
 
-## Lesson 11 
-###  2/28 _Sets, Sequences, and Countability_
-* We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
-* Then we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 
 # Week 7
 ### 3/4,3/7 
@@ -289,14 +300,14 @@ Read about the topic we will cover when we return from break.
 * complete the new problems on the MLA Homework site
 
 ## Lesson 12 
-### Thu 3/4/<br> _Functions and Relations_
+###  3/4 _Sets, Sequences, and Countability_
+* We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
+* Then we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
+
+## Lesson 13 
+### Fri 3/7/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
-
-## Lesson 13
-### Thu 3/7 <br> _Counting_
-* First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
-* then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
 
 # Week 8
@@ -306,12 +317,15 @@ Read about the topic we will cover when we return from break.
 * Read [Chapter 2 of  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
 ## Lesson 14
-### Tue 3/11 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
-* we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+### Tue 3/11 <br> _Counting_
+* First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
+* then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+
 
 ## Lesson 15
-### Fri 3/14 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism_
+### Tue 3/14 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+
 
 # Week 9
 ### 3/18-21
@@ -322,15 +336,16 @@ Read about the topic we will cover when we return from break.
 * Complete the Homework assignments on MLA which are due on 11/6
 
 ## Lesson 16
+### Tue 3/18 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism_
+* we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+
+
+## Lesson 17
 ### Tue 3/18 <br> _Polynomial and Exponential Sequences_
 * we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
   by looking at [polynomial sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/polynomial_sequences.md)
 * next we look at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
 
-## Lesson 17
-### Fri 3/21 <br> _Induction_
-* We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
-   and use it to prove closed form expression for series elements defined recursively are correct.
 
 # Week 10
 ### 3/25-28 - Probability
