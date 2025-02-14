@@ -136,7 +136,7 @@ __Proof__ pick two adjacent corners of the square.
 
 We have shown in both cases that there are two points with the same color exactly one unit apart, so the Theorem is true. __Q.E.D.__
 
-![2 color painting](https://nukeart.com/cdn/shop/files/abstract-painting-bound-by-opposites-484947.jpg?v=1724032326&width=1400){width=100}
+![2 color painting](https://nukeart.com/cdn/shop/files/abstract-painting-bound-by-opposites-484947.jpg?v=1724032326&width=100)
 
 ## Proof by contradiction
 This is the method we've been using in our formal proofs. To prove that $A \rightarrow B$, assume $A$ is true but $B$ is false and show this generates a contradication and hence can't be true.  Thus whenever $A$ is true, $B$ can't be false, so $B$ must also be true.
