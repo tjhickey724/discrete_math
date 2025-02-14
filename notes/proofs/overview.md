@@ -128,11 +128,14 @@ Note: we could prove this directly by noting that $n^2+n = n(n+1)$ and since eit
 
 Here is another example of a proof by cases. 
 
-__Theorem__  Assume we paint a square 1x1 panel with 2 colors (say red and blue), then there must be 2 points which are exactly 1 unit apart.
+__Theorem__  Assume we paint a square 1x1 panel with 2 colors (say black and white), then there must be 2 points which are exactly 1 unit apart.
 
 __Proof__ pick two adjacent corners of the square.
 * Case 1. The colors of the two corners are the same.  In this case we are done as they are 1 unit apart.
-* Case 2. The colors are different.  In this case there is a point P inside the square which makes an equilateral triangle with the two corners. Since the two corners have different colors, one is red and the other is blue, if the point P is red, then it is 1 unit a way from the red corner, and if it is blue, then it is one unit away from the blue corner, so in either case there are two points of the same color exactly 1 unit apart.
+* Case 2. The colors are different.  In this case there is a point P inside the square which makes an equilateral triangle with the two corners. Since the two corners have different colors, one is black and the other is white. So we again have two cases, depending on the color of the point P.
+   *  if the point P is black, then it is 1 unit a way from the black corner, and
+   *  if it is white, then it is one unit away from the white corner,
+so in either case there are two points of the same color exactly 1 unit apart.
 
 We have shown in both cases that there are two points with the same color exactly one unit apart, so the Theorem is true. __Q.E.D.__
 
