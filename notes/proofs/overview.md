@@ -114,11 +114,15 @@ If we can find statements $A$ and $B$ such that at least one of them is true, an
 
 Let's use this to prove that $n^2 + n$ is always even, by looking at the two cases $n$ is even and $n$ is odd.
 
-Proof:
+__Theorem.__ for any integer $n$, the value $n^2+n$ is even.
+
+__Proof:__
+We will prove this by considering two cases: $n$ is even or $n$ is odd.
+
 * case 1: assume $n$ is even, then $n=2k$ so $n^2+n = (2k)^2 + 2k = 4k^2+2k = 2(2k^2+k)$ is a multiple of 2, hence even.
 * case 2: assume $n$ is odd, then $n=2k+1$ so $n^2 +n = 4k^2 + 4k + 1 + 2k +1 = 4k^2 + 6k + 2 = 2(2k^2+3k+1)$ is a multiple of 2, hence even.
 
-Since $n$ must either be even or odd, and in both cases $n^2+n$ is even, we see that $n^2+n$ is even for all $n$.
+Since $n$ must either be even or odd, and in both cases $n^2+n$ is even, we see that $n^2+n$ is even for all $n$. __Q.E.D.__
 
 Note: we could prove this directly by noting that $n^2+n = n(n+1)$ and since either $n$ or $n+1$ must be even, so must their product!
 
