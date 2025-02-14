@@ -31,7 +31,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 
   * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
 * February Vacation
-* * Week 6
+* Week 6
   * [Week 6 Homework](#Homework06)
   * [Lesson 9: Fri 2/14 Mathematical Notation](#lesson-9) [F08](../skills/README.md/#F08)
   * [Lesson 10: Well-Ordering Principle - F09,G03](#lesson-10)[F11](../skills/README.md/#F11)
