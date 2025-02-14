@@ -131,6 +131,7 @@ Here is another example of a proof by cases.
 __Theorem__  Assume we paint a square 1x1 panel with 2 colors (say black and white), then there must be 2 points which are exactly 1 unit apart.
 
 Here is an example of such a panel:
+
 ![2 color painting](https://nukeart.com/cdn/shop/files/abstract-painting-bound-by-opposites-484947.jpg?v=1724032326&width=100)
 
 __Proof__ pick two adjacent corners of the square.
@@ -141,7 +142,6 @@ __Proof__ pick two adjacent corners of the square.
 so in either case there are two points of the same color exactly 1 unit apart.
 
 We have shown in both cases that there are two points with the same color exactly one unit apart, so the Theorem is true. __Q.E.D.__
-
 
 
 ## Proof by contradiction
