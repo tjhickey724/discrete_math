@@ -104,7 +104,17 @@ To prove $A\leftrightarrow B$ there are a few ways to proceeed.
 
 
 Let's try to use one of these methods to prove 
-* $n^2$ is even if and only if $n$ is even
+__Theorem.__  $n^2$ is even if and only if $n$ is even.
+
+__Proof__.
+First we prove that $n$ is even implies $n^2$ is even (which we have done above).
+$n$ even means $n=2k$ for some integer $k$, so $n^2=(2k)^2 = 4k^2 = 2(2k^2)$ so $n^2$ is even.
+
+Then we prove that if $n^2$ is even then $n$ is even. This we prove by proving the contrapositive,
+if $n$ is not even the $n^2$ is not even. So if $n$ is not even, then it is odd, so $n=2k+1$ for some integer k. Hence $n^2 = 4k^2 +4k+1 = 2(2k^2+2k) + 1 = 2j+1$ for some integer $j$, and so is odd by definition.
+
+__Q.E.D.__
+
 
 ## Proofs by cases
 This is a very common approach. Suppose we want to prove that some statement $C$ is true.
