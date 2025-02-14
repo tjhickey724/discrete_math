@@ -103,7 +103,8 @@ To prove $A\leftrightarrow B$ there are a few ways to proceeed.
    * $A=A_1\leftrightarrow A_2\leftrightarrow\ldots\leftrightarrow A_n=B$
 
 
-Let's try to use one of these methods to prove 
+Let's try to use one of these methods to prove the following:
+
 __Theorem.__  $n^2$ is even if and only if $n$ is even.
 
 __Proof__.
