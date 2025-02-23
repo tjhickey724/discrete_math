@@ -83,7 +83,7 @@ Suppose we define $s$ by
 * $s_1 = 1$
 * $s_n = 4 *(s_{n-1}  - s_{n-2})$ for all $n\ge 2$
 
-Then in the last lesson we showed that if the closed form for this has the shape $s_n = (an+b)2^n$, then a=1/2 and b=1/2, that is
+If we knew that the closed form for this has the shape $s_n = (an+b)2^n$, then a=1/2 and b=1/2, that is
 * $s_n = n*2^{n-1}$
 
 But can we prove that this holds directly?  Yes, using induction.
