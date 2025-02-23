@@ -150,9 +150,10 @@ Since it is true in both cases, we have proven the Theorem by induction. **QED**
 
 ---
 
-You can try to prove that the parse tree for a Propositional Formula with $n$ logical operators will have $2n+1$ nodes.
+You can try to prove that the parse tree for a Propositional Formula with $n$ logical operators and no negations, will have $2n+1$ nodes.
 For example, $P\wedge (Q \rightarrow P) \vee (P \oplus Q)$ has 4 operators and the tree and and 9 nodes total (i.e. 5 propositional symbols).
 Prove it by induction on the the number of operators.
+
 
 
 
