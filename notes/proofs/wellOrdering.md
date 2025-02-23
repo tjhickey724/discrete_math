@@ -113,7 +113,7 @@ and so $n^s$ has the factorization which raises each of the factors of $n$ to th
 
 $n = p_1^{sa_1} p_2^{sa_2} \ldots p_k^{sa_k}$
 
-so $p_i$ divides $n$ (in fact $p_i^{sa_i}$ divides $n$.
+so $p_i$ divides $n$ (in fact $p_i^{a_i}$ divides $n$).
 
 **QED**
 
