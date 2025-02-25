@@ -138,7 +138,7 @@ _Base case:_ if $nm=1$ then $n=1$ and $m=1$ and it is already a 1x1 square so it
 _Induction case:_ There are two cases actually, we can break it vertically (if $m\gt 1$ or horizontally if $n\gt 1$)
 and if $n$ and $m$ are both 1, we are in the base case, so it is true.
 
-If we break it vertically, then $m=ab$ and we break the $n\times m$ into two pieces $n \times a$ and $n \times b$.
+If we break it vertically, then $m=a+b$ and we break the $n\times m$ into two pieces $n \times a$ and $n \times b$.
 
 By induction the number of steps to break these two parts are $na-1$ and $nb-1$ so the total number of steps to break the
 chocolate bar is $1 + na-1 + nb-1 = 1 + n(a+b) -2 = nm +1-2 = nm-1$ as was to be proved.
