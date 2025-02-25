@@ -34,7 +34,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 * February Vacation
 * Week 6
   * [Week 6 Homework](#Homework06)
-  * [Lesson 10: Fri 2/14 Mathematical Notation](#lesson-10) [F08](../skills/README.md/#F08)
+  * [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F08](../skills/README.md/#F08)
   * [Lesson 11: Well-Ordering Principle - F09,G03](#lesson-11)[F11](../skills/README.md/#F11)
   * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
     
@@ -282,7 +282,7 @@ Read about the topic we will cover when we return from break.
 
 
 ## Lesson 10
-###  2/25 _Mathematical Notation and Induction_
+###  2/25 _Induction Proofs and Mathematical Notation_
 * We go over the answers to exam 5 and discuss the upcoming exam 6.
 * We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
    and use it to prove closed form expression for series elements defined recursively are correct.
