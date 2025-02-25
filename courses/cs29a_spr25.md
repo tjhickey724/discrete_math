@@ -283,11 +283,13 @@ Read about the topic we will cover when we return from break.
 
 ## Lesson 10
 ###  2/25 _Mathematical Notation and Induction_
+* We go over the answers to exam 5 and discuss the upcoming exam 6.
+* We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
+   and use it to prove closed form expression for series elements defined recursively are correct.
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
-* We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
-   and use it to prove closed form expression for series elements defined recursively are correct.
+
 
 ## Lesson 11
 ###  2/28 _Well Ordering Principle and more notation_
