@@ -1,7 +1,7 @@
 # The Well Ordering Principle 
 # and The Fundamental Theorem of Arithmetic
 
-A very powerful variation of the proof bu contradiction relies on the following statement, called the Well Ordering Principle.
+A very powerful variation of the proof by contradiction relies on the following statement, called the Well Ordering Principle.
 
 **Theorem** _Every non-empty set of positive integers has a smallest element_
 
@@ -92,7 +92,7 @@ We won't prove this now, but we will show how it can be used.
 
 ---
 
-**Theorem** for every prime $p$ and all positive integer $n$ and $s$, 
+**Corollary** for every prime $p$ and all positive integer $n$ and $s$, 
 $p$ divides $n^s$ if an only if $p$ divides $n$.
 
 **Proof:**
@@ -119,7 +119,7 @@ so $p_i$ divides $n$ (in fact $p_i^{a_i}$ divides $n$).
 
 ---
 
-Here is another Theorem using the Fundamental Theorem of Arithmetic.
+Here is another application of the Fundamental Theorem of Arithmetic.
 
 ---
 
@@ -147,6 +147,9 @@ one factorization into primes.
 
 This contradiction shows that $\log_2(3)$ can not be rational, and hence is an irrational number.
 **QED**
+
+Another way we could have proved this is to prove that $3^s$ is an odd number for every $s$ and $2^r$
+is an even number, so they can't be equal. 
 
 ---
 
