@@ -28,6 +28,8 @@ Hence P(n) is true for all $n\ge 0$.
 Sometimes it is easier, with the math notation to prove that P(n-1) implies P(n) for all $n\ge 1$
 instead of proving P(n) implies P(n+1) for all $n\ge 0$, but it is the same statement.
 
+Note: Every induction proof must prove two things: the base case and the induction case!
+
 ## Example 1
 Let $s$ be the sequence defined by $s_0=0$, and $s_n=s_{n-1}+n$ for all $n\ge 1$.
 
