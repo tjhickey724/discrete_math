@@ -131,7 +131,7 @@ a 4x8 could be broken into a 1x8 and 3x8   or a 4x1 and 4x7 or  a 4x3 and 4x5.
 **Theorem.** The number of breaks you need to split an $n \times m$ chocolate bar into $1 \times 1$ squares
 is $nm-1$.
 
-**Proof.** We will prove this by strong induction on $nm$.
+**Proof.** We will prove this by strong induction on the area $a=nm$ of the chocolate bar.
 
 _Base case:_ if $nm=1$ then $n=1$ and $m=1$ and it is already a 1x1 square so it requires $1-1=0$ breaks!
 
