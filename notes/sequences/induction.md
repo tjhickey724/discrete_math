@@ -9,8 +9,8 @@ The induction axiom for the natural numbers $\mathbb{N}$ is used to prove statem
 where $P(n)$ is some predicate on the natural numbers $\mathbb{N}$ and the universal quantifier is over all natural numbers $\\{0,1,2,\ldots\\}$
 
 We can prove such a proposition by first proving two simpler propositions:
-* A) Prove $P(0)$ is true
-* B) Prove that $\forall n. P(n) \rightarrow P(n+1)$
+* A) Prove $P(0)$ is true ... _this is called the Base Case_
+* B) Prove that $\forall n. P(n) \rightarrow P(n+1)$ ... _this is the Induction Case_
 * C) Conclude that $\forall n\ P(n)$
 
 From (A) we know P(0) is true, and expanding out (B) we see
