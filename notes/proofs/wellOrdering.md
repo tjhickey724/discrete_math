@@ -153,4 +153,23 @@ is an even number, so they can't be equal.
 
 ---
 
+Let's see how we can use the well-ordering principle as an alternative to induction.
+
+Theorem. Let $s_n$ be define by $s_0=0$ and $s_{n} = s_{n-1}+ n$, then for every $n\ge 0$ we have
+$s_n = n(n+1)/2$
+
+**Proof:**
+We will prove this by contradiction and the well-ordering principle. Suppose it is not true.
+Then let $n$ be the smallest integer for which it is not true. Clearly $n>0$ because $s_0=0$ and $0\times(0+1)/2 = 0$.
+So $n-1>0$ and since $n$ is the smallest number for which the Theorem doesn't hold, we see it must hold for $n-1$.
+Hence $s_{n-1} = (n-1)\times((n-1)+1)/2 = (n-1)n/2 = (n^2 - n)/2$
+
+Combining this with he definition of $s_n$ we have
+
+$s_n = s_{n-1} + n  = \frac{n^2-n}{2} +\frac{2n}{2} = \frac{n^2-n+2n}{2} =\frac{n^2+n}{2} = n(n+1)/2$
+
+But this contradicts the assumption that $n$ was the smallest integers for which the theorem doesn't hold!
+**Q.E.D.**
+
+
 
