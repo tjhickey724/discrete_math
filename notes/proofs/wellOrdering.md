@@ -15,7 +15,7 @@ But if $n$ is not the smallest element in the set, then there is an $n_1$ in the
 Likewise, since the set has no smallest element it has an $n_2$ smaller than $n_1$. 
 Continuing in this way we can construct a sequence of positive integers
 
-$n \gt n_1 \gt n_2 \gt \ldots$
+$n \gt n_1 \gt n_2 \gt \ldots$ >0
 
 but since these are all positive integers, this sequence of numbers can have length no more than $n$,
 hence it has to be a finite sequence with last element $n_k$ which would be the smallest element in the set.
