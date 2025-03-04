@@ -38,12 +38,11 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 11: Well-Ordering Principle - F09,G03](#lesson-11)[F11](../skills/README.md/#F11)
   * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
     
-* Later Weeks (7-14)
-
-
- 
+* Week 7
   * [Lesson 11: Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
   * [Lesson 12: Functions and Relations - F15,F16,F17](#lesson-12)
+ 
+* Later Weeks (8-14)
   * [Lesson 13: Counting - F18](#lesson-13)
   * [Lesson 14: Combinations, Permutations, and PIE - F19,F20](#lesson-14)
   * [Lesson 15: Advanced Methods, Pigeons, Isomorphisms - F21,G06](#lesson-15)
