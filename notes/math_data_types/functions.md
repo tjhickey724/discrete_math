@@ -74,7 +74,7 @@ and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
 Let $f:A\rightarrow B$ be a function, and $S\subseteq B$ a subset of $B$, then we define the
 inverse image of $S$ under $f$ to be
 
-$f^{-1}(S) = \{a \in A :   f(a) \in S \}$
+$f^{-1}(S) = \\{a \in A :   f(a) \in S \\}$
 
 Note that $f$ is a function from the powerset of $B$ to the powerset of $A$.
 
