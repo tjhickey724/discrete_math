@@ -57,7 +57,7 @@ We can define the notions of injective, surjective, bijective, partial, and tota
 * $R$ is surjective if $\forall y \exists x \ \  xRy $
 * $R$ is total if $\forall x\exists y \  \  xRy$
 * $R$ is bijective if it is injective and surjective
-* $R$ is functional if $\forall z \forall x\forall y\; xRy \wedge xRz \rightarrow y=z$
+* $R$ is functional if $\forall z \forall x\forall y \ xRy \wedge xRz \rightarrow y=z$
 
 **Example 5**
 Let $p$ be a prime and let $R$ be the relation on the integers defined by $xRy \leftrightarrow \exists d\  x-y=pd$
