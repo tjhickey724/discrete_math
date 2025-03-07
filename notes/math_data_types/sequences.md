@@ -55,7 +55,8 @@ and since a table with $n$ rows and $m$ columns has $n * m$ entries. Q.E.D
 
 --- 
 **Corollary.** Let $A_1,A_2,\ldots,A_n$ be finite sets, then
-* $\vert A_1\times\ldots\times A_n\vert = \prod_\limits{i=1}^n\vert A_i \vert$
+
+$\vert A_1\times\ldots\times A_n\vert = \prod_\limits{i=1}^n\vert A_i \vert$
 
 **Proof:** 
 We will prove this by contradiction using the Well-Ordering principle.
