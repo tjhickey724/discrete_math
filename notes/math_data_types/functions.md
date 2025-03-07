@@ -70,7 +70,7 @@ We say that $f(S)$ is the **image** of $S$ under $f$, and if the domain of $f$ i
 we say that $f(A)$ is the **range** of $f$.
 
 For example, if $f$ and $g$ are functions on $\mathbb{Z}$ defined by $f(x)=x+1$ and $g(x)=2x$,
-and if $E$ is the set of even integers and $O$ is the set of odd integers$, then
+and if $E$ is the set of even integers and $O$ is the set of odd integers, then
 * $g(\mathbb{Z}) = E$
 * $f(E)=O$ and $f(O)=E$
 
