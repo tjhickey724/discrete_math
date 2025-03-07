@@ -27,7 +27,11 @@ $$
 
 A function is a **total function** if it assigns a value to every element of its domain, otherwise it is a **partial function**.
 
-For example the function $f:\mathbb{R} \rightarrow \mathbb{R}$ is defined by $f(x)=\sqrt{x}$, then $f$ is not defined for negative
+For example the function $f:\mathbb{R} \rightarrow \mathbb{R}$ is defined by 
+
+$f(x)=\sqrt{x}$
+
+then $f$ is not defined for negative
 numbers $x$ and so is a partial function, but $g(x) = x^2$ is a total function.
 
 ## Surjection, Injections, and Bijections
