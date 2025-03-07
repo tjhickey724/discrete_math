@@ -83,7 +83,7 @@ $\vert S \vert = \vert A_1\times\ldots\times A_{n-1}\vert = \prod_\limits{i=1}^{
 So by the Theorem
 
 $\vert A_1\times\ldots\times A_n\vert 
-= $(\vert A_1\times\ldots\times A_{n-1}) \times A_n\vert 
+= (\vert A_1\times\ldots\times A_{n-1}) \times A_n\vert 
 = \vert S \times A_n \vert
 = $(\vert A_1\times\ldots\times A_{n-1}) \times A_n\vert 
    = \vert S \vert * \vert A_n \vert
