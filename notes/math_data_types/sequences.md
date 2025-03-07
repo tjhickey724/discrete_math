@@ -136,6 +136,8 @@ $F_3 = \\{0,1,2\\}$
 
 $F_4 = \\{0,1,2,3\\}$
 
+and $\vert F_n \vert = n$
+
 Calculate the sizes of the following sets, and write down a few of their elements.
 1. ${\cal F}_2^3$
 2. ${\cal F}_3 \times {\cal F}_5$
