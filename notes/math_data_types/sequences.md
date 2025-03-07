@@ -128,7 +128,14 @@ QED.
 ---
 
 **Exercise 1**
-Recall that ${\cal F}_n = \\{0,1,\ldots,n-1\\}$
+Recall that ${\cal F}_n = \\{0,1,\ldots,n-1\\}$. So
+
+$F_2 = \{0,1\}$
+
+$F_3 = \{0,1,2\}$
+
+$F_4 = \{0,1,2,3\}$
+
 Calculate the sizes of the following sets, and write down a few of their elements.
 1. ${\cal F}_2^3$
 2. ${\cal F}_3 \times {\cal F}_5$
