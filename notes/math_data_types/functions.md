@@ -12,7 +12,7 @@ The element $b$ of $B$ that a function $f$ associates to an element $a$ of $A$ i
 Functions can be defined in many ways. For example,
 1. By listing its values on domain elements, e.g. $f({\rm T})=1, f({\rm F})=0$
 2. By giving an expression to evaluate $f(x) = x + (1/x)$
-3. By explaining the association in words $f(n)$ is the $n$ prime number, for natural numbers $n\gt 0$
+3. By explaining the association in words $f(n)$ is the $n$th prime number, for natural numbers $n\gt 0$
 4. By giving a menu style definition
 
 $$
