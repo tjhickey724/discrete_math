@@ -67,14 +67,21 @@ $\vert A_1\times A_2\vert = \vert A_1\vert * \vert A_2\vert$
 and it is trivially true for $n=1$ as it says $\vert A_1 \vert = \vert A_1 \vert$
 So we can assume that $n\gt 2$.
 
-Let S = $\prod_\limits{i=1}^{n-1} A_i$, the 
-$\prod_\limits{i=1}^n\vert A_i \vert = S \times A_n$.
+Let 
+
+$S =\prod_\limits{i=1}^{n-1} A_i$
+
+then 
+
+$\prod_\limits{i=1}^n\vert A_i \vert = S \times A_n$
 
 Also, since $(n-1) \lt n$, we know by our assumption that the Corollary holds, so
-* $\vert S \vert = \vert A_1\times\ldots\times A_{n-1}\vert = \prod_\limits{i=1}^{n-1}\vert A_i \vert$
+
+$\vert S \vert = \vert A_1\times\ldots\times A_{n-1}\vert = \prod_\limits{i=1}^{n-1}\vert A_i \vert$
 
 So by the Theorem
-* $\vert A_1\times\ldots\times A_n\vert = \vert S \times A_n \vert
+
+$\vert A_1\times\ldots\times A_n\vert = \vert S \times A_n \vert
    = \prod_\limits{i=1}^{n-1}\vert A_i \vert  * \vert A_n \vert = \prod_\limits{i=1}^n\vert A_i \vert$
 
 but this shows that that the Corollary holds for $n$ 
