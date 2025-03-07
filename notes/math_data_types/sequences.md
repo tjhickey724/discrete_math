@@ -83,6 +83,7 @@ $\vert S \vert = \vert A_1\times\ldots\times A_{n-1}\vert = \prod_\limits{i=1}^{
 So by the Theorem
 
 $\vert A_1\times\ldots\times A_n\vert = \vert S \times A_n \vert
+   = \vert S \vert * \vert A_n \vert
    = \left ( \prod_\limits{i=1}^{n-1}\vert A_i \vert\right )  *  \vert A_n \vert = \prod_\limits{i=1}^n\vert A_i \vert$
 
 but this shows that that the Corollary holds for $n$ 
