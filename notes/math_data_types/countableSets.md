@@ -138,7 +138,7 @@ number $r/s$ is in at least one $S_i$ (why?).
 So $\mathbb{Q}$ is a countable union of finite sets and hence is countable.
 **QED**
 
-# Uncountable Sets
+# Uncountable Sets and the Diagonalization Proof
 
 So we have seen that several big infinite sets are countable, but not all sets are countable.
 We'll now look at two uncountable sets. First lets show that there are no surjections from a set to its powerset.
@@ -203,7 +203,8 @@ then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bi
 **Theorem.** The set of infinite bit strings is uncoutable.
 
 **Proof:** The same arguments as above works but we let $t_i = 1-b_{ii}$, that is we swap 0s and 1s.
-Below is an image which shows how to construct $t$.
+Below is an image which shows how to construct $t$.  This is called a **diagonalization** proof because
+we use the diagonal of the purported table of numbers to construct a number which isn't in the list!
 **Q.E.D.**
 
 ![diagonalization](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/diagonalization.jpg)
