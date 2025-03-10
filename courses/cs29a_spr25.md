@@ -39,12 +39,16 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
     
 * Week 7
+  * [Week 7 Homework](#Homework07)
   * [Lesson 11: Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
   * [Lesson 12: Functions and Relations - F15,F16,F17](#lesson-12)
  
-* Later Weeks (8-14)
+* Week 8
+  * [Week 9 Homework](#Homework09)
   * [Lesson 13: Counting - F18](#lesson-13)
   * [Lesson 14: Combinations, Permutations, and PIE - F19,F20](#lesson-14)
+ 
+* Later Weeks (8-14)
   * [Lesson 15: Advanced Methods, Pigeons, Isomorphisms - F21,G06](#lesson-15)
   * [Lesson 16: Polynomial and Exponential Sequences - F23](#lesson-16)
   * [Lesson 17: Induction and Generating Functions- F11,G04,G05](#lesson-17)
@@ -300,15 +304,15 @@ Read about the topic we will cover when we return from break.
 # Week 7
 ### 3/4,3/7 
 
-### Homework
+### Homework07
 * read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 * read Chapter 14 on Counting in  MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * complete the new problems on the MLA Homework site
 
 ## Lesson 12 
-###  3/4 _Sets, Sequences, and Countability_
+###  3/4 _Sets and Sequences_
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
-* Then we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
+
 
 ## Lesson 13 
 ### Fri 3/7/<br> _Functions and Relations_
@@ -318,14 +322,14 @@ Read about the topic we will cover when we return from break.
 
 # Week 8
 ### 3/11-14
-### Homework due 10/29
+### Homework08
+* due 10/29
 * Complete the new MLA homework problems on Counting
 * Read [Chapter 2 of  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
 ## Lesson 14
 ### Tue 3/11 <br> _Counting_
-* First we complete our introduction to [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
-* then we begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+* We begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
 
 ## Lesson 15
@@ -342,9 +346,9 @@ Read about the topic we will cover when we return from break.
 * Complete the Homework assignments on MLA which are due on 11/6
 
 ## Lesson 16
-### Tue 3/18 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism_
+### Tue 3/18 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism, Countability for Infinite Sets_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
-
+* we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 
 ## Lesson 17
 ### Tue 3/18 <br> _Polynomial and Exponential Sequences_
