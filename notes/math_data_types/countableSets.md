@@ -197,11 +197,18 @@ b_{ii} - 5 & {\text if} b_{ii} > 5\\
 $$
 
 so $t$ differs from $f(i)$ in the $i$ th place, but if $f$ was surjective
-then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bit from $f(m)$ at the $m$ th place. Here is an image which shows how to construct $t$.
+then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bit from $f(m)$ at the $m$ th place. 
+**QED**
+
+**Theorem.** The set of infinite bit strings is uncoutable.
+
+**Proof:** The same arguments as above works but we let $t_i = 1-b_{ii}$, that is we swap 0s and 1s.
+Below is an image which shows how to construct $t$.
+**Q.E.D.**
 
 ![diagonalization](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/diagonalization.jpg)
 
-**QED**
+
 
 **Corollary.** The set of real numbers is not countable.
 
