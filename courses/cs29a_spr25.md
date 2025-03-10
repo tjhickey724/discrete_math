@@ -44,7 +44,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 12: Functions and Relations - F15,F16,F17](#lesson-12)
  
 * Week 8
-  * [Week 9 Homework](#Homework09)
+  * [Week 8 Homework](#Homework08)
   * [Lesson 13: Counting - F18](#lesson-13)
   * [Lesson 14: Combinations, Permutations, and PIE - F19,F20](#lesson-14)
  
