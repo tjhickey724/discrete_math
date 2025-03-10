@@ -1,5 +1,6 @@
-# Countable Sets
+# Countable and Uncountable Sets
 We say that a set $S$ is countable if there is a surjective function $f$ from $\mathbb{N}$ to $S$.
+If no such function exists we say that $S$ is uncountable.
 
 If a set is countable, then the sequence
 
