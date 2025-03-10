@@ -305,12 +305,13 @@ Read about the topic we will cover when we return from break.
 ### 3/4,3/7 
 
 ### Homework07
-* read Chapter 1 on Counting in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
+* read  [Chapter 1 on Counting in Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 * read Chapter 14 on Counting in  MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * complete the new problems on the MLA Homework site
 
 ## Lesson 12 
 ###  3/4 _Sets and Sequences_
+* We go over the answers to exam6
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
 
 
@@ -325,10 +326,12 @@ Read about the topic we will cover when we return from break.
 ### Homework08
 * due 10/29
 * Complete the new MLA homework problems on Counting
-* Read [Chapter 2 of  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
+* Read [Chapter 2: Sequences in  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
 ## Lesson 14
 ### Tue 3/11 <br> _Counting_
+* We go over the answers to exam7
+* We finish up our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 * We begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
 
 
