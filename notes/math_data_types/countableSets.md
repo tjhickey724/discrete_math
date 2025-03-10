@@ -188,7 +188,15 @@ We can now construct a new infinite decimal number $t$ defined
 by 
 $t=0.t_1 t_2 t_3\ldots$
 
-where $t_i = 1 - b_{ii}$ so $t_i$ differs from $f(i)$ in the $i$ th place, but if $f$ was surjective
+where 
+
+$$t_i = \begin{cases}
+b_{ii} + 4 & {\text if} b_{ii}\le 5\\
+b_{ii} - 5 & {\text if} b_{ii} > 5\\
+\end{cases}
+$$
+
+so $t$ differs from $f(i)$ in the $i$ th place, but if $f$ was surjective
 then $t=f(m)$ for some $m$ and this is a contradiction as $t$ has a different bit from $f(m)$ at the $m$ th place. Here is an image which shows how to construct $t$.
 
 ![diagonalization](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/diagonalization.jpg)
