@@ -45,7 +45,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
  
 * Week 8
   * [Week 8 Homework](#Homework08)
-  * [Lesson 13: Counting - F18](#lesson-13)
+  * [Lesson 13: Complete Functions and Relations, start Counting - F18](#lesson-13)
   * [Lesson 14: Combinations, Permutations, and PIE - F19,F20](#lesson-14)
  
 * Later Weeks (8-14)
@@ -329,7 +329,7 @@ Read about the topic we will cover when we return from break.
 * Read [Chapter 2: Sequences in  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
 ## Lesson 14
-### Tue 3/11 <br> _Counting_
+### Tue 3/11 <br> _Complete Functions and Relations, Start Counting_
 * We go over the answers to exam7
 * We finish up our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 * We begin our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
