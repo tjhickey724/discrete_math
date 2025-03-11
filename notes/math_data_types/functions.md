@@ -122,8 +122,8 @@ $(f\times g)(a,b) = (f(a), g(b))$
 
 ### Exercise 4
 Let $j(x) = 2*x$ and $k(x)=x^2+1$, 
-* what is the functions $j\times k$?
-* What is $g\circ(j\times k)$?
+* what is the function $j\times k$?
+* What is $g\circ(j\times k)$, where $g((x,y)) = x+y$ $g:N\times N \rightarrow N$?
 
 ### Exercise 5
 Let $g:A\rightarrow B$ and $f:B\rightarrow C$ be functions
