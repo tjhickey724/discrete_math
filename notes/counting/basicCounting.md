@@ -114,9 +114,9 @@ Using the inclusion exclusion principle, let $A= A_2$, $B=A_3$ and $C=A_5$ then
 * $\vert A_3\vert =33$
 * $\vert A_5 \vert = 20$
 * $\vert A_2\cap A_3 \vert = \vert A_6\vert = 16$
-* $\vert A_2\cap A_5 \vert = \vert A_10\vert = 10$
-* $\vert A_3\cap A_5 \vert = \vert A_15\vert = 6$
-* $\vert A_2\cap A_3 \cap A_5 \vert = \vert A_30\vert = 3$
+* $\vert A_2\cap A_5 \vert = \vert A_{10}\vert = 10$
+* $\vert A_3\cap A_5 \vert = \vert A_{15}\vert = 6$
+* $\vert A_2\cap A_3 \cap A_5 \vert = \vert A_{30}\vert = 3$
 
 so
 
