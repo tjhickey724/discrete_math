@@ -101,9 +101,9 @@ So $\vert A = \vert A_3\vert + \vert A_5\vert - \vert A_3\cap A_5\vert$
 
 but $A_3\cap A_5$ is the numbers divisible by 3 and 5, i.e. by 15, so 
 
-* $\vert A_3\vert =100//3 = 33$
-* $\vert A_5\vert =100//5 = 20$
-* $\vert A_3\cap A_5\vert = \vert A_{15}\vert = 100//15 = 6$
+* $\vert A_3\vert =100{\text //}3 = 33$
+* $\vert A_5\vert =100{\text //}5 = 20$
+* $\vert A_3\cap A_5\vert = \vert A_{15}\vert = 100{\text //}15 = 6$
 * $\vert A \vert = 33 + 20 - 6 = 53-6 = 47$
 
 Now, find the number of integers in [1,100] which are not divisible by 2, 3, or 5.
