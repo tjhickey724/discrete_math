@@ -76,6 +76,8 @@ The ability to categorize functions and prove properties of functions. In partic
 ### Combinatorics: Addition and Multiplication Principles 
 Ability to apply the addition and multiplication principles to find the sizes of specified sets.
 
+[F18 overview and practice problems](Combinatorics/F18.md)
+
 ## F19
 ### Combinatorics: Permutations and Combinations 
 Counting the sizes of sets defined using permutations and combinations of elements
