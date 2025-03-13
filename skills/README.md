@@ -72,11 +72,15 @@ The ability to compute and reason about compositions of functions In particular,
 ### Functions: Properties 
 The ability to categorize functions and prove properties of functions. In particular, * to show that a given function is (or is not) partial/total, injective, surjective, bijective * to prove properties of compositions and inverses of functions based on properties of the individual functions * to show that two sets are isomorphic by defining a bijection between them
 
+---
+
 ## F18
 ### Combinatorics: Addition and Multiplication Principles 
 Ability to apply the addition and multiplication principles to find the sizes of specified sets.
 
 [F18 overview and practice problems](Combinatorics/F18.md)
+
+---
 
 ## F19
 ### Combinatorics: Permutations and Combinations 
