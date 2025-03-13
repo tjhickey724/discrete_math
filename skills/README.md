@@ -86,6 +86,8 @@ Ability to apply the addition and multiplication principles to find the sizes of
 ### Combinatorics: Permutations and Combinations 
 Counting the sizes of sets defined using permutations and combinations of elements
 
+[F19 overview and practice problems](Combinatorics/F19.md)
+
 ## F20
 ### Combinatorics: Principle of Inclusion and Exclusion 
 Ability to count the sizes of sets defined intersections and unions of larger sets.
