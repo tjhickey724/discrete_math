@@ -1,4 +1,4 @@
-# F12: Set Fundamentals 
+# F12: Sets - Syntax and Semantics 
 ## Skill definition
 ```
 Ability to work with modern set notation.
