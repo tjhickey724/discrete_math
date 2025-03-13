@@ -49,7 +49,8 @@ Ability to write a well-structured proof of a Theorem, Proposition, Lemma or Cor
 ## F12
 ### Sets: Syntax and Semantics 
 Ability to work with modern set notation. In particular, the ability to perform calculations using the union, intersection, and complement of sets.
-[link to practice problems](skills/Sets/F12: Sets - Syntax and Semantics.md)
+
+[link to practice problems](Sets/F12)
 
 ## F13
 ### Sets: Algebra 
