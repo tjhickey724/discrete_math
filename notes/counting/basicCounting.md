@@ -86,7 +86,9 @@ $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert +\vert C\vert - \ve
 ### Applications
 
 **FizzBuzz**
-How many integers in the range [1,100] are divisible by 3 or by 5? This is the basis of the FizzBuzz
+How many integers in the range [1,100] are divisible by 3 or by 5? 
+
+This is the basis of the FizzBuzz
 challenge where you count from 1 to 100 but say fizz for numbers divisible by 3 and buzz for numbers divisible by 5, e.g. you can play this with a group of friends taking turns (but its not so fun for one person if the number of friends is 3 or 5)
 
 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz ...
@@ -106,7 +108,9 @@ but $A_3\cap A_5$ is the numbers divisible by 3 and 5, i.e. by 15, so
 * $\vert A_3\cap A_5\vert = \vert A_{15}\vert = 100{\text //}15 = 6$
 * $\vert A \vert = 33 + 20 - 6 = 53-6 = 47$
 
+### FizzBuzzZapp
 Now, find the number of integers in [1,100] which are not divisible by 2, 3, or 5.
+
 To do this, we first find the number which are divisible by 2,3, or 5 and then subtract that from 100.
 Using the inclusion exclusion principle, let $A= A_2$, $B=A_3$ and $C=A_5$ then
 
