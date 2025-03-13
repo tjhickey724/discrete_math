@@ -64,15 +64,15 @@ Note we can write $\mathbb{F}_n$ as $[0,n)$ or $[0,n-1]$. For example,
 
 # Sample Problems 
 Let $N=\\{0,1,2,\ldots\\}$ be the natural numbers, and let
-$X = \\{0,1,2\\}$
+$F_3 = \\{0,1,2\\}$
 
 Each of the sets below contains a (small) finite number of elements. 
 List the elements explicitly. For example, for 
 $U = \\{x \in N: x < 5\\}$ then answer would be $U=\\{0,1,2,3,4\\}$.
 
 1. List the elements of $A = \\{3x+1 : x\in N \wedge x\in [2,4]\\}$
-2. List the elements of $B = P(X)$ where $X = \\{0,1,2\\}$
-3. List the elements of $C = \\{(a,S) \in X \times P(X) : a\not\in S \\}$
-4. List the elements of $C = \\{(n,S) \in X \times P(X) : n < \vert S \vert \\}$
+2. List the elements of $B = P(F_3)$
+3. List the elements of $C = \\{(a,S) \in F_2 \times P(F_2) : a\not\in S \\}$
+4. List the elements of $C = \\{(n,S) \in F_3 \times P(F_2) : n \ne \vert S \vert \\}$
 
 
