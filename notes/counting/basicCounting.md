@@ -94,7 +94,7 @@ challenge where you count from 1 to 100 but say fizz for numbers divisible by 3 
 Let $A_n$ be the set of numbers in [1,100] which are divible by $n$.
 We want to know the size of $A = A_3\cup A_5$
 
-Observe that $\vert A_n\vert = 100//n$  where $a//b$ means divide a by b and throw away the remainder.
+Observe that $\vert A_n\vert =$ 100//n  where a//b means divide a by b and throw away the remainder.
 (Why?)
 
 So $\vert A = \vert A_3\vert + \vert A_5\vert - \vert A_3\cap A_5\vert$
