@@ -1,4 +1,4 @@
-# F14 Set Fundamentals 
+# F12: Set Fundamentals 
 ## Skill definition
 ```
 Ability to work with modern set notation.
