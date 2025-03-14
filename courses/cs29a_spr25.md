@@ -47,7 +47,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Week 8 Homework](#Homework08)
   * [Lesson 13: Complete Functions and Relations, start Counting](#lesson-13)
     * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
-  * [Lesson 14: Combinations, Permutations, and PIE - F19,F20](#lesson-14)
+  * [Lesson 14: Combinations, Permutations, and PIE](#lesson-14)
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
     * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md)
 * Later Weeks (8-14)
