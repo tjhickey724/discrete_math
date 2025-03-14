@@ -158,10 +158,6 @@ The ability to verify that a first order sentence is a logical consequence of a 
 ### Proof Techniques: Combinations 
 Ability to write a well-structured proof of a Theorem, Proposition, Lemma or Corollary using a combination of the following basic techniques: * direct proof * proof of contrapositive * proof by contradiction (possibly using the well-ordering principle) * proof by cases * proof by induction
 
-## G03
-### Sets: Countability 
-The ability to prove that an infinite set is, or is not, countable.
-
 ## G04
 ### Sequences: Closed Forms for Linear Recurrences 
 The ability to find a closed form for a homogenous linear recurrence with constant coefficients. This involves find and solving the characteristic equation and using polyomial fitting.
@@ -185,3 +181,8 @@ Ability to convert an NFA to a DFA and to use DFAs and NFAs to recognized regula
 ## G09
 ### Number Theory: RSA 
 Ability to understand and apply the RSA algorithm to create public/private keys and to encrypt/decrypt.
+
+## G10
+### Sets: Countability 
+The ability to prove that an infinite set is, or is not, countable.
+
