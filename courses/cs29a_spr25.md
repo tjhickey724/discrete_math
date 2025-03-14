@@ -337,8 +337,8 @@ Read about the topic we will cover when we return from break.
 ## Lesson 15
 ### Fri 3/14 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
 * We begin our study of counting and combinatorics, by looking at skills 
-[F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
-and [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
+  * [F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
+  * [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
 
 
 # Week 9
