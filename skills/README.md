@@ -52,13 +52,23 @@ Ability to work with modern set notation. In particular, the ability to perform 
 
 [link to F12 overview and practice problems](Sets/F12.md)
 
+---
+
 ## F13
 ### Sets: Algebra 
 Ability to using Boolean algebra to reason about sets. In particular, * to simplify formulas using boolean algebra laws * to prove (or disprove) logical inferences about set formulas
 
+[link to F13 overview and practice problems](Sets/F13.md)
+
+---
+
 ## F14
 ### Sets: Categorical Operations 
 The ability to work with the sum, product and powerset operators on sets. In particular * to calculate the sizes of sets formed using these operators * to verify if a particular element is a member of such a set (e.g. P(XxY^2) for finite sets X,Y)
+
+[link to F14 overview and practice problems](Sets/F14.md)
+
+---
 
 ## F15
 ### Functions: Syntax and Semantics 
@@ -88,9 +98,15 @@ Counting the sizes of sets defined using permutations and combinations of elemen
 
 [F19 overview and practice problems](Combinatorics/F19.md)
 
+----
+
 ## F20
 ### Combinatorics: Principle of Inclusion and Exclusion 
 Ability to count the sizes of sets defined intersections and unions of larger sets.
+
+[F20 overview and practice problems](Combinatorics/F20.md)
+
+---
 
 ## F21
 ### Combinatorics: Pigeonhole Principle 
