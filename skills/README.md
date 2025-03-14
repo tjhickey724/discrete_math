@@ -74,13 +74,23 @@ The ability to work with the sum, product and powerset operators on sets. In par
 ### Functions: Syntax and Semantics 
 Ability to use and understand mathematical notation for functions. In particular, * to calculate values of compositions of given functions * to compute the images and inverse images of a given function on subsets of the domain or codomain * to work with function defined by cases, or by mathematical formulas, or both
 
+[link to F15 overview and practice problems](Functions/F15.md)
+
+---
+
 ## F16
 ### Functions: Composition 
 The ability to compute and reason about compositions of functions In particular, * to calculate the values of a function formed by composing functions on products, powersets, sums, etc. * to calculate the image and inverse image of sets defined by compositions
 
+[link to F16 overview and practice problems](Functions/F16.md)
+
+---
+
 ## F17
 ### Functions: Properties 
 The ability to categorize functions and prove properties of functions. In particular, * to show that a given function is (or is not) partial/total, injective, surjective, bijective * to prove properties of compositions and inverses of functions based on properties of the individual functions * to show that two sets are isomorphic by defining a bijection between them
+
+[link to F17 overview and practice problems](Functions/F17.md)
 
 ---
 
