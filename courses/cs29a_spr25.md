@@ -324,25 +324,26 @@ Read about the topic we will cover when we return from break.
 # Week 8
 ### 3/11-14
 ### Homework08
-* due 10/29
 * Complete the new MLA homework problems on Counting
 * Read [Chapter 2: Sequences in  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
 ## Lesson 14
-### fri 3/11 <br> _Complete Functions and Relations, Start Counting_
+### Tue 3/11 <br> _Complete Functions and Relations, Start Counting_
 * We go over the answers to exam7
 * We finish up our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
-* We begin our study of counting and combinatorics, by looking at skill 
-[F14](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
+
 
 
 ## Lesson 15
-### Tue 3/14 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
-* we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
+### Fri 3/14 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
+* We begin our study of counting and combinatorics, by looking at skills 
+[F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
+and [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
 
 
 # Week 9
 ### 3/18-21
+
 
 ### Howework due 11/6
 * Read Chapters 15 _Generating Functions_, Chapter 16 _Events and Probability Spaces_ and Chapter 17 _Conditional Probability_ from [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
