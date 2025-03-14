@@ -339,6 +339,7 @@ Read about the topic we will cover when we return from break.
 * We begin our study of counting and combinatorics, by looking at skills 
   * [F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
   * [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
+  * [F20: Principle of Inclusion and Exclusion](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md)
 
 
 # Week 9
