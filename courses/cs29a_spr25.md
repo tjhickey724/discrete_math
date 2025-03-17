@@ -40,7 +40,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     
 * Week 7
   * [Week 7 Homework](#Homework07)
-  * [Lesson 11: Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
+  * [Lesson 11: Sets](#lesson-11)
     * [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) Sets: Syntax and Semantics
     * [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md) Sets: Algebra
     * [F14](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F14.md) Sets: Categorical Operations
