@@ -37,6 +37,11 @@ $\vert A\vert = n_1 * \ldots * n_r$
 If $A$ and $B$ are sets and there is a bijection from $A$ to $B$, then 
 $\vert A \vert = \vert B \vert$
 
+## Generalized Bijection principle
+If $A$ and $B$ are sets and there is a surjective function $f:A\rightarrow B$
+such that $f^{-1}(b)$ has $k$ elements for every $b$, then
+$\vert B \vert = \vert A \vert / k$
+
 ## Surjection principle = Pigeonhole Principle
 If $A$ and $B$ are sets and there is a surjection from $A$ onto $B$, then 
 $\vert A \vert \ge \vert B \vert$
