@@ -42,23 +42,26 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Week 7 Homework](#Homework07)
   * [Lesson 11: Sets, Sequences, and Countability - F12,F13,F14,F22,G03](#lesson-11)
   * [Lesson 12: Functions and Relations - F15,F16,F17](#lesson-12)
+    * [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md) Functions: Syntax and Semantics
+    * [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md) Functions: Composition
+    * [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md) Functions: Properties
  
 * Week 8
   * [Week 8 Homework](#Homework08)
   * [Lesson 13: Complete Functions and Relations](#lesson-13)
   * [Lesson 14: Combinations, Permutations, and PIE](#lesson-14)
-    * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
-    * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
+    * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles
+    * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md) Combinatorics: Permutations and Combinations
     
    
 * Week 9
   * [Week 9 Homework](#Homework09) 
   * [Lesson 15: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-15)
-    * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md)
-    * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md)
+    * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
+    * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
   * [Lesson 16: Polynomial and Exponential Sequences](#lesson-16)
-    * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md)
-    * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md)
+    * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
+    * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
  
 * Later Weeks (9-14)
   * [Lesson 17: Induction and Generating Functions- F11,G04,G05](#lesson-17)
