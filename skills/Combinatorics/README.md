@@ -62,7 +62,8 @@ If $A$, $B$, and $C$ are sets then
 * $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert+ \vert C \vert  - \vert A\cap B \vert - \vert A\cap C \vert - \vert B\cap C \vert + \vert A\cap B \cap C\vert$
 * and for larger interesections you alternately add and subtract the intersections of increasing numbers of sets
 
-$$\vert \bigcup_{i\in Z} S_i = \sum_{Y \in 2^Z} (-1)^{\vert Y\vert} \bigcap_{j\in Y} S_j$$
+$$\left \vert \bigcup_{i\in Z} S_i \right \vert 
+= \sum_{Y \in 2^Z} (-1)^{\vert Y\vert} \left \vert \bigcap_{j\in Y} S_j\right \vert$$
 
 
   
