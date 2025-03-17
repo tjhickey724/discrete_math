@@ -336,7 +336,7 @@ Read about the topic we will cover when we return from break.
 ### Fri 3/7/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
-
+---
 
 # Week 8
 ### 3/11-14
@@ -344,12 +344,14 @@ Read about the topic we will cover when we return from break.
 * Complete the new MLA homework problems on Counting
 * Read [Chapter 2: Sequences in  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
+---
+
 ## Lesson 14
 ### Tue 3/11 <br> _Complete Functions and Relations, Start Counting_
 * We go over the answers to exam7
 * We finish up our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
-
+---
 
 ## Lesson 15
 ### Fri 3/14 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
@@ -357,7 +359,7 @@ Read about the topic we will cover when we return from break.
   * [F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
   * [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
   
-
+---
 
 # Week 9
 ### 3/18-21
@@ -367,12 +369,15 @@ Read about the topic we will cover when we return from break.
 * Read [Chapter 5.1 from  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/sec_addtops-genfun.html)
 * Complete the Homework assignments on MLA which are due on 11/6
 
+---
+
 ## Lesson 16
 ### Tue 3/18 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism, Countability for Infinite Sets_
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
   * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
   * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
 
+---
 
 ## Lesson 17
 ### Fri 3/21 <br> _Polynomial and Exponential Sequences_
@@ -380,6 +385,7 @@ Read about the topic we will cover when we return from break.
   by looking at [polynomial sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/polynomial_sequences.md)
 * next we look at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
 
+---
 
 # Week 10
 ### 3/25-28 - Probability
@@ -390,6 +396,8 @@ Skim the following sections of two online books on Discrete Math
 * [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 
 and complete the homework problems on the MLA due on Monday.
+
+---
 
 ## Lesson 18
 ### Tue 3/25 <br> _Induction and Generating Functions_
