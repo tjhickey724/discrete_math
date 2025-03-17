@@ -61,7 +61,7 @@ If $A$, $B$, and $C$ are sets then
 * $\vert A \cup B \vert = \vert A \vert + \vert B \vert - \vert A\cap B \vert$
 * $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert+ \vert C \vert  - \vert A\cap B \vert - \vert A\cap C \vert - \vert B\cap C \vert + \vert A\cap B \cap C\vert$
 
-For larger interesections you alternately add and subtract the intersections of increasing numbers of sets
+For larger intersections you alternately add and subtract the intersections of increasing numbers of sets
 
 $$\left \vert \bigcup_{i\in Z} S_i \right \vert 
 = \sum_{Y \subseteq Z} (-1)^{\vert Y\vert+1} \left \vert \bigcap_{j\in Y} S_j\right \vert$$
