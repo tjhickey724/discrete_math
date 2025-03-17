@@ -63,7 +63,7 @@ If $A$, $B$, and $C$ are sets then
 * and for larger interesections you alternately add and subtract the intersections of increasing numbers of sets
 
 $$\left \vert \bigcup_{i\in Z} S_i \right \vert 
-= \sum_{Y \in 2^Z} (-1)^{\vert Y\vert} \left \vert \bigcap_{j\in Y} S_j\right \vert$$
+= \sum_{Y \subseteq Z} (-1)^{\vert Y\vert+1} \left \vert \bigcap_{j\in Y} S_j\right \vert$$
 
 
   
