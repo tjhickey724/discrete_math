@@ -49,12 +49,16 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 14: Combinations, Permutations, and PIE](#lesson-14)
     * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
-    * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md)
+    
    
 * Week 9
   * [Week 9 Homework](#Homework09) 
-  * [Lesson 15: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21,G06](#lesson-15) 
-  * [Lesson 16: Polynomial and Exponential Sequences - F23](#lesson-16)
+  * [Lesson 15: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-15)
+    * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md)
+    * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md)
+  * [Lesson 16: Polynomial and Exponential Sequences](#lesson-16)
+    * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md)
+    * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md)
  
 * Later Weeks (9-14)
   * [Lesson 17: Induction and Generating Functions- F11,G04,G05](#lesson-17)
