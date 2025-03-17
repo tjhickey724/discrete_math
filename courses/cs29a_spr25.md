@@ -51,11 +51,14 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
     * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md)
    
-    
-* Later Weeks (8-14)
-  * [Lesson 15: Advanced Methods, Pigeons, Isomorphisms - F21,G06](#lesson-15)
+* Week 9
+  * [Week 9 Homework](#Homework09) 
+  * [Lesson 15: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21,G06](#lesson-15) 
   * [Lesson 16: Polynomial and Exponential Sequences - F23](#lesson-16)
+ 
+* Later Weeks (9-14)
   * [Lesson 17: Induction and Generating Functions- F11,G04,G05](#lesson-17)
+
   * [Lesson 18: Probability and the 4 Step Method - F24](#lesson-18)
   * [Lesson 19: Expected Values - F25](#lesson-19)
   * [Lesson 20: Advanced Counting - G06](#lesson-20)
@@ -349,8 +352,7 @@ Read about the topic we will cover when we return from break.
 # Week 9
 ### 3/18-21
 
-
-### Howework due 11/6
+### Howework09
 * Read Chapters 15 _Generating Functions_, Chapter 16 _Events and Probability Spaces_ and Chapter 17 _Conditional Probability_ from [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * Read [Chapter 5.1 from  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/sec_addtops-genfun.html)
 * Complete the Homework assignments on MLA which are due on 11/6
@@ -361,7 +363,7 @@ Read about the topic we will cover when we return from break.
 * we learn about [countable and uncountable infinite sets](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/countableSets.md)
 
 ## Lesson 17
-### Tue 3/18 <br> _Polynomial and Exponential Sequences_
+### Fri 3/21 <br> _Polynomial and Exponential Sequences_
 * we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
   by looking at [polynomial sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/polynomial_sequences.md)
 * next we look at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
@@ -370,7 +372,7 @@ Read about the topic we will cover when we return from break.
 # Week 10
 ### 3/25-28 - Probability
 
-### Homework - due Monday 11/13/2023 before class
+### Homework10
 Skim the following sections of two online books on Discrete Math
 * [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
 * [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
