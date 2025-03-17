@@ -33,14 +33,11 @@ then
 
 $\vert A\vert = n_1 * \ldots * n_r$
 
+
 ## Bijection principle
 If $A$ and $B$ are sets and there is a bijection from $A$ to $B$, then 
 $\vert A \vert = \vert B \vert$
 
-## Generalized Bijection principle
-If $A$ and $B$ are sets and there is a surjective function $f:A\rightarrow B$
-such that $f^{-1}(b)$ has $k$ elements for every $b$, then
-$\vert B \vert = \vert A \vert / k$
 
 ## Surjection principle = Pigeonhole Principle
 If $A$ and $B$ are sets and there is a surjection from $A$ onto $B$, then 
@@ -50,10 +47,22 @@ $\vert A \vert \ge \vert B \vert$
 If $A$ and $B$ are sets and there is a injection from $A$ onto $B$, then 
 $\vert A \vert \le \vert B \vert$
 
+## Generalized Surjection principle
+If $A$ and $B$ are sets and there is a surjective function $f:A\rightarrow B$
+such that $f^{-1}(b)$ has $k$ elements for every $b$, then
+
+$\vert B \vert = \vert A \vert / k$
+
+We get such functions when our original set $A$ is double counting (or triple counting, etc.)
+the elements of the set $B$. Note that such a function is not injective (unless $k=1$)
+
 ## Principle of Inclusion and Exclusion
 If $A$, $B$, and $C$ are sets then
 * $\vert A \cup B \vert = \vert A \vert + \vert B \vert - \vert A\cap B \vert$
 * $\vert A \cup B \cup C \vert = \vert A \vert + \vert B \vert+ \vert C \vert  - \vert A\cap B \vert - \vert A\cap C \vert - \vert B\cap C \vert + \vert A\cap B \cap C\vert$
 * and for larger interesections you alternately add and subtract the intersections of increasing numbers of sets
+
+$$\vert \bigcup_{i\in Z} S_i = \sum_{Y \in 2^Z} (-1)^{\vert Y\vert} \bigcap_{j\in Y} S_j$$
+
 
   
