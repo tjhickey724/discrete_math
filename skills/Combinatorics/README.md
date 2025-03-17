@@ -51,7 +51,7 @@ If $A$ and $B$ are sets and there is a surjection from $A$ onto $B$, then
 $\vert A \vert \ge \vert B \vert$
 
 ## Injection principle
-If $A$ and $B$ are sets and there is a injection from $A$ onto $B$, then 
+If $A$ and $B$ are sets and there is a injection from $A$ into $B$, then 
 $\vert A \vert \le \vert B \vert$
 
 ## Generalized Surjection principle
