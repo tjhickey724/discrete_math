@@ -1,6 +1,49 @@
 # Discrete Math Skills
 
 # Skills
+* [F01](../skills/Propositional_Calculus/Syntax_and_Semantics.md) Propositional Logic: Syntax and Semantics 
+* F02 Propositional Logic: Truth Tables and Satisfiability 
+* F03 Propositional Logic: Translation to/from English 
+* F04 Propositional Logic: Boolean Algebra 
+* F05 Predicate Calculus: Syntax and Semantics 
+* F06 Predicate Calculus: Translation to/from English 
+* F07 bPredicate Calculus: Simplification Rules 
+* F08 Proof Techniques: Direct and ContraPositive Proofs 
+* F09 Proof Techniques: Proof by Contradiction 
+* F10 Proof Techniques: Proof by Cases 
+* F11 Proof Techniques: Induction 
+* [F12](Sets/F12.md) Sets: Syntax and Semantics 
+* [F13](Sets/F13.md) Sets: Algebra 
+* [F14](Sets/F14.md) Sets: Categorical Operations 
+* [F15](Functions/F15.md) Functions: Syntax and Semantics 
+* [F16](Functions/F16.md) Functions: Composition 
+* [F17](Functions/F17.md) Functions: Properties 
+* [F18](Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles 
+* [F19](Combinatorics/F19.md) Combinatorics: Permutations and Combinations 
+* [F20](Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion 
+* F21 Combinatorics: Pigeonhole Principle 
+* F22 Sequences: Syntax and Semantics 
+* F23 Sequences: Polynomial Fitting and Difference Tests 
+* F24 Probability: Events and Probability Spaces 
+* F25 Probability: Expected Value 
+* F26 Graph Theory: Basic Properties 
+* F27 Number Theory: Congruence 
+* G01 Propositional Logic: Inference: Truth Trees 
+* G02 Predicate Calculus: Inference: Truth Trees 
+* G03 Proof Techniques: Combinations 
+* G04 Sequences: Closed Forms for Linear Recurrences 
+* G05 Sequences: Closed Forms using Generating Functions 
+* G06 Combinatorics: Advanced 
+* G07 Graph Theory: Digraphs, DAGs and Equivalence Relations 
+* G08 Graph Theory: DFAs, NFAs, and Regular Languages 
+* G09 Number Theory: RSA 
+* G10 Sets: Countability 
+
+---
+
+
+
+# Skills
 ## [F01](../skills/Propositional_Calculus/Syntax_and_Semantics.md)
 ### Propositional Logic: Syntax and Semantics 
 Ability to evaluate a propositional formula given a True/False interpretation for the propositions in the formula. This also requires the ability to recognize whether a formula is syntactically correct and to be able to draw a parse tree for an expression and evaluate the truth value at every node. We assume that the grammar uses the standard logical operators: AND, OR, NOT, IMPLIES, IFF, XOR both in English and in traditional Mathematical notation. 
