@@ -377,6 +377,7 @@ Read about the topic we will cover when we return from break.
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
   * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
   * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
+  * [Summary of Counting Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/README.md)
 
 ---
 
