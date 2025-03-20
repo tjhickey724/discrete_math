@@ -17,6 +17,20 @@ Ability to evaluate a propositional formula given a True/False interpretation fo
 # Sample Problems
 We test your mastery of this skill by asking you to determine if a formula is syntactically correct, and if so to draw its parse tree and use the parse tree to evaluate the formula on a particular interpretation of the propositions.
 
+
+## Problem 1
+Draw the parse tree for the formula
+ $(P \rightarrow R) \wedge(Q\rightarrow R)) \leftrightarrow (P\vee Q \rightarrow R)$
+
+**Answer:** 
+![Parse Tree](boolean_parse_tree.png)
+
+
+## Problem 2
+Evaluate the formula in Problem 1 with the interpretation ...
+
+**Answer:**
+![Evaluation using a Parse Tree](boolean_evaluation.png)
 ---
 
 # Tutorial
