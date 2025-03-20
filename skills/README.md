@@ -3,10 +3,10 @@
 # Skills
 Click on the skill to go to see a short tutorial along with some problems (and worked out solutions).
 
-* [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics 
-* [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability 
-* [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English 
-* [F04](../skills/Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra 
+* [F01](Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics 
+* [F02](Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability 
+* [F03](Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English 
+* [F04](Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra 
 * F05 Predicate Calculus: Syntax and Semantics 
 * F06 Predicate Calculus: Translation to/from English 
 * F07 bPredicate Calculus: Simplification Rules 
