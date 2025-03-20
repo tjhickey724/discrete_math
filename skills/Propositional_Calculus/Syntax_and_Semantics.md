@@ -27,10 +27,12 @@ Draw the parse tree for the formula
 
 
 ## Problem 2
-Evaluate the formula in Problem 1 with the interpretation ...
+Evaluate the formula in Problem 1 with the interpretation P=F, Q=T, R=F.
 
 **Answer:**
+
 ![Evaluation using a Parse Tree](boolean_evaluation.png)
+
 ---
 
 # Tutorial
