@@ -11,6 +11,7 @@
 
 # Skill Description
 
+Ability to write a well-structured proof of a Theorem, Proposition, Lemma or Corollary using one of the standard proof techniques: * direct proof * proof of contrapositive
 
 ---
 
