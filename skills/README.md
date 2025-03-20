@@ -7,7 +7,7 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F02](Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability 
 * [F03](Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English 
 * [F04](Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra 
-* F05 Predicate Calculus: Syntax and Semantics 
+* [F05](Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics 
 * F06 Predicate Calculus: Translation to/from English 
 * F07 bPredicate Calculus: Simplification Rules 
 * F08 Proof Techniques: Direct and ContraPositive Proofs 
