@@ -21,7 +21,7 @@
 * [F18](Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles 
 * [F19](Combinatorics/F19.md) Combinatorics: Permutations and Combinations 
 * [F20](Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion 
-* F21 Combinatorics: Pigeonhole Principle 
+* [F21](Combinatorics/F21.md) Combinatorics: Pigeonhole Principle 
 * F22 Sequences: Syntax and Semantics 
 * F23 Sequences: Polynomial Fitting and Difference Tests 
 * F24 Probability: Events and Probability Spaces 
