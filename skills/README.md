@@ -1,6 +1,8 @@
 # Discrete Math Skills
 
 # Skills
+Click on the skill to go to see a short tutorial along with some problems (and worked out solutions).
+
 * [F01](../skills/Propositional_Calculus/Syntax_and_Semantics.md) Propositional Logic: Syntax and Semantics 
 * F02 Propositional Logic: Truth Tables and Satisfiability 
 * F03 Propositional Logic: Translation to/from English 
