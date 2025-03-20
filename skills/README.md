@@ -8,8 +8,8 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F03](Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English 
 * [F04](Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra 
 * [F05](Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics 
-* F06 Predicate Calculus: Translation to/from English 
-* F07 bPredicate Calculus: Simplification Rules 
+* [F06](Predicate_Calculus/F06.md) Predicate Calculus: Translation to/from English 
+* [F07](Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules 
 * F08 Proof Techniques: Direct and ContraPositive Proofs 
 * F09 Proof Techniques: Proof by Contradiction 
 * F10 Proof Techniques: Proof by Cases 
