@@ -10,7 +10,7 @@ e.g.
 One way to determine that a sequence is a polyomial sequence is by applyng the difference operator $D$
 which you get by subtracting the neigboring pairs of numbers in the sequence:
 
-$D(s) = t$ where $t_i = s_{i+1}-s{i}$
+$D(s) = t$ where $t_i = s_{i+1}-s_{i}$
 
 If we apply this operator $n$ times and get the zero sequence $(0,0,0,\ldots)$
 
