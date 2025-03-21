@@ -40,41 +40,41 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     
 * Week 7
   * [Week 7 Homework](#Homework07)
-  * [Lesson 11: Sets](#lesson-11)
+  * [Lesson 12: Sets](#lesson-12)
     * [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) Sets: Syntax and Semantics
     * [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md) Sets: Algebra
     * [F14](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F14.md) Sets: Categorical Operations
-  * [Lesson 12: Functions and Relations](#lesson-12)
+  * [Lesson 13: Functions and Relations](#lesson-13)
     * [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md) Functions: Syntax and Semantics
     * [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md) Functions: Composition
     * [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md) Functions: Properties
  
 * Week 8
   * [Week 8 Homework](#Homework08)
-  * [Lesson 13: Complete Functions and Relations](#lesson-13)
-  * [Lesson 14: Combinations, Permutations, and PIE](#lesson-14)
+  * [Lesson 14: Complete Functions and Relations](#lesson-14)
+  * [Lesson 15: Combinations, Permutations, and PIE](#lesson-15)
     * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md) Combinatorics: Permutations and Combinations
     
    
 * Week 9
   * [Week 9 Homework](#Homework09) 
-  * [Lesson 15: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-15)
+  * [Lesson 16: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-16)
     * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
     * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
-  * [Lesson 16: Polynomial and Exponential Sequences](#lesson-16)
+  * [Lesson 17: Polynomial and Exponential Sequences](#lesson-17)
     * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
     * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
  
 * Later Weeks (9-14)
-  * [Lesson 17: Induction and Generating Functions- F11,G04,G05](#lesson-17)
+  * [Lesson 18: Induction and Generating Functions- F11,G04,G05](#lesson-18)
 
-  * [Lesson 18: Probability and the 4 Step Method - F24](#lesson-18)
-  * [Lesson 19: Expected Values - F25](#lesson-19)
-  * [Lesson 20: Advanced Counting - G06](#lesson-20)
-  * [Lesson 21: Graph Theory - F26,G07,G08](#lesson-21)
-  * [Lesson 22: Number Theory - F27,G09](#lesson-22)
-  * [Lesson 23: Cryptography - F27](#lesson-23)
+  * [Lesson 19: Probability and the 4 Step Method - F24](#lesson-19)
+  * [Lesson 20: Expected Values - F25](#lesson-20)
+  * [Lesson 21: Advanced Counting - G06](#lesson-21)
+  * [Lesson 22: Graph Theory - F26,G07,G08](#lesson-22)
+  * [Lesson 23: Number Theory - F27,G09](#lesson-23)
+  * [Lesson 24: Cryptography - F27](#lesson-24)
 
 
 We will reserve the last few lessons (24,25,26) as slack space so we can spend more time on 
