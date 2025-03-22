@@ -29,7 +29,7 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F21](Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
 * [G06](Combinatorics/G06.md) Combinatorics: Advanced 
 * [F22](Sequences/F22.md) Sequences: Syntax and Semantics 
-* [F22](Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
+* [F23](Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
 * [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
 * [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions
 * [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
