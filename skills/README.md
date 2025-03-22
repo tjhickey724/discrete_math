@@ -33,17 +33,16 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
 * [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions
 * [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
-* [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions  
+* [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions
+* G10 Sets: Countability
 * F24 Probability: Events and Probability Spaces 
 * F25 Probability: Expected Value 
-* F26 Graph Theory: Basic Properties 
-* F27 Number Theory: Congruence 
-
-
+* F26 Graph Theory: Basic Properties
 * G07 Graph Theory: Digraphs, DAGs and Equivalence Relations 
-* G08 Graph Theory: DFAs, NFAs, and Regular Languages 
+* G08 Graph Theory: DFAs, NFAs, and Regular Languages  
+* F27 Number Theory: Congruence 
 * G09 Number Theory: RSA 
-* G10 Sets: Countability 
+ 
 
 ---
 
