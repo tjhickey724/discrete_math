@@ -6,14 +6,17 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F01](Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics 
 * [F02](Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability 
 * [F03](Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English 
-* [F04](Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra 
+* [F04](Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra
+* [G01](Propositional_Calculus/G01.md) Propositional Logic: Inference: Truth Trees 
 * [F05](Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics 
 * [F06](Predicate_Calculus/F06.md) Predicate Calculus: Translation to/from English 
-* [F07](Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules 
+* [F07](Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules
+* [G02](Predicate_Calculus/G02.md) Predicate Calculus: Inference: Truth Trees 
 * [F08](Proof_Techniques/F08.md) Proof Techniques: Direct and ContraPositive Proofs 
 * [F09](Proof_Techniques/F09.md) Proof Techniques: Proof by Contradiction 
 * [F10](Proof_Techniques/F10.md) Proof Techniques: Proof by Cases 
-* [F11](Proof_Techniques/F11.md) Proof Techniques: Induction 
+* [F11](Proof_Techniques/F11.md) Proof Techniques: Induction
+* [G03](Proof_Techniques/G03.md) Proof Techniques: Combinations 
 * [F12](Sets/F12.md) Sets: Syntax and Semantics 
 * [F13](Sets/F13.md) Sets: Algebra 
 * [F14](Sets/F14.md) Sets: Categorical Operations 
@@ -23,19 +26,20 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F18](Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles 
 * [F19](Combinatorics/F19.md) Combinatorics: Permutations and Combinations 
 * [F20](Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion 
-* [F21](Combinatorics/F21.md) Combinatorics: Pigeonhole Principle 
-* F22 Sequences: Syntax and Semantics 
-* F23 Sequences: Polynomial Fitting and Difference Tests 
+* [F21](Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
+* [G06](Combinatorics/G06.md) Combinatorics: Advanced 
+* [F22](Sequences/F22.md) Sequences: Syntax and Semantics 
+* [F22](Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
+* [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
+* [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions
+* [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
+* [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions  
 * F24 Probability: Events and Probability Spaces 
 * F25 Probability: Expected Value 
 * F26 Graph Theory: Basic Properties 
 * F27 Number Theory: Congruence 
-* G01 Propositional Logic: Inference: Truth Trees 
-* G02 Predicate Calculus: Inference: Truth Trees 
-* G03 Proof Techniques: Combinations 
-* G04 Sequences: Closed Forms for Linear Recurrences 
-* G05 Sequences: Closed Forms using Generating Functions 
-* G06 Combinatorics: Advanced 
+
+
 * G07 Graph Theory: Digraphs, DAGs and Equivalence Relations 
 * G08 Graph Theory: DFAs, NFAs, and Regular Languages 
 * G09 Number Theory: RSA 
