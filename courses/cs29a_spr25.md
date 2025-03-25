@@ -62,14 +62,21 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 16: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-16)
     * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
     * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
-  * [Lesson 17: Polynomial and Exponential Sequences](#lesson-17)
+  * [Lesson 17: Polynomial Sequences](#lesson-17)
     * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
     * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
- 
-* Later Weeks (9-14)
-  * [Lesson 18: Induction and Generating Functions- F11,G04,G05](#lesson-18)
+
+* Week 10
+  * [Week 10 Homework](#Homework10)  
+
+  * [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
+    * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences
 
   * [Lesson 19: Probability and the 4 Step Method - F24](#lesson-19)
+ 
+   
+* Later Weeks (9-14)
+  
   * [Lesson 20: Expected Values - F25](#lesson-20)
   * [Lesson 21: Advanced Counting - G06](#lesson-21)
   * [Lesson 22: Graph Theory - F26,G07,G08](#lesson-22)
