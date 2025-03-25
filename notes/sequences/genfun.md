@@ -1,6 +1,11 @@
 # Generating Function Cheat Sheet
 
-## definition of the Generating Function for a Sequence
+One of the most powerful techniques for finding a closed form for the elements of a recursively defined sequences
+it to use the sequence $s$ to create a function $f_s(x)$ and to show how the recursion equation on $s$ translates
+into properties of the function $f_s(x)$. We can the use those properties to find a closed form for the coefficients
+of the function, which give a formula for the original sequence!
+
+## Definition of the Generating Function for a Sequence
 Let $s = (s_0,s_1,\ldots)$ be an infinite sequence of numbers,
 then we can associated to $s$ a powerseries $f_s$ (i.e. an infinite degree polynomial)  defined by
 
