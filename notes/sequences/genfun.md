@@ -42,11 +42,11 @@ e.g.
   * $\binom{-2}{k}= (k+1) * (-1)^k$
   * So
 
-$$(1+x)^{-2} = 1 - 2x +3x^2 -4x^3 + \ldots + (k+1) * (-1)^kx^k + \ldots = \sum_{k=0}^\infty (k+1)x^k$$
+$$(1+x)^{-2} = 1 - 2x +3x^2 -4x^3 + \ldots + (k+1) * (-1)^kx^k + \ldots = \sum_{k=0}^\infty (k+1)(-1)^kx^k$$
 
 and so
 
-$$(1-tx)^{-2} = 1 +2tx +3t^2x^2 +4t^3x^3 + \ldots + (k+1) * t^kx^k + \ldots = \sum_{k=0}^\infty (k+1)x^k$$
+$$(1-tx)^{-2} = 1 +2tx +3t^2x^2 +4t^3x^3 + \ldots + (k+1) * t^kx^k + \ldots = \sum_{k=0}^\infty (k+1)t^kx^k$$
   
 
 ## polynomial sequence
