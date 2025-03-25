@@ -56,7 +56,7 @@ $f_s = q(x)/(1-x)^d$ where q is a polynomial of degree less than $d$
 If $f_s$ is a powerseries in $x$, and $a$ is a number, then $g = ax f_s$ is also a powerseries and
 
 $$
-ax f_s(x) = x\sum_{i=0}^\infty s_i x^i = as_0x + as_1x^2 + as_2x^3 + as_3x^4 + as_4x^5 + \ldots
+ax f_s(x) = ax\sum_{i=0}^\infty s_i x^i = as_0x + as_1x^2 + as_2x^3 + as_3x^4 + as_4x^5 + \ldots
  = \sum_{i=1}^\infty as_{i-1}x^i
 $$
 
