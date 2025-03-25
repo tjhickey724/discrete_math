@@ -412,7 +412,7 @@ and complete any homework problems on the MLA due on Monday.
 * We begin by going over the answers to Exam 9 
 * We discuss the new Study Guides and Strategies for Success in this class
 * We continue discussing [G04](../skills/Sequences/G04.md)the Characteristic Polynomial technique for solving Linear Recurrences
-* Time permitting we start studying [G05: Generating Functions](../skills/Sequences/G05.md)
+* Time permitting we start studying [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
 
 
 ## Lesson 19
@@ -420,7 +420,7 @@ and complete any homework problems on the MLA due on Monday.
 * We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
 
 # Week 11
-### 4/1-4 - Graph Theory
+### 4/1-4 - Probability
 
 ### Homework11
 Read
