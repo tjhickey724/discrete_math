@@ -55,14 +55,35 @@ $f_s = q(x)/(1-x)^d$ where q is a polynomial of degree less than $d$
 If $f_s$ is a powerseries in $x$, and $a$ is a number, then $g = ax f_s$ is also a powerseries and
 
 $$
-ax f_s(x) = ax f_s(x) = x\sum_{i=0}^\infty s_i x^i = as_0x + as_1x^2 + as_2x^3 + as_3x^4 + as_4x^5 + \ldots
-x \sum_{i=1}^\infty as_{i-1}x^i
+ax f_s(x) = x\sum_{i=0}^\infty s_i x^i = as_0x + as_1x^2 + as_2x^3 + as_3x^4 + as_4x^5 + \ldots
+ = \sum_{i=1}^\infty as_{i-1}x^i
 $$
 
 Likewise, 
 
 $$
 bx^2 f_s(x)  = bx^2\sum_{i=0}^\infty s_i x^i = bs_0x^2 + bs_1x^3 + bs_2x^4 + bs_3x^5 + bs_4x^6 + \ldots
-x \sum_{i=2}^\infty bs_{i-2}x^i
+ = \sum_{i=2}^\infty bs_{i-2}x^i
 $$
+
+So
+
+$$ (1 -ax -bx^2) f_s(x) = \sum_{i=0}^\infty s_{i}x^i - \sum_{i=1}^\infty 1s_{i-i}x^i - \sum_{i=2}^\infty bs_{i-2}x^i
+= s_0 + as_1x + \sum_{i=2}^\infty (s_i - as_{i-1}- bs_{i-2})x^i
+$$
+
+So if $s$ satisfies the recursive equation
+
+$s_0 = u$ $s_1 = v$ and $s_i = a s_{i-1} + b s_{i-2}$ for all $i\ge 2$
+
+Then we see that
+
+$$(1 -ax -bx^2) f_s(x) = s_0 + as_1 x $$
+
+and $s_0 = u$ and $as_1 = av$ and
+
+$$f_s(x) = \frac {u + avx}{1 - ax - bx^2}$$
+
+So if we can find a closed form for the coefficients of this, then we'll have a closed form for the sequence!
+
 
