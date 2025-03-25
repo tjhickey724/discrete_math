@@ -69,7 +69,7 @@ $$
 
 So
 
-$$ (1 -ax -bx^2) f_s(x) = \sum_{i=0}^\infty s_{i}x^i - \sum_{i=1}^\infty 1s_{i-i}x^i - \sum_{i=2}^\infty bs_{i-2}x^i
+$$ (1 -ax -bx^2) f_s(x) = \sum_{i=0}^\infty s_{i}x^i - \sum_{i=1}^\infty as_{i-i}x^i - \sum_{i=2}^\infty bs_{i-2}x^i
 = s_0 + as_1x + \sum_{i=2}^\infty (s_i - as_{i-1}- bs_{i-2})x^i
 $$
 
