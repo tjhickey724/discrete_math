@@ -24,13 +24,14 @@ and
 
 $f_s(x) = 1/(1-tx)$.
 
-## Generalize binomial Theorem
+## Generalized Binomial Theorem
 If $s_k = \binom{r}{k}$ then 
 
 $$f_s(x) = \sum_\limits{k=0}^\infty \binom{r}{k} x^k = (1+x)^r$$
 
-where $\binom{r}{k} = \frac{r * (r-1) * \ldots * (r-k+1)}{k!}$ holds for negative and postive real numbers, not just positive integers!
+where $\binom{r}{k} = \frac{r * (r-1) * \ldots * (r-k+1)}{k!}$ holds for all real values of $r$ including negative and positive real numbers, not just positive integers!
 
+### Example
 e.g.
 * with $r=-2$
   * $\binom{-2}{0}= 1$
@@ -51,3 +52,17 @@ $f_s = q(x)/(1-x)^d$ where q is a polynomial of degree less than $d$
 
 
 ## sequences from a recurrence relation
+If $f_s$ is a powerseries in $x$, and $a$ is a number, then $g = ax f_s$ is also a powerseries and
+
+$$
+ax f_s(x) = ax f_s(x) = x\sum_{i=0}^\infty s_i x^i = as_0x + as_1x^2 + as_2x^3 + as_3x^4 + as_4x^5 + \ldots
+x \sum_{i=1}^\infty as_{i-1}x^i
+$$
+
+Likewise, 
+
+$$
+bx^2 f_s(x)  = bx^2\sum_{i=0}^\infty s_i x^i = bs_0x^2 + bs_1x^3 + bs_2x^4 + bs_3x^5 + bs_4x^6 + \ldots
+x \sum_{i=2}^\infty bs_{i-2}x^i
+$$
+
