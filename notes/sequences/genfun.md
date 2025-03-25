@@ -1,5 +1,11 @@
 # Generating Function Cheat Sheet
 
+## definition of the Generating Function for a Sequence
+Let $s = (s_0,s_1,\ldots)$ be an infinite sequence of numbers,
+then we can associated to $s$ a powerseries $f_s$ (i.e. an infinite degree polynomial)  defined by
+
+$$f_s(x) = \sum_{i=0}^\infty s_i x^i = s_0 + s_1x + s_2x^2 + s_3x^3 + s_4x^4 + \ldots$$
+
 ## constant sequence
 if $s=(1,1,1,\ldots)$ then 
 
