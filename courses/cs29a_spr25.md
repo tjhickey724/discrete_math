@@ -372,7 +372,7 @@ Read about the topic we will cover when we return from break.
 ### 3/18-21
 
 ### Howework09
-* Read Chapters 15 _Generating Functions_, Chapter 16 _Events and Probability Spaces_ and Chapter 17 _Conditional Probability_ from [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
+* Read Chapters 15 _Generating Functions_,
 * Read [Chapter 5.1 from  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/sec_addtops-genfun.html)
 * Complete the Homework assignments on MLA which are due on 11/6
 
@@ -397,22 +397,23 @@ Read about the topic we will cover when we return from break.
 ---
 
 # Week 10
-### 3/25-28 - Probability
+### 3/25-28 - Sequences
 
 ### Homework10
 Skim the following sections of two online books on Discrete Math
-* [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
-* [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+* Chapter 16 _Events and Probability Spaces_ and Chapter 17 _Conditional Probability_ from [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 
-and complete the homework problems on the MLA due on Monday.
+and complete any homework problems on the MLA due on Monday.
 
 ---
 
 ## Lesson 18
-### Tue 3/25 <br> _Induction and Generating Functions_
-* We finish up our study of [sequences](https://github.com/tjhickey724/discrete_math/tree/main/notes/sequences)
-* We give some examples of recursion equations that arise in the study of algorithms (Priority Queues and AVL Trees)
-* We give a brief introduction to Generating Functions
+### Tue 3/25 <br> _Exponential Sequences and Generating Functions_
+* We begin by going over the answers to Exam 9 
+* We discuss the new Study Guides and Strategies for Success in this class
+* We continue discussing [G04](../skills/Sequences/G04.md)the Characteristic Polynomial technique for solving Linear Recurrences
+* Time permitting we start studying [G05: Generating Functions](../skills/Sequences/G05.md)
+
 
 ## Lesson 19
 ### Fri 3/28 <br> _Probability and the 4 step method_
@@ -420,6 +421,11 @@ and complete the homework problems on the MLA due on Monday.
 
 # Week 11
 ### 4/1-4 - Graph Theory
+
+### Homework11
+Read
+* [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
+* [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 
 ## Lesson 20
 ### Tue 4/1 <br> _Advanced Counting_
