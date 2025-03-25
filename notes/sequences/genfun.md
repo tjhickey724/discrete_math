@@ -86,4 +86,18 @@ $$f_s(x) = \frac {u + avx}{1 - ax - bx^2}$$
 
 So if we can find a closed form for the coefficients of this, then we'll have a closed form for the sequence!
 
+Our first step is to factor $(1-ax-bx^2) = (1-\alpha_1 x) (1 - \alpha_2 x)$
+and if $\alpha_1\ne\alpha_2$ we can use polynomial interpolation to find numbers $r$ and $s$ such that
+
+$$f_s(x) = \frac {u + avx}{1 - ax - bx^2} = \frac r {1-\alpha_1 x} + \frac s {1-\alpha_2 x}$$
+
+but if $\alpha_1 = \alpha_2 = \alpha$ then
+
+$$f_s(x) = \frac {u + a v x} {(1-\alpha x)^2}$$
+
+and both of these forms have nice closed form solutions as we have seen above!
+
+A similar argument works for linear recurrences with 3 or more terms...
+
+
 
