@@ -71,6 +71,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 
   * [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
     * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences
+    * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
 
   * [Lesson 19: Probability and the 4 Step Method - F24](#lesson-19)
  
