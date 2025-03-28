@@ -413,23 +413,29 @@ and complete any homework problems on the MLA due on Monday.
 * We begin by going over the answers to Exam 9 
 * We discuss the new Study Guides and Strategies for Success in this class
 * We continue discussing [G04](../skills/Sequences/G04.md)the Characteristic Polynomial technique for solving Linear Recurrences
-* Time permitting we start studying [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
+
 
 
 ## Lesson 19
-### Fri 3/28 <br> _Probability and the 4 step method_
-* We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
+### Fri 3/28 <br _Generating Functions_
+* We begin describing strategies for success
+* We start studying [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
+
+---
 
 # Week 11
-### 4/1-4 - Probability
+### 4/1-4 - 
 
 ### Homework11
 Read
 * [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
 * [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 
-## Lesson 20
-### Tue 4/1 <br> _Advanced Counting_
+## Lesson 20 
+
+### Tue 4/1  <br> _Probability and the 4 step method_
+* We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
+<br> _Advanced Counting_
 * We show how to calculate the expected number of rolls in a game of Craps (3.37575...)
   
 ## Lesson 21
@@ -441,9 +447,10 @@ Read
 ### 4/8-11 - Number Theory
 
 ## Lesson 22 Cryptography
-[Crypto](../notes/cryptograph/overview.md)
+* More graph theory
 
-## Lesson 23 RSA
+
+## Lesson 23 Crypotography
 [Crypto](../notes/cryptograph/overview.md)
 
 
@@ -451,6 +458,7 @@ Read
 ### 4/22-25
 
 ## Lesson 24
+[Crypto](../notes/cryptograph/overview.md)
 [Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
 
 ## Lesson 25
