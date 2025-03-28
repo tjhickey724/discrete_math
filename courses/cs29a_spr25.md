@@ -25,6 +25,9 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6) [F07](../skills/README.md/#F07)
   * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7) [G02](../skills/README.md/#G02)
   * Exam 04: F01 F02 F03 F04 G01 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
+ 
+---
+
 * Week 5
   * [Week 5 Homework](#Homework05)
   * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10)
@@ -37,6 +40,8 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F08](../skills/README.md/#F08)
   * [Lesson 11: Well-Ordering Principle - F09,G03](#lesson-11)[F11](../skills/README.md/#F11)
   * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
+
+---
     
 * Week 7
   * [Week 7 Homework](#Homework07)
@@ -48,6 +53,8 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     * [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md) Functions: Syntax and Semantics
     * [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md) Functions: Composition
     * [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md) Functions: Properties
+
+---
  
 * Week 8
   * [Week 8 Homework](#Homework08)
@@ -56,7 +63,8 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md) Combinatorics: Permutations and Combinations
     
-   
+ ---
+ 
 * Week 9
   * [Week 9 Homework](#Homework09) 
   * [Lesson 16: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-16)
@@ -66,20 +74,27 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
     * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
 
+---
+
 * Week 10
   * [Week 10 Homework](#Homework10)  
 
   * [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
     * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences
-    * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
+    
 
-  * [Lesson 19: Probability and the 4 Step Method - F24](#lesson-19)
+  * [Lesson 19:Generating Functions](#lesson-19)
+    * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
  
    
-* Later Weeks (9-14)
-  
-  * [Lesson 20: Expected Values - F25](#lesson-20)
-  * [Lesson 21: Advanced Counting - G06](#lesson-21)
+
+* Week 11
+    
+  * [Lesson 20: Probability and Expected Values - F24](#lesson-20)
+  * [Lesson 21: The 4 Step Method (F25) and Advanced Counting - G06](#lesson-21)
+
+* Later Weeks (11-14)
+
   * [Lesson 22: Graph Theory - F26,G07,G08](#lesson-22)
   * [Lesson 23: Number Theory - F27,G09](#lesson-23)
   * [Lesson 24: Cryptography - F27](#lesson-24)
