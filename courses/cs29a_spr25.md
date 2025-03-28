@@ -470,7 +470,7 @@ and complete any homework problems on the MLA due on Monday.
 ## Lesson 19
 ### Fri 3/28 <br> _Generating Functions_
 * We begin describing __Strategies for Success__
-  * 36 Discrete Math skills +
+  * 37 Discrete Math skills +
   * F00 - take a selfie (will appear on all exams after 11)
   * in-class participation - percentage of answers with Good Faith Effort
   * homework - percentage of answers with good faith effort
