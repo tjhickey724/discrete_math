@@ -7,20 +7,32 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 
 # Lesson Notes
 * [Course Overview](#course-overview)
+
+---
+
 * [Week 1](#week-1)
   * [Week 1 Homework](#Homework01)
   * [Lesson 1: Tue 1/14 Intro and Overview](#lesson-1) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
   * [Lesson 2: Fri 1/17 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
   * Exam 01: [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
+
+---
+
 * [Week 2](#week-2)
   * [Week 2 Homework](#Homework02)
   * [Lesson 3: Fri 1/25 Inference](#lesson-3) [F04](../skills/README.md/#F04)
   * Exam 02: F01 F02 F03 [F04](../skills/README.md/#F04)
+
+---
+
 * [Week 3](#week-3)
   * [Week 3 Homework](#Homework03)
   * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](../skills/README.md/#G01)
   * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
   * Exam 03: F01 F02 F03 F04 [G01](../skills/README.md/#G01)
+
+---
+
 * Week 4
   * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6) [F07](../skills/README.md/#F07)
   * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7) [G02](../skills/README.md/#G02)
@@ -34,7 +46,13 @@ This file contains links to course notes and homework for CS29a in Spring 2025
   * [Lesson 9: Fri 2/14 More Proof](#lesson-9)
 
   * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
+
+---
+
 * February Vacation
+
+---
+
 * Week 6
   * [Week 6 Homework](#Homework06)
   * [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F08](../skills/README.md/#F08)
@@ -84,14 +102,17 @@ This file contains links to course notes and homework for CS29a in Spring 2025
     
 
   * [Lesson 19:Generating Functions](#lesson-19)
+    * __Strategies for Success__
     * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
  
-   
+---   
 
 * Week 11
     
   * [Lesson 20: Probability and Expected Values - F24](#lesson-20)
   * [Lesson 21: The 4 Step Method (F25) and Advanced Counting - G06](#lesson-21)
+
+---
 
 * Later Weeks (11-14)
 
@@ -132,6 +153,8 @@ Most of our readings will come from the follwoing online books:
 
 
 ---
+---
+
 # Week 1
 ### 1/14,17/25
 #### Motivation
@@ -186,6 +209,8 @@ and we show that every formula can be reduced to
 
 ## Exam01
 ### F01, F02, F03
+
+---
 ---
 
 # Week 2
@@ -210,6 +235,7 @@ Connect to the MLA homework site and do all of the Week 2 problems.
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 
 
+---
 ---
   
 # Week 3
@@ -252,6 +278,8 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
 * We show [how to evaluate a First Order Formula given an Interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLinterpretations.md).
+
+---
 ---
 
 # Week 4
@@ -264,6 +292,8 @@ a formula follows from a set of assumptions, or to find a counter example.
 ### Homework
 To be announced
 
+---
+---
 
 ## Lesson 6 
 ### Tue 2/4 <br> _Inference in First Order Logic_
@@ -280,7 +310,8 @@ To be announced
   * and looking at [the Peano Axiomatization of Arithmetic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/peanoAxioms.md).
 
 
-
+---
+---
 
 # Week 5
 ### 2/11, 2/14
@@ -306,9 +337,11 @@ Read about the topic we will cover when we return from break.
 * Then we complete our overview of proof techniques by giving an interesting proof by cases
 
 ---
+---
 
 # Vacation Week 2/17-2/21
 
+---
 ---
 
 # Week 6
@@ -338,7 +371,8 @@ Read about the topic we will cover when we return from break.
 ###  2/28 _Well Ordering Principle and more notation_
 * We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
 
-
+---
+---
 
 
 # Week 7
@@ -359,6 +393,7 @@ Read about the topic we will cover when we return from break.
 ### Fri 3/7/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
+---
 ---
 
 # Week 8
@@ -382,6 +417,7 @@ Read about the topic we will cover when we return from break.
   * [F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
   * [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
   
+---
 ---
 
 # Week 9
@@ -433,7 +469,7 @@ and complete any homework problems on the MLA due on Monday.
 
 ## Lesson 19
 ### Fri 3/28 <br> _Generating Functions_
-* We begin describing strategies for success
+* We begin describing __Strategies for Success__
   * 36 Discrete Math skills +
   * F00 - take a selfie (will appear on all exams after 11)
   * in-class participation - percentage of answers with Good Faith Effort
@@ -452,7 +488,8 @@ and complete any homework problems on the MLA due on Monday.
     * look at the [old exams and answers](https://moodle.brandeis.edu/mod/folder/view.php?id=154297) to practice the older problems and check your answers with the answer sheets
     * ask for more problems at the [optional problems MLA site](https://masterylearningapp.onrender.com/showCourseToStaff/67af759f0de0d04576493c96) if you want more worked out answers
     * come to the [office hours](https://docs.google.com/spreadsheets/d/1OuiMouN82cuuHPPobNEKe1ePAEe-r3wvs2WJIgko5RQ/edit?gid=0#gid=0) to get help on concepts you don't fully understand
-* We start studying [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
+* We continue with studying sequences
+   * [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
 
 ---
 
@@ -475,6 +512,7 @@ Read
 ### Fri 4/4 <br> _Graphs_
 * We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)
 
+---
 
 # Week 12
 ### 4/8-11 - Number Theory
