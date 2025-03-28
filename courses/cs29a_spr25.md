@@ -432,8 +432,26 @@ and complete any homework problems on the MLA due on Monday.
 
 
 ## Lesson 19
-### Fri 3/28 <br _Generating Functions_
+### Fri 3/28 <br> _Generating Functions_
 * We begin describing strategies for success
+  * 36 Discrete Math skills +
+  * F00 - take a selfie (will appear on all exams after 11)
+  * in-class participation - percentage of answers with Good Faith Effort
+  * homework - percentage of answers with good faith effort
+  * 5 exams left Exam 10 (today)  Exams 11,12,13  and the Final Exam (1st day of Finals week)
+  * Grading curve
+    * A+ need 35 skills
+    * A- need 30 skill
+    * B- need 25 skills
+    * C- need 20 skills
+    * D- need 15 skills
+  * Strategy --
+    * pick a grade you want to shoot for,
+    * determine how many skills you need to master
+    * look at the [Skill Study Guides](https://github.com/tjhickey724/discrete_math/blob/main/skills/README.md) for the skills you want to master and to the problems, look at the answers
+    * look at the [old exams and answers](https://moodle.brandeis.edu/mod/folder/view.php?id=154297) to practice the older problems and check your answers with the answer sheets
+    * ask for more problems at the [optional problems MLA site](https://masterylearningapp.onrender.com/showCourseToStaff/67af759f0de0d04576493c96) if you want more worked out answers
+    * come to the [office hours](https://docs.google.com/spreadsheets/d/1OuiMouN82cuuHPPobNEKe1ePAEe-r3wvs2WJIgko5RQ/edit?gid=0#gid=0) to get help on concepts you don't fully understand
 * We start studying [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
 
 ---
