@@ -497,45 +497,53 @@ and complete any homework problems on the MLA due on Monday.
 ### 4/1-4 - 
 
 ### Homework11
-Read
+Reading for this week
+* [Chapter 16 Events and Probability Spaces and Chapter 17 Conditional Probability from Mathematics for Computer Science by Lehman, Leighton, and Meyer](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
+Reading for next week
 * [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
 * [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 
 ## Lesson 20 
-
 ### Tue 4/1  <br> _Probability and the 4 step method_
-* We begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
+* First we review the answers, and most common mistakes, for Exam 10
+* Then, we begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
 <br> _Advanced Counting_
 * We show how to calculate the expected number of rolls in a game of Craps (3.37575...)
   
 ## Lesson 21
-### Fri 4/4 <br> _Graphs_
-* We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)
+### Fri 4/4 <br> Random Variables and Expected Values
+* We continue with our study of probability
 
 ---
 
 # Week 12
-### 4/8-11 - Number Theory
+### 4/8-11 - Graph Theory
 
-## Lesson 22 Cryptography
+## Lesson 22 
+### Tue 4/8 <br> _Graphs_
+* We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)Cryptography
 * More graph theory
 
 
-## Lesson 23 Crypotography
-[Crypto](../notes/cryptograph/overview.md)
+## Lesson 23 
+### Fri 4/11 <br> _Graphs_
+* We continue studying graph theory
 
+# Passover Break
+### 4/15-19
 
 # Week 13
 ### 4/22-25
 
-## Lesson 24
+## Lesson 24 <br> Crypotography
 [Crypto](../notes/cryptograph/overview.md)
-[Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
 
-## Lesson 25
-[Quicksort Analysis](../notes/algorithmicAnalysis/quicksort.md)
+
+## Lesson 25 <br>
+More Crypo
 
 # Week 14
-## 4/29
-
+## 4/29 <br> Analysis of Algorithms
+[Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
+[Quicksort Analysis](../notes/algorithmicAnalysis/quicksort.md)
 
