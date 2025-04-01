@@ -506,9 +506,8 @@ Reading for next week
 ## Lesson 20 
 ### Tue 4/1  <br> _Probability and the 4 step method_
 * First we review the answers, and most common mistakes, for Exam 10
-* Then, we begin our study of [probability](https://github.com/tjhickey724/discrete_math/blob/main/notes/probability/overview.md)
-<br> _Advanced Counting_
-* We show how to calculate the expected number of rolls in a game of Craps (3.37575...)
+* 
+* Then, we begin our study of [F24: Probability](../skills/Probability/F24.md)
   
 ## Lesson 21
 ### Fri 4/4 <br> Random Variables and Expected Values
