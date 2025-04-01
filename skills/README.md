@@ -32,7 +32,7 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F23](Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
 * [G04](Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences 
 * [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions
-* F24 Probability: Events and Probability Spaces 
+* [F24](Probability/F24.md) Probability: Events and Probability Spaces 
 * F25 Probability: Expected Value 
 * F26 Graph Theory: Basic Properties
 * G07 Graph Theory: Digraphs, DAGs and Equivalence Relations 
