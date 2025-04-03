@@ -109,8 +109,8 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 
 * Week 11
     
-  * [Lesson 20: Probability and Expected Values - F24](#lesson-20)
-  * [Lesson 21: The 4 Step Method (F25) and Advanced Counting - G06](#lesson-21)
+  * [Lesson 20: Events and Probability Spaces](#lesson-20)
+  * [Lesson 21: Random Variables and Expected Values](#lesson-21)
 
 ---
 
