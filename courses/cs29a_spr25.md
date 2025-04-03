@@ -506,13 +506,16 @@ Reading for next week
 ## Lesson 20 
 ### Tue 4/1  <br> _Probability and the 4 step method_
 * First we review the answers, and most common mistakes, for Exam 10
-* 
-* Then, we begin our study of [F24: Probability](../skills/Probability/F24.md)
+* Then, we begin our study of [F24: Probability: Events and Probability Spaces](../skills/Probability/F24.md)
   
 ## Lesson 21
 ### Fri 4/4 <br> Random Variables and Expected Values
-* We continue with our study of probability
-
+* We continue with our study of probability with
+  * [F25: Probability: Random Variables and Expected Values](../skills/Probability/F25.md)
+* Then we give some suggestions for exam 11, which will have three new skills F24, F25, and G06
+  * [F24: Probability: Events and Probability Spaces](../skills/Probability/F24.md)
+  * [F25: Probability: Random Variables and Expected Values](../skills/Probability/F25.md)
+  * [G05: Sequences: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
 ---
 
 # Week 12
