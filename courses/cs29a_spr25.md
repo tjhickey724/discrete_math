@@ -117,7 +117,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 * Week 12 4/8-4/11
   
   * [Lesson 22: Graph Theory - Relations, Digraphs, and DAGs](#lesson-22)
-  * [Lesson 32: Graph Theory - Digraph, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
+  * [Lesson 23: Graph Theory - Digraph, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
 
 
 ---
