@@ -114,15 +114,28 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 
 ---
 
-* Later Weeks (11-14)
+* Week 12 4/8-4/11
+  
+  * [Lesson 22: Graph Theory - Relations, Digraphs, and DAGs](#lesson-22)
+  * [Lesson 32: Graph Theory - Digraph, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
 
-  * [Lesson 22: Graph Theory - F26,G07,G08](#lesson-22)
-  * [Lesson 23: Number Theory - F27,G09](#lesson-23)
-  * [Lesson 24: Cryptography - F27](#lesson-24)
+
+---
+
+* Passover break
+
+---
+
+* Week 13 4/22-2/25
+
+  * [Lesson 24: Countability and UnCountability](#lesson-24)
+  * [Lesson 25: Number Theory and Cryptography](#lesson-25) 
+
+* Week 14 4/29
+
+  * [Lesson 26: Review for Final Exam](#lesson-26)
 
 
-We will reserve the last few lessons (24,25,26) as slack space so we can spend more time on 
-earlier lessons if needed.
 
 
 # Course Overview
@@ -518,34 +531,47 @@ Reading for next week
   * [G05: Sequences: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
 ---
 
+
+
 # Week 12
 ### 4/8-11 - Graph Theory
 
-## Lesson 22 
-### Tue 4/8 <br> _Graphs_
-* We begin our study of [Graph Theory ](../notes/graph_theory/overview.md)Cryptography
-* More graph theory
+## Lesson 22
+### Tue 4/7 <br> Relations, Digraphs, and DAGs
+* We begin with a review of Exam 11
+* Then we begin talking about Binary Relations and Equivalence Relations
+  
+## Lesson 23
+### Fri 4/11 <br> Graphs, Digraphs, DAGs, DFAs, NFAs, and RegExs
+* We introduce the concepts of Digraphs and DAGs
+* We show how every digraph can be factored into a DAG of equivalence classes
+* We introduce labeled digraphs and give an overview of DFAs, NFAs, and Regular Expressions
 
+---
 
-## Lesson 23 
-### Fri 4/11 <br> _Graphs_
-* We continue studying graph theory
+# Passover break
 
-# Passover Break
-### 4/15-19
+---
 
 # Week 13
-### 4/22-25
+## 4/22-4/25 - Infinities and Number Theory
 
-## Lesson 24 <br> Crypotography
-[Crypto](../notes/cryptograph/overview.md)
+## Lesson 24
+### Tue 4/22 <br> Sizes of Infinite sets
+* We go over exam 12
+* We introduce the notion of countability and cardinality of infinite sets
+* We show that some sets are not countable
+* We show there is an infinite hierarcy of non-isomorphic infinite sets
 
+## Lesson 25
+### Fri 4/25
+* We introduce the rings $Z/nZ$
+* We show how to quickly find pseudo primes
+* We explain the theory behind public key Cryptography
 
-## Lesson 25 <br>
-More Crypo
+# Week 14 4/29
 
-# Week 14
-## 4/29 <br> Analysis of Algorithms
-[Analysis of Algorithms](../notes/algorithmicAnalysis/overview.md)
-[Quicksort Analysis](../notes/algorithmicAnalysis/quicksort.md)
+## Lesson 26
+### Tue 4/29
+* We give a review for the Final Exam
 
