@@ -540,6 +540,7 @@ Reading for next week
 ### Tue 4/7 <br> Relations, Digraphs, and DAGs
 * We begin with a review of Exam 11
 * Then we begin talking about Binary Relations and Equivalence Relations
+  * [F26: Graph Theory: Binary Relations](../skills/Graph_Theory/F26.md)
   
 ## Lesson 23
 ### Fri 4/11 <br> Graphs, Digraphs, DAGs, DFAs, NFAs, and RegExs
