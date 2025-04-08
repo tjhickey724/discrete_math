@@ -545,8 +545,10 @@ Reading for next week
 ## Lesson 23
 ### Fri 4/11 <br> Graphs, Digraphs, DAGs, DFAs, NFAs, and RegExs
 * We introduce the concepts of Digraphs and DAGs
+  * [G07: Graph Theory: Digraph, DAGS](../skills/Graph_Theory/G07.md)
 * We show how every digraph can be factored into a DAG of equivalence classes
 * We introduce labeled digraphs and give an overview of DFAs, NFAs, and Regular Expressions
+  * [G08: Graph Theory: DFAs, NFAs, RegEx](../skills/Graph_Theory/G08.md)
 
 ---
 
