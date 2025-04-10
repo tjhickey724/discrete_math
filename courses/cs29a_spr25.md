@@ -117,7 +117,7 @@ This file contains links to course notes and homework for CS29a in Spring 2025
 * Week 12 4/8-4/11
   
   * [Lesson 22: Graph Theory - Relations, Digraphs, and DAGs](#lesson-22)
-  * [Lesson 23: Graph Theory - Digraph, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
+  * [Lesson 23: Graph Theory - Digraphs, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
 
 
 ---
@@ -540,12 +540,13 @@ Reading for next week
 ### Tue 4/7 <br> Relations, Digraphs, and DAGs
 * We begin with a review of Exam 11
 * Then we begin talking about Binary Relations and Equivalence Relations
-  * [F26: Graph Theory: Binary Relations](../skills/Graph_Theory/F26.md)
+  * [F26: Graph Theory: Binary Relations and Digraphs](../skills/Graph_Theory/F26.md)
   
 ## Lesson 23
 ### Fri 4/11 <br> Graphs, Digraphs, DAGs, DFAs, NFAs, and RegExs
 * We introduce the concepts of Digraphs and DAGs
-  * [G07: Graph Theory: Digraph, DAGS](../skills/Graph_Theory/G07.md)
+  * [F26: Graph Theory: Binary Relations and Digraphs](../skills/Graph_Theory/F26.md)
+  * [G07: Graph Theory: Digraphs, DAGS](../skills/Graph_Theory/G07.md)
 * We show how every digraph can be factored into a DAG of equivalence classes
 * We introduce labeled digraphs and give an overview of DFAs, NFAs, and Regular Expressions
   * [G08: Graph Theory: DFAs, NFAs, RegEx](../skills/Graph_Theory/G08.md)
