@@ -36,7 +36,7 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F25](Probability/F25.md) Probability: Random Variables and Expected Value 
 * [F26](Graph_Theory/F26.md) Graph Theory: Basic Properties
 * [G07](Graph_Theory/G07.md) Graph Theory: Digraphs, DAGs and Equivalence Relations 
-* G08 Graph Theory: DFAs, NFAs, and Regular Languages  
+* [G08](Graph_Theory/G08.md)  Graph Theory: DFAs, NFAs, and Regular Languages  
 * F27 Number Theory: Congruence 
 * G09 Number Theory: RSA
 * G10 Sets: Countability
