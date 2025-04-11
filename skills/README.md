@@ -34,7 +34,7 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [G05](Sequences/G05.md) Sequences: Closed Forms using Generating Functions
 * [F24](Probability/F24.md) Probability: Events and Probability Spaces 
 * [F25](Probability/F25.md) Probability: Random Variables and Expected Value 
-* F26 Graph Theory: Basic Properties
+* [F26](Graph_Theory/F26.md) Graph Theory: Basic Properties
 * G07 Graph Theory: Digraphs, DAGs and Equivalence Relations 
 * G08 Graph Theory: DFAs, NFAs, and Regular Languages  
 * F27 Number Theory: Congruence 
