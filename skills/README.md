@@ -39,7 +39,7 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [G08](Graph_Theory/G08.md)  Graph Theory: DFAs, NFAs, and Regular Languages  
 * F27 Number Theory: Congruence 
 * G09 Number Theory: RSA
-* G10 Sets: Countability
+* [G10](Sets/G10.md) Sets: Countability
  
 
 ---
@@ -228,7 +228,7 @@ Ability to convert an NFA to a DFA and to use DFAs and NFAs to recognized regula
 ### Number Theory: RSA 
 Ability to understand and apply the RSA algorithm to create public/private keys and to encrypt/decrypt.
 
-## G10
+## G10 
 ### Sets: Countability 
 The ability to prove that an infinite set is, or is not, countable.
-
+[G10 overview and practice problems](Sets/G10.md)
