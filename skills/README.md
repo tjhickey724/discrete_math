@@ -37,8 +37,8 @@ Click on the skill to go to see a short tutorial along with some problems (and w
 * [F26](Graph_Theory/F26.md) Graph Theory: Basic Properties
 * [G07](Graph_Theory/G07.md) Graph Theory: Digraphs, DAGs and Equivalence Relations 
 * [G08](Graph_Theory/G08.md)  Graph Theory: DFAs, NFAs, and Regular Languages  
-* F27 Number Theory: Congruence 
-* G09 Number Theory: RSA
+* [F27](Number_Theory/F27.md) Number Theory: Congruence 
+* [G09](Number_Theory/G09.md) Number Theory: RSA
 * [G10](Sets/G10.md) Sets: Countability
  
 
