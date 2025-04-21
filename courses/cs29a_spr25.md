@@ -564,18 +564,22 @@ Reading for next week
 ### Tue 4/22 <br> Sizes of Infinite sets
 * We go over exam 12
 * We introduce the notion of countability and cardinality of infinite sets
-* We show that some sets are not countable
-* We show there is an infinite hierarcy of non-isomorphic infinite sets
+  * [G10: Sets: Countability](../skills/Sets/G10.md)
+  * We show that some sets are not countable
+  * We show there is an infinite hierarcy of non-isomorphic infinite sets
 
 ## Lesson 25
 ### Fri 4/25
 * We introduce the rings $Z/nZ$
-* We show how to quickly find pseudo primes
+  * [F27: Number Theory: Congruences](../skills/Number_Theory/F27.md]
+  * We show how to quickly find pseudo primes
 * We explain the theory behind public key Cryptography
+  * [G09: Number Theory: RSA](../skills/Number_Theory/G09.md]
 
 # Week 14 4/29
 
 ## Lesson 26
 ### Tue 4/29
+* We go over Exam 13
 * We give a review for the Final Exam
 
