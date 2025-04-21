@@ -92,12 +92,7 @@ def encode(num,ppk):
 def decode(num,ppk):
     ''' decode as x|-> (x^f)%n '''
     return power(num,ppk['f'],ppk['n'])
-kp = (generate_keypair(2))
-print('here is a keypair',kp)
-x=1111
-y = encode(x,kp)
-z = decode(y,kp)
-print('results of encoding and decoding',x,y,z)
+
 
 def encode_string(text, pkc):
     ''' encode the text with a public key cryptosystem '''
@@ -197,11 +192,21 @@ def strings_to_string(vals):
     ''' convert a list of strings into a single string '''
     return "".join(vals)
 
+
+def run_demo():
+  kp = (generate_keypair(2))
+  print('here is a keypair',kp)
+  x=1111
+  y = encode(x,kp)
+  z = decode(y,kp)
+  print('results of encoding and decoding',x,y,z)
+
 def test_encoding():
     '''test encoding/decoding'''
+    print("Demo of the RSA algorithm!"
     d = int(input("Enter number of digits for primes p, q: "))
     pkc = generate_keypair(d)
-    print('pkc=',pkc)
+    print('The key pair (n,e,f) is =',pkc)
     text = input("Enter the plaintext to be encrypted: ")
     nums = encode_string(text,pkc)
     print('-'*20)
