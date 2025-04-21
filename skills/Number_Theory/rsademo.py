@@ -203,7 +203,7 @@ def run_demo():
 
 def test_encoding():
     '''test encoding/decoding'''
-    print("Demo of the RSA algorithm!"
+    print("Demo of the RSA algorithm!")
     d = int(input("Enter number of digits for primes p, q: "))
     pkc = generate_keypair(d)
     print('The key pair (n,e,f) is =',pkc)
