@@ -271,7 +271,7 @@ Let
 * $x_p = x^{p-1}$ and $x_q = x^{q-1}$
  
 By Fermat's little theorem we know that 
-* $ x_p^{q-1} = 1$ mod $q$ since $x_p$ is relatively prime to q, so
+* $x_p^{q-1} = 1$ mod $q$ since $x_p$ is relatively prime to q, so
 * $x_p^{q-1} = 1 + qm_1$ for some integer $m_1$
 
 Likeise 
