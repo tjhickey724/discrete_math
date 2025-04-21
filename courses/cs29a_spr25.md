@@ -571,10 +571,10 @@ Reading for next week
 ## Lesson 25
 ### Fri 4/25
 * We introduce the rings $Z/nZ$
-  * [F27: Number Theory: Congruences](../skills/Number_Theory/F27.md]
+  * [F27: Number Theory: Congruences](../skills/Number_Theory/F27.md)
   * We show how to quickly find pseudo primes
 * We explain the theory behind public key Cryptography
-  * [G09: Number Theory: RSA](../skills/Number_Theory/G09.md]
+  * [G09: Number Theory: RSA](../skills/Number_Theory/G09.md)
 
 # Week 14 4/29
 
