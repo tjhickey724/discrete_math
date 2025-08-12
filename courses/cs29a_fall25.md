@@ -171,7 +171,7 @@ Most of our readings will come from the follwoing online books:
 ---
 
 # Week 1
-### 1/14,17/25
+### 8/19
 #### Motivation
 This week we will give an overview of the course and start our first major topic
 which is Propositional Logic and Boolean Algebra. 
@@ -184,17 +184,21 @@ we will expand to first order logic that is the formal language of Mathematics. 
 of this course will rely on your ability to work with, and understand the meaning of, logical formulas.
 
 ### Homework01
-#### due Tuesday 1/21/25 
+#### due Tuesday 9/2 
 Read the following sections of two online books on Discrete Math
 * DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
 * DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
-* MfCS [Ch3.1-3.5](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+* MfCS [Ch3.1-3.6](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
 and try some of the problems at the end of the sections. We will go over some of them in class.
 
+Optional reading:
+* Chapter 2 of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
+* Chapter 8 of [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
+  
 Then answer the Week 1 problems on the MLA Homework site
 
 ## Lesson 1
-### Tue 1/14/2023  <br> _Intro and overview_
+### Fri 8/29/2023  <br> _Intro and overview_
 
 * We begin with
   - an overview of the course and
@@ -208,9 +212,24 @@ Then answer the Week 1 problems on the MLA Homework site
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We get some practice in [converting between English and the Propositional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 
+# Week 2
+### Tue 9/2/25, Fri 9/5/25
+
+## Homework02
+### due before class on 9/2/25
+Read 
+* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
+* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+
+Additional Reading on Truth Trees
+* [chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
+* [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
+Connect to the MLA homework site and do all of the Week 2 problems.
+
+
 
 ## Lesson 2 
-### Fri 1/17 <br> _Propositional Calculus and Boolean Algebra_
+### Tue 9/2 <br> _Propositional Calculus and Boolean Algebra_
 
 * Next we show how to find the value of a propositional formula for particular values of its variables
   To do this we need to [create a parse tree for a formula, and then use that tree to evaluate the formula](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalcParseTree.md)
@@ -223,28 +242,14 @@ and we show that every formula can be reduced to
   [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
 
 ## Exam01
-### F01, F02, F03
+### M01, M02, F01, F02, F03
 
 ---
 ---
-
-# Week 2
-### Fri 1/24 (Tuesday is a Brandeis Monday)
-
-### Homework02
-#### due Friday 1/24 before class
-Read:
-* [Chapter 3.6: Predicate Formulas](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session5/) in MfCS
-
-Optional reading:
-* Chapter 2 of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
-* Chapter 8 of [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
-  
-Connect to the MLA homework site and do all of the Week 2 problems.
 
 
 ## Lesson 3 
-### Fri 1/24 <br> _Inference_
+### Fri 9/5/25 <br> _Inference_
 * We practice [simplifying formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingFormulas.md) in general and  [simplifying negated formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SimplifyingNegations.md)  in particular.
 * We show how to convert any propositional formula in a [normal form CNF or DNF](../notes/propositional_calculus/normalForms.md)
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
@@ -254,26 +259,20 @@ Connect to the MLA homework site and do all of the Week 2 problems.
 ---
   
 # Week 3
-### 1/28,1/31
+### 9/9, 9/12
 #### Motivation
 This week we learn a graphical method for proving theorems in Propositional Logic.
 Next week we'll show how to do this for First Order Logic.
 
 ### Homework03
-#### due (Friday) 1/31 before class
-Read 
-* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
-* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
+#### due (Tue) 9/16 before class
 
-Additional Reading on Truth Trees
-* [chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
-* [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
 
 
 Connect to the MLA Homework site and do all of the Week 3 problems
 
 ## Lesson 4 
-### Tue 1/28 <br> _The Truth Tree Method for Propositional Logic_
+### Tue 9/9 <br> _The Truth Tree Method for Propositional Logic_
 * We give example of using the [Truth Tree method](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreeMethod.md) to prove Theorems and to find counter-examples and we describe the steps of the Truth Tree method and explain why they work
 * We give examples showing that [Truth Trees can be very efficient, or very inefficient!](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTreePerformance.md)
 * We work through [examples combining translation to English with Truth Trees](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TranslateAndInfer.md)
@@ -288,7 +287,7 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 
 
 ## Lesson 5 
-### Fri 1/31 <br> _The Predicate Calculus_
+### Fri 9/12 <br> _The Predicate Calculus_
 * We give [an introduction to the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/overview.md) as the language of Mathematics
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
@@ -298,7 +297,7 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 ---
 
 # Week 4
-### 2/4, 2/7
+### 9/16, 9/19
 
 #### Motivation
 This week we complete our study of logic by learning how to use the Tree Method to prove that
@@ -311,14 +310,14 @@ To be announced
 ---
 
 ## Lesson 6 
-### Tue 2/4 <br> _Inference in First Order Logic_
+### Tue 9/16 <br> _Inference in First Order Logic_
 * We give an overview of [the simplification rules in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/simplification.md)
 * We give [an example of translating an argument to the predicate calculus and simplifying the resulting argument](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
 * We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 
 
 ## Lesson 7 
-### Fri 2/7 <br> _More Truth Trees for Predicate Calculus_
+### Fri 9/19 <br> _More Truth Trees for Predicate Calculus_
 * We show [how the Truth Tree method can be used in First Order Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/truthTrees.md)
 * We get more practice using the Truth Tree method to show arguments are valid
   * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
@@ -329,10 +328,10 @@ To be announced
 ---
 
 # Week 5
-### 2/11, 2/14
+### 9/25  (9/23 is a Holiday)
 
 ### Homework05
-Read about the topics we are covering this week (this was HW03)
+Read about the topics we are covering this week 
 * [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
 * [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
 
@@ -342,25 +341,17 @@ Read about the topic we will cover when we return from break.
 * Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
 
 ## Lesson 8 
-### Tue 2/11 <br> _Intro to Proofs_
+### Fri 9/25 <br> _Intro to Proofs_
 * First we review the answers to Exam 4 and the common mistakes...
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 
-## Lesson 9
-### Fri 2/14 <br> _More Proofs_
-* Then we complete our overview of proof techniques by giving an interesting proof by cases
-
----
----
-
-# Vacation Week 2/17-2/21
 
 ---
 ---
 
 # Week 6
-### 2/25, 2/28
+### 9/30, 10/3
 
 ### Homework05
 Read about the topic we will cover when we return from break.
@@ -369,11 +360,14 @@ Read about the topic we will cover when we return from break.
 * Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
 
 
+## Lesson 9
+### Tue 9/30 <br> _More Proofs_
+* Then we complete our overview of proof techniques by giving an interesting proof by cases
 
 
 
 ## Lesson 10
-###  2/25 _Induction Proofs and Mathematical Notation_
+###  Fri 10/3 _Induction Proofs and Mathematical Notation_
 * We go over the answers to exam 5 and discuss the upcoming exam 6.
 * We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
    and use it to prove closed form expression for series elements defined recursively are correct.
@@ -381,62 +375,68 @@ Read about the topic we will cover when we return from break.
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
 
-
-## Lesson 11
-###  2/28 _Well Ordering Principle and more notation_
-* We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
-
 ---
 ---
 
 
 # Week 7
-### 3/4,3/7 
+### 10/10
+
+## Lesson 11
+###  Fri 10/10 _Well Ordering Principle and more notation_
+* We begin by looking at the [Well Ordering principle](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/wellOrdering.md) for proofs by contradiction
+
+
 
 ### Homework07
 * read  [Chapter 1 on Counting in Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
 * read Chapter 14 on Counting in  MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
 * complete the new problems on the MLA Homework site
 
+---
+---
+
+# Week 8
+### 10/14, 10/17
+
 ## Lesson 12 
-###  3/4 _Sets and Sequences_
+###  10/14 _Sets and Sequences_
 * We go over the answers to exam6
 * We begin with an introduction to the [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) including Sets and Sequences
 
 
 ## Lesson 13 
-### Fri 3/7/<br> _Functions and Relations_
+### Fri 10/17/<br> _Functions and Relations_
 * We continue our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
----
----
 
-# Week 8
-### 3/11-14
 ### Homework08
 * Complete the new MLA homework problems on Counting
 * Read [Chapter 2: Sequences in  Discrete Math: An Open Introduction by Oscar Levin](https://discrete.openmathbooks.org/dmoi3/ch_sequences.html)
 
+
+---
+---
+
+# Week 9
+### 10/21, 10.24
+
 ---
 
 ## Lesson 14
-### Tue 3/11 <br> _Complete Functions and Relations, Start Counting_
+### Tue 10/21 <br> _Complete Functions and Relations, Start Counting_
 * We go over the answers to exam7
 * We finish up our investigation fo [mathematical data types](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/overview.md) with Functions and Relations
 
 ---
 
 ## Lesson 15
-### Fri 3/14 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
+### Fri 10/24 <br> _Combinations, Permutations, Principle of Inclusion and Exclusion_
 * We begin our study of counting and combinatorics, by looking at skills 
   * [F18: Addition and Multiplication Principles](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
   * [F19: Permutations and Combinations](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
   
----
----
 
-# Week 9
-### 3/18-21
 
 ### Howework09
 * Read Chapters 15 _Generating Functions_,
@@ -444,9 +444,15 @@ Read about the topic we will cover when we return from break.
 * Complete the Homework assignments on MLA which are due on 11/6
 
 ---
+---
+
+# Week 10
+### 10/28, 10/31 - Sequences
+
+---
 
 ## Lesson 16
-### Tue 3/18 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism_
+### Tue 10/28 <br> _Advanced Methods, Pigeon Hole Principle, Isomorphism_
 * we begin by going over the answers to exam 8
 * we continue our study of [counting and combinatorics](https://github.com/tjhickey724/discrete_math/blob/main/notes/counting/overview.md)
   * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
@@ -456,15 +462,14 @@ Read about the topic we will cover when we return from break.
 ---
 
 ## Lesson 17
-### Fri 3/21 <br> _Polynomial and Exponential Sequences_
+### Fri 10/31 <br> _Polynomial and Exponential Sequences_
 * we begin our investigation of [sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/overview.md)
   by looking at [polynomial sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/polynomial_sequences.md)
 * next we look at linear [recurrence relations and exponential sequences](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/exponential_sequences.md).
 
 ---
 
-# Week 10
-### 3/25-28 - Sequences
+
 
 ### Homework10
 Skim the following sections of two online books on Discrete Math
@@ -472,10 +477,21 @@ Skim the following sections of two online books on Discrete Math
 
 and complete any homework problems on the MLA due on Monday.
 
+# Week 11
+### 11/4, 11/7 
+
+### Homework11
+Reading for this week
+* [Chapter 16 Events and Probability Spaces and Chapter 17 Conditional Probability from Mathematics for Computer Science by Lehman, Leighton, and Meyer](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
+Reading for next week
+* [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
+* [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+
+
 ---
 
 ## Lesson 18
-### Tue 3/25 <br> _Exponential Sequences and Generating Functions_
+### Tue 11/4 <br> _Exponential Sequences and Generating Functions_
 * We begin by going over the answers to Exam 9 
 * We discuss the new Study Guides and Strategies for Success in this class
 * We continue discussing [G04](../skills/Sequences/G04.md)the Characteristic Polynomial technique for solving Linear Recurrences
@@ -483,7 +499,7 @@ and complete any homework problems on the MLA due on Monday.
 
 
 ## Lesson 19
-### Fri 3/28 <br> _Generating Functions_
+### Fri 11/7 <br> _Generating Functions_
 * We begin describing __Strategies for Success__
   * 37 Discrete Math skills +
   * F00 - take a selfie (will appear on all exams after 11)
@@ -507,45 +523,48 @@ and complete any homework problems on the MLA due on Monday.
    * [G05: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
 
 ---
+---
 
-# Week 11
-### 4/1-4 - 
+# Week 12
+### 11/11, 11/14 - Graph Theory
 
-### Homework11
-Reading for this week
-* [Chapter 16 Events and Probability Spaces and Chapter 17 Conditional Probability from Mathematics for Computer Science by Lehman, Leighton, and Meyer](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/)
-Reading for next week
-* [DM-AOI Ch 4](https://discrete.openmathbooks.org/dmoi3/ch_graphtheory.html)
-* [MfCS Ch9](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
+---
+
 
 ## Lesson 20 
-### Tue 4/1  <br> _Probability and the 4 step method_
+### Tue 11/11  <br> _Probability and the 4 step method_
 * First we review the answers, and most common mistakes, for Exam 10
 * Then, we begin our study of [F24: Probability: Events and Probability Spaces](../skills/Probability/F24.md)
   
 ## Lesson 21
-### Fri 4/4 <br> Random Variables and Expected Values
+### Fri 11/14 <br> Random Variables and Expected Values
 * We continue with our study of probability with
   * [F25: Probability: Random Variables and Expected Values](../skills/Probability/F25.md)
 * Then we give some suggestions for exam 11, which will have three new skills F24, F25, and G06
   * [F24: Probability: Events and Probability Spaces](../skills/Probability/F24.md)
   * [F25: Probability: Random Variables and Expected Values](../skills/Probability/F25.md)
   * [G05: Sequences: Closed Forms using Generating Functions](../skills/Sequences/G05.md)
+
+---
+---
+
+
+# Week 13
+## 11/18, 11/21 - Infinities and Number Theory
+
 ---
 
 
 
-# Week 12
-### 4/8-11 - Graph Theory
 
 ## Lesson 22
-### Tue 4/7 <br> Relations, Digraphs, and DAGs
+### Tue 11/18 <br> Relations, Digraphs, and DAGs
 * We begin with a review of Exam 11
 * Then we begin talking about Binary Relations and Equivalence Relations
   * [F26: Graph Theory: Binary Relations and Digraphs](../skills/Graph_Theory/F26.md)
   
 ## Lesson 23
-### Fri 4/11 <br> Graphs, Digraphs, DAGs, DFAs, NFAs, and RegExs
+### Fri 11/21 <br> Graphs, Digraphs, DAGs, DFAs, NFAs, and RegExs
 * We introduce the concepts of Digraphs and DAGs
   * [F26: Graph Theory: Binary Relations and Digraphs](../skills/Graph_Theory/F26.md)
   * [G07: Graph Theory: Digraphs, DAGS](../skills/Graph_Theory/G07.md)
@@ -554,33 +573,45 @@ Reading for next week
   * [G08: Graph Theory: DFAs, NFAs, RegEx](../skills/Graph_Theory/G08.md)
 
 ---
-
-# Passover break
-
 ---
 
-# Week 13
-## 4/22-4/25 - Infinities and Number Theory
+# Week 14 
+### 11/25
+---
+
 
 ## Lesson 24
-### Tue 4/22 <br> Sizes of Infinite sets
+### Tue 11/25 <br> Sizes of Infinite sets
 * We go over exam 12
 * We introduce the notion of countability and cardinality of infinite sets
   * [G10: Sets: Countability](../skills/Sets/G10.md)
   * We show that some sets are not countable
   * We show there is an infinite hierarcy of non-isomorphic infinite sets
 
+
+# Week 14 
+### 12/2, 12/5
+---
+
 ## Lesson 25
-### Fri 4/25
+### Tue 12/2
 * We introduce the rings $Z/nZ$
   * [F27: Number Theory: Congruences](../skills/Number_Theory/F27.md)
   * We show how to quickly find pseudo primes
 * We explain the theory behind public key Cryptography
   * [G09: Number Theory: RSA](../skills/Number_Theory/G09.md)
 
-# Week 14 4/29
+
 
 ## Lesson 26
-### Tue 4/29
+### Tue 12/5
+* More Cryptography
+
+
+# Week 15
+### 12/9
+
+## Lesson 27
+## 12/9
 * We go over Exam 13
-* We give a review for the Final Exam
+* We give a review for the Final Exam# Tue 12/9
