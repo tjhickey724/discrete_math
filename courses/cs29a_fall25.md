@@ -241,7 +241,7 @@ Most of our readings will come from the follwoing online books:
 ---
 
 # Week 1
-### 8/19
+### 8/29
 #### Motivation
 This week we will give an overview of the course and start our first major topic
 which is Propositional Logic and Boolean Algebra. 
