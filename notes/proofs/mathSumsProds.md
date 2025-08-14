@@ -135,7 +135,7 @@ We can use this notation to express the Unique Factorization Theorem for integer
 
 **Theorem** Every positive integer $n$ can e factored uniquely into primes
 
-$n = \prod_\limits{i=0}^k p_i^{a_i}$
+$n = \prod_\limits{i=1}^k p_i^{a_i}$
 
 where the $p_i$ are primes $p_1\lt p_2\lt \ldots\lt p_k$ and the $a_i$ are positive integers.
 
@@ -157,7 +157,7 @@ Let first assume $p$ divides $n^k$.
 Let $n$ have the prime factorization shown in the Theorem above, then $n^k$ has the same factorization
 except the each $a_i$ is multiplied by $k$ because multiplication is commutative.
 
-$n^k =  \prod_\limits{i=0}^k p_i^{a_i}$
+$n^k =  \prod_\limits{i=0}^k p_i^{k a_i}$
 
 So if a prime $p$ divides $n^k$, then it must be one of the $p_i$, and hence it must also divide $n$.
 
