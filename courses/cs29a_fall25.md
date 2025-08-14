@@ -10,7 +10,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* [Week 1](#week-1) 8/29
+* [Week 1](#week-1)
   * [Week 1 Homework](#Homework01)
   * Fri 8/29 [Lesson 1: Intro and Overview](#lesson-1)
     * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
@@ -21,7 +21,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* [Week 2](#week-2) 9/2, 9/5
+* [Week 2](#week-2)
   * [Week 2 Homework](#Homework02)
   * Tue 9/2 [Lesson 2: Propositional Calculus and Boolean Algebra](#lesson-2)
     * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
@@ -35,7 +35,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* [Week 3](#week-3) 9/9, 9/12
+* [Week 3](#week-3)
   * [Week 3 Homework](#Homework03)
   * Tue 9/9 [Lesson 4: The Truth Tree Method for Propositional Logic](#lesson-4)
     * [G01](../skills/README.md/#G01) Propositional Logic: Inference: Truth Trees
@@ -46,19 +46,19 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* Week 4 9/16, 9/19
-  * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6)
+* Week 4
+  * Tue 9/16 [Lesson 6: Inference in First Order Logic](#lesson-6)
     * [F07](../skills/README.md/#F07) Predicate Calculus: Simplification Rules
-  * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7)
+  * Fri 9/19 [Lesson 7: Truth Trees for Predicate Calculus](#lesson-7)
     * [G02](../skills/README.md/#G02) Predicate Calculus: Inference: Truth Trees
   * Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06  
     [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
  
 ---
 
-* Week 5 9/26
+* Week 5
   * [Week 5 Homework](#Homework05)
-  * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
+  * Fri 9/26 [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
     * [F08](../skills/README.md/#F08) Proof Techniques: Direct and ContraPositive Proofs
     * [F09](../skills/README.md/#F09) Proof Techniques: Proof by Contradiction
     * [F10](../skills/README.md/#F10) Proof Techniques: Proof by Cases
@@ -69,30 +69,30 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* Week 6 9/30, 10/3
+* Week 6
   * [Week 6 Homework](#Homework06)
-  * [Lesson 9: Fri 2/14 More Proofs](#lesson-9)
-  * [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/README.md/#F11)
+  * Tue 9/30 [Lesson 9: Fri 2/14 More Proofs](#lesson-9)
+  * Fri 10/3 [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/README.md/#F11)
   
   * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
 
 ---
     
-* Week 7 10/10
+* Week 7
   * [Week 7 Homework](#Homework07)
-  * [Lesson 11: Well-Ordering Principle](#lesson-11) 
+  * Fri 10/10 [Lesson 11: Well-Ordering Principle](#lesson-11) 
      [G03](../skills/README.md/#G03) [F11](../skills/README.md/#F11)
   * Exam 07: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 [G03](../skills/README.md/#G03)
 
 ---
  
-* Week 8  10/16, 10/17
+* Week 8
   * [Week 8 Homework](#Homework08)
-  * [Lesson 12: Sets](#lesson-12)
+  * Thu 10/16 [Lesson 12: Sets](#lesson-12)
     * [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) Sets: Syntax and Semantics
     * [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md) Sets: Algebra
     * [F14](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F14.md) Sets: Categorical Operations
-  * [Lesson 13: Functions and Relations](#lesson-13)
+  * Fri 10/17 [Lesson 13: Functions and Relations](#lesson-13)
     * [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md) Functions: Syntax and Semantics
     * [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md) Functions: Composition
     * [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md) Functions: Properties
@@ -108,10 +108,10 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     
  ---
  
-* Week 9  10/21, 10/24
+* Week 9
   * [Week 9 Homework](#Homework09)
-  * [Lesson 14: Complete Functions and Relations](#lesson-14)
-  * [Lesson 15: Combinations, Permutations, and PIE](#lesson-15)
+  * Tue 10/21 [Lesson 14: Complete Functions and Relations](#lesson-14)
+  * Fri 10/24 [Lesson 15: Combinations, Permutations, and PIE](#lesson-15)
     * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
        Combinatorics: Addition and Multiplication Principles
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
@@ -124,13 +124,13 @@ This file contains links to course notes and homework for CS29a in Fall 2025
   
 ---
 
-* Week 10  10/28, 10/31
+* Week 10
   * [Week 10 Homework](#Homework10)  
 
-  * [Lesson 16: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-16)
+  * Tue 10/28 [Lesson 16: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-16)
     * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
     * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
-  * [Lesson 17: Polynomial Sequences](#lesson-17)
+  * Fri 10/31 [Lesson 17: Polynomial Sequences](#lesson-17)
     * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
     * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
   * Exam 10: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19
@@ -142,10 +142,10 @@ This file contains links to course notes and homework for CS29a in Fall 2025
  
 ---   
 
-* Week 11 11/4, 11/7
-  * [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
+* Week 11
+  * Tue 11/4 [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
     * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences  
-  * [Lesson 19:Generating Functions](#lesson-19)
+  * Fri 11/7 [Lesson 19:Generating Functions](#lesson-19)
     * __Strategies for Success__
     * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
    
@@ -158,9 +158,9 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* Week 12 11/11, 11/14
-  * [Lesson 20: Events and Probability Spaces](#lesson-20)[F24](../skills/Sequences/F24.md) Probability: Events and Probability Spaces
-  * [Lesson 21: Random Variables and Expected Values](#lesson-21) [F25](../skills/Sequences/F25.md) Probability: Random Variables and Expected Value
+* Week 12
+  * Tue 11/1 [Lesson 20: Events and Probability Spaces](#lesson-20)[F24](../skills/Sequences/F24.md) Probability: Events and Probability Spaces
+  * Fri 11/14 [Lesson 21: Random Variables and Expected Values](#lesson-21) [F25](../skills/Sequences/F25.md) Probability: Random Variables and Expected Value
   * Exam 12: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05
     [F24](../skills/Sequences/F24.md)
     [F25](../skills/Sequences/F25.md)
@@ -172,22 +172,25 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* Week 13 11/18, 11/21
-  * [Lesson 22: Graph Theory - Relations, Digraphs, and DAGs](#lesson-22)
+* Week 13
+  * Tue 11/18 [Lesson 22: Graph Theory - Relations, Digraphs, and DAGs](#lesson-22)
     [F26](../skills/Sequences/F26.md) Binary Relations
     [G07](../skills/Sequences/G07.md) DAGs
-  * [Lesson 23: Graph Theory - Digraphs, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
+  * Fri 11/21 [Lesson 23: Graph Theory - Digraphs, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
     [G08](../skills/Sequences/G08.md) DFAs, NFAs, RegExs
   * Exam 13: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25
     [F26](../skills/Sequences/F26.md)
     [G07](../skills/Sequences/G07.md)
     [G08](../skills/Sequences/G08.md)
   
-
 * Week 14 11/25
-  * [Lesson 24: Countability and UnCountability](#lesson-24)
+  * Tue 11/25  TBA
+  * no exam on Week 14
+    
+* Week 15 12/2, 12/5
+  * Tue 12/2 [Lesson 24: Countability and UnCountability](#lesson-24)
     [G010](../skills/Sequences/G08.md) Countability
-  * [Lesson 25: Number Theory and Cryptography](#lesson-25)
+  * Fri 12/5 [Lesson 25: Number Theory and Cryptography](#lesson-25)
     [F27](../skills/Sequences/F27.md) Number Theory: Modular Arithmetic
     [G09](../skills/Sequences/G09.md) Number Theory: RSA
   * Exam 14: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25 F26 G07 G08
@@ -196,15 +199,10 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     [G09](../skills/Sequences/G09.md)
     
   
-
-
-* Week 15 12/2, 12/5
-  * TBA
-
 ---
 
-* Week 16:  12/9
-  * [Lesson 26: Review for Final Exam](#lesson-26)
+* Week 16: 
+  * Tue 12/9 [Lesson 26: Review for Final Exam](#lesson-26)
   * Exam 16: Exam 14: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25 F26 G07 G08 F27 G09 G10 
 ---
 ---
