@@ -149,7 +149,6 @@ This file contains links to course notes and homework for CS29a in Fall 2025
   * Tue 11/4 [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
     * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences  
   * Fri 11/7 [Lesson 19:Generating Functions](#lesson-19)
-    * __Strategies for Success__
     * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
    
   * Exam 11: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23
