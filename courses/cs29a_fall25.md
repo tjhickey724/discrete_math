@@ -16,16 +16,20 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
     * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
     * [F03](../skills/README.md/#F03) Propositional Logic: Translation to/from English
-  * Exam 01: Fundamental skills - [A01](../skills/README.md/#A01) [A02](../skills/README.md/#A02)
+  * Exam 01: Fundamental skills - [A01](../skills/README.md/#A01) [A02](../skills/README.md/#A02) polynomials, rational functions, and exponents
 
 
 ---
 
 * [Week 2](#week-2)
   * [Week 2 Homework](#Homework02)
-  * [Lesson 2: Tue 9/2 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
+  * [Lesson 2: Tue 9/2 Propositional Calculus and Boolean Algebra](#lesson-2)
+    * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
+    * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
+    * [F03](../skills/README.md/#F03) Propositional Logic: Translation to/from English
   
-  * [Lesson 3: Fri 9/5 Inference](#lesson-3) [F04](../skills/README.md/#F04)
+  * [Lesson 3: Fri 9/5 Inference](#lesson-3)
+    * [F04](../skills/README.md/#F04) Propositional Logic: Boolean Algebra
     
   * Exam 02: A01, A02, [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03) [F04](../skills/README.md/#F04)
 
@@ -33,8 +37,11 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 * [Week 3](#week-3)
   * [Week 3 Homework](#Homework03)
-  * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](../skills/README.md/#G01)
-  * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
+  * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4)
+    * [G01](../skills/README.md/#G01) Propositional Logic: Inference: Truth Trees
+  * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)
+    * [F05](../skills/README.md/#F05) Predicate Calculus: Syntax and Semantics
+    * [F06](../skills/README.md/#F06) Predicate Calculus: Translation to/from English
   * Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/README.md/#G01) [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
 
 ---
