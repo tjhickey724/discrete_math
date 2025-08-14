@@ -13,7 +13,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 * [Week 1](#week-1)
   * [Week 1 Homework](#Homework01)
   * [Lesson 1: Fri 8/29 Intro and Overview](#lesson-1) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
-  * Exam 01: Fundamental skills - [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
+  * Exam 01: Fundamental skills - [A01](../skills/README.md/#A01) [A02](../skills/README.md/#A02)
 
 
 ---
@@ -23,7 +23,8 @@ This file contains links to course notes and homework for CS29a in Fall 2025
   * [Lesson 2: Tue 9/2 Propositional Calculus and Boolean Algebra](#lesson-2) [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03)
   
   * [Lesson 3: Fri 9/5 Inference](#lesson-3) [F04](../skills/README.md/#F04)
-  * Exam 02: F01 F02 F03 [F04](../skills/README.md/#F04)
+    
+  * Exam 02: A01, A02, [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03) [F04](../skills/README.md/#F04)
 
 ---
 
@@ -31,23 +32,25 @@ This file contains links to course notes and homework for CS29a in Fall 2025
   * [Week 3 Homework](#Homework03)
   * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4) [G01](../skills/README.md/#G01)
   * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)  [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
-  * Exam 03: F01 F02 F03 F04 [G01](../skills/README.md/#G01)
+  * Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/README.md/#G01) [F04](../skills/README.md/#F04) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
 
 ---
 
 * Week 4
   * [Lesson 6: Tue 2/4 Inference in First Order Logic](#lesson-6) [F07](../skills/README.md/#F07)
   * [Lesson 7: Fri 2/7 Truth Trees for Predicate Calculus](#lesson-7) [G02](../skills/README.md/#G02)
-  * Exam 04: F01 F02 F03 F04 G01 [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06) [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
+  * Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06  
+    [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
  
 ---
 
 * Week 5
   * [Week 5 Homework](#Homework05)
   * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8) [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10)
-  * [Lesson 9: Fri 2/14 More Proof](#lesson-9)
+  
 
-  * Exam 05: F01 F02 F03 F04 G01 F05 F06 F07 G02 [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
+  * Exam A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 
+    [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
 
 ---
 
@@ -57,14 +60,16 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 * Week 6
   * [Week 6 Homework](#Homework06)
-  * [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F08](../skills/README.md/#F08)
-  * [Lesson 11: Well-Ordering Principle - F09,G03](#lesson-11)[F11](../skills/README.md/#F11)
+  * [Lesson 9: Fri 2/14 More Proofs](#lesson-9)
+  * [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/README.md/#F11)
+  
   * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
 
 ---
     
 * Week 7
   * [Week 7 Homework](#Homework07)
+  * [Lesson 11: Well-Ordering Principle - F09,G03](#lesson-11)[F11](../skills/README.md/#F11)
   * [Lesson 12: Sets](#lesson-12)
     * [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) Sets: Syntax and Semantics
     * [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md) Sets: Algebra
