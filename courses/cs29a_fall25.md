@@ -138,40 +138,61 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     * __Strategies for Success__
     * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
    
-  * Exam 10: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23
+  * Exam 11: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23
     [G04](../skills/Sequences/G04.md)
     [G05](../skills/Sequences/G05.md)
     
  
-  * 
-  * [Lesson 20: Events and Probability Spaces](#lesson-20)
-  * [Lesson 21: Random Variables and Expected Values](#lesson-21)
-
----
-
-* Week 12 4/8-4/11
   
+
+---
+
+* Week 12
+  * [Lesson 20: Events and Probability Spaces](#lesson-20)[F24](../skills/Sequences/F24.md) Probability: Events and Probability Spaces
+  * [Lesson 21: Random Variables and Expected Values](#lesson-21) [F25](../skills/Sequences/F25.md) Probability: Random Variables and Expected Value
+  * Exam 12: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05
+    [F24](../skills/Sequences/F24.md)
+    [F25](../skills/Sequences/F25.md)
+    
+  
+
+
+
+
+---
+
+* Week 13 
   * [Lesson 22: Graph Theory - Relations, Digraphs, and DAGs](#lesson-22)
+    [F26](../skills/Sequences/F26.md) Binary Relations
+    [G07](../skills/Sequences/G07.md) DAGs
   * [Lesson 23: Graph Theory - Digraphs, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
+    [G08](../skills/Sequences/G08.md) DFAs, NFAs, RegExs
+  * Exam 13: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25
+    [F26](../skills/Sequences/F26.md)
+    [G07](../skills/Sequences/G07.md)
+    [G08](../skills/Sequences/G08.md)
+  
 
-
----
-
-* Passover break
-
----
-
-* Week 13 4/22-2/25
-
+* Week 14
   * [Lesson 24: Countability and UnCountability](#lesson-24)
-  * [Lesson 25: Number Theory and Cryptography](#lesson-25) 
+    [G010](../skills/Sequences/G08.md) Countability
+  * [Lesson 25: Number Theory and Cryptography](#lesson-25)
+    [F27](../skills/Sequences/F27.md) Number Theory: Modular Arithmetic
+    [G09](../skills/Sequences/G09.md) Number Theory: RSA
+  * Exam 14: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25 F26 G07 G08
+    [G010](../skills/Sequences/G08.md)
+    [F27](../skills/Sequences/F27.md)
+    [G09](../skills/Sequences/G09.md)
+    
+  
 
-* Week 14 4/29
 
+* Week 15
   * [Lesson 26: Review for Final Exam](#lesson-26)
+  * Exam 15: Exam 14: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25 F26 G07 G08 F27 G09 G10 
 
-
-
+---
+---
 
 # Course Overview
 ## The Mastery Learning App
