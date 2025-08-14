@@ -69,7 +69,14 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     
 * Week 7
   * [Week 7 Homework](#Homework07)
-  * [Lesson 11: Well-Ordering Principle - F09,G03](#lesson-11)[F11](../skills/README.md/#F11)
+  * [Lesson 11: Well-Ordering Principle](#lesson-11) 
+     [G03](../skills/README.md/#G03) [F11](../skills/README.md/#F11)
+  * Exam 07: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 [G03](../skills/README.md/#G03)
+
+---
+ 
+* Week 8
+  * [Week 8 Homework](#Homework08)
   * [Lesson 12: Sets](#lesson-12)
     * [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) Sets: Syntax and Semantics
     * [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md) Sets: Algebra
@@ -78,44 +85,65 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     * [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md) Functions: Syntax and Semantics
     * [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md) Functions: Composition
     * [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md) Functions: Properties
+  * Exam 08: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03
+    [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) 
+    [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md)
+    [F14](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F14.md)
+    [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md)
+    [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md)
+    [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md)
 
----
- 
-* Week 8
-  * [Week 8 Homework](#Homework08)
-  * [Lesson 14: Complete Functions and Relations](#lesson-14)
-  * [Lesson 15: Combinations, Permutations, and PIE](#lesson-15)
-    * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md) Combinatorics: Addition and Multiplication Principles
-    * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md) Combinatorics: Permutations and Combinations
+  
     
  ---
  
 * Week 9
-  * [Week 9 Homework](#Homework09) 
+  * [Week 9 Homework](#Homework09)
+  * [Lesson 14: Complete Functions and Relations](#lesson-14)
+  * [Lesson 15: Combinations, Permutations, and PIE](#lesson-15)
+    * [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
+       Combinatorics: Addition and Multiplication Principles
+    * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
+       Combinatorics: Permutations and Combinations
+  * Exam 09: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17
+    [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
+    [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
+
+
+  
+---
+
+* Week 10
+  * [Week 10 Homework](#Homework10)  
+
   * [Lesson 16: Advanced Methods, Pigeonhole Principle, Isomorphisms - F21](#lesson-16)
     * [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) Combinatorics: Principle of Inclusion and Exclusion
     * [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md) Combinatorics: Pigeonhole Principle
   * [Lesson 17: Polynomial Sequences](#lesson-17)
     * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
     * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
-
----
-
-* Week 10
-  * [Week 10 Homework](#Homework10)  
-
-  * [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
-    * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences
-    
-
-  * [Lesson 19:Generating Functions](#lesson-19)
-    * __Strategies for Success__
-    * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
+  * Exam 10: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19
+    [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) 
+    [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md)
+    [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md)
+    [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md)
+  
  
 ---   
 
 * Week 11
+  * [Lesson 18: Exponential Sequences and Generating Functions](#lesson-18)
+    * [G04](../skills/Sequences/G04.md) Sequences: Closed Forms for Linear Recurrences  
+  * [Lesson 19:Generating Functions](#lesson-19)
+    * __Strategies for Success__
+    * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
+   
+  * Exam 10: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23
+    [G04](../skills/Sequences/G04.md)
+    [G05](../skills/Sequences/G05.md)
     
+ 
+  * 
   * [Lesson 20: Events and Probability Spaces](#lesson-20)
   * [Lesson 21: Random Variables and Expected Values](#lesson-21)
 
