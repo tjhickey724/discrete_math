@@ -58,6 +58,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 * Week 5
   * [Week 5 Homework](#Homework05)
+  * Tue 9/23 Rosh Hashana - no class
   * Fri 9/26 [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
     * [F08](../skills/README.md/#F08) Proof Techniques: Direct and ContraPositive Proofs
     * [F09](../skills/README.md/#F09) Proof Techniques: Proof by Contradiction
@@ -80,6 +81,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     
 * Week 7
   * [Week 7 Homework](#Homework07)
+  * Tue 10/7 Sukkot -- no class
   * Fri 10/10 [Lesson 11: Well-Ordering Principle](#lesson-11) 
      [G03](../skills/README.md/#G03) [F11](../skills/README.md/#F11)
   * Exam 07: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 [G03](../skills/README.md/#G03)
@@ -88,6 +90,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
  
 * Week 8
   * [Week 8 Homework](#Homework08)
+  * Tue 10/14 Shimini Atzeret -- no class
   * Thu 10/16 [Lesson 12: Sets](#lesson-12)
     * [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) Sets: Syntax and Semantics
     * [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md) Sets: Algebra
@@ -185,6 +188,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
   
 * Week 14 11/25
   * Tue 11/25  TBA
+  * Fri 11/28 -- Thanksgiving: no class
   * no exam on Week 14
     
 * Week 15 12/2, 12/5
