@@ -51,7 +51,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     * [F07](../skills/README.md/#F07) Predicate Calculus: Simplification Rules
   * Fri 9/19 [Lesson 7: Truth Trees for Predicate Calculus](#lesson-7)
     * [G02](../skills/README.md/#G02) Predicate Calculus: Inference: Truth Trees
-  * Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06  
+  * Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06
     [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
  
 ---
