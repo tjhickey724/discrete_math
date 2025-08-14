@@ -12,7 +12,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 * [Week 1](#week-1) 8/29
   * [Week 1 Homework](#Homework01)
-  * [Lesson 1: Fri 8/29 Intro and Overview](#lesson-1)
+  * Fri 8/29 [Lesson 1: Intro and Overview](#lesson-1)
     * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
     * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
     * [F03](../skills/README.md/#F03) Propositional Logic: Translation to/from English
@@ -23,12 +23,12 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 * [Week 2](#week-2) 9/2, 9/5
   * [Week 2 Homework](#Homework02)
-  * [Lesson 2: Tue 9/2 Propositional Calculus and Boolean Algebra](#lesson-2)
+  * Tue 9/2 [Lesson 2: Propositional Calculus and Boolean Algebra](#lesson-2)
     * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
     * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
     * [F03](../skills/README.md/#F03) Propositional Logic: Translation to/from English
   
-  * [Lesson 3: Fri 9/5 Inference](#lesson-3)
+  * Fri 9/5 [Lesson 3: Inference](#lesson-3)
     * [F04](../skills/README.md/#F04) Propositional Logic: Boolean Algebra
     
   * Exam 02: A01, A02, [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03) [F04](../skills/README.md/#F04)
@@ -37,9 +37,9 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 * [Week 3](#week-3) 9/9, 9/12
   * [Week 3 Homework](#Homework03)
-  * [Lesson 4: Tue 1/28 The Truth Tree Method for Propositional Logic](#lesson-4)
+  * Tue 9/9 [Lesson 4: The Truth Tree Method for Propositional Logic](#lesson-4)
     * [G01](../skills/README.md/#G01) Propositional Logic: Inference: Truth Trees
-  * [Lesson 5: Fri 1/31 The Predicate Calculus](#lesson-5)
+  * Fri 9/12 [Lesson 5: The Predicate Calculus](#lesson-5)
     * [F05](../skills/README.md/#F05) Predicate Calculus: Syntax and Semantics
     * [F06](../skills/README.md/#F06) Predicate Calculus: Translation to/from English
   * Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/README.md/#G01) [F05](../skills/README.md/#F05) [F06](../skills/README.md/#F06)
@@ -56,7 +56,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
  
 ---
 
-* Week 5 9/25
+* Week 5 9/26
   * [Week 5 Homework](#Homework05)
   * [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
     * [F08](../skills/README.md/#F08) Proof Techniques: Direct and ContraPositive Proofs
