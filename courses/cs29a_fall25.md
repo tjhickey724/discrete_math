@@ -13,10 +13,10 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 * [Week 1](#week-1)
   * [Week 1 Homework](#Homework01)
   * Fri 8/29 [Lesson 1: Intro and Overview](#lesson-1)
-    * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
-    * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
-    * [F03](../skills/README.md/#F03) Propositional Logic: Translation to/from English
-  * Exam 01: Fundamental skills - [A01](../skills/README.md/#A01) [A02](../skills/README.md/#A02) polynomials, rational functions, and exponents
+    * [F01](../skills/Propositional_Calcululs/F01.md) Propositional Logic: Syntax and Semantics
+    * [F02](../skills/Propositional_Calcululs/F02.md) Propositional Logic: Truth Tables and Satisfiability
+    * [F03](../skills/Propositional_Calcululs/F03.md) Propositional Logic: Translation to/from English
+  * Exam 01: Fundamental skills - [A01](../skills/Algebra/A01.md) [A02](../skills/Algebra/A02.md) polynomials, rational functions, and exponents
 
 
 ---
