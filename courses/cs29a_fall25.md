@@ -217,7 +217,7 @@ for all work in this class including weekly exams and homework and daily in-clas
 When you register for the course you will be added to the app;
 
 ## Textbooks 
-Most of our readings will come from the follwoing online books:
+Most of our readings will come from the following online books:
 * DM-AOI:
   [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html) by _Oscar Levin_
 * MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
@@ -271,9 +271,10 @@ Then answer the Week 1 problems on the MLA Homework site
 ### Fri 8/29/2023  <br> _Intro and overview_
 
 * We begin with
-  - an overview of the course and
+  - an overview of the course by reviewing the syllabus
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
 * We ask everyone to connect to the [Mastery Learning App](https://masterylearningapp.onrender.com), if you have registered for the course you will see the CS29a appear on the MLA when you log in with your Brandeis ID.
+* We look at the Skill Study Guides on github. Each lesson will cover one or more skills and each skill has a study guide with a description of the skill, some sample problems, a tutorial with additional reading, and the solutions to the sample problems. Today we'll start with three skills which we will continue to cover next week 
 * We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
@@ -281,6 +282,11 @@ Then answer the Week 1 problems on the MLA Homework site
   for a formula, this shows its value for all possible interpretations of its variables.
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We get some practice in [converting between English and the Propositional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
+
+#### Today's skills:
+    * [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
+    * [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
+    * [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
 
 # Week 2
 ### Tue 9/2/25, Fri 9/5/25
