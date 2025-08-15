@@ -15,7 +15,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
     * [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
     * [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
     * [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
-  * Exam 01: Fundamental skills - [A01](../skills/Algebra/A01.md) [A02](../skills/Algebra/A02.md) polynomials, rational functions, and exponents
+  * Exam 01: College Algebra skills - [A01](../skills/Algebra/A01.md) polynomials, rational functions, and exponents
 
 
 ---
