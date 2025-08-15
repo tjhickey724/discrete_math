@@ -273,8 +273,9 @@ Then answer the Week 1 problems on the MLA Homework site
 * We begin with
   - an overview of the course by reviewing the syllabus
   - a discussion of why Math might be useful in CS, and what kinds of math would be most useful
+  - we go over some [strategies for success in CS29a Spr25](../notes/StudyGuides/strategy.md)
 * We ask everyone to connect to the [Mastery Learning App](https://masterylearningapp.onrender.com), if you have registered for the course you will see the CS29a appear on the MLA when you log in with your Brandeis ID.
-* We look at the Skill Study Guides on github. Each lesson will cover one or more skills and each skill has a study guide with a description of the skill, some sample problems, a tutorial with additional reading, and the solutions to the sample problems. Today we'll start with three skills which we will continue to cover next week 
+* We look at the [Skill Study Guides on github](../skills/README.md). Each lesson will cover one or more skills and each skill has a study guide with a description of the skill, some sample problems, a tutorial with additional reading, and the solutions to the sample problems. Today we'll start with three skills which we will continue to cover next week 
 * We introduce Boolean Algebra and the Propositional Calculus  
   - We introduce the boolean operators AND, OR, NOT, IMPLIES, IFF, XOR, ONLYIF in this
     [overview of Propositional Logic](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/overview.md)
