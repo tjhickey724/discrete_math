@@ -269,7 +269,8 @@ Then answer the Week 1 problems on the MLA Homework site
 
 * We begin with
   - an overview of the course by reviewing the syllabus
-  - a discussion of why Math might be useful in CS, and what kinds of math would be most useful. Here are some examples:
+  - a discussion of why Math might be useful in CS, and what kinds of math would be most useful. Here are
+    [some examples](../notes/StudyGuides/applications.md)
      - Propositiona Logic is used to define logic gates in CPUs, and to define theoretical complexity of functions, and is used in conditional expressions in programming languages
      - Predicate Calculus is the language of mathematics and proof. It is used to precisely define what a program or algorithm does. There is considerable interest in developing systems that can automatically prove that an algorithm meets a particular formal logic specification. LLM-AIs might be able to help us do this.
      - Set and Functions: these are the fundamental building blocks of Discrete Mathematics
