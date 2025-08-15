@@ -21,8 +21,8 @@
 * Strategy for success
     * pick a grade you want to shoot for,
     * determine how many skills you need to master
-    * look at the [Skill Study Guides](https://github.com/tjhickey724/discrete_math/blob/main/skills/README.md) for the skills you want to master and to the problems, look at the answers
-    * look at the [old exams and answers](https://moodle.brandeis.edu/mod/folder/view.php?id=154297) to practice the older problems and check your answers with the answer sheets
-    * ask for more problems at the [optional problems MLA site](https://masterylearningapp.onrender.com/showCourseToStaff/67af759f0de0d04576493c96) if you want more worked out answers
-    * come to the [office hours](https://docs.google.com/spreadsheets/d/1OuiMouN82cuuHPPobNEKe1ePAEe-r3wvs2WJIgko5RQ/edit?gid=0#gid=0) to get help on concepts you don't fully understand
+    * look at the [Skill Study Guides](https://github.com/tjhickey724/discrete_math/blob/main/skills/README.md) for the skills you want to master and to the problems, look at the answers, look over the textbook readings,
+    * ask an AI-LLM to explain concepts you don't understand and then reread the tutorials/readings to see if it makes more sense
+    * look at the old exams and answers section of the moodle site to practice the older problems and check your answers with the answer sheets
+    * come to the office hours to get help on concepts you don't fully understand and to get more sample problems to work on
 
