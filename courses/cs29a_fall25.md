@@ -10,8 +10,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* [Week 1](#week-1)
-  * [Week 1 Homework](#Homework01)
+* Week 1
   * Fri 8/29 [Lesson 1: Intro and Overview](#lesson-1)
     * [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
     * [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
@@ -21,8 +20,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* [Week 2](#week-2)
-  * [Week 2 Homework](#Homework02)
+* Week 2
   * Tue 9/2 [Lesson 2: Propositional Calculus and Boolean Algebra](#lesson-2)
     * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
     * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
@@ -35,8 +33,7 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 
 ---
 
-* [Week 3](#week-3)
-  * [Week 3 Homework](#Homework03)
+* Week 3
   * Tue 9/9 [Lesson 4: The Truth Tree Method for Propositional Logic](#lesson-4)
     * [G01](../skills/README.md/#G01) Propositional Logic: Inference: Truth Trees
   * Fri 9/12 [Lesson 5: The Predicate Calculus](#lesson-5)
