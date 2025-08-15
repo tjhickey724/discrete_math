@@ -1,6 +1,6 @@
 # Strategies for success in CS29a Spr25
 * Skills
-  * there are [38 Discrete Math skills](../skills/README.md) in CS29a Spr25 +
+  * there are [38 Discrete Math skills](../../skills/README.md) in CS29a Spr25 +
   * in-class participation is another skill equal to the percentage of answers completed with a Good Faith Effort
   * homework is another skill equal to the percentage of answers completed with a good faith effort
   * that gives a total of 40 skills, so each skill is worth 2.5 points
