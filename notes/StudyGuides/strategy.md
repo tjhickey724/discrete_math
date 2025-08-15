@@ -1,9 +1,9 @@
 # Strategies for success in CS29a Spr25
 * Skills
   * there are 38 Discrete Math skills +
-  * in-class participation is another skill - percentage of answers with Good Faith Effort
-  * homework is another skill - percentage of answers with good faith effort
-  * that gives a total of 40 skill
+  * in-class participation is another skill equal to the percentage of answers completed with a Good Faith Effort
+  * homework is another skill equal to the percentage of answers completed with a good faith effort
+  * that gives a total of 40 skills, so each skill is worth 2.5 points
 * Grading - we will grade on the following curve, but may relax the requirements toward the end of the semester.
     * A+ needs 39 skills
     * A  needs 37 skills
