@@ -284,9 +284,12 @@ Then answer the Week 1 problems on the MLA Homework site
 * We get some practice in [converting between English and the Propositional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 
 #### Today's skills:
-    * [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
-    * [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
-    * [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
+
+[F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
+
+[F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
+
+[F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
 
 # Week 2
 ### Tue 9/2/25, Fri 9/5/25
