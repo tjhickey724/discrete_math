@@ -277,16 +277,6 @@ of this course will rely on your ability to work with, and understand the meanin
 # Week 2
 ### Tue 9/2/25, Fri 9/5/25
 
-## Homework02
-### due before class on 9/2/25
-Read 
-* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
-* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
-
-Additional Reading on Truth Trees
-* [chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
-* [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
-Connect to the MLA homework site and do all of the Week 2 problems.
 
 
 
@@ -393,6 +383,8 @@ To be announced
 ### 9/25  (9/23 is a Holiday)
 
 ### Homework05
+
+Reading on
 Read about the topics we are covering this week 
 * [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
 * [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
