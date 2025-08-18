@@ -4,8 +4,6 @@
 This file contains links to course notes and homework for CS29a in Fall 2025
 
 
-
-# Course Overview
 ## The Mastery Learning App
 We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
 for all work in this class including weekly exams and homework and daily in-class questions.
