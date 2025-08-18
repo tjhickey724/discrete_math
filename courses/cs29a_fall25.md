@@ -14,7 +14,7 @@ Most of our readings will come from the following online books:
 * DM-AOI:
   [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html) by _Oscar Levin_
 * MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
-   <br> also available as a 
+    also available as a 
   [website](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/)
   
 ## Additional Texts
