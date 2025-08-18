@@ -44,14 +44,18 @@ Most of our readings will come from the following online books:
 
 * Week 2
   * Tue 9/2 [Lesson 2: Propositional Calculus and Boolean Algebra](#lesson-2)
-    * [F01](../skills/README.md/#F01) Propositional Logic: Syntax and Semantics
-    * [F02](../skills/README.md/#F02) Propositional Logic: Truth Tables and Satisfiability
-    * [F03](../skills/README.md/#F03) Propositional Logic: Translation to/from English
+    * [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
+    * [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
+    * [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
   
   * Fri 9/5 [Lesson 3: Inference](#lesson-3)
-    * [F04](../skills/README.md/#F04) Propositional Logic: Boolean Algebra
+    * [F04](../skills/Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra
     
-  * Exam 02: A01,  [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03) [F04](../skills/README.md/#F04)
+  * Exam 02: A01, [F01](../skills/Propositional_Calculus/F01.md) 
+    [F02](../skills/Propositional_Calculus/F02.md) 
+    [F03](../skills/Propositional_Calculus/F03.md)
+    [F04](../skills/Propositional_Calculus/F04.md)
+
 
 ---
 
