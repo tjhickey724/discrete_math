@@ -307,17 +307,15 @@ and we show that every formula can be reduced to
 * We show how to convert any propositional formula in a [normal form CNF or DNF](../notes/propositional_calculus/normalForms.md)
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 
+### Today's skills
+* [F04](../skills/Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra
 ---
 
 ## Exam01
-
 A01 - College Algebra
-
-[F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
-
-[F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
-
-[F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
+[F01](../skills/Propositional_Calculus/F01.md) 
+[F02](../skills/Propositional_Calculus/F02.md)
+[F03](../skills/Propositional_Calculus/F03.md)
 
 ---
 ---
