@@ -32,12 +32,7 @@ Most of our readings will come from the following online books:
 ---
 ---
 
----
 
-# Lesson Notes
-* [Course Overview](#course-overview)
-
----
 
 * Week 1
   * Fri 8/29 [Lesson 1: Intro and Overview](#lesson-1)
@@ -58,7 +53,7 @@ Most of our readings will come from the following online books:
   * Fri 9/5 [Lesson 3: Inference](#lesson-3)
     * [F04](../skills/README.md/#F04) Propositional Logic: Boolean Algebra
     
-  * Exam 02: A01, A02, [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03) [F04](../skills/README.md/#F04)
+  * Exam 02: A01,  [F01](../skills/README.md/#F01) [F02](../skills/README.md/#F02) [F03](../skills/README.md/#F03) [F04](../skills/README.md/#F04)
 
 ---
 
