@@ -3,6 +3,35 @@
 
 This file contains links to course notes and homework for CS29a in Fall 2025
 
+
+
+# Course Overview
+## The Mastery Learning App
+We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
+for all work in this class including weekly exams and homework and daily in-class questions.
+When you register for the course you will be added to the app;
+
+## Textbooks 
+Most of our readings will come from the following online books:
+* DM-AOI:
+  [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html) by _Oscar Levin_
+* MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
+   <br> also available as a 
+  [website](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/)
+  
+## Additional Texts
+* PDM: [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
+  by _Chung-Chih Li and Kishan Mehrotra_
+* MFLP: [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
+  by _Paul Teller_ 
+* TLN: [The Logic Notes](https://users.cecs.anu.edu.au/~jks/LogicNotes/index.html)
+  by _John Slaney_
+* LibreTexts: [Free and Open Source Discrete Math Textbooks](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
+
+
+---
+---
+
 ---
 
 # Lesson Notes
@@ -207,36 +236,6 @@ This file contains links to course notes and homework for CS29a in Fall 2025
 ---
 ---
 
-# Course Overview
-## The Mastery Learning App
-We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
-for all work in this class including weekly exams and homework and daily in-class questions.
-When you register for the course you will be added to the app;
-
-## Textbooks 
-Most of our readings will come from the following online books:
-* DM-AOI:
-  [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html) by _Oscar Levin_
-* MfCS: [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) by _Lehman, Leighton, and Meyer_
-   <br> also available as a 
-  [website](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/pages/readings/)
-  
-## Additional Texts
-* PDM: [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
-  by _Chung-Chih Li and Kishan Mehrotra_
-* MFLP: [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
-  by _Paul Teller_ 
-* TLN: [The Logic Notes](https://users.cecs.anu.edu.au/~jks/LogicNotes/index.html)
-  by _John Slaney_
-* LibreTexts: [Free and Open Source Discrete Math Textbooks](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
-
----
-
-
-
----
----
-
 # Week 1
 
 ## Lesson 1
@@ -293,10 +292,10 @@ and we show that every formula can be reduced to
   and also to
   [Conjunctive Normal Form](https://en.wikipedia.org/wiki/Conjunctive_normal_form)
 
-## Exam01
-### M01, M02, F01, F02, F03
-
----
+### Today's skills
+* [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
+* [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
+* [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
 ---
 
 
@@ -306,6 +305,17 @@ and we show that every formula can be reduced to
 * We show how to convert any propositional formula in a [normal form CNF or DNF](../notes/propositional_calculus/normalForms.md)
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 
+---
+
+## Exam01
+
+A01 - College Algebra
+
+[F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
+
+[F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
+
+[F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
 
 ---
 ---
