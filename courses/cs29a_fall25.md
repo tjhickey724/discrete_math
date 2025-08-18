@@ -37,7 +37,7 @@ Most of our readings will come from the following online books:
     * [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
     * [F02](../skills/Propositional_Calculus/F02.md) Propositional Logic: Truth Tables and Satisfiability
     * [F03](../skills/Propositional_Calculus/F03.md) Propositional Logic: Translation to/from English
-  * Exam 01: College Algebra skills - [A01](../skills/Algebra/A01.md) 
+  * Exam 01:  [A01](../skills/Algebra/A01.md)  College Algebra skills 
 
 
 ---
