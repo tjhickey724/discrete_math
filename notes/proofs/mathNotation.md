@@ -66,9 +66,7 @@ $a_1,a_2,a_3,\ldots$ of numbers. For example,
 
   $a_i = a_{i-1} + a_{i-2}$  for all $i>2$
 
-## Problems
-* what is the formula for $a_i$ defining the sequence of even numbers $2,4,6,8,10,\ldots$
-* what is the formula for $a_i$ defining the powers of two sequence $1,2,4,8,16,32,\ldots$
+
 
   
 
