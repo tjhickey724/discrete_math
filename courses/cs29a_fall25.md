@@ -311,7 +311,7 @@ and we show that every formula can be reduced to
 * [F04](../skills/Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra
 ---
 
-## Exam01
+## Exam 02
 A01 - College Algebra
 [F01](../skills/Propositional_Calculus/F01.md) 
 [F02](../skills/Propositional_Calculus/F02.md)
