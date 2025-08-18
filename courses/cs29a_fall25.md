@@ -316,6 +316,7 @@ A01 - College Algebra
 [F01](../skills/Propositional_Calculus/F01.md) 
 [F02](../skills/Propositional_Calculus/F02.md)
 [F03](../skills/Propositional_Calculus/F03.md)
+[F04](../skills/Propositional_Calculus/F04.md)
 
 ---
 ---
