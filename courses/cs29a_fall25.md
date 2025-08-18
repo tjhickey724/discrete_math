@@ -238,8 +238,9 @@ Most of our readings will come from the following online books:
 ---
 
 # Week 1
-### 8/29
-#### Motivation
+
+## Lesson 1
+### Fri 8/29/2023  <br> _Intro and overview_
 This week we will give an overview of the course and start our first major topic
 which is Propositional Logic and Boolean Algebra. 
 
@@ -249,23 +250,6 @@ and efficiency of algorithms. This first week we will focus on the Propositional
 with simple statements containing propositions that can be true or false. In the following two weeks
 we will expand to first order logic that is the formal language of Mathematics. Every other section
 of this course will rely on your ability to work with, and understand the meaning of, logical formulas.
-
-### Homework01
-#### due Tuesday 9/2 
-Read the following sections of two online books on Discrete Math
-* DM-AOI Ch 0.2 http://discrete.openmathbooks.org/dmoi3/sec_intro-statements.html
-* DM-AOI Ch 3.1 http://discrete.openmathbooks.org/dmoi3/sec_propositional.html
-* MfCS [Ch3.1-3.6](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session4/)
-and try some of the problems at the end of the sections. We will go over some of them in class.
-
-Optional reading:
-* Chapter 2 of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
-* Chapter 8 of [A Modern Formal Logic Primer](https://tellerprimer.ucdavis.edu/)
-  
-Then answer the Week 1 problems on the MLA Homework site
-
-## Lesson 1
-### Fri 8/29/2023  <br> _Intro and overview_
 
 * We begin with
   - an overview of the course by reviewing the syllabus
