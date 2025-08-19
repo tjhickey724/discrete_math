@@ -81,7 +81,6 @@ When you register for the course you will be added to the app;
 ---
 
 * Week 5
-  * [Week 5 Homework](#Homework05)
   * Tue 9/23 Rosh Hashana - no class
   * Fri 9/26 [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
     * [F08](../skills/Proof_Techniques/F08.md) Proof Techniques: Direct and ContraPositive Proofs
@@ -97,7 +96,6 @@ When you register for the course you will be added to the app;
 ---
 
 * Week 6
-  * [Week 6 Homework](#Homework06)
   * Tue 9/30 [Lesson 9: Fri 2/14 More Proofs](#lesson-9)
   * Fri 10/3 [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/Proof_Techniques/F11.md)
   
@@ -432,18 +430,11 @@ A01 F01 F02 F03 F04 G01 F05 F06 F07 G02
 # Week 6
 ### 9/30, 10/3
 
-### Homework05
-Read about the topic we will cover when we return from break.
-* Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
-* Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
-* Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
-
-
 ## Lesson 9
 ### Tue 9/30 <br> _More Proofs_
 * Then we complete our overview of proof techniques by giving an interesting proof by cases
 
-
+---
 
 ## Lesson 10
 ###  Fri 10/3 _Induction Proofs and Mathematical Notation_
@@ -453,6 +444,14 @@ Read about the topic we will cover when we return from break.
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
+
+## Today's Skills:
+* [F11](../skills/Proof_Techniques/F11.md) 
+
+---
+
+## Exam 06 
+F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/Proof_Techniques/F11.md) 
 
 ---
 ---
