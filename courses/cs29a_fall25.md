@@ -66,7 +66,7 @@ When you register for the course you will be added to the app;
   * Fri 9/12 [Lesson 5: The Predicate Calculus](#lesson-5)
     * [F05](../skills/Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics
     * [F06](../skills/Predicate_Calculus/F06.md) Predicate Calculus: Translation to/from English
-  * Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
+  * Exam 03: A01 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
 
 ---
 
@@ -75,7 +75,7 @@ When you register for the course you will be added to the app;
     * [F07](../skills/Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules
   * Fri 9/19 [Lesson 7: Truth Trees for Predicate Calculus](#lesson-7)
     * [G02](../skills/Predicate_Calculus/G02.md) Predicate Calculus: Inference: Truth Trees
-  * Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06
+  * Exam 04: A01 F01 F02 F03 F04 G01 F05  F06
     [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
  
 ---
@@ -363,7 +363,7 @@ Next week we'll show how to do this for First Order Logic.
 ---
 
 ## Exam 03 
-A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
+A01 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
 
 ---
 ---
@@ -401,7 +401,7 @@ a formula follows from a set of assumptions, or to find a counter example.
 ---
 
 ## Exam 04 
-A01 A02 F01 F02 F03 F04 G01 F05  F06  [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
+A01 F01 F02 F03 F04 G01 F05  F06  [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
 
 ---
 ---
@@ -409,25 +409,23 @@ A01 A02 F01 F02 F03 F04 G01 F05  F06  [F07](../skills/Predicate_Calculus/F07.md)
 # Week 5
 ### 9/25  (9/23 is a Holiday)
 
-### Homework05
-
-Reading on
-Read about the topics we are covering this week 
-* [Chapter 3.2: Proofs of DM-AOI](https://discrete.openmathbooks.org/dmoi3/sec_logic-proofs.html)
-* [Chapter 1.1-1.6: What is a Proof of MfCS](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session1/) and [Chapter 1.7-1.9: Proof by Cases](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/resources/mit6_042js15_session2/)
-
-Read about the topic we will cover when we return from break.
-* Read Chapters 0.3 Sets and 0.4 Functions in [Discrete Math: An Open Introduction](https://discrete.openmathbooks.org/dmoi3/dmoi.html)
-* Read Chapter 4: Mathematical Data Types of [Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf)
-* Optional Reading: Chapter 1: Sets of [Problems in Discrete Math](https://itk.ilstu.edu//faculty/chungli/DIS300/dis300v1.pdf)
-
 ## Lesson 8 
 ### Fri 9/25 <br> _Intro to Proofs_
 * First we review the answers to Exam 4 and the common mistakes...
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 
+## Today's skills
+* [F08](../skills/Proof_Techniques/F08.md) Proof Techniques: Direct and ContraPositive Proofs
+* [F09](../skills/Proof_Techniques/F09.md) Proof Techniques: Proof by Contradiction
+* [F10](../skills/Proof_Techniques/F10.md) Proof Techniques: Proof by Cases
 
+# Exam 05 
+A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 
+    [F08](../skills/Proof_Techniques/F08.md)
+    [F09](../skills/Proof_Techniques/F09.md)
+    [F10](../skills/Proof_Techniques/F10.md)
+    
 ---
 ---
 
