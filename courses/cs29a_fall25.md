@@ -4,10 +4,6 @@
 This file contains links to course notes and homework for CS29a in Fall 2025
 
 
-## The Mastery Learning App
-We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
-for all work in this class including weekly exams and homework and daily in-class questions.
-When you register for the course you will be added to the app;
 
 ## Textbooks 
 Most of our readings will come from the following online books:
@@ -26,6 +22,11 @@ Most of our readings will come from the following online books:
   by _John Slaney_
 * LibreTexts: [Free and Open Source Discrete Math Textbooks](https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics)
 
+
+## The Mastery Learning App
+We will be using the Mastery Learning App [MLA](https://masterylearningapp.onrender.com)
+for all work in this class including weekly exams and homework and daily in-class questions.
+When you register for the course you will be added to the app;
 
 ---
 ---
