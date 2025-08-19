@@ -72,11 +72,11 @@ When you register for the course you will be added to the app;
 
 * Week 4
   * Tue 9/16 [Lesson 6: Inference in First Order Logic](#lesson-6)
-    * [F07](../skills/README.md/#F07) Predicate Calculus: Simplification Rules
+    * [F07](../skills/Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules
   * Fri 9/19 [Lesson 7: Truth Trees for Predicate Calculus](#lesson-7)
-    * [G02](../skills/README.md/#G02) Predicate Calculus: Inference: Truth Trees
+    * [G02](../skills/Predicate_Calculus/G02.md) Predicate Calculus: Inference: Truth Trees
   * Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06
-    [F07](../skills/README.md/#F07) [G02](../skills/README.md/#G02)
+    [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
  
 ---
 
