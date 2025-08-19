@@ -64,9 +64,9 @@ When you register for the course you will be added to the app;
   * Tue 9/9 [Lesson 4: The Truth Tree Method for Propositional Logic](#lesson-4)
     * [G01](../skills/Propositional_Calculus/G01.md) Propositional Logic: Inference: Truth Trees
   * Fri 9/12 [Lesson 5: The Predicate Calculus](#lesson-5)
-    * [F05](../skills/Predicat_Calculus/F05.md) Predicate Calculus: Syntax and Semantics
+    * [F05](../skills/Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics
     * [F06](../skills/Predicate_Calculus/F06.md) Predicate Calculus: Translation to/from English
-  * Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/Predicate_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Propositional_Calculus/F06.md)
+  * Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
 
 ---
 
