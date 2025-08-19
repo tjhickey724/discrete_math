@@ -99,9 +99,9 @@ When you register for the course you will be added to the app;
 * Week 6
   * [Week 6 Homework](#Homework06)
   * Tue 9/30 [Lesson 9: Fri 2/14 More Proofs](#lesson-9)
-  * Fri 10/3 [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/README.md/#F11)
+  * Fri 10/3 [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/Proof_Techniques/F11.md)
   
-  * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/README.md/#F11) 
+  * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/Proof_Techniques/F11.md) 
 
 ---
     
