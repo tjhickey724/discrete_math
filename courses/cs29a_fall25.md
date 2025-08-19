@@ -327,16 +327,10 @@ A01 - College Algebra
   
 # Week 3
 ### 9/9, 9/12
-#### Motivation
+
 This week we learn a graphical method for proving theorems in Propositional Logic.
 Next week we'll show how to do this for First Order Logic.
 
-### Homework03
-#### due (Tue) 9/16 before class
-
-
-
-Connect to the MLA Homework site and do all of the Week 3 problems
 
 ## Lesson 4 
 ### Tue 9/9 <br> _The Truth Tree Method for Propositional Logic_
@@ -352,7 +346,7 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 
 
 
-
+---
 
 
 ## Lesson 5 
@@ -366,6 +360,7 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 * [F05](../skills/Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics
 * [F06](../skills/Predicate_Calculus/F06.md) Predicate Calculus: Translation to/from English
 
+---
 
 ## Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
 
