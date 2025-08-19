@@ -362,7 +362,8 @@ Next week we'll show how to do this for First Order Logic.
 
 ---
 
-## Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
+## Exam 03 
+A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
 
 ---
 ---
