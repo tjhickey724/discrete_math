@@ -400,8 +400,8 @@ a formula follows from a set of assumptions, or to find a counter example.
 
 ---
 
-## Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06
-    [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
+## Exam 04 
+A01 A02 F01 F02 F03 F04 G01 F05  F06  [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
 
 ---
 ---
