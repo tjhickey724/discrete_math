@@ -370,12 +370,8 @@ Next week we'll show how to do this for First Order Logic.
 # Week 4
 ### 9/16, 9/19
 
-#### Motivation
 This week we complete our study of logic by learning how to use the Tree Method to prove that
 a formula follows from a set of assumptions, or to find a counter example.
-
-### Homework
-To be announced
 
 ---
 ---
@@ -386,6 +382,10 @@ To be announced
 * We give [an example of translating an argument to the predicate calculus and simplifying the resulting argument](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
 * We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 
+## Today's skills
+* [F07](../skills/Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules
+
+---
 
 ## Lesson 7 
 ### Fri 9/19 <br> _More Truth Trees for Predicate Calculus_
@@ -394,6 +394,13 @@ To be announced
   * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
   * and looking at [the Peano Axiomatization of Arithmetic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/peanoAxioms.md).
 
+## Today's skills
+* [G02](../skills/Predicate_Calculus/G02.md) Predicate Calculus: Inference: Truth Trees
+
+---
+
+## Exam 04: A01 A02 F01 F02 F03 F04 G01 F05  F06
+    [F07](../skills/Predicate_Calculus/F07.md) [G02](../skills/Predicate_Calculus/G02.md)
 
 ---
 ---
