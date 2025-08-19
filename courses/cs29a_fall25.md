@@ -310,6 +310,7 @@ and we show that every formula can be reduced to
 * We show how to convert any propositional formula in a [normal form CNF or DNF](../notes/propositional_calculus/normalForms.md)
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 
+
 ### Today's skills
 * [F04](../skills/Propositional_Calculus/F04.md) Propositional Logic: Boolean Algebra
 ---
@@ -346,6 +347,8 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 [chapter  3 of "The Logic Notes" by John Slaney](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises2.html)
 * More exercises in [Chapter 9 of Part 1 of the Logic Primer by Paul Teller](https://tellerprimer.sf.ucdavis.edu/logic-primer-files)
 
+### Today's skills
+* [G01](../skills/Propositional_Calculus/G01.md) Propositional Logic: Inference: Truth Trees
 
 
 
@@ -358,6 +361,13 @@ Connect to the MLA Homework site and do all of the Week 3 problems
 * We look at [some examples of predicate calculus formulas in epidemiology](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/covid_examples.md)
 * We show how to [draw parse trees for First Order Formulas](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/parseTree.md).
 * We show [how to evaluate a First Order Formula given an Interpretation](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLinterpretations.md).
+
+### Today's Skills
+* [F05](../skills/Predicate_Calculus/F05.md) Predicate Calculus: Syntax and Semantics
+* [F06](../skills/Predicate_Calculus/F06.md) Predicate Calculus: Translation to/from English
+
+
+## Exam 03: A01 A02 F01 F02 F03 F04 [G01](../skills/Propositional_Calculus/G01.md) [F05](../skills/Predicate_Calculus/F05.md) [F06](../skills/Predicate_Calculus/F06.md)
 
 ---
 ---
