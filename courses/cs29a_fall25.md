@@ -263,7 +263,7 @@ of this course will rely on your ability to work with, and understand the meanin
 * and we see [a few more examples of truth tables](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/TruthTablePractice.md)
 * We get some practice in [converting between English and the Propositional Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/PropCalTranslation.md)
 
-#### Today's skills:
+### Today's skills:
 
 [F01](../skills/Propositional_Calculus/F01.md) Propositional Logic: Syntax and Semantics
 
@@ -381,7 +381,7 @@ a formula follows from a set of assumptions, or to find a counter example.
 * We give [an example of translating an argument to the predicate calculus and simplifying the resulting argument](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/FOLtreemethodExample1.md).
 * We introduce the notion of [inference and valid arguments in the Predicate Calculus](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/inference.md)
 
-## Today's skills
+### Today's skills
 * [F07](../skills/Predicate_Calculus/F07.md) Predicate Calculus: Simplification Rules
 
 ---
@@ -393,7 +393,7 @@ a formula follows from a set of assumptions, or to find a counter example.
   * using [these examples from the Logic Notes Book](https://users.cecs.anu.edu.au/~jks/LogicNotes/exercises3.html)
   * and looking at [the Peano Axiomatization of Arithmetic](https://github.com/tjhickey724/discrete_math/blob/main/notes/predicate_calculus/peanoAxioms.md).
 
-## Today's skills
+### Today's skills
 * [G02](../skills/Predicate_Calculus/G02.md) Predicate Calculus: Inference: Truth Trees
 
 ---
@@ -413,7 +413,7 @@ A01 F01 F02 F03 F04 G01 F05  F06  [F07](../skills/Predicate_Calculus/F07.md) [G0
 * We give an overview of [the art of writing mathematical proofs](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/overview.md)
 * We review [the features of a "good" proof](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/goodProofFeatures.md) as explained in MfCS
 
-## Today's skills
+### Today's skills
 * [F08](../skills/Proof_Techniques/F08.md) Proof Techniques: Direct and ContraPositive Proofs
 * [F09](../skills/Proof_Techniques/F09.md) Proof Techniques: Proof by Contradiction
 * [F10](../skills/Proof_Techniques/F10.md) Proof Techniques: Proof by Cases
@@ -445,7 +445,7 @@ A01 F01 F02 F03 F04 G01 F05 F06 F07 G02
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
 
-## Today's Skills:
+### Today's Skills:
 * [F11](../skills/Proof_Techniques/F11.md) 
 
 ---
