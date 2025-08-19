@@ -84,13 +84,15 @@ When you register for the course you will be added to the app;
   * [Week 5 Homework](#Homework05)
   * Tue 9/23 Rosh Hashana - no class
   * Fri 9/26 [Lesson 8: Tue 2/11 Intro to Proofs](#lesson-8)
-    * [F08](../skills/README.md/#F08) Proof Techniques: Direct and ContraPositive Proofs
-    * [F09](../skills/README.md/#F09) Proof Techniques: Proof by Contradiction
-    * [F10](../skills/README.md/#F10) Proof Techniques: Proof by Cases
+    * [F08](../skills/Proof_Techniques/F08.md) Proof Techniques: Direct and ContraPositive Proofs
+    * [F09](../skills/Proof_Techniques/F09.md) Proof Techniques: Proof by Contradiction
+    * [F10](../skills/Proof_Techniques/F10.md) Proof Techniques: Proof by Cases
   
 
   * Exam A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 
-    [F08](../skills/README.md/#F08) [F09](../skills/README.md/#F09) [F10](../skills/README.md/#F10) 
+    [F08](../skills/Proof_Techniques/F08.md)
+    [F09](../skills/Proof_Techniques/F09.md)
+    [F10](../skills/Proof_Techniques/F10.md) 
 
 ---
 
