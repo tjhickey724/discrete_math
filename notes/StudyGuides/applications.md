@@ -4,9 +4,9 @@ Why should a computer scientist learn discrete math? What is it good for?
 Here are some examples.
 
 Propositional Logic is used to define logic gates in CPUs, and to define theoretical complexity of functions. It is also used in optimizing 
-conditional expressions in programming languages and database queries.
+conditional expressions in programming languages and database queries. [Here](http://intrologic.stanford.edu/extras/circuits.html) is an example of defining the key component in a CPU addition circuit - the half adder. Logic can be used to define the circuit, simulate it with various inputs, verify that it works correctly, or diagnose any mistakes in the design.
 
-Predicate Calculus is the language of mathematics and proof. It is used to precisely define what a program or algorithm does. There is considerable interest in developing systems that can automatically prove that an algorithm meets a particular formal logic specification. LLM-AIs might be able to help us write programs in a few years which can automatically be verified to be correct!
+Predicate Calculus is the language of mathematics and proof. It is used to precisely define what a program or algorithm does. There is considerable interest in developing systems that can automatically prove that an algorithm meets a particular formal logic specification. LLM-AIs might be able to help us write programs in a few years which can automatically be verified to be correct! [Dafny](https://en.wikipedia.org/wiki/Dafny) is an example of a programming language which requires first order logic statements describing its correctness, and which tries to automatically verify that the assertions are true.
 
 Sets and Functions: these are the fundamental building blocks of Discrete Mathematics
 
