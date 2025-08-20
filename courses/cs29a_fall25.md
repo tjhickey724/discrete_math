@@ -445,7 +445,7 @@ A01 F01 F02 F03 F04 G01 F05 F06 F07 G02
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
 
 ### Today's Skills:
-* [F11](../skills/Proof_Techniques/F11.md) 
+* [F11](../skills/Proof_Techniques/F11.md)  Induction
 
 ---
 
