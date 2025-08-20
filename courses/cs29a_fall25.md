@@ -439,8 +439,7 @@ A01 F01 F02 F03 F04 G01 F05 F06 F07 G02
 ## Lesson 10
 ###  Fri 10/3 _Induction Proofs and Mathematical Notation_
 * We go over the answers to exam 5 and discuss the upcoming exam 6.
-* We introduce the concept of Proof by [Induction](https://github.com/tjhickey724/discrete_math/blob/main/notes/sequences/induction.md)
-   and use it to prove closed form expression for series elements defined recursively are correct.
+* We introduce the concept of Proof by [Induction (skill F11)](../skills/Proof_Techniques/F11.md)
 * We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
