@@ -25,4 +25,6 @@
     * ask an AI-LLM to explain concepts you don't understand and then reread the tutorials/readings to see if it makes more sense
     * look at the old exams and answers section of the moodle site to practice the older problems and check your answers with the answer sheets
     * come to the office hours to get help on concepts you don't fully understand and to get more sample problems to work on
+    * make sure you attend every exam, even if you don't feel prepared, you might do better than you think and you'll get a sense of what that skill requires,
+      also, if you have an excused absence you can only take the makeup exam at the end of the semester if you have attended all the following exams.
 
