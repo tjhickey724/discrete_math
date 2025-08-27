@@ -1,5 +1,5 @@
 # CS29a Fall 2025 Discrete Structures 
-## Instructor: Tim Hickey at Brandeis University
+## Instructor: Elijah Rivera at Brandeis University
 
 This file contains links to course notes for CS29a in Fall 2025
 
