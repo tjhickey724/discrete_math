@@ -88,13 +88,13 @@ R
 ```
 can be used to prove that
 ```
-(A or B) implies (C xor B)
+(A xor B) implies (C xor B)
 (E and F) implies (C xor B)
-(A or B) or (E and F)
+(A xor B) or (E and F)
 ------------
 (C xor B)
 ```
-by substituting $A\vee B$ for $P$, and $E\wedge F$ for $Q$, and $C\oplus B$ for $R$.
+by substituting $A\oplus B$ for $P$, and $E\wedge F$ for $Q$, and $C\oplus B$ for $R$.
 
 This observation is called the ___"Substitution Rule"___, if you have proved an inference is valid, then it
 remains valid when you replace the propositional symbols $A_1,\ldots,A_n$ with any propositional formulas
