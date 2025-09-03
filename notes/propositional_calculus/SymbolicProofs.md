@@ -87,17 +87,13 @@ P or Q
 R
 ```
 can be used to prove that
-
-$A\vee B$ implies $C\oplus B$
-
-$A\wedge B$ implies $C\oplus B$
-
-$A\vee B \vee (A \wedge B)$
-
+```
+(A or B) implies (C xor B)
+(A and B) implies (C xor B)
+(A or B) or (A and B)
 ------------
-
-$C\oplus B$
-
+(C xor B)
+```
 by substituting $A\vee B$ for $P$, and $A\wedge B$ for $Q$, and $C\oplus B$ for $R$.
 
 This observation is called the ___"Substitution Rule"___, if you have proved an inference is valid, then it
