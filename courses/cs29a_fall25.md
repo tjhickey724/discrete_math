@@ -1,6 +1,6 @@
 # CS29a Fall 2025 Discrete Structures 
 ## Instructor: Elijah Rivera at Brandeis University
-### Office Hours: [Click Here](https://docs.google.com/spreadsheets/d/1z9Dde-oH4MRyMCijDp4BOzIvdHybXonoFqSRf1UFt1I/edit?usp=sharing)
+### Office Hours: [Click Here](https://calendar.google.com/calendar/embed?src=c_fadba2ee8b23994940aaa8b2641a6da3114eb95fe794276eb3d00f7ae05918ac%40group.calendar.google.com&ctz=America%2FNew_York)
 
 This file contains links to course notes for CS29a in Fall 2025
 
