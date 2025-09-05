@@ -310,9 +310,9 @@ and we show that every formula can be reduced to
 * We give an introduction to [arguments, formal proofs, and counterexamples](https://github.com/tjhickey724/discrete_math/blob/main/notes/propositional_calculus/SymbolicProofs.md)
 
 ### Lesson Plan
-1. Introduce myself and explain that you are the teacher of record, but I will be coteaching some classes
+1. Introduce myself and explain that Dr Rivera is the teacher of record, but I will be coteaching some classes
 2. talk about Boolean algebra and converting to normal forms (especially and/or expressions with literals)
-3. give practice problems to see how they do on the participation app
+3. give practice problems to see how everyone does on the participation app
 4. mention that determining satisfiability is very hard (NP-complete) with a teaser about CS30a Theory of Computing
 5. review answers to Exam01 and talk about the skills needed for A01
 6. briefly review F01,F02, F03, F04 for the exam Friday afternoon
