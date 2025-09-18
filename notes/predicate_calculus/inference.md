@@ -20,8 +20,8 @@ This is a very powerful statement!
 Different interpretations have different domain sets, and a valid argument is telling us that for any interpretation,
 with any domain set, if the premises are true, then so is the conclusion!
 
-In particular, if an argument is valid, and we have a particular interpreation in mind which satisfies all of the premises,
-then we know the comclusion must hold for that interpretation too.
+In particular, if an argument is valid, and we have a particular interpretation in mind which satisfies all of the premises,
+then we know the conclusion must hold for that interpretation too.
 
 Conversely, if an argument is not valid, then there must be an interpretation which makes the premises true, 
 but makes the conclusion false...  
