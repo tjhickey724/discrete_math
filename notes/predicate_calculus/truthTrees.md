@@ -4,7 +4,7 @@ We have seen how to use the Truth Tree method to show that a set of Propositiona
 (if all of the branches are eventually closed) or to find a counter example, that is an interpretation that
 makes all of the formulas true.
 
-We used this to show that an argument is valid by showing their are no interpretations which all of the premises
+We used this to show that an argument is valid by showing their are no interpretations which make all of the premises
 true and make the conclusion false.  Thus, any interpretation which makes all of the premises true must also make
 the conclusion true, and the argument is valid.
 
