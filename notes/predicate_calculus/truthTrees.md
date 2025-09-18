@@ -61,7 +61,7 @@ So we now have two universally quantified formulas:
 1. $\forall y P(a,y)$
 2. $\forall x \neg P(x,b)$
 
-and the set of ground terms is $\{a,b\}$ since we only added twp skolem constants and no skolem functions.
+and the set of ground terms is $U = \{a,b\}$ since we only added twp skolem constants and no skolem functions.
 For the first one, we can create a new formula by letting $y=b$ and fot the second let $x=a$, then we get two new contradictory formulas
 
 3. $P(a,b)$, replacing $y=b$ in #1
