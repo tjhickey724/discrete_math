@@ -443,7 +443,7 @@ A01 F01 F02 F03 F04 G01 F05 F06 F07 G02
 ### Tue 9/30 <br> _More Proofs_
 * We go over some of the answers to new exam 5 questions and discuss the upcoming exam 6 with one new skill..
 * Then we complete our overview of proof techniques by giving an interesting proof by cases
-* We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematica for Computer Science
+* We introduce some of the [standard mathematical notation](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathNotation.md) used in Mathematics for Computer Science
 * And we look at expressing [sums and products](https://github.com/tjhickey724/discrete_math/blob/main/notes/proofs/mathSumsProds.md) with this notation.
 * Next we look at [binary numbers](https://github.com/tjhickey724/discrete_math/blob/main/notes/math_data_types/binaryNumbers.md)
 ---
