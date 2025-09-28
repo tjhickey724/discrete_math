@@ -89,7 +89,7 @@ When you register for the course you will be added to the app;
     * [F10](../skills/Proof_Techniques/F10.md) Proof Techniques: Proof by Cases
   
 
-  * Exam A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 
+  * Exam A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 
     [F08](../skills/Proof_Techniques/F08.md)
     [F09](../skills/Proof_Techniques/F09.md)
     [F10](../skills/Proof_Techniques/F10.md) 
@@ -100,7 +100,7 @@ When you register for the course you will be added to the app;
   * Tue 9/30 [Lesson 9: Fri 2/14 More Proofs](#lesson-9)
   * Fri 10/3 [Lesson 10: Fri 2/14 Induction Proofs and Mathematical Notation](#lesson-10) [F11](../skills/Proof_Techniques/F11.md)
   
-  * Exam 06: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/Proof_Techniques/F11.md) 
+  * Exam 06: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 [F11](../skills/Proof_Techniques/F11.md) 
 
 ---
     
@@ -109,7 +109,7 @@ When you register for the course you will be added to the app;
   * Tue 10/7 Sukkot -- no class
   * Fri 10/10 [Lesson 11: Well-Ordering Principle](#lesson-11) 
      [G03](../skills/README.md/#G03) [F11](../skills/README.md/#F11)
-  * Exam 07: F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 [G03](../skills/README.md/#G03)
+  * Exam 07: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 [G03](../skills/README.md/#G03)
 
 ---
  
@@ -124,7 +124,7 @@ When you register for the course you will be added to the app;
     * [F15](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F15.md) Functions: Syntax and Semantics
     * [F16](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F16.md) Functions: Composition
     * [F17](https://github.com/tjhickey724/discrete_math/blob/main/skills/Functions/F17.md) Functions: Properties
-  * Exam 08: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03
+  * Exam 08: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03
     [F12](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F12.md) 
     [F13](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F13.md)
     [F14](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sets/F14.md)
@@ -144,7 +144,7 @@ When you register for the course you will be added to the app;
        Combinatorics: Addition and Multiplication Principles
     * [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
        Combinatorics: Permutations and Combinations
-  * Exam 09: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17
+  * Exam 09: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17
     [F18](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F18.md)
     [F19](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F19.md)
 
@@ -161,7 +161,7 @@ When you register for the course you will be added to the app;
   * Fri 10/31 [Lesson 17: Polynomial Sequences](#lesson-17)
     * [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md) Sequences: Syntax and Semantics
     * [F23](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F23.md) Sequences: Polynomial Fitting and Difference Tests
-  * Exam 10: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19
+  * Exam 10: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19
     [F20](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F20.md) 
     [F21](https://github.com/tjhickey724/discrete_math/blob/main/skills/Combinatorics/F21.md)
     [F22](https://github.com/tjhickey724/discrete_math/blob/main/skills/Sequences/F22.md)
@@ -176,7 +176,7 @@ When you register for the course you will be added to the app;
   * Fri 11/7 [Lesson 19:Generating Functions](#lesson-19)
     * [G05](../skills/Sequences/G05.md) Sequences: Closed Forms using Generating Functions
    
-  * Exam 11: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23
+  * Exam 11: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23
     [G04](../skills/Sequences/G04.md)
     [G05](../skills/Sequences/G05.md)
     
@@ -205,7 +205,7 @@ When you register for the course you will be added to the app;
     [G07](../skills/Sequences/G07.md) DAGs
   * Fri 11/21 [Lesson 23: Graph Theory - Digraphs, DAGs, DFAs, NFAs, and RegExs](#lesson-23)
     [G08](../skills/Sequences/G08.md) DFAs, NFAs, RegExs
-  * Exam 13: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25
+  * Exam 13: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25
     [F26](../skills/Sequences/F26.md)
     [G07](../skills/Sequences/G07.md)
     [G08](../skills/Sequences/G08.md)
@@ -231,7 +231,7 @@ When you register for the course you will be added to the app;
 
 * Week 16: 
   * Tue 12/9 [Lesson 26: Review for Final Exam](#lesson-26)
-  * Exam 16: Exam 14: A01 A02 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25 F26 G07 G08 F27 G09 G10 
+  * Exam 16: Exam 14: A01 F01 F02 F03 F04 G01 F05 F06 F07 G02 F08 F09 F10 F11 G03 F12 F13 F14 F15 F16 F17 F18 F19 F20 F21 F22 F23 G04 G05 F24 F25 F26 G07 G08 F27 G09 G10 
 ---
 ---
 
