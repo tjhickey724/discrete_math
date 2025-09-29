@@ -34,7 +34,7 @@ $\prod_\limits{i=0}^3 a_i  = a_0 * a_1 * a_2 * a_3$
 
 is the product of four numbers $a_0$, $a_1$, $a_2$, and $a_3$ and
 
-$\prod_\limits{i=0}^k a_i  = a_0 * a_1 * a_2 * \ldots * a_k$
+$\prod_\limits{i=1}^k a_i  = a_1 * a_2 * \ldots * a_k$
 
 is the product of $k$ numbers.
 
