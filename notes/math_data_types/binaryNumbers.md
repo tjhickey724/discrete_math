@@ -74,7 +74,7 @@ and this allows us to write binary numbers in **hexadecimal**, i.e. in base 16
 where we group the bits in groups of four, and then replace them with their hexadecimal symbol,
 e.g.
 
-* CAFEBABE = 11001010111111101011101010111110
+* CAFEBABE = 1100 1010 1111 1110 1011 1010 1011 1110
 
 and this is the first four bytes of the code for a java program compiled to bytes.
 
