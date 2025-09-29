@@ -89,7 +89,7 @@ $n^k =  \prod_\limits{i=0}^k p_i^{k a_i}$
 
 So if a prime $p$ divides $n^k$, then it must be one of the $p_i$, and hence it must also divide $n$.
 
-Conversely, if $p$ divides $n$ then $n=pd$ for some integer $d$, so $n^k = p^kd^k = p(p^{k-1}d^k)$ so $p$ divides $n_k$.
+Conversely, if $p$ divides $n$ then $n=pd$ for some integer $d$, so $n^k = p^kd^k = p(p^{k-1}d^k)$ so $p$ divides $n^k$.
 **QED**
 
 ---
