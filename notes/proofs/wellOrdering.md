@@ -8,7 +8,7 @@ A very powerful variation of the proof by contradiction relies on the following 
 **Proof**
 
 Let's prove it by contradiction... Suppose it is false so there is some
-non-empty set of positive integers which doesn't have a smallest elememt
+non-empty set of positive integers which doesn't have a smallest element
 Since the set is non-empty, it contains at least one number $n$.
 
 But if $n$ is not the smallest element in the set, then there is an $n_1$ in the set with $n_1$ smaller than $n$.
