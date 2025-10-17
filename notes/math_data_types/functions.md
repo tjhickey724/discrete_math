@@ -128,7 +128,7 @@ Let $j(x) = 2*x$ and $k(x)=x^2+1$,
 ### Exercise 5
 Let $g:A\rightarrow B$ and $f:B\rightarrow C$ be functions
 * Prove that if $f\circ g$ is surjective, then $f$ must be surjective.
-* Prove that if $f\circ g$ is injective, then $f$ must be injective.
+* Prove that if $f\circ g$ is injective, then $g$ must be injective.
 * Prove that $(f\circ g)^{-1} = (g^{-1})\circ (f^{-1})$
 * Prove that $f(f^{-1}(S)) = S$ for every $S\subset C$ 
 
