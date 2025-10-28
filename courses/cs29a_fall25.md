@@ -592,13 +592,21 @@ Reading for next week
   * F00 - take a selfie (will appear on all exams after 11)
   * in-class participation - percentage of answers with Good Faith Effort
   * homework - percentage of answers with good faith effort
-  * 5 exams left Exam 10 (today)  Exams 11,12,13  and the Final Exam (1st day of Finals week)
-  * Grading curve
-    * A+ need 35 skills
-    * A- need 30 skill
-    * B- need 25 skills
-    * C- need 20 skills
-    * D- need 15 skills
+ 
+  [//]: # (5 exams left Exam 10 today  Exams 11,12,13  and the Final Exam 1st day of Finals week)
+
+  [//]: # (Grading curve)
+
+  [//]: # (A+ need 35 skills)
+
+  [//]: # (A- need 30 skills)
+
+  [//]: # (B- need 25 skills)
+
+  [//]: # (C- need 20 skills)
+
+  [//]: # (D- need 15 skills)
+
   * Strategy --
     * pick a grade you want to shoot for,
     * determine how many skills you need to master
