@@ -588,8 +588,8 @@ Reading for next week
 ## Lesson 19
 ### Fri 11/7 <br> _Generating Functions_
 * We begin describing __Strategies for Success__
-  * 37 Discrete Math skills +
-  * F00 - take a selfie (will appear on all exams after 11)
+  * 38 Discrete Math skills +
+  * F00 - course feedback (will appear on all exams after 11)
   * in-class participation - percentage of answers with Good Faith Effort
   * homework - percentage of answers with good faith effort
  
